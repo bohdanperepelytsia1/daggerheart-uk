@@ -1,0 +1,572 @@
+{
+  "label": "Броня",
+  "folders": {
+    "Tier 1": "Ранг 1",
+    "Tier 2": "Ранг 2",
+    "Tier 3": "Ранг 3",
+    "Tier 4": "Ранг 4",
+    "Special": "Особливе"
+  },
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Advanced Chainmail Armor": {
+      "name": "Вдосконалена кольчуга",
+      "effects": {
+        "qlzHOAnpBYzosQxK": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      }
+    },
+    "Advanced Full Plate Armor": {
+      "name": "Вдосконалені повні лати",
+      "effects": {
+        "awdHgEaM54G3emOU": {
+          "name": "Дуже важка",
+          "description": "−2 до Ухилення; −1 до Спритності"
+        }
+      }
+    },
+    "Advanced Gambeson Armor": {
+      "name": "Вдосконалена стьобана броня",
+      "effects": {
+        "Fq9Q93IHCchhfSss": {
+          "name": "Гнучка",
+          "description": "+1 до Ухилення"
+        }
+      }
+    },
+    "Advanced Leather Armor": {
+      "name": "Вдосконалена шкіряна броня"
+    },
+    "Bellamoi Fine Armor": {
+      "name": "Вишукана броня Беламуа",
+      "effects": {
+        "Hy0sNtFS1JAXxgwC": {
+          "name": "Позолочена",
+          "description": "+1 до Присутності"
+        }
+      }
+    },
+    "Bladefare Armor": {
+      "name": "Клинкова броня",
+      "effects": {
+        "s8KtTIngTjnOlaTP": {
+          "name": "Фізична",
+          "description": "Не можна позначати комірку Броні, щоб зменшити магічну шкоду."
+        }
+      }
+    },
+    "Chainmail Armor": {
+      "name": "Кольчуга",
+      "effects": {
+        "ZfO5NjpqEIzZVlPq": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      }
+    },
+    "Channeling Armor": {
+      "name": "Броня спрямування",
+      "effects": {
+        "8bwf1Ri3jYkjphEv": {
+          "name": "Спрямування",
+          "description": "+1 до кидків чаротворення"
+        }
+      }
+    },
+    "Dragonscale Armor": {
+      "name": "Броня з драконячої луски"
+    },
+    "Dunamis Silkchain": {
+      "name": "Шовкова кольчуга Дунаміс"
+    },
+    "Emberwoven Armor": {
+      "name": "Жаротканна броня"
+    },
+    "Full Fortified Armor": {
+      "name": "Повна укріплена броня",
+      "effects": {
+        "QIefVb73cm9gYju8": {
+          "name": "Укріплена",
+          "description": "Коли ви позначаєте комірку Броні, ви зменшуєте тяжкість атаки на два пороги замість одного."
+        }
+      }
+    },
+    "Full Plate Armor": {
+      "name": "Повні лати",
+      "effects": {
+        "mfKMW9SX3Mnos1nY": {
+          "name": "Дуже важка",
+          "description": "−2 до Ухилення; −1 до Спритності"
+        }
+      }
+    },
+    "Gambeson Armor": {
+      "name": "Стьобана броня",
+      "effects": {
+        "v1FNEsypRF5W6vVc": {
+          "name": "Гнучка",
+          "description": "+1 до Ухилення"
+        }
+      }
+    },
+    "Harrowbone Armor": {
+      "name": "Броня з кістки борони"
+    },
+    "Improved Chainmail Armor": {
+      "name": "Покращена кольчуга",
+      "effects": {
+        "JHupzYULxdQzFzuj": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      }
+    },
+    "Improved Full Plate Armor": {
+      "name": "Покращені повні лати",
+      "effects": {
+        "wstJ1aKKtmXgCwxB": {
+          "name": "Дуже важка",
+          "description": "−2 до Ухилення; −1 до Спритності"
+        }
+      }
+    },
+    "Improved Gambeson Armor": {
+      "name": "Покращена стьобана броня",
+      "effects": {
+        "BFwU3ErPaajUSMUz": {
+          "name": "Гнучка",
+          "description": "+1 до Ухилення"
+        }
+      }
+    },
+    "Improved Leather Armor": {
+      "name": "Покращена шкіряна броня"
+    },
+    "Irontree Breastplate Armor": {
+      "name": "Нагрудник із залізного дерева",
+      "effects": {
+        "P3aCN8PQgPXP4C9M": {
+          "name": "Підсилена",
+          "description": "<p>Коли ви позначаєте останню комірку Броні, збільште пороги шкоди на +2, доки не очистите щонайменше 1 комірку Броні.</p>"
+        }
+      }
+    },
+    "Leather Armor": {
+      "name": "Шкіряна броня"
+    },
+    "Legendary Chainmail Armor": {
+      "name": "Легендарна кольчуга",
+      "effects": {
+        "8Oa6Y375X8UpcPph": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      }
+    },
+    "Legendary Full Plate Armor": {
+      "name": "Легендарні повні лати",
+      "effects": {
+        "zvzkRX2Uevemmbz4": {
+          "name": "Дуже важка",
+          "description": "−2 до Ухилення; −1 до Спритності"
+        }
+      }
+    },
+    "Legendary Gambeson Armor": {
+      "name": "Легендарна стьобана броня",
+      "effects": {
+        "3AUNxBoj7mp1ziJQ": {
+          "name": "Гнучка",
+          "description": "+1 до Ухилення"
+        }
+      }
+    },
+    "Legendary Leather Armor": {
+      "name": "Легендарна шкіряна броня"
+    },
+    "Monett's Cloak": {
+      "name": "Плащ Монетт",
+      "effects": {
+        "3n4O7PyAWMEFdr5p": {
+          "name": "Магічна",
+          "description": "Не можна позначати комірку Броні, щоб зменшити фізичну шкоду."
+        }
+      }
+    },
+    "Rosewild Armor": {
+      "name": "Броня дикої троянди"
+    },
+    "Runes of Fortification": {
+      "name": "Руни укріплення"
+    },
+    "Runetan Floating Armor": {
+      "name": "Рунетанська ширяюча броня"
+    },
+    "Savior Chainmail": {
+      "name": "Кольчуга рятівника",
+      "effects": {
+        "rkrqlwqtR9REgRx7": {
+          "name": "Обтяжлива",
+          "description": "−1 до всіх рис персонажа й Ухилення"
+        }
+      }
+    },
+    "Spiked Plate Armor": {
+      "name": "Шипасті лати",
+      "effects": {
+        "V8CcTcVAIxHq8KNd": {
+          "name": "Гостра",
+          "description": "У разі успішної атаки проти цілі в межах Впритул додайте d4 до кидка шкоди."
+        }
+      }
+    },
+    "Tyris Soft Armor": {
+      "name": "М'яка броня Тиріс"
+    },
+    "Veritas Opal Armor": {
+      "name": "Опалова броня Верітас"
+    },
+    "Elundrian Chain Armor": {
+      "name": "Елундрійська кольчуга",
+      "effects": {
+        "xGxqTCO8MjNq5Cw6": {
+          "name": "Оберегова",
+          "description": "<p>Ви зменшуєте вхідну магічну шкоду на показник Броні, перш ніж застосувати її до порогів шкоди.</p>"
+        }
+      }
+    },
+    "Advanced Banded Armor": {
+      "name": "Вдосконалена смугаста броня",
+      "effects": {
+        "clo7We2aUibWdsmD": {
+          "name": "Громіздка",
+          "description": "−1 до Ухилення; коли ви отримуєте Тяжку шкоду, ви мусите позначити Стрес."
+        }
+      }
+    },
+    "Advanced Brigandine Armor": {
+      "name": "Вдосконалена бригантина",
+      "effects": {
+        "Z1MLDyOdXJvYA0sr": {
+          "name": "Підбита",
+          "description": "Позначте Стрес, щоб звести нанівець Незначну шкоду."
+        }
+      }
+    },
+    "Advanced Mage Robes": {
+      "name": "Вдосконалена мантія мага",
+      "effects": {
+        "FdkTFA6u4HAKrwa2": {
+          "name": "Зачарована",
+          "description": "Отримайте бонус до порогів шкоди, що дорівнює вашій рисі чаротворення."
+        }
+      }
+    },
+    "Advanced Scale Mail Armor": {
+      "name": "Вдосконалена лускова броня",
+      "effects": {
+        "2uaDK1adL1aVP1Pg": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      }
+    },
+    "Astral Raiment": {
+      "name": "Астральне вбрання",
+      "actions": {
+        "1xXZfSn4U37AgDRB": {
+          "name": "Зоряна",
+          "description": "Позначте Стрес, щоб отримати перевагу на кидок чаротворення."
+        }
+      }
+    },
+    "Banded Armor": {
+      "name": "Смугаста броня",
+      "effects": {
+        "JkRfeN3ioW857m1p": {
+          "name": "Громіздка",
+          "description": "−1 до Ухилення; коли ви отримуєте Тяжку шкоду, ви мусите позначити Стрес."
+        }
+      }
+    },
+    "Bloodstone Plate Armor": {
+      "name": "Лати з кровокаменю",
+      "actions": {
+        "LoUjBJNX5nvhKyZM": {
+          "name": "Очистити Очко здоров'я",
+          "description": "Коли ви отримуєте критичний успіх в атаці зброєю в межах Впритул, очистьте Очко здоров'я."
+        }
+      }
+    },
+    "Brigandine Armor": {
+      "name": "Бригантина",
+      "effects": {
+        "Qqdax2Dl4UHB9TxB": {
+          "name": "Підбита",
+          "description": "Позначте Стрес, щоб звести нанівець Незначну шкоду."
+        }
+      }
+    },
+    "Circle-Forged Dreadplate": {
+      "name": "Жахолати, куті Колом",
+      "actions": {
+        "3io8jJeWVrwcKBcF": {
+          "name": "Проклята",
+          "description": "Коли ви позначаєте будь-яку кількість Очок здоров'я від атаки, киньте d4. На 4 нападник мусить позначити стільки ж Стресу."
+        }
+      }
+    },
+    "Cloverweave Cloak": {
+      "name": "Плащ із конюшинового плетива",
+      "actions": {
+        "0JzAOuMyJDSdEpy3": {
+          "name": "Улюблениця фортуни",
+          "description": "Раз на сцену можна перетворити невдачу з Надією на успіх зі Страхом."
+        }
+      }
+    },
+    "Darkweave Shroud": {
+      "name": "Саван темного плетива",
+      "actions": {
+        "5Hq0OZmmnGykxe6H": {
+          "name": "Примарна хода",
+          "description": "Раз на відпочинок позначте Стрес, щоб переміститися на відстань до Близько крізь тверді предмети."
+        }
+      }
+    },
+    "Deep-Forged Coral Armor": {
+      "name": "Коралова броня глибинної кузні",
+      "effects": {
+        "3lzAYwHLDaq0HiMs": {
+          "name": "Водна",
+          "description": "Ви можете дихати під водою й маєте перевагу на кидки Спритності під водою."
+        }
+      }
+    },
+    "Enchanter's Robes": {
+      "name": "Мантія чарівника",
+      "actions": {
+        "SqJwukvzZAPDgCJy": {
+          "name": "Мнемонічна",
+          "description": "Раз на сцену можна відкликати карту домену зі сховища, не сплачуючи вартості відкликання."
+        }
+      }
+    },
+    "Gilded Sunplate": {
+      "name": "Позолочені сонячні лати",
+      "actions": {
+        "d9r7VK4r3fb7KHMu": {
+          "name": "Сяйна",
+          "description": "Раз на сцену, коли ви витрачаєте Надію, можна очистити комірку Броні."
+        }
+      }
+    },
+    "Godbound Laminar": {
+      "name": "Боговірна ламінарна броня",
+      "actions": {
+        "h7BCDsiPhLZxwllM": {
+          "name": "Отримати Надію",
+          "description": "Коли ви позначаєте комірку Броні, отримайте Надію."
+        }
+      }
+    },
+    "Granminster's Finery": {
+      "name": "Пишне вбрання Гранмінстера",
+      "effects": {
+        "zvc1X0O4HyQE9yfV": {
+          "name": "Розкішна",
+          "description": "Отримайте бонус до показника Броні, що дорівнює вашій Присутності."
+        }
+      }
+    },
+    "Hallowed Heroplate": {
+      "name": "Освячені лати героя",
+      "actions": {
+        "BI0HMrVMByFTti3u": {
+          "name": "Благословенна",
+          "description": "Раз на довгий відпочинок можна витратити будь-яку кількість Надії, перш ніж робити смертельний хід «Поставити все на карту». Ви отримуєте бонус до результату Кістки Надії, що дорівнює кількості витраченої Надії."
+        }
+      }
+    },
+    "Hawkguard's Mantle": {
+      "name": "Мантія яструбиного вартового",
+      "actions": {
+        "DlCbxmVa5udw4wLA": {
+          "name": "Планерна",
+          "description": "Ви можете планувати на відстань до Далеко й несприйнятливі до шкоди від падіння."
+        }
+      }
+    },
+    "Improved Banded Armor": {
+      "name": "Покращена смугаста броня",
+      "effects": {
+        "ItHCEXGyY7KY3ODo": {
+          "name": "Громіздка",
+          "description": "−1 до Ухилення; коли ви отримуєте Тяжку шкоду, ви мусите позначити Стрес."
+        }
+      }
+    },
+    "Improved Brigandine Armor": {
+      "name": "Покращена бригантина",
+      "effects": {
+        "qtuLYIIbHcUzeVpq": {
+          "name": "Підбита",
+          "description": "Позначте Стрес, щоб звести нанівець Незначну шкоду."
+        }
+      }
+    },
+    "Improved Mage Robes": {
+      "name": "Покращена мантія мага",
+      "effects": {
+        "68KNvbicN2lASHIo": {
+          "name": "Зачарована",
+          "description": "Отримайте бонус до порогів шкоди, що дорівнює вашій рисі чаротворення."
+        }
+      }
+    },
+    "Improved Scale Mail Armor": {
+      "name": "Покращена лускова броня",
+      "effects": {
+        "bE8TfDWmibDVXlDK": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      }
+    },
+    "Legendary Banded Armor": {
+      "name": "Легендарна смугаста броня",
+      "effects": {
+        "jTiOZCLUWkOdkkts": {
+          "name": "Громіздка",
+          "description": "−1 до Ухилення; коли ви отримуєте Тяжку шкоду, ви мусите позначити Стрес."
+        }
+      }
+    },
+    "Legendary Brigandine Armor": {
+      "name": "Легендарна бригантина",
+      "effects": {
+        "QOqo9BxoI3zEqakL": {
+          "name": "Підбита",
+          "description": "Позначте Стрес, щоб звести нанівець Незначну шкоду."
+        }
+      }
+    },
+    "Legendary Mage Robes": {
+      "name": "Легендарна мантія мага",
+      "effects": {
+        "YEg4fgH21uRnKW7f": {
+          "name": "Зачарована",
+          "description": "Отримайте бонус до порогів шкоди, що дорівнює вашій рисі чаротворення."
+        }
+      }
+    },
+    "Legendary Scale Mail Armor": {
+      "name": "Легендарна лускова броня",
+      "effects": {
+        "yYHxeQ0YPiVl8Cbc": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      }
+    },
+    "Mage Robes": {
+      "name": "Мантія мага",
+      "effects": {
+        "wYHVkzegSmeXOsmn": {
+          "name": "Зачарована",
+          "description": "Отримайте бонус до порогів шкоди, що дорівнює вашій рисі чаротворення."
+        }
+      }
+    },
+    "Resonant Harness": {
+      "name": "Резонансна збруя",
+      "actions": {
+        "iTv5QVsZaJ6KYEv3": {
+          "name": "Скляна",
+          "description": "Коли ви мали б отримати Тяжку чи більшу шкоду, можна позначити 2 комірки Броні, щоб звести цю шкоду нанівець. Тоді ви отримуєте штраф −5 до порогів шкоди, доки не вирішите полагодити броню як хід дозвілля."
+        }
+      },
+      "effects": {
+        "dzGZkBgtJjQh3JH1": {
+          "name": "Скляна",
+          "description": "Ви маєте штраф −5 до порогів шкоди, доки не вирішите полагодити броню як хід дозвілля"
+        }
+      }
+    },
+    "Rune-Forged Exosuit": {
+      "name": "Рунокутий екзокостюм",
+      "effects": {
+        "VSuoGIo7GpK3JLfA": {
+          "name": "Налаштована",
+          "description": "Максимальна кількість карт доменів у наборі зменшується на одну, але ви отримуєте бонус до порогів шкоди, що дорівнює вашому рангу."
+        }
+      }
+    },
+    "Scale Mail Armor": {
+      "name": "Лускова броня",
+      "effects": {
+        "2wGrVqcFO8jiTuDv": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      }
+    },
+    "Skywarden's Lamellar": {
+      "name": "Ламелярна броня небесного вартового",
+      "effects": {
+        "P1bG8YNaWOUkRbn7": {
+          "name": "Пильна",
+          "description": "+2 до Ухилення."
+        }
+      }
+    },
+    "Spidersilk Tunic": {
+      "name": "Туніка з павучого шовку",
+      "effects": {
+        "a1I284B2QCnVEs7e": {
+          "name": "Стінолазна",
+          "description": "+1 до Ухилення; ви можете ходити по стінах так само легко, як по землі."
+        }
+      }
+    },
+    "Stormthread Habit": {
+      "name": "Габіт грозової нитки",
+      "actions": {
+        "yOf6C8teHAmMhIF1": {
+          "name": "Очистити Броню",
+          "description": "Раз на сцену, коли ви отримуєте магічну шкоду, можна очистити комірку Броні."
+        }
+      }
+    },
+    "Trollhide Cuirass": {
+      "name": "Кіраса з тролячої шкури",
+      "actions": {
+        "3KVzpGEV8ThH4jhu": {
+          "name": "Самозцілювальна",
+          "description": "Коли ви відпочиваєте, очистьте комірку Броні."
+        }
+      }
+    },
+    "Wyrdwood Splint Armor": {
+      "name": "Шинна броня з чарівного дерева",
+      "actions": {
+        "ajgzKFQYH5aUzmZk": {
+          "name": "Прудконога",
+          "description": "Вас не можна Скувати, і ви можете переміститися на відстань до Далеко як частину кидка дії."
+        }
+      }
+    }
+  }
+}

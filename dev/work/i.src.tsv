@@ -1,0 +1,994 @@
+i0000	Combat Wheelchairs
+i0001	Magical Weapons
+i0002	Physical Weapons
+i0003	Primary Weapons
+i0004	Secondary Weapons
+i0005	Black Powder Revolver
+i0006	Aantari Bow
+i0007	Advanced Arcane-Frame Wheelchair
+i0008	Advanced Arcane Gauntlets
+i0009	Advanced Battleaxe
+i0010	Advanced Broadsword
+i0011	Advanced Crossbow
+i0012	Advanced Cutlass
+i0013	Advanced Dagger
+i0014	Advanced Dualstaff
+i0015	Advanced Glowing Rings
+i0016	Advanced Grappler
+i0017	Advanced Greatstaff
+i0018	Advanced Greatsword
+i0019	Advanced Halberd
+i0020	Advanced Hallowed Axe
+i0021	Advanced Hand Crossbow
+i0022	Advanced Hand Runes
+i0023	Advanced Heavy-Frame Wheelchair
+i0024	Advanced Light-Frame Wheelchair
+i0025	Advanced Longbow
+i0026	Advanced Longsword
+i0027	Advanced Mace
+i0028	Advanced Quarterstaff
+i0029	Advanced Rapier
+i0030	Advanced Returning Blade
+i0031	Advanced Round Shield
+i0032	Advanced Scepter
+i0033	Advanced Shortbow
+i0034	Advanced Shortstaff
+i0035	Advanced Shortsword
+i0036	Advanced Small Dagger
+i0037	Advanced Spear
+i0038	Advanced Tower Shield
+i0039	Advanced Wand
+i0040	Advanced Warhammer
+i0041	Advanced Whip
+i0042	Arcane-Frame Wheelchair
+i0043	Arcane Gauntlets
+i0044	Axe of Fortunis
+i0045	Battleaxe
+i0046	Bladed Whip
+i0047	Blessed Anlace
+i0048	Bloodstaff
+i0049	Blunderbuss
+i0050	Braveshield
+i0051	Bravesword
+i0052	Broadsword
+i0053	Buckler
+i0054	Casting Sword
+i0055	Crossbow
+i0056	Curved Dagger
+i0057	Cutlass
+i0058	Dagger
+i0059	Devouring Dagger
+i0060	Double Flail
+i0061	Dualstaff
+i0062	Dual-Ended Sword
+i0063	Ego Blade
+i0064	Elder Bow
+i0065	Extended Polearm
+i0066	Finehair Bow
+i0067	Firestaff
+i0068	Flickerfly Blade
+i0069	<p>Gain a bonus to your damage rolls equal to your Agility.</p>
+i0070	Floating Bladeshards
+i0071	Fusion Gloves
+i0072	<p>Gain a bonus to your damage rolls equal to your level.</p>
+i0073	Ghostblade
+i0074	Gilded Bow
+i0075	Gilded Falchion
+i0076	Glowing Rings
+i0077	Grappler
+i0078	Greatbow
+i0079	Greatstaff
+i0080	Greatsword
+i0081	Halberd
+i0082	Hallowed Axe
+i0083	Hammer of Exota
+i0084	Hammer of Wrath
+i0085	Hand Cannon
+i0086	Hand Crossbow
+i0087	Hand Runes
+i0088	Hand Sling
+i0089	Heavy-Frame Wheelchair
+i0090	Ilmari's Rifle
+i0091	Impact Gauntlet
+i0092	Improved Arcane-Frame Wheelchair
+i0093	Improved Arcane Gauntlets
+i0094	Improved Battleaxe
+i0095	Improved Broadsword
+i0096	Improved Crossbow
+i0097	Improved Cutlass
+i0098	Improved Dagger
+i0099	Improved Dualstaff
+i0100	Improved Glowing Rings
+i0101	Improved Grappler
+i0102	Improved Greatstaff
+i0103	Improved Greatsword
+i0104	Improved Halberd
+i0105	Improved Hallowed Axe
+i0106	Improved Hand Crossbow
+i0107	Improved Hand Runes
+i0108	Improved Heavy-Frame Wheelchair
+i0109	Improved Light-Frame Wheelchair
+i0110	Improved Longbow
+i0111	Improved Longsword
+i0112	Improved Mace
+i0113	Improved Quarterstaff
+i0114	Improved Rapier
+i0115	Improved Returning Blade
+i0116	Improved Round Shield
+i0117	Improved Scepter
+i0118	Improved Shortbow
+i0119	Improved Shortstaff
+i0120	Improved Shortsword
+i0121	Improved Small Dagger
+i0122	Improved Spear
+i0123	Improved Tower Shield
+i0124	Improved Wand
+i0125	Improved Warhammer
+i0126	Improved Whip
+i0127	Keeper's Staff
+i0128	<p>+1 to attack rolls</p>
+i0129	Knuckle Blades
+i0130	Knuckle Claws
+i0131	Labrys Axe
+i0132	Legendary Arcane-Frame Wheelchair
+i0133	Legendary Arcane Gauntlets
+i0134	Legendary Battleaxe
+i0135	Legendary Broadsword
+i0136	Legendary Crossbow
+i0137	Legendary Cutlass
+i0138	Legendary Dagger
+i0139	Legendary Dualstaff
+i0140	Legendary Glowing Rings
+i0141	Legendary Grappler
+i0142	Legendary Greatstaff
+i0143	Legendary Greatsword
+i0144	Legendary Halberd
+i0145	Legendary Hallowed Axe
+i0146	Legendary Hand Crossbow
+i0147	Legendary Hand Runes
+i0148	Legendary Heavy-Frame Wheelchair
+i0149	Legendary Light-Frame Wheelchair
+i0150	Legendary Longbow
+i0151	Legendary Longsword
+i0152	Legendary Mace
+i0153	Legendary Quarterstaff
+i0154	Legendary Rapier
+i0155	Legendary Returning Blade
+i0156	Legendary Round Shield
+i0157	Legendary Scepter
+i0158	Legendary Shortbow
+i0159	Legendary Shortstaff
+i0160	Legendary Shortsword
+i0161	Legendary Small Dagger
+i0162	Legendary Spear
+i0163	Legendary Tower Shield
+i0164	Legendary Wand
+i0165	Legendary Warhammer
+i0166	Legendary Whip
+i0167	Light-Frame Wheelchair
+i0168	Longbow
+i0169	Longsword
+i0170	Mace
+i0171	Mage Orb
+i0172	Magus Revolver
+i0173	Meridian Cutlass
+i0174	Midas Scythe
+i0175	<p>Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll.</p>
+i0176	Parrying Dagger
+i0177	Powered Gauntlet
+i0178	Primer Shard
+i0179	Quarterstaff
+i0180	Rapier
+i0181	Retractable Saber
+i0182	Returning Axe
+i0183	Returning Blade
+i0184	Ricochet Axes
+i0185	Round Shield
+i0186	Runes of Ruination
+i0187	Scepter
+i0188	Scepter of Elias
+i0189	Shortbow
+i0190	Shortstaff
+i0191	Shortsword
+i0192	<p>Add this Secondary Weapon's tier + 1 to your primary weapon against targets within Melee range</p>
+i0193	Siphoning Gauntlets
+i0194	Sledge Axe
+i0195	DAGGERHEART.CONFIG.WeaponFeature.destructive.effects.agility
+i0196	Small Dagger
+i0197	Spear
+i0198	Spiked Bow
+i0199	Spiked Shield
+i0200	Steelforged Halberd
+i0201	Swinging Ropeblade
+i0202	Sword of Light & Flame
+i0203	Talon Blades
+i0204	Thistlebow
+i0205	Tower Shield
+i0206	Urok Broadsword
+i0207	Wand
+i0208	Wand of Enthrallment
+i0209	Wand of Essek
+i0210	Warhammer
+i0211	War Scythe
+i0212	Whip
+i0213	Widogast Pendant
+i0214	Yutari Bloodbow
+i0215	Adder's Fang
+i0216	Advanced Arcane Rifle
+i0217	Advanced Brass Knuckles
+i0218	Advanced Brightsword
+i0219	Advanced Casting Dagger
+i0220	Advanced Enchanted Chakram
+i0221	Advanced Fighting Cloak
+i0222	@Resolve[@item.tier + 1|sign]{+2} to damage thresholds.
+i0223	Advanced Focus Runes
+i0224	<p>+1 to primary weapon damage to targets within Very Close range.</p>
+i0225	Advanced Hatchet
+i0226	Advanced Katana
+i0227	Advanced Offhand Brass Knuckles
+i0228	Advanced Rope Dart
+i0229	Advanced Rune Shield
+i0230	Advanced Runelock Pistol
+i0231	Advanced Scimitar
+i0232	Advanced Shadowblade
+i0233	Advanced Throwing Knives
+i0234	Advanced Twisted Dagger
+i0235	Advanced Whipsword
+i0236	Arc Wand
+i0237	Arcane Rifle
+i0238	Arquebus
+i0239	Bec de Corbin
+i0240	Black Powder Serpentine
+i0241	Blackblood Tendril
+i0242	Bladed Fan
+i0243	Bladed Star
+i0244	Blitz Hammer
+i0245	<p>Gain a +1 bonus to your Proficiency on this attack.</p>
+i0246	Brass Knuckles
+i0247	Brightsword
+i0248	Cane Sword
+i0249	Casting Dagger
+i0250	Chained Scythe
+i0251	Clockwork Crossbow
+i0252	Collapsible Baton
+i0253	Crystal Spear
+i0254	Cyrurgien's Scalpel
+i0255	Demon's Edge
+i0256	Displacement Razor
+i0257	Echo Blade
+i0258	Eldritch Vambrace
+i0259	Enchanted Chakram
+i0260	Enchanted Lute
+i0261	Enchanted Shillelagh
+i0262	Ethereal Zweihänder
+i0263	Fighting Cloak
+i0264	Focus Runes
+i0265	Fury Gem
+i0266	Gravity Arbalest
+i0267	Gunblade
+i0268	Hatchet
+i0269	<p>You have a +1 bonus to your Proficiency for this attack.</p>
+i0270	Improved Arcane Rifle
+i0271	Improved Brass Knuckles
+i0272	Improved Brightsword
+i0273	Improved Casting Dagger
+i0274	Improved Enchanted Chakram
+i0275	Improved Fighting Cloak
+i0276	<p>@Resolve[@item.tier + 1|sign]{+2} to damage thresholds.</p>
+i0277	Improved Focus Runes
+i0278	Improved Hatchet
+i0279	Improved Katana
+i0280	Improved Offhand Brass Knuckles
+i0281	Improved Rope Dart
+i0282	Improved Rune Shield
+i0283	Improved Runelock Pistol
+i0284	Improved Scimitar
+i0285	Improved Shadowblade
+i0286	Improved Throwing Knives
+i0287	Improved Twisted Dagger
+i0288	Improved Whipsword
+i0289	Infinite Staff
+i0290	Javelins
+i0291	Katana
+i0292	Lance
+i0293	Legendary Arcane Rifle
+i0294	Legendary Brass Knuckles
+i0295	Legendary Brightsword
+i0296	Legendary Casting Dagger
+i0297	Legendary Enchanted Chakram
+i0298	Legendary Fighting Cloak
+i0299	Legendary Focus Runes
+i0300	Legendary Hatchet
+i0301	Legendary Katana
+i0302	Legendary Offhand Brass Knuckles
+i0303	Legendary Rope Dart
+i0304	Legendary Rune Shield
+i0305	Legendary Runelock Pistol
+i0306	Legendary Scimitar
+i0307	Legendary Shadowblade
+i0308	Legendary Throwing Knives
+i0309	Legendary Twisted Dagger
+i0310	Legendary Whipsword
+i0311	Möbius Orb
+i0312	Offhand Brass Knuckles
+i0313	Platinum Estoc
+i0314	Razor Wire
+i0315	Rime Scepter
+i0316	Rocket Maul
+i0317	Rope Dart
+i0318	Rune Shield
+i0319	Runelock Pistol
+i0320	Scimitar
+i0321	Segmented Staff
+i0322	Severed Dragon Claw
+i0323	Shadowblade
+i0324	Singing Sword
+i0325	Soldier's Pike
+i0326	Soul Chain
+i0327	Spellbound Bangles
+i0328	Splintershaft Bow
+i0329	Staff of Augma
+i0330	Starmetal Blade
+i0331	Storm God's Greataxe
+i0332	Throwing Knives
+i0333	Tinker's Hammer
+i0334	<p>+1 to attack rolls made with your primary weapon.</p>
+i0335	Twisted Dagger
+i0336	Void Needle
+i0337	Vorpal Shard
+i0338	War Dart
+i0339	War Pick
+i0340	Whipsword
+i0341	Advanced Chainmail Armor
+i0342	Advanced Full Plate Armor
+i0343	Advanced Gambeson Armor
+i0344	Advanced Leather Armor
+i0345	Bellamoi Fine Armor
+i0346	Bladefare Armor
+i0347	Chainmail Armor
+i0348	Channeling Armor
+i0349	Dragonscale Armor
+i0350	Dunamis Silkchain
+i0351	Emberwoven Armor
+i0352	Full Fortified Armor
+i0353	Full Plate Armor
+i0354	Gambeson Armor
+i0355	Harrowbone Armor
+i0356	Improved Chainmail Armor
+i0357	Improved Full Plate Armor
+i0358	Improved Gambeson Armor
+i0359	Improved Leather Armor
+i0360	Irontree Breastplate Armor
+i0361	<p>When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.</p>
+i0362	Leather Armor
+i0363	Legendary Chainmail Armor
+i0364	Legendary Full Plate Armor
+i0365	Legendary Gambeson Armor
+i0366	Legendary Leather Armor
+i0367	Monett's Cloak
+i0368	Rosewild Armor
+i0369	Runes of Fortification
+i0370	Runetan Floating Armor
+i0371	Savior Chainmail
+i0372	Spiked Plate Armor
+i0373	Tyris Soft Armor
+i0374	Veritas Opal Armor
+i0375	Elundrian Chain Armor
+i0376	<p>You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.</p>
+i0377	Advanced Banded Armor
+i0378	-1 to Evasion; when you take Severe damage, you must mark a Stress.
+i0379	Advanced Brigandine Armor
+i0380	Advanced Mage Robes
+i0381	Advanced Scale Mail Armor
+i0382	Astral Raiment
+i0383	Banded Armor
+i0384	Bloodstone Plate Armor
+i0385	Brigandine Armor
+i0386	Circle-Forged Dreadplate
+i0387	Cloverweave Cloak
+i0388	Darkweave Shroud
+i0389	Deep-Forged Coral Armor
+i0390	Enchanter's Robes
+i0391	Gilded Sunplate
+i0392	Godbound Laminar
+i0393	Granminster's Finery
+i0394	Hallowed Heroplate
+i0395	Hawkguard's Mantle
+i0396	Improved Banded Armor
+i0397	Improved Brigandine Armor
+i0398	Improved Mage Robes
+i0399	Improved Scale Mail Armor
+i0400	Legendary Banded Armor
+i0401	Legendary Brigandine Armor
+i0402	Legendary Mage Robes
+i0403	Legendary Scale Mail Armor
+i0404	Mage Robes
+i0405	Resonant Harness
+i0406	Rune-Forged Exosuit
+i0407	Scale Mail Armor
+i0408	Skywarden's Lamellar
+i0409	Spidersilk Tunic
+i0410	Stormthread Habit
+i0411	Trollhide Cuirass
+i0412	Wyrdwood Splint Armor
+i0413	Acidpaste
+i0414	<p>This paste eats away walls and other surfaces in bright flashes.</p>
+i0415	Armor Stitcher
+i0416	<p>You can use this stitcher to spend any number of Hope and clear that many Armor Slots.</p>
+i0417	Attune Potion
+i0418	<p>You gain a +1 bonus to your next Instinct Roll.</p>
+i0419	Drink
+i0420	Blinding Orb
+i0421	<p>You can activate this orb to create a flash of bright light. All targets within Close range become Vulnerable until they mark HP.</p><p>@Template[type:emanation|range:c]</p>
+i0422	<p>You are Vulnerable until you mark a Hit Point.</p>
+i0423	Blood of the Yorgi
+i0424	<p>You can drink this blood to disappear from where you are and immediately reappear at a point you can see within Very Far range.</p>
+i0425	Bolster Potion
+i0426	<p>You gain a +1 bonus to your next Strength Roll.</p>
+i0427	Bonding Honey
+i0428	<p>This honey can be used to glue two objects together permanently.</p>
+i0429	Bridge Seed
+i0430	<p>Thick vines grow from your location to a point of your choice within Far range, allowing you to climb up or across them. The vines dissipate on your next short rest.</p>
+i0431	Plant
+i0432	Channelstone
+i0433	<p>You can use this stone to take a spell or grimoire from your vault, use it once, and return it to your vault.</p>
+i0434	Charm Potion
+i0435	<p>You gain a +1 bonus to your next Presence Roll.</p>
+i0436	Circle of the Void
+i0437	<p>Mark a Stress to create a void that extends up to Far range. No magic can be cast inside the void, and creatures within the void are immune to magic damage.</p>
+i0438	Control Potion
+i0439	<p>You gain a +1 bonus to your next Finesse Roll.</p>
+i0440	Death Tea
+i0441	<p>After you drink this tea, you instantly kill your target when you critically succeed on an attack. If you don't critically succeed on an attack before your next long rest, you die.</p>
+i0442	Dragonbloom Tea
+i0443	<p>You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. Targets you succeed against take d20 physical damage using your Proficiency.</p>
+i0444	<p>You can drink this tea to unleash a fiery breath attack. Make an Instinct Roll against all adversaries in front of you within Close range. Targets you succeed against take d20 physical damage using your Proficiency.</p><p>@Template[type:emanation|range:c]</p>
+i0445	Dripfang Poison
+i0446	<p>A creature who consumes this poison takes 8d10 direct magic damage.</p>
+i0447	Consume
+i0448	Enlighten Potion
+i0449	<p>You gain a +1 bonus to your next Knowledge Roll.</p>
+i0450	Feast of Xuria
+i0451	<p>You can eat this meal to clear all HP and Stress and gain 1d4 Hope.</p>
+i0452	Eat
+i0453	Featherbone
+i0454	<p>You can use this bone to control your falling speed for a number of minutes equal to your level.</p>
+i0455	Gill Salve
+i0456	<p>You can apply this salve to your neck to breathe underwater for a number of minutes equal to your level.</p>
+i0457	Apply
+i0458	Grindletooth Venom
+i0459	<p>You can apply this venom to a weapon that deals physical damage to add a d6 to your next damage roll with that weapon.</p>
+i0460	<p>You deal 1d6 additional physical damage on your next damage roll with the weapon the venom was applied to.</p>
+i0461	Growing Potion
+i0462	<p>You can drink this potion to double your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Strength and a +1 bonus to your Proficiency.</p>
+i0463	Health Potion
+i0464	<p>Clear 1d4+1 HP.</p>
+i0465	Hopehold Flare
+i0466	<p>When you use this flare, allies within Close range roll a d6 when they spend a Hope. On a result of 6, they gain the effect of that Hope without spending it. The flare lasts until the end of the scene.</p><p>@Template[type:emanation|range:c]</p>
+i0467	Improved Arcane Shard
+i0468	<p>You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 2d20 magic damage.</p>
+i0469	Throw
+i0470	Improved Grindletooth Venom
+i0471	<p>You can apply this venom to a weapon that deals physical damage to add a d8 to your next damage roll with that weapon.</p>
+i0472	<p>You deal 1d8 additional physical damage on your next damage roll with the weapon the venom was applied to.</p>
+i0473	Jar of Lost Voices
+i0474	<p>You can open this jar to release a deafening echo of voices for a number of minutes equal to your Instinct. Creatures within Far range unprepared for the sound take 6d8 magic damage.</p><p>@Template[type:emanation|range:f]</p>
+i0475	Open
+i0476	Jumping Root
+i0477	<p>Eat this root to leap up to Far range once without needing to roll.</p>
+i0478	Knowledge Stone
+i0479	<p>If you die while holding this stone, an ally can take a card from your loadout to place in their loadout or vault. After they take this knowledge, the stone crumbles.</p>
+i0480	Major Arcane Shard
+i0481	<p>You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 4d20 magic damage.</p>
+i0482	Major Attune Potion
+i0483	<p>You gain a +1 bonus to your Instinct until your next rest.</p>
+i0484	Major Bolster Potion
+i0485	<p>You gain a +1 bonus to your Strength until your next rest.</p>
+i0486	Major Charm Potion
+i0487	<p>You gain a +1 bonus to your Presence until your next rest.</p>
+i0488	Major Control Potion
+i0489	<p>You gain a +1 bonus to your Finesse until your next rest.</p>
+i0490	Major Enlighten Potion
+i0491	<p>You gain a +1 bonus to your Knowledge until your next rest.</p>
+i0492	Major Health Potion
+i0493	<p>Clear 1d4+2 HP.</p>
+i0494	Major Stamina Potion
+i0495	<p>Clear 1d4+2 Stress.</p>
+i0496	Major Stride Potion
+i0497	<p>You gain a +1 bonus to your Agility until your next rest.</p>
+i0498	Minor Health Potion
+i0499	<p>Clear 1d4 HP.</p>
+i0500	Minor Stamina Potion
+i0501	<p>Clear 1d4 Stress.</p>
+i0502	Mirror of Marigold
+i0503	<p>When you take damage, you can spend a Hope to negate that damage, after which the mirror shatters.</p>
+i0504	Morphing Clay
+i0505	<p>You can spend a Hope to use this clay, altering your face enough to make you unrecognizable until your next rest.</p>
+i0506	<p>Your face is unrecognizable until your next rest.</p>
+i0507	Mythic Dust
+i0508	<p>You can apply this dust to a weapon that deals magic damage to add a d12 to your next damage roll with that weapon.</p>
+i0509	<p>You deal 1d12 additional magical damage on your next damage roll with the weapon the venom was applied to.</p>
+i0510	Ogre Musk
+i0511	<p>You can use this musk to prevent anyone from tracking you by mundane or magical means until your next rest.</p>
+i0512	<p>You cannot be tracked by mundane or magical means until your next rest.</p>
+i0513	Potion of Stability
+i0514	<p>You can drink this potion to choose one additional downtime move.</p>
+i0515	Redthorn Saliva
+i0516	<p>You can apply this saliva to a weapon that deals physical damage to add a d12 to your next damage roll with that weapon.</p>
+i0517	<p>You deal 1d12 additional physical damage on your next damage roll with the weapon the saliva was applied to.</p>
+i0518	Replication Parchment
+i0519	<p>By touching this piece of parchment to another, you can perfectly copy the second parchment's contents. Once used, this parchment becomes mundane paper.</p>
+i0520	Shrinking Potion
+i0521	<p>You can drink this potion to halve your size until you choose to drop this form or your next rest. While in this form, you have a +2 bonus to Agility and a -1 penalty to your Proficiency.</p>
+i0522	Sleeping Sap
+i0523	<p>You can drink this potion to fall asleep for a full night's rest. You clear all Stress upon waking.</p>
+i0524	Wake
+i0525	Snap Powder
+i0526	<p>Mark a Stress and clear a HP.</p>
+i0527	Imbibe
+i0528	Stamina Potion
+i0529	<p>Clear 1d4+1 Stress.</p>
+i0530	Stardrop
+i0531	<p>You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range.</p>
+i0532	<p>You can use this stardrop to summon a hailstorm of comets that deals 8d20 physical damage to all targets within Very Far range.</p><p>@Template[type:emanation|range:vf]</p>
+i0533	Stride Potion
+i0534	<p>You gain a +1 bonus to your next Agility Roll.</p>
+i0535	Sun Tree Sap
+i0536	<p>Consume this sap to roll a [[/r d6]]. On a result of 5–6, clear 2 HP. On a result of 2–4, clear 3 Stress. On a result of 1, see through the veil of death and return changed, gaining one scar.</p>
+i0537	Sweet Moss
+i0538	<p>You can consume this moss during a rest to clear 1d10 HP or 1d10 Stress.</p>
+i0539	<p>You can consume this moss during a rest to clear 1d10 HP.</p>
+i0540	<p>You can consume this moss during a rest to clear 1d10 Stress.</p>
+i0541	Unstable Arcane Shard
+i0542	<p>You can make a Finesse Roll to throw this shard at a group of adversaries within Far range. Targets you succeed against take 1d20 magic damage.</p>
+i0543	Varik Leaves
+i0544	<p>You can eat these paired leaves to immediately gain 2 Hope.</p>
+i0545	Vial of Darksmoke
+i0546	<p>When an adversary attacks you, use  this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack.</p>
+i0547	<p>When an adversary attacks you, use this vial and roll a number of d6s equal to your Agility. Add the highest result to your Evasion against the attack.</p>
+i0548	Vial of Moondrip
+i0549	<p>When you drink the contents of this vial, you can see in total darkness until your next rest.</p>
+i0550	<p>You can see in total darkness until your next rest.</p>
+i0551	Wingsprout
+i0552	<p>You gain magic wings that allow you to fly for a number of minutes equal to your level.</p>
+i0553	Arcticite Shard
+i0554	<p>Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and become temporarily Restrained by ice.</p>
+i0555	Iced
+i0556	Berserker's Brew
+i0557	<p>When you drink this dram of liquid, you gain a bonus to your Strength and a penalty to your Finesse and Knowledge equal to your Instinct (minimum 1). This effect lasts until you make a death move or until your next rest.</p>
+i0558	Berserk
+i0559	Bundle of Spiderlegs
+i0560	<p>You can eat these spiderlegs to walk on walls until your next rest.</p>
+i0561	Spiderwalking
+i0562	Cacophonous Concoction
+i0563	<p>When you drink this potion, anything you say or do in the next hour becomes impossible for a witness to recount. Any attempts they make to communicate what they saw, heard, or otherwise sensed comes out garbled or nonsensical.</p>
+i0564	Cacophonous
+i0565	Chimeric Saliva
+i0566	<p>You can apply this saliva to a weapon that deals physical damage to change its damage type to magic until your next rest.</p>
+i0567	Appky
+i0568	Ciscan Fog Bottle
+i0569	<p>You can break this jar to fill the area within Close range with magical mist. A creature who enters the mist clears a Stress and becomes Hidden.</p>
+i0570	Break
+i0571	Cockerel Claw Tea
+i0572	<p>You can drink this tea to refresh your features as if you had taken a long rest.</p>
+i0573	Concoction
+i0574	<p>You can drink this potion to discover the deepest fear of the next person you make eye contact with.</p>
+i0575	Cupbearer's Bezoar
+i0576	<p>You can swallow this bezoar to become immune to poisons until your next long rest.</p>
+i0577	Swallow
+i0578	Deathseer's Powder
+i0579	<p>You can sprinkle this powder over a recently deceased corpse to conjure a spectral reprise of their final minute of life.</p>
+i0580	Sprinkle
+i0581	Demiurge's Draught
+i0582	<p>You can drink this draught to gain a +1 bonus to your Proficiency for your next successful attack roll.</p>
+i0583	Displacement Token
+i0584	<p>You can swallow this token to conjure two illusions of yourself that you can control. Each illusion lasts until it takes damage or until your next rest.</p>
+i0585	Displaced
+i0586	Drakemantle
+i0587	<p>You can use this enchanted ancient dragon hide to gain draconic characteristics until the end of the scene, when the hide falls aways in tatters. Until then, you can fly and gain a +5 bonus to your damage thresholds and a +1 bonus to your Proficiency.</p>
+i0588	Drakeform
+i0589	<p>Until the end of the scene, you can fly and gain a +5 bonus to your damage thresholds and a +1 bonus to your Proficiency.</p>
+i0590	Emberite Shard
+i0591	<p>Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and become temporarily Ablaze. While Ablaze, a creature must roll a d4 whenever they make an action roll. On a result of 1, they mark a Hit Point. On a result of 4, they clear the Ablaze condition.</p>
+i0592	Ablaze
+i0593	<p>While Ablaze, a creature must roll a d4 whenever they make an action roll. On a result of 1, they mark a Hit Point. On a result of 4, they clear the Ablaze condition.</p>
+i0594	Featherstep Potion
+i0595	<p>You can drink this potion to sprout small wings from your ankles that give you a bonus to your Evasion equal to your tier until your next rest.</p>
+i0596	New Effect
+i0597	Formoid Serum
+i0598	<p>You can drink this potion to become a swarm of 16 million ants until the end of the scene. You keep and have access to all equipment, loot, and features.</p>
+i0599	Fulgurite Shard
+i0600	<p>Choose a point within Far range. All targets within Close range of that point must succeed on a Reaction Roll (16) or take 3d6 magic damage and mark 1d4 Stress as lightning crackles through the area.</p>
+i0601	Gambler's Fallacy
+i0602	<p>You can spend any number of handfuls of gold by placing them into this slotted ceramic jar shaped like a pig. When you throw the jar at a point within Far range, it explodes and deals 1d20 magic damage for each handful of gold spent to all creatures within Close range of that point. All gold within the jar is destroyed.</p>
+i0603	Glowmoss Mushroom
+i0604	<p>You can break this mushroom into pieces, causing it to glow bright blue until your next long rest.</p>
+i0605	Godling's Pomelo
+i0606	<p>You can eat this citrus fruit to clear all Hit Points and Stress.</p>
+i0607	Gossip Flower
+i0608	<p>You can plant this seed in soil. It instantly grows into a small flower that records everything it hears for up to one week. When plucked, the flower recites what it recorded in real time, then withers.</p>
+i0609	Gravity Bomb
+i0610	<p>You can throw this peach-sized mechanical orb at a point within Far range. It implodes and pulls all creatures and objects within Close range of that point into Melee range with it.</p>
+i0611	Green Ooze Oil
+i0612	<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target. While Corroded, the target gains a -2 penalty to their damage thresholds.</p>
+i0613	Coat
+i0614	Apply Corroded
+i0615	<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Corrodes the target.</p>
+i0616	<p>While Corroded, the target gains a -2 penalty to their damage thresholds.</p>
+i0617	Homet's Secret Potion
+i0618	<p>After drinking this potion, the next successful attack you make critically succeeds.</p>
+i0619	<p>The next successful attack you make critically succeeds.</p>
+i0620	Instant Camp
+i0621	<p>You can unfold this small mechanical box into a camping tent large enough to safely house six people. The tent collapses at the end of your next long rest.</p>
+i0622	Invisibility Potion
+i0623	<p>You are Hidden until you deal damage to another creature or until your next rest.</p>
+i0624	Iridian Dust
+i0625	<p>This multicolored powder sticks to everything and prevents creatures covered in it from becoming Hidden.</p>
+i0626	Lionheart Tonic
+i0627	<p>You can drink this tonic to gain a +1 bonus to your Proficiency until you roll with Fear.</p>
+i0628	Lionhearted
+i0629	Lyrebird Lozenge
+i0630	<p>You can dissolve this lozenge in your mouth to perfectly mimic any voice you've heard until the end of the scene.</p>
+i0631	Lyrebird
+i0632	Magic-User's Malison
+i0633	<p>When you release this spellcaster's trapped soul, you can cast one spell from a card in your vault as if it were in your loadout. This doesn't work for permanently vaulted cards.</p>
+i0634	Mask of the Echoed Self
+i0635	<p>You can wear this mask during your next level up to swap the values of any of your traits. When you do, the mask becomes your permanent face.</p>
+i0636	Mesmer's Tonic
+i0637	<p>When you drink this tonic, the only thing you can hear until your next rest are the surface thoughts of creatures within Very Close range.</p>
+i0638	Midas Flask
+i0639	<p>You can pour this small flask of alchemical liquid over a mundane item to instantly transmute it into a handful of gold.</p>
+i0640	Pour
+i0641	Mnemonic Potion
+i0642	<p>You can drink this potion to Utilize an Experience without spending a Hope.</p>
+i0643	Moonlight Orb
+i0644	<p>You can shatter this orb to make the area within Very Far range appear as though it's moonlit nighttime for the next 24 hours.</p>
+i0645	Shatter
+i0646	Mossmantle Potion
+i0647	<p>You can drink this tea to perfectly blend into natural environments until your next rest.</p>
+i0648	Blending In
+i0649	Necroprancer's Bell
+i0650	<p>You can break this rusted, clapperless bell against the ground to summon a skeletal steed that climbs out of the earth and serves you until the next sunrise.</p>
+i0651	Night Hag's Dust
+i0652	<p>You can blow this dust in an adversary's face to prevent them from clearing Stress until your next long rest.</p>
+i0653	Nightmare Mead
+i0654	<p>You can drink this potion to discover the deepest fear of the next person you make eye contact with. When you do, the GM gains a Fear.</p>
+i0655	Packet of Space Dust
+i0656	<p>This dust causes anything it covers to become lighter than air. One packet contains enough dust to cover the contents of a picnic basket, and the effects last for an hour.</p>
+i0657	Space Dusted
+i0658	<p>This dust causes anything it covers to become lighter than air, and the effects last for an hour.</p>
+i0659	Phial of Deep Ink
+i0660	<p>You can drink this bottle of ink to transform into a cephalopod of roughly your size for the next hour. You gain rubbery skin, soft bones, the ability to breathe underwater, and new limbs until you have eight total.</p>
+i0661	Phial Of deep Ink
+i0662	Pipeweed
+i0663	<p>When you choose the Clear Stress downtime move during a short rest, you can smoke this non-intoxicating leaf to clear an additional Stress. Any other PCs who chose the Clear Stress downtime move also gain this benefit.</p>
+i0664	Smoke
+i0665	Potion of Vigilance
+i0666	<p>You can drink this potion to gain a +1 bonus to your Evasion until you mark a Hit Point.</p>
+i0667	Psychopomp's Shroud
+i0668	<p>You can place this shroud over the corpse of a recently deceased creature. The creature's spirit enters the shroud and becomes your spectral assistant until the next sunrise, when they pass through the veil of death and take the shroud with them.</p>
+i0669	Quintessential Severant
+i0670	<p>You can use this magic blade to cut one magical or metaphysical bond, such as an enchantment, contract, magical tether, or divine oath. When you do, the blade shatters.</p>
+i0671	Red Ooze Oil
+i0672	<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Ignites the target. While Ignited, the target takes 1d4 magic damage when they take the spotlight.</p>
+i0673	Ignite
+i0674	<p>While Ignited, the target takes 1d4 magic damage when they take the spotlight.</p>
+i0675	<p>You can coat your weapon in this oil. The next successful attack you make with this weapon deals an extra 1d8 magic damage and temporarily Ignites the target.</p>
+i0676	Ignited
+i0677	Salamander Salve
+i0678	<p>You can apply this salve to your skin to make yourself immune to heat until your next rest.</p>
+i0679	Salamaner Salve
+i0680	Self-Sewing Thread
+i0681	<p>You can use this thread to clear either a Hit Point or 2 Armor Slots.</p>
+i0682	Slayer's Salt
+i0683	<p>You can spread this salt in a line along windowsills or thresholds to create a magical barrier that undead creatures can't cross until the line is broken.</p>
+i0684	Snakeskin Spirit
+i0685	<p>You can drink this potion to slough off your outer layer of skin and heal a scar.</p>
+i0686	Snapthorn Seed
+i0687	<p>You can throw this seed at a point you can see. It explodes into a tangle of binding vines that temporarily Restrains all creatures within Close range of that point.</p>
+i0688	Thorned
+i0689	Sprite Bottle
+i0690	<p>When you mark your last Hit Point, this bottle shatters to release the Sprite inside. The Sprite clears all your Hit Points before fading from the Mortal Realm.</p>
+i0691	Staff of Reversal
+i0692	<p>You can break this staff against the ground to reverse one magical transformation or effect within Far range.</p>
+i0693	Stake of Abjuration
+i0694	<p>You can hammer this stake into the ground and make a proclamation. Until your next rest, a creature within Far range of the stake who transgresses that proclamation must mark a Stress. The stake lasts until your next rest, then it shatters.</p>
+i0695	Steelskin Salve
+i0696	<p>You can apply this salve to your skin to gain a bonus to your damage thresholds equal to your tier until the end of the scene.</p>
+i0697	Steelskin
+i0698	Stonemason's Fortune
+i0699	<p>When you throw this gray brick on the ground, it immediately grows into a 6-foot-tall, 10-foot-wide, and 2-foot-deep wall of solid stone.</p>
+i0700	Sunlight Orb
+i0701	<p>You can shatter this orb to make the area within Very Far range appear as though it's sunlit daytime for the next 24 hours.</p>
+i0702	Tears of the Undying Hero
+i0703	<p>When you drink this potion, death can't touch you until your next long rest. When you would mark your last Hit Point, instead of making a death move, you make one final action roll before falling into a dreamless slumber until an ally chooses the Tend to Wounds downtime move to clear your Hit Points.</p>
+i0704	Undying
+i0705	Verglasian Seed
+i0706	<p>You can use this ice shard to instantly freeze an area of water up to Close range.</p>
+i0707	Vial of Featherfall
+i0708	<p>You can drink this potion to ignore damage from falling for the next 10 minutes.</p>
+i0709	Featherfalling
+i0710	<p>You ignore damage from falling for the next 10 minutes.</p>
+i0711	Warding Candle
+i0712	<p>You can light this candle to fill an area within Close range with a halo of light. A creature outside the halo can't enter it if they have ill intent toward a creature within it. The candle burns for an hour.</p>
+i0713	Yakamel Milk
+i0714	<p>After consuming this milk, the next time you clear 1 or more Hit Points, you clear an additional Hit Point.</p>
+i0715	Loot
+i0716	Airblade Charm
+i0717	<p>You can attach this charm to a weapon with a Melee range. Three times per rest, you can activate the charm and attack a target within Close range.</p>
+i0718	Arcane Cloak
+i0719	<p>A creature with a Spellcast trait wearing this cloak can adjust its color, texture, and size at will.</p>
+i0720	Arcane Prism
+i0721	<p>Position this prism in a location of your choosing and activate it. All allies within Close range of it gain a +1 bonus to their Spellcast Rolls. While activated, the prism can't be moved. Once the prism is deactivated, it can't be activated again until your next long rest.</p>
+i0722	Attune Relic
+i0723	<p>You gain a +1 bonus to your Instinct. You can only carry one relic.</p>
+i0724	<p>You gain a +1 bonus to your Instinct.</p>
+i0725	Bag of Ficklesand
+i0726	<p>You can convince this small bag of sand to be much heavier or lighter with a successful <code>[[/dr trait="presence" difficulty="10"]]</code>. Additionally, on a successful <code>[[/dr trait="finesse" difficulty="10"]]</code>, you can blow a bit of sand into a target's face to make them temporarily Vulnerable.</p>
+i0727	Blow Sand
+i0728	Belt of Unity
+i0729	<p>Once per session, you can spend 5 Hope to lead a Tag Team Roll with three PCs instead of two.</p>
+i0730	Bloodstone
+i0731	<p>You can attach this stone to a weapon that doesn't already have a feature. The weapon gains the following feature.</p><p><strong>Brutal</strong>: When you roll the maximum value on a damage die, roll an additional damage die.</p>
+i0732	Bolster Relic
+i0733	<p>You gain a +1 bonus to your Strength. You can only carry one relic.</p>
+i0734	<p>You gain a +1 bonus to your Strength.</p>
+i0735	Box of Many Goods
+i0736	<p>Once per long rest, you can open this small box and roll a [[/r d12]]. On a result of 1–6, it's empty. On a result of 7–10, it contains one random common consumable. On a result of 11–12, it contains two random common consumables.</p>
+i0737	Calming Pendant
+i0738	<p>When you would mark your last Stress, roll a [[/r d6]]. On a result of 5 or higher, don't mark it.</p>
+i0739	Charging Quiver
+i0740	<p>When you succeed on an attack with an arrow stored in this quiver, gain a bonus to the damage roll equal to your current tier.</p>
+i0741	Charm Relic
+i0742	<p>You gain a +1 bonus to your Presence. You can only carry one relic.</p>
+i0743	<p>You gain a +1 bonus to your Presence.</p>
+i0744	Clay Companion
+i0745	<p>When you sculpt this ball of clay into a clay animal companion, it behaves as that animal. For example, a clay spider can spin clay webs, while a clay bird can fly. The clay companion retains memory and identity across different shapes, but they can adopt new mannerisms with each form.</p>
+i0746	Companion Case
+i0747	<p>This case can fit a small animal companion. While the companion is inside, the animal and case are immune to all damage and harmful effects.</p>
+i0748	Control Relic
+i0749	<p>You gain a +1 bonus to your Finesse. You can only carry one relic.</p>
+i0750	<p>You gain a +1 bonus to your Finesse.</p>
+i0751	Corrector Sprite
+i0752	<p>This tiny sprite sits in the curve of your ear canal and whispers helpful advice during combat. Once per short rest, you can gain advantage on an attack roll.</p>
+i0753	Listen
+i0754	Dual Flask
+i0755	<p>This flask can hold two different liquids. You can swap between them by flipping a small switch on the flask's side.</p>
+i0756	Elusive Amulet
+i0757	<p>Once per long rest, you can activate this amulet to become Hidden until you move. While Hidden in this way, you remain unseen even if an adversary moves to where they would normally see you.</p>
+i0758	<p>You are Hidden until you move. While Hidden in this way, you remain unseen even if an adversary moves to where they would normally see you.</p>
+i0759	Empty Chest
+i0760	<p>This magical chest appears empty. When you speak a specific trigger word or action and open the chest, you can see the items stored within it.</p>
+i0761	Enlighten Relic
+i0762	<p>You gain a +1 bonus to your Knowledge. You can only carry one relic.</p>
+i0763	<p>You gain a +1 bonus to your Knowledge.</p>
+i0764	Fire Jar
+i0765	<p>You can pour out the strange liquid contents of this jar to instantly produce fire. The contents regenerate when you take a long rest.</p>
+i0766	Flickerfly Pendant
+i0767	<p>While you carry this pendant, your weapons with a Melee range that deal physical damage have a gossamer sheen and can attack targets within Very Close range.</p>
+i0768	Gecko Gloves
+i0769	<p>You can climb up vertical surfaces and across ceilings.</p>
+i0770	Gem of Alacrity
+i0771	<p>You can attach this gem to a weapon, allowing you to use your Agility when making an attack with that weapon.</p>
+i0772	Gem of Audacity
+i0773	<p>You can attach this gem to a weapon, allowing you to use your Presence when making an attack with that weapon.</p>
+i0774	Gem of Insight
+i0775	<p>You can attach this gem to a weapon, allowing you to use your Instinct when making an attack with that weapon.</p>
+i0776	Gem of Might
+i0777	<p>You can attach this gem to a weapon, allowing you to use your Strength when making an attack with that weapon.</p>
+i0778	Gem of Precision
+i0779	<p>You can attach this gem to a weapon, allowing you to use your Finesse when making an attack with that weapon.</p>
+i0780	Gem of Sagacity
+i0781	<p>You can attach this gem to a weapon, allowing you to use your Knowledge when making an attack with that weapon.</p>
+i0782	Glamour Stone
+i0783	<p>Activate this pebble-sized stone to memorize the appearance of someone you can see. Spend a Hope to magically recreate this guise on yourself as an illusion.</p>
+i0784	Create Illusion
+i0785	Glider
+i0786	<p>While falling, you can <strong>mark a Stress</strong> to deploy this small parachute and glide safely to the ground.</p>
+i0787	Greatstone
+i0788	<p>You can attach this stone to a weapon that doesn't already have a feature. The weapon gains the following feature.</p><p><strong>Powerful</strong>: On a successful attack, roll an additional damage die and discard the lowest result.</p>
+i0789	Homing Compasses
+i0790	<p>These two compasses point toward each other no matter how far apart they are.</p>
+i0791	Honing Relic
+i0792	<p>You gain a +1 bonus to an Experience of your choice. You can only carry one relic.</p>
+i0793	Hopekeeper Locket
+i0794	<p>During a long rest, if you have 6 Hope, you can spend a Hope to imbue this locket with your bountiful resolve.</p><p>When you have 0 Hope, you can use the locket to immediately gain a Hope. The locket must be re-imbued before it can be used this way again.</p>
+i0795	Imbue
+i0796	Infinite Bag
+i0797	<p>When you store items in this bag, they are kept in a pocket dimension that never runs out of space. You can retrieve an item at any time.</p>
+i0798	Lakestrider Boots
+i0799	<p>You can walk on the surface of water as if it were soft ground.</p>
+i0800	Lorekeeper
+i0801	<p>You can store the name and details of up to three hostile creatures inside this book. You gain a +1 bonus to action rolls against those creatures.</p>
+i0802	Manacles
+i0803	<p>This pair of locking cuffs comes with a key.</p>
+i0804	Minor Health Potion Recipe
+i0805	<p>As a downtime move, you can use a vial of blood to craft a Minor Health Potion.</p>
+i0806	Minor Stamina Potion Recipe
+i0807	<p>As a downtime move, you can use the bone of a creature to craft a Minor Stamina Potion.</p>
+i0808	Mythic Dust Recipe
+i0809	<p>As a downtime move, you can use a handful of fine gold dust to craft Mythic Dust.</p>
+i0810	Phoenix Feather
+i0811	<p>If you have at least one Phoenix Feather on you when you fall unconscious, you gain a +1 bonus to the roll you make to determine whether you gain a scar.</p>
+i0812	Piercing Arrows
+i0813	<p>Three times per rest when you succeed on an attack with one of these arrows, you can add your Proficiency to the damage roll.</p>
+i0814	<p>Add your Proficiency to the damage roll of this attack.</p>
+i0815	Piper Whistle
+i0816	<p>This handcrafted whistle has a distinctive sound. When you blow this whistle, its piercing tone can be heard within a 1-mile radius.</p>
+i0817	Portal Seed
+i0818	<p>You can plant this seed in the ground to grow a portal in that spot. The portal is ready to use in 24 hours. You can use this portal to travel to any other location where you planted a portal seed. A portal can be destroyed by dealing any amount of magic damage to it.</p>
+i0819	Premium Bedroll
+i0820	<p>During downtime, you automatically clear a Stress.</p>
+i0821	Take a nap
+i0822	Ring of Resistance
+i0823	<p>Once per long rest, you can activate this ring after a successful attack against you to halve the damage.</p>
+i0824	Ring of Silence
+i0825	<p>Spend a Hope to activate this ring. Your footsteps are silent until your next rest.</p>
+i0826	<p><strong>Spend a Hope</strong> to activate this ring. Your footsteps are silent until your next rest.</p>
+i0827	<p>Your footsteps are silent until your next rest.</p>
+i0828	Ring of Unbreakable Resolve
+i0829	<p>Once per session, when the GM spends a Fear, you can spend 4 Hope to cancel the effects of that spent Fear.</p>
+i0830	Shard of Memory
+i0831	<p>Once per long rest, you can <strong>spend 2 Hope</strong> to recall a domain card from your vault instead of paying its Recall Cost.</p>
+i0832	Skeleton Key
+i0833	<p>When you use this key to open a locked door, you gain advantage on the Finesse Roll.</p>
+i0834	Use Key
+i0835	Speaking Orbs
+i0836	<p>This pair of orbs allows any creatures holding them to communicate with each other across any distance.</p>
+i0837	Stride Relic
+i0838	<p>You gain a +1 bonus to your Agility. You can only carry one relic.</p>
+i0839	<p>You gain a +1 bonus to your Agility.</p>
+i0840	Suspended Rod
+i0841	<p>This flat rod is inscribed with runes. When you activate the rod, it is immediately suspended in place. Until the rod is deactivated, it can't move, doesn't abide by the rules of gravity, and remains in place.</p>
+i0842	Valorstone
+i0843	<p>You can attach this stone to armor that doesn't already have a feature. The armor gains the following feature.</p><p><strong>Resilient</strong>: Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.</p>
+i0844	Vial of Darksmoke Recipe
+i0845	<p>As a downtime move, you can mark a Stress to craft a Vial of Darksmoke.</p>
+i0846	Woven Net
+i0847	<p>You can make a Finesse Roll using this net to trap a small creature. A trapped target can break free with a successful Attack Roll (16).</p>
+i0848	Alistair's Torch
+i0849	<p>You can light this magic torch at will. The flame's light fills a much larger space than it should, enough to illuminate a cave bright as day.</p>
+i0850	Augur's Relic
+i0851	<p>Once per long rest, you can activate your Hope feature without spending Hope. You can carry only one relic.</p>
+i0852	Ball Bearings
+i0853	<p>This pouch contains perfectly smooth metal spheres.</p>
+i0854	Blackwing Quill
+i0855	<p>This writing quill never runs out of ink or needs to be sharpened.</p>
+i0856	Boots of Supple Mystique
+i0857	<p>While wearing these boots, you don't leave tracks or footprints.</p>
+i0858	Box of Dragon Dust
+i0859	<p>This snuffbox is filled with combustible powder.</p>
+i0860	Brooch
+i0861	<p>On a successful weapon attack, you can knock your target back up to Close range from their location.</p>
+i0862	Caltrops
+i0863	<p>You can spread these caltrops in a Very Close area around you. A creature hastening through that area must mark a Stress.</p>
+i0864	Spread Caltrops
+i0865	Cheater's Coin
+i0866	<p>When you flip this coin, you can spend a Hope to determine which side it lands on.</p>
+i0867	Cheat
+i0868	Collapsible Pole
+i0869	<p>You can break down this 18-foot pole into six interlinked 3-foot segments.</p>
+i0870	Collar of Ascendancy
+i0871	<p>An animal who wears this collar gains the ability to speak and understand common speech.</p>
+i0872	Communion Relic
+i0873	<p>Once per rest, you can spend a Hope to use an ally's Experience as if it were your own. You can carry only one relic.</p>
+i0874	Crucible Frames
+i0875	<p>These eyeglasses reveal weak points in objects and creatures. Three times per rest, you can spend a Hope to gain advantage on an attack roll.</p>
+i0876	Dagginae's Obsidian Slate
+i0877	<p>This wafer-thin sheet of volcanic glass is used by archivists to keep notes. Any information etched onto its surface disappears but can be recalled via a command you set.</p>
+i0878	Eclipse Coin
+i0879	<p>Once per rest, [[/r 1d2]]{flip a coin.} On heads, you gain a +1 bonus to attack rolls until your next successful attack. On tails, you gain +1 to your Evasion until an attack fails against you.</p>
+i0880	Heads
+i0881	Tails
+i0882	<p>+1 bonus to attack rolls until your next successful attack.</p>
+i0883	<p>+1 to your Evasion until an attack fails against you.</p>
+i0884	Elven Spyglass
+i0885	<p>You can use this spyglass to magnify your vision a hundredfold.</p>
+i0886	Enchanter's Loupe
+i0887	<p>You can use this loupe to see through illusions and enchantments.</p>
+i0888	Escher's Mirrorball
+i0889	<p>Once per long rest, you can command this fist-sized silver orb to capture an omnidirectional image of its surroundings on its surface. This image lasts until your next long rest.</p>
+i0890	Captured Image
+i0891	<p>This image lasts until your next long rest.</p>
+i0892	Force Disc
+i0893	<p>This shimmering two-dimensional disc of magical force has a 4-foot diameter and is magically tethered to a pebble. The disc always floats 3 feet north of, and at the same elevation as, the pebble. The pebble has a mass equal to one-hundredth of the total mass carried by the disc.</p>
+i0894	Furball Bag
+i0895	<p>Once per rest, you can produce [[/r 2d20]] harmless, cat-sized fur creatures of indeterminate origin and species from this bag.</p>
+i0896	Produce Creatures
+i0897	Gadiman's Backpack
+i0898	<p>Once per rest, you can spend a Hope to conjure a mundane item up to a cubic foot in size inside this satchel.</p>
+i0899	Ghoulskin Gloves
+i0900	<p>When you attack with a physical weapon while wearing these gloves, the damage is considered both physical and magic.</p>
+i0901	Gloves of Alacrity
+i0902	<p>When you would mark a Stress to reload a weapon, you don't mark it.</p>
+i0903	Gourmet Granules
+i0904	<p>This savory powder makes any food it's sprinkled on delicious and healthy, no matter how bland or rotten it is.</p>
+i0905	Grapnel
+i0906	<p>You gain advantage on action rolls to climb sheer surfaces.</p>
+i0907	Gravewarden's Bell
+i0908	<p>This bell rings when a ghost or undead creature moves within Far range of it.</p>
+i0909	Hero's Helm
+i0910	<p>When you critically succeed on an attack, all allies within Close range gain a Hope.</p>
+i0911	Hollowbark Horn
+i0912	<p>You can blow this horn to summon a small woodland creature to perform a simple task.</p>
+i0913	Insomniac's Periapt
+i0914	<p>When you take a rest without clearing Hit Points or Stress, you gain a +2 bonus to attack and damage rolls until your next rest.</p>
+i0915	Insomniac
+i0916	<p>You gain a +2 bonus to attack and damage rolls until your next rest.</p>
+i0917	Iron Dagger Pendant
+i0918	<p>Once per long rest, you can spend a Hope to tell the pendant a creature's name. The pendant gently pulls you toward that creature's current location until your next long rest.</p>
+i0919	<p>The pendant gently pulls you toward that creature's current location until your next long rest.</p>
+i0920	Iron Veil
+i0921	<p>This chain-link head covering renders the wearer invisible to fey creatures.</p>
+i0922	Kingfisher's Net
+i0923	<p>Once per long rest, you can use this net to scoop one live fish out of any amount of water, no matter how unlikely it is for that water to have fish in it.</p>
+i0924	Knockback Bracelets
+i0925	Loaded Dice
+i0926	<p>You can choose what result this set of weighted dice rolls with a successful Finesse Roll (14). If you roll with Fear, anyone watching knows the dice are loaded.</p>
+i0927	Mandragorian Torch
+i0928	<p>This torch gives off light only the bearer can see.</p>
+i0929	Map of Revelation
+i0930	<p>You can attune this map to one creature at a time. The map always shows the attuned creature's location.</p>
+i0931	Molepaw Mittens
+i0932	<p>Spend a Hope to swim through earth as if it were water for the next 10 minutes.</p>
+i0933	<p>You can swim through earth as if it were water for the next 10 minutes.</p>
+i0934	Namer's Oracle
+i0935	<p>Once per session, you can roll this set of runic dice to reveal the full name of the last person you touched.</p>
+i0936	Roll Dice
+i0937	Nighthawker's Ring
+i0938	<p>Spend a Hope to activate the gemstone in this ring until the end of the scene. While active, the gemstone changes color to indicate the wearer's proximity to hidden treasure: warm colors for near, cool colors for far.</p>
+i0939	<p>While active, the gemstone changes color to indicate the wearer's proximity to hidden treasure: warm colors for near, cool colors for far.</p>
+i0940	Paragon's Chain
+i0941	<p>As a downtime move, you can meditate on an ideal or principle you hold dear and focus your will into this chain.</p><p>Once per long rest, you can spend a Hope to roll a d20 as your Hope Die for rolls that directly align with that principle.</p>
+i0942	Phobophage's Circlet
+i0943	<p>When the GM spends a Fear, roll a d4. Once per scene on a result of 4, you clear a Stress.</p>
+i0944	Portal Frames
+i0945	<p>This pair of small ornate frames, one red and one blue, are connected. Anything that passes into one exits from the other.</p>
+i0946	Quillshawl
+i0947	<p>If an adversary attacks you within Melee range, they must succeed on a Reaction Roll (12) or mark a Hit Point.</p>
+i0948	Reliquary of the Sightless Saint
+i0949	<p>You gain a +1 bonus to your Hope Die when you make the Risk It All death move.</p>
+i0950	Returning Ring
+i0951	<p>When you throw your primary weapon while wearing this ring, the weapon appears in your hand immediately after the attack.</p>
+i0952	Rings of Alliance
+i0953	<p>Two creatures can wear this pair of rose gold rings. Once per session, you can initiate a Tag Team Roll with whoever is wearing the other ring without spending Hope or counting against your session limit for Tag Team Rolls.</p>
+i0954	Rings of Camaraderie
+i0955	<p>Two creatures can wear this pair of wooden rings. You can mark the Stress of whoever is wearing the other ring (with their permission) as if it were your own.</p>
+i0956	Rings of Friendship
+i0957	<p>Two creatures can wear this pair of rings shaped like coiled snakes. You can spend the Hope of whoever is wearing the other ring (with their permission) as if it were your own.</p>
+i0958	Self-Tying Rope
+i0959	<p>You can command this rope to tie or untie itself.</p>
+i0960	Silee's Folding Knife
+i0961	<p>This 3-inch blade has an edge that easily cuts through anything except the handle it's stored in.</p>
+i0962	Sorcerer's Hat
+i0963	<p>This conical blue hat is covered in silver stars. Once per rest, you can cast a spell from your vault with a Recall Cost equal to or less than your tier. This doesn't work for permanently vaulted cards.</p>
+i0964	Soul-Twin Circlets
+i0965	<p>Two creatures can wear this pair of circlets. You can spend a Hope to switch places with whoever is wearing the other circlet.</p>
+i0966	Temporal Sanctuary
+i0967	<p>A PC who takes a rest in the temporal sanctuary can choose an additional downtime move.</p>
+i0968	Thief's Compass
+i0969	<p>This compass points the way toward the nearest exit while indoors and the closest entrance while outdoors.</p>
+i0970	Timekeeper's Pendant
+i0971	<p>You can choose an additional downtime move each rest.</p>
+i0972	Titan's Girdle
+i0973	<p>Once per scene, you can activate this girdle to gain a +1 bonus to your Proficiency for your next attack.</p>
+i0974	Activate Girdle
+i0975	Active Girdle
+i0976	<p>+1 bonus to your Proficiency for your next attack.</p>
+i0977	Traveler's Bell
+i0978	<p>Once per long rest, you can ring this bell to magically open the shortest safe path through rough terrain for 1 hour.</p>
+i0979	Ring Bell
+i0980	Two-Faced Aegis Brooch
+i0981	<p>Once per rest, [[/r 1d2]]{flip a coin}. On heads, you become immune to the next physical damage you take. On tails, you become immune to the next magic damage you take.</p>
+i0982	<p>On heads, you become immune to the next physical damage you take.</p>
+i0983	<p>On tails, you become immune to the next magic damage you take.</p>
+i0984	Warp Pendant
+i0985	<p>Once per rest, mark a Stress to teleport to a location you can clearly see.</p>
+i0986	Whisperstep Anklet
+i0987	<p>This anklet makes your steps silent as long as you don't move faster than walking speed.</p>
+i0988	Wildrider's Saddle
+i0989	<p>This saddle grants any animal it's strapped onto the ability to understand their rider's commands.</p>
+i0990	Windup Toy
+i0991	<p>This small mechanical device is shaped like a strixwolf pup and can be programmed to perform simple tricks.</p>
+i0992	Zephyr's Jar
+i0993	<p>You can open this empty jar during inclement weather to capture the storm and leave behind clear skies. The storm remains inside until unleashed by reopening the jar.</p>

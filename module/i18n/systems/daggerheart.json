@@ -1,0 +1,4469 @@
+{
+  "TYPES": {
+    "Item": {
+      "ancestry": "Походження",
+      "community": "Спільнота",
+      "class": "Клас",
+      "subclass": "Підклас",
+      "feature": "Особливість",
+      "domainCard": "Карта домену",
+      "consumable": "Витратний предмет",
+      "loot": "Предмет",
+      "weapon": "Зброя",
+      "armor": "Броня",
+      "beastform": "Звірина подоба",
+      "transformation": "Перетворення"
+    },
+    "ActiveEffect": {
+      "base": "Стандартний",
+      "beastform": "Звірина подоба"
+    },
+    "Actor": {
+      "character": "Персонаж",
+      "companion": "Компаньйон",
+      "adversary": "Супротивник",
+      "environment": "Оточення",
+      "npc": "НІП",
+      "party": "Загін"
+    }
+  },
+  "CONTROLS": {
+    "inFront": "Попереду",
+    "ChangeSceneDarknessLevel": "Змінити рівень темряви сцени"
+  },
+  "SCENE": {
+    "TABS": {
+      "SHEET": {
+        "dh": "Daggerheart"
+      }
+    }
+  },
+  "SETTINGS": {
+    "GridDiagonalsL": "Визначає, як вимірюється діагональна відстань на квадратній і шестикутній сітці. Число в дужках — довжина діагоналі в клітинках сітки для кожного варіанта. Не впливає на дальності Daggerheart (близько/далеко тощо)."
+  },
+  "DAGGERHEART": {
+    "CharacterSheet": "Аркуш персонажа",
+    "ACTIONS": {
+      "TYPES": {
+        "attack": {
+          "name": "Атака",
+          "tooltip": "Наступальна дія: атака зброєю, чаротворення тощо."
+        },
+        "beastform": {
+          "name": "Звірина подоба",
+          "tooltip": "Перетворює користувача на іншу форму."
+        },
+        "countdown": {
+          "name": "Відлік",
+          "tooltip": "Запустити відлік"
+        },
+        "damage": {
+          "name": "Шкода",
+          "critical": "Шкода (критична)",
+          "tooltip": "Пряма шкода без кидка."
+        },
+        "effect": {
+          "name": "Загальна",
+          "tooltip": "Загальна дія, що лише виводить повідомлення в чат, якщо нічого не налаштовано."
+        },
+        "healing": {
+          "name": "Лікування",
+          "tooltip": "Відновлює ресурси цілі. Може мати налаштований кидок."
+        },
+        "macro": {
+          "name": "Макрос",
+          "tooltip": "Виконати макрос за UUID."
+        },
+        "summon": {
+          "name": "Закликання",
+          "tooltip": "Створює токени на сцені.",
+          "error": "Ви не маєте дозволу закликати токени, або немає активної сцени.",
+          "invalidDrop": "Для закликання можна перетягувати лише актора."
+        },
+        "transform": {
+          "name": "Перетворення",
+          "tooltip": "Перетворити одного актора на іншого",
+          "invalidDrop": "Для перетворення можна перетягнути лише актора.",
+          "noTransformActor": "Не призначено актора, на якого перетворюватися",
+          "transformActorMissing": "Призначеного для перетворення актора не існує. Можливо, його видалено чи переміщено в компендіум або з нього",
+          "canvasError": "Немає активної сцени.",
+          "prototypeError": "Дію перетворення можна використати лише з токена",
+          "linkedSelectedError": "Щоб перетворити зв'язаного актора, на полотні має бути лише один його токен, або виберіть лівим кліком лише один із них.",
+          "actorLinkError": "Не можна перетворити токен, у якого увімкнено «Зв'язати актора»"
+        },
+        "evolution": {
+          "name": "Еволюція",
+          "tooltip": "Еволюціонувати актора, отримавши нові можливості",
+          "tokenImage": "Зображення токена",
+          "tokenScale": "Масштаб",
+          "dynamicToken": "Динамічний токен",
+          "dynamicTokenImage": "Динамічне зображення токена",
+          "dynamicTokenRing": "Колір кільця динамічного токена",
+          "dynamicTokenBackground": "Тло динамічного токена",
+          "dynamicEffects": "Динамічні ефекти",
+          "tokenError": "Дію еволюції можна використати лише з токена",
+          "actorError": "У токена немає актора. Неможливо повернути стан до еволюції.",
+          "deevolveConfirmationTitle": "Скасувати еволюцію",
+          "deevolveConfirmationText": "Справді скасувати еволюцію?"
+        },
+        "grouped": {
+          "name": "Група",
+          "tooltip": "Групує кілька дій під однією кнопкою. Дії обираються вручну або випадково.",
+          "selectionType": {
+            "label": "Спосіб вибору дії"
+          },
+          "groupedActions": {
+            "label": "Згруповані дії"
+          },
+          "missingGroupedActions": "До цієї дії не прикріплено згрупованих дій"
+        }
+      },
+      "Config": {
+        "beastform": {
+          "exact": {
+            "label": "Макс. ранг звіриної подоби",
+            "hint": "Якщо порожньо, використовується ранг персонажа"
+          },
+          "modifications": {
+            "traitBonuses": {
+              "label": {
+                "single": "Бонус до риси",
+                "plural": "Бонуси до рис"
+              },
+              "hint": "Оберіть бонуси, що застосовуються до довільно обраних рис під час перетворення",
+              "bonus": "Розмір бонусу"
+            }
+          }
+        },
+        "countdown": {
+          "defaultOwnership": "Власник за замовчуванням",
+          "startCountdown": "Запустити відлік"
+        },
+        "damage": {
+          "addResource": "Додати ресурс",
+          "multiplier": "Множник",
+          "flatMultiplier": "Сталий множник",
+          "markResources": "Позначити ресурси"
+        },
+        "general": {
+          "customFormula": "Власна формула",
+          "formula": "Формула"
+        },
+        "area": {
+          "sectionTitle": "Ділянки",
+          "shape": "Форма",
+          "size": "Розмір",
+          "hasHole": "Отвір ділянки"
+        },
+        "displayInChat": "Показати в чаті",
+        "deleteTriggerTitle": "Видалити тригер",
+        "deleteTriggerContent": "Справді видалити тригер {trigger}?",
+        "advantageState": "Стан переваги",
+        "damageOnSave": "Шкода за успішного кидка реакції",
+        "useDefaultItemValues": "Використати стандартні значення предмета"
+      },
+      "Reload": {
+        "checkReload": "Перевірити перезаряджання",
+        "reloadRequired": "Потрібне перезаряджання!",
+        "notRolled": "Не кинуто",
+        "checkFailed": "Перевірку провалено",
+        "checkPassed": "Перевірку пройдено",
+        "rerollConfirmationTitle": "Перекинути перевірку перезаряджання",
+        "rerollConfirmationText": "Справді перекинути перевірку перезаряджання?"
+      },
+      "RollField": {
+        "diceRolling": {
+          "compare": "Має бути",
+          "dice": "Тип кості",
+          "flatMultiplier": "Сталий множник",
+          "multiplier": "Кількість костей",
+          "threshold": "Поріг"
+        }
+      },
+      "Settings": {
+        "attackModifier": "Модифікатор атаки",
+        "attackName": "Назва атаки",
+        "criticalThreshold": "Поріг критичного успіху",
+        "includeBase": {
+          "label": "Додати базову шкоду"
+        },
+        "groupAttack": {
+          "label": "Групова атака"
+        },
+        "multiplier": "Множник",
+        "saveHint": "Задайте стандартну рису, щоб увімкнути кидок реакції. Її можна змінити пізніше в діалозі кидка реакції.",
+        "resultBased": {
+          "label": "Формула залежно від результату Надії/Страху."
+        },
+        "fullRestore": {
+          "label": "Повністю відновити ресурс.",
+          "inChatRoll": "Повністю",
+          "inFormula": "Повне відновлення"
+        },
+        "applyTo": {
+          "label": "Цільовий ресурс"
+        },
+        "consumeOnSuccess": {
+          "label": "Витрачати лише в разі успіху",
+          "short": "(лише в разі успіху)"
+        },
+        "cost": {
+          "stepTooltip": "+{step} за крок"
+        },
+        "summon": {
+          "dropSummonsHere": "Перетягніть закликаних сюди"
+        },
+        "transform": {
+          "dropTransformHere": "Перетягніть перетворення сюди",
+          "actorIsMissing": "Зв'язаного актора немає. Варто видалити це посилання.",
+          "clearHitPoints": "Очистити Очки здоров'я",
+          "clearStress": "Очистити Стрес"
+        },
+        "evolution": {
+          "featureName": "Назва особливості",
+          "evolutionState": "Стан еволюції",
+          "clearHitPoints": "Очистити Очки здоров'я",
+          "clearStress": "Очистити Стрес"
+        }
+      }
+    },
+    "ACTIVEEFFECT": {
+      "Config": {
+        "rangeDependence": {
+          "title": "Залежність від дальності"
+        },
+        "stacking": {
+          "title": "Накопичення"
+        },
+        "conditionals": {
+          "title": "Умови"
+        },
+        "targetDispositions": "Уражені диспозиції"
+      },
+      "RangeDependance": {
+        "hint": "Налаштування необов'язкової відстані, на якій цей ефект активується",
+        "title": "Залежить від дальності"
+      },
+      "immuneStatusText": "Несприйнятливість: {status}"
+    },
+    "ACTORS": {
+      "Adversary": {
+        "FIELDS": {
+          "attack": {
+            "name": {
+              "label": "Назва"
+            },
+            "modifier": {
+              "label": "Модифікатор"
+            },
+            "range": {
+              "label": "Дальність"
+            },
+            "damage": {
+              "value": {
+                "label": "Шкода"
+              },
+              "type": {
+                "label": "Тип шкоди"
+              }
+            }
+          },
+          "damageThresholds": {
+            "major": {
+              "label": "Поріг Значної шкоди"
+            },
+            "severe": {
+              "label": "Поріг Тяжкої шкоди"
+            }
+          },
+          "description": {
+            "label": "Опис"
+          },
+          "difficulty": {
+            "label": "Складність"
+          },
+          "experiences": {
+            "element": {
+              "name": {
+                "label": "Назва"
+              },
+              "value": {
+                "label": "Модифікатор"
+              }
+            }
+          },
+          "motivesAndTactics": {
+            "label": "Мотиви й тактика"
+          },
+          "resources": {
+            "hitPoints": {
+              "value": {
+                "label": "Поточне"
+              },
+              "max": {
+                "label": "Макс."
+              }
+            },
+            "stress": {
+              "value": {
+                "label": "Поточне"
+              },
+              "max": {
+                "label": "Макс."
+              }
+            }
+          },
+          "subTypes": {
+            "label": "Підтипи"
+          },
+          "tier": {
+            "label": "Ранг"
+          },
+          "type": {
+            "label": "Тип"
+          }
+        },
+        "confirmDeleteAttack": "Справді видалити атаку цього супротивника?",
+        "changeType": {
+          "title": "Змінити тип супротивника",
+          "content": "Ви змінюєте тип супротивника — це видалить дані, специфічні для типу. Справді продовжити?"
+        },
+        "Embed": {
+          "attack": "АТК",
+          "thresholds": "Пороги"
+        },
+        "hordeDamage": "Шкода орди (половина ОЗ)",
+        "horderHp": "Орда/ОЗ",
+        "adversaryReactionRoll": {
+          "headerTitle": "Кидок реакції супротивника"
+        },
+        "stats": "Характеристики"
+      },
+      "Base": {
+        "CannotAddType": "Не можна додати предмети типу {itemType} акторам типу {actorType}.",
+        "bonusFieldBonusLabel": "Бонус: {type}",
+        "bonusFieldDiceLabel": "Кості: {type}"
+      },
+      "Character": {
+        "advantageSources": {
+          "label": "Джерела переваги",
+          "hint": "Додайте слова чи короткий текст як нагадування, у чому персонаж має перевагу."
+        },
+        "age": "Вік",
+        "backgroundQuestions": "Передісторія",
+        "burden": {
+          "ignore": {
+            "label": "Хват: ігнорувати",
+            "hint": "Ігнорувати правила хвату"
+          }
+        },
+        "comboDieIndex": {
+          "label": "Індекс комбо-кості",
+          "hint": "На скільки розмірів комбо-кість збільшено від 1d4. Додайте +1, щоб збільшити на один розмір."
+        },
+        "companionFeatures": "Особливості компаньйона",
+        "connections": "Зв'язки",
+        "contextMenu": {
+          "consume": "Витратити предмет",
+          "equip": "Спорядити",
+          "sendToChat": "Надіслати в чат",
+          "toLoadout": "Перемістити в набір",
+          "toVault": "Перемістити в сховище",
+          "unequip": "Зняти",
+          "useItem": "Використати предмет"
+        },
+        "defaultHopeDice": "Кістка Надії за замовчуванням",
+        "defaultFearDice": "Кістка Страху за замовчуванням",
+        "defaultAdvantageDice": "Кістка переваги за замовчуванням",
+        "defaultDisadvantageDice": "Кістка завади за замовчуванням",
+        "disadvantageSources": {
+          "label": "Джерела завади",
+          "hint": "Додайте слова чи короткий текст як нагадування, у чому персонаж має заваду."
+        },
+        "faith": "Віра",
+        "levelUp": "Можна підвищити рівень",
+        "maxEvasionBonus": "Збільшення макс. Ухилення",
+        "maxHPBonus": "Збільшення макс. ОЗ",
+        "pronouns": "Займенники",
+        "roll": {
+          "guaranteedCritical": {
+            "label": "Гарантований критичний успіх",
+            "hint": "Встановіть 1, щоб завжди кидати критичний успіх"
+          }
+        },
+        "story": {
+          "backgroundTitle": "Передісторія",
+          "characteristics": "Риси",
+          "connectionsTitle": "Зв'язки"
+        },
+        "experienceDataRemoveConfirmation": {
+          "title": "Видалити дані Досвіду",
+          "text": "До Досвіду, який ви видаляєте, прив'язано дані підвищення рівня (імовірно, бо рівні підвищувалися з увімкненим налаштуванням автоматизації 'levelupAuto'). Видалення прибере й ці дані автоматизації. Продовжити?"
+        },
+        "manualMulticlass": {
+          "title": "Мультиклас",
+          "text": "Додати цей клас як мультиклас?"
+        },
+        "manualMulticlassSubclass": {
+          "title": "Підклас мультикласу",
+          "text": "Додати цей підклас як підклас мультикласу?"
+        },
+        "cannotRemoveCoreExperience": "Ви використовуєте автоматичне підвищення рівня. Не можна видалити Досвід, отриманий за правилами прогресії.",
+        "companionLevelup": {
+          "confirmTitle": "Підвищення рівня компаньйона",
+          "confirmText": "Підвищити рівень компаньйона {name} на {levelChange} зараз? (Можна зробити це вручну пізніше)"
+        },
+        "viewLevelups": "Переглянути підвищення рівня",
+        "resetCharacter": "Скинути персонажа",
+        "viewParty": "Переглянути загін",
+        "InvalidOldCharacterImportTitle": "Імпорт старого персонажа",
+        "InvalidOldCharacterImportText": "Дані персонажа, експортовані до версії системи 1.1, не створять повного персонажа. Продовжити?",
+        "cancelBeastform": "Скасувати звірину подобу",
+        "resetCharacterConfirmationTitle": "Скинути персонажа",
+        "resetCharacterConfirmationContent": "Ви скидаєте всі дані персонажа, крім імені й портрета. Ви впевнені?"
+      },
+      "Companion": {
+        "FIELDS": {
+          "attack": {
+            "name": {
+              "label": "Назва атаки"
+            }
+          },
+          "evasion": {
+            "value": {
+              "label": "Ухилення"
+            }
+          },
+          "partner": {
+            "label": "Партнер"
+          },
+          "resources": {
+            "stress": {
+              "value": {
+                "label": "Стрес"
+              },
+              "currentStress": {
+                "label": "Поточний Стрес"
+              },
+              "maxStress": {
+                "label": "Макс. Стрес"
+              }
+            }
+          }
+        },
+        "noPartner": "Партнера не вибрано"
+      },
+      "Environment": {
+        "FIELDS": {
+          "description": {
+            "label": "Опис"
+          },
+          "difficulty": {
+            "label": "Складність"
+          },
+          "impulses": {
+            "label": "Спонуки"
+          },
+          "tier": {
+            "label": "Ранг"
+          },
+          "type": {
+            "label": "Тип"
+          }
+        },
+        "newAdversary": "Новий супротивник",
+        "Embed": {
+          "potentialAdversaries": "Можливі супротивники",
+          "any": "Будь-який",
+          "special": "Особливе"
+        }
+      },
+      "NPC": {
+        "FIELDS": {
+          "motives": {
+            "label": "Мотиви"
+          }
+        }
+      },
+      "Party": {
+        "Subtitle": {
+          "character": "{community} {ancestry} | {subclass} {class}",
+          "companion": "Компаньйон: {partner}"
+        },
+        "RemoveConfirmation": {
+          "title": "Вилучити учасника {name}",
+          "text": "Справді вилучити {name} із загону?"
+        },
+        "Thresholds": {
+          "minor": "НЗН",
+          "major": "ЗНЧ",
+          "severe": "ТЯЖ"
+        },
+        "triggerRestContent": "Гравцям відкриється діалог, щоб зробити ходи дозвілля. Ви впевнені?"
+      }
+    },
+    "APPLICATIONS": {
+      "ActiveEffectPathViewer": {
+        "title": "Перегляд шляхів активних ефектів",
+        "searchLabel": "Пошук шляхів",
+        "copyPathNotification": "Шлях ActiveEffect для {name} скопійовано в буфер обміну",
+        "macroButtonLabel": "Відкрити макрос",
+        "macroCopyNotification": "Макрос для відкриття перегляду шляхів скопійовано в буфер обміну. Вставте його в макрос на панелі швидкого доступу."
+      },
+      "Attribution": {
+        "title": "Атрибуція"
+      },
+      "CharacterCreation": {
+        "tabs": {
+          "ancestry": "Походження",
+          "community": "Спільнота",
+          "class": "Клас",
+          "experience": "Досвід",
+          "traits": "Риси",
+          "domainCards": "Карти доменів",
+          "equipment": "Спорядження",
+          "story": "Історія"
+        },
+        "ancestryNamePlaceholder": "Назва вашого походження",
+        "buttonTitle": "Налаштування персонажа",
+        "choice": "Вибір",
+        "finishCreation": "Завершити налаштування персонажа",
+        "heritage": "Спадщина",
+        "initialExperiences": "Початкові Досвіди",
+        "mixedAncestry": "Змішане походження",
+        "newExperience": "Новий Досвід..",
+        "selectAncestry": "Обрати походження",
+        "selectPrimaryAncestry": "Обрати основне походження",
+        "selectSecondaryAncestry": "Обрати друге походження",
+        "selectArmor": "Обрати броню",
+        "selectClass": "Обрати клас",
+        "selectCommunity": "Обрати спільноту",
+        "selectPrimaryWeapon": "Обрати основну зброю",
+        "selectSecondaryWeapon": "Обрати допоміжну зброю",
+        "selectSubclass": "Обрати підклас",
+        "setupSkipTitle": "Пропуск налаштування персонажа",
+        "setupSkipContent": "Додаючи це вручну, ви пропускаєте налаштування персонажа. Налаштування персонажа — це блимаюча кнопка вгорі праворуч. Продовжити?",
+        "startingItems": "Початкові предмети",
+        "story": "Історія",
+        "storyExplanation": "Оберіть, які питання передісторії та зв'язків скопіювати в передісторію персонажа.",
+        "suggestedArmor": "Рекомендована броня",
+        "suggestedPrimaryWeapon": "Рекомендована основна зброя",
+        "suggestedSecondaryWeapon": "Рекомендована допоміжна зброя",
+        "suggestedTraits": "Рекомендовані риси",
+        "suggestedWeapons": "Рекомендована зброя",
+        "title": "{actor} — налаштування персонажа",
+        "traitIncreases": "Підвищення рис"
+      },
+      "CharacterReset": {
+        "title": "Скинути персонажа",
+        "alwaysDeleteSection": "Видалені дані",
+        "optionalDeleteSection": "Необов'язкові дані",
+        "headerTitle": "Оберіть, які дані зберегти"
+      },
+      "CombatTracker": {
+        "combatStarted": "Активне",
+        "giveSpotlight": "Передати центр уваги",
+        "requestingSpotlight": "Запит центру уваги",
+        "requestSpotlight": "Попросити центр уваги",
+        "openCountdowns": "Відліки",
+        "adversaryCategories": {
+          "friendly": "Дружні",
+          "adversaries": "Супротивники"
+        }
+      },
+      "CompendiumBrowserSettings": {
+        "title": "Увімкнути компендіуми",
+        "sources": "Джерела",
+        "campaignFrames": "Рамки кампаній",
+        "excludedAttributeSources": "Виключені джерела атрибутів",
+        "enableSource": "Увімкнути джерело",
+        "disableSource": "Вимкнути джерело",
+        "worldCompendiums": "Компендіуми світу"
+      },
+      "ContextMenu": {
+        "disableEffect": "Вимкнути ефект",
+        "enableEffect": "Увімкнути ефект",
+        "equip": "Спорядити",
+        "sendToChat": "Надіслати в чат",
+        "toLoadout": "Перемістити в набір",
+        "recall": "Відкликати",
+        "toVault": "Перемістити в сховище",
+        "unequip": "Зняти",
+        "useItem": "Використати предмет",
+        "toggleVersatile": "Перемкнути універсальність"
+      },
+      "Countdown": {
+        "addCountdown": "Додати відлік",
+        "loopingTypes": {
+          "noLooping": "Без циклу",
+          "looping": "Циклічний",
+          "increasing": "Зростаючий",
+          "decreasing": "Спадний"
+        },
+        "FIELDS": {
+          "countdowns": {
+            "element": {
+              "name": {
+                "label": "Назва"
+              },
+              "hidden": {
+                "label": "Прихований"
+              },
+              "progress": {
+                "current": {
+                  "label": "Поточне"
+                },
+                "looping": {
+                  "label": "Циклічний"
+                },
+                "start": {
+                  "label": "Початок"
+                },
+                "startFormula": {
+                  "label": "Формула початку"
+                },
+                "type": {
+                  "label": {
+                    "label": "Підпис",
+                    "hint": "Для власного"
+                  },
+                  "value": {
+                    "label": "Значення"
+                  }
+                }
+              },
+              "type": {
+                "label": "Тип прогресії"
+              }
+            }
+          }
+        },
+        "newCountdown": "Новий відлік",
+        "openOwnership": "Змінити права гравців",
+        "removeCountdownText": "Справді вилучити відлік: {name}?",
+        "removeCountdownTitle": "Вилучити відлік",
+        "title": "Відліки: {type}",
+        "toggleSimple": "Спрощений вигляд",
+        "types": {
+          "narrative": "Оповідні",
+          "encounter": "Сутичка"
+        },
+        "hiddenNullLabel": "Встановити стандартне значення інтерфейсу відліків"
+      },
+      "CountdownEdit": {
+        "title": "Редагування відліку",
+        "viewTitle": "Відліки",
+        "editTitle": "Редагувати відліки",
+        "newCountdown": "Новий відлік",
+        "removeCountdownTitle": "Вилучити відлік",
+        "removeCountdownText": "Справді вилучити відлік: {name}?",
+        "current": "Поточне значення",
+        "start": "Початкове значення",
+        "startFormula": "Формула випадкового початкового значення",
+        "currentCountdownCurrent": "Поточне: {value}",
+        "currentCountdownStart": "Початок: {value}",
+        "progressionType": "Прогресія",
+        "decreasing": "Спадний",
+        "looping": "Циклічний",
+        "hideNewCountdowns": "Приховувати нові відліки"
+      },
+      "CreateItemDialog": {
+        "createItem": "Створити предмет",
+        "browseCompendium": "Переглянути компендіум"
+      },
+      "DaggerheartMenu": {
+        "title": "Інструменти ГМ",
+        "refreshFeatures": "Оновити особливості",
+        "fallingAndCollision": "Шкода від падіння й зіткнення",
+        "gmRestMenu": "Страх за дозвілля",
+        "partSizePrompt": {
+          "inputLabel": "Розмір загону",
+          "title": "Визначити розмір загону",
+          "text": "У світі немає активного актора-загону, або він порожній. Введіть кількість персонажів гравців вручну."
+        },
+        "chatMessageTitle": "Наслідки для ГМ",
+        "chatMessageText": "ГМ отримує Страх",
+        "activeEffectPathViewer": "Перегляд шляхів активних ефектів"
+      },
+      "DeleteConfirmation": {
+        "title": "Видалити {type} — {name}",
+        "text": "Справді видалити {name}?"
+      },
+      "DamageReduction": {
+        "maxUseableArmor": "Доступні комірки Броні",
+        "rulesEnabled": "Правила увімкнено",
+        "rulesDisabled": "Правила вимкнено",
+        "armorWithStress": "Витратьте 1 Стрес, щоб використати додаткову позначку",
+        "thresholdImmunities": "Несприйнятливість до порогів",
+        "stress": "Стрес",
+        "stressReduction": "Зменшити за рахунок Стресу",
+        "title": "Зменшення шкоди",
+        "unncessaryStress": "Вам не треба витрачати Стрес",
+        "usedMarks": "Використані позначки",
+        "reduceSeverity": "Тяжкість зменшено на {nr}",
+        "incomingDamageTitle": "Вхідна шкода",
+        "additionalRules": "Додаткові правила",
+        "damageReductionsTitle": "Зменшення шкоди",
+        "rollvaluePlaceholder": "Не кинуто",
+        "unfinishedReductionsTitle": "",
+        "unfinishedReductionsDialog": {
+          "title": "Незавершені зменшення",
+          "content": "Не всі зменшення шкоди кинуто. Справді продовжити?"
+        }
+      },
+      "DeathMove": {
+        "selectMove": "Обрати хід",
+        "takeMove": "Зробити смертельний хід",
+        "title": "{actor} — смертельний хід"
+      },
+      "Downtime": {
+        "longRest": {
+          "title": "Довгий відпочинок",
+          "moves": "Ходи довгого відпочинку ({current}/{max})",
+          "clearStress": {
+            "description": "Опишіть, як ви випускаєте пару чи берете себе в руки, і очистьте весь позначений Стрес.",
+            "name": "Очистити Стрес"
+          },
+          "prepare": {
+            "description": "Опишіть, як ви готуєтеся до пригод наступного дня, а потім отримайте Надію.",
+            "name": "Підготуватися"
+          },
+          "prepareWithFriends": {
+            "description": "Ви готуєтеся з одним чи кількома членами загону, і кожен із вас отримує 2 Надії.",
+            "name": "Підготуватися (разом)"
+          },
+          "repairArmor": {
+            "description": "Опишіть, як ви лагодите броню, і очистьте всі її комірки Броні. Можна натомість полагодити броню союзника.",
+            "name": "Полагодити броню"
+          },
+          "tendToWounds": {
+            "description": "Опишіть, як ви латаєте свої рани, і очистьте всі позначені Очки здоров'я. Можна натомість зробити це для союзника.",
+            "name": "Обробити рани"
+          },
+          "workOnAProject": {
+            "description": "Розпочніть чи продовжте роботу над проєктом.",
+            "name": "Працювати над проєктом"
+          }
+        },
+        "shortRest": {
+          "title": "Короткий відпочинок",
+          "moves": "Ходи короткого відпочинку ({current}/{max})",
+          "tendToWounds": {
+            "name": "Обробити рани",
+            "description": "Опишіть, як ви поспіхом латаєте себе, а потім очистьте кількість Очок здоров'я, що дорівнює 1d4 + ваш ранг. Можна натомість зробити це для союзника."
+          },
+          "clearStress": {
+            "name": "Очистити Стрес",
+            "description": "Опишіть, як ви випускаєте пару чи берете себе в руки, а потім очистьте кількість Стресу, що дорівнює 1d4 + ваш ранг."
+          },
+          "repairArmor": {
+            "name": "Полагодити броню",
+            "description": "Опишіть, як ви швидко лагодите броню, а потім очистьте кількість комірок Броні, що дорівнює 1d4 + ваш ранг. Можна натомість зробити це для броні союзника."
+          },
+          "prepare": {
+            "name": "Підготуватися",
+            "description": "Опишіть, як ви готуєтеся до шляху попереду, а потім отримайте Надію."
+          },
+          "prepareWithFriends": {
+            "name": "Підготуватися (разом)",
+            "description": "Ви готуєтеся з одним чи кількома членами загону, і кожен із вас отримує 2 Надії."
+          }
+        },
+        "extendedDowntime": {
+          "title": "Тривале дозвілля"
+        },
+        "refreshable": {
+          "title": "Оновлення ресурсів"
+        },
+        "takeDowntime": "Дозвілля"
+      },
+      "FolderConfig": {
+        "defaultEntity": "{entity} за замовчуванням"
+      },
+      "HUD": {
+        "tokenHUD": {
+          "genericEffects": "Ефекти Foundry",
+          "depositPartyTokens": "Сховати токени загону",
+          "retrievePartyTokens": "Повернути токени загону",
+          "depositCompanionTokens": "Сховати токен компаньйона",
+          "retrieveCompanionTokens": "Повернути токен компаньйона"
+        }
+      },
+      "ImageSelect": {
+        "title": "Обрати зображення",
+        "selectImage": "Обрати зображення"
+      },
+      "ItemTransfer": {
+        "transfer": "Передати"
+      },
+      "Levelup": {
+        "actions": {
+          "creatureComfort": {
+            "name": "Затишок",
+            "description": "Раз на відпочинок, коли ви в тиху мить приділяєте компаньйонові любов і увагу, можна отримати Надію, або ви обоє очищаєте Стрес."
+          },
+          "armored": {
+            "name": "Броньований",
+            "description": "Коли компаньйон отримує шкоду, можна позначити одну зі своїх комірок Броні замість його Стресу."
+          },
+          "bonded": {
+            "name": "Зв'язані",
+            "description": "Коли ви позначаєте останнє Очко здоров'я, компаньйон кидається до вас, щоб розрадити. Киньте стільки d6, скільки в нього непозначених комірок Стресу, і позначте їх. Якщо на будь-якій випаде 6, компаньйон допомагає вам підвестися. Очистьте останнє Очко здоров'я й поверніться в сцену."
+          }
+        },
+        "choiceDescriptions": {
+          "attributes": "Отримайте бонус +1 до двох непозначених рис персонажа й позначте їх.",
+          "hitPointSlots": "Назавжди отримайте одну комірку Очок здоров'я.",
+          "stressSlots": "Назавжди отримайте одну комірку Стресу.",
+          "experiences": "Назавжди отримайте бонус +1 до двох Досвідів.",
+          "domainCard": "Оберіть додаткову карту домену свого рівня чи нижче з доступного вам домену (до рівня {maxLevel})",
+          "evasion": "Назавжди отримайте бонус +1 до Ухилення.",
+          "proficiency": "Збільште Майстерність на +1.",
+          "subclass": "Візьміть покращену карту підкласу. Потім закресліть варіант мультикласу для цього рангу.",
+          "multiclass": "Мультиклас: оберіть персонажеві додатковий клас, потім закресліть невикористаний варіант «Візьміть покращену карту підкласу» та інший варіант мультикласу на цьому аркуші."
+        },
+        "delevel": {
+          "content": "Повернення до вибору попереднього рівня скасує всі вибори для цього рівня. Продовжити?",
+          "title": "Повернутися до попереднього рівня"
+        },
+        "navigateLevel": "До рівня {level}",
+        "navigateToLevelup": "Повернутися до підвищення рівня",
+        "finishLevelup": "Завершити підвищення рівня",
+        "navigateToSummary": "До підсумку",
+        "options": {
+          "trait": "Отримайте бонус +1 до двох непозначених рис персонажа й позначте їх.",
+          "hitPoint": "Назавжди отримайте одну комірку Очок здоров'я.",
+          "stress": "Назавжди отримайте одну комірку Стресу.",
+          "experience": "Назавжди отримайте бонус +1 до двох Досвідів.",
+          "domainCard": "Оберіть додаткову карту домену свого рівня чи нижче з доступного вам домену (до рівня {maxLevel})",
+          "evasion": "Назавжди отримайте бонус +1 до Ухилення.",
+          "subclass": "Візьміть покращену карту підкласу. Потім закресліть варіант мультикласу для цього рангу.",
+          "proficiency": "Збільште Майстерність на +1.",
+          "multiclass": "Мультиклас: оберіть персонажеві додатковий клас, потім закресліть невикористаний варіант «Візьміть покращену карту підкласу» та інший варіант мультикласу на цьому аркуші.",
+          "intelligent": "Компаньйон назавжди отримує бонус +1 до обраного вами Досвіду компаньйона.",
+          "lightInTheDark": "Отримайте додаткову комірку Надії для персонажа.",
+          "creatureComfort": "Раз на відпочинок, коли ви в тиху мить приділяєте компаньйонові любов і увагу, можна отримати Надію, або ви обоє очищаєте Стрес.",
+          "armored": "Коли компаньйон отримує шкоду, можна позначити одну зі своїх комірок Броні замість його Стресу.",
+          "vicious": "Збільште кості шкоди чи дальність компаньйона на один крок (d6 до d8, Близько до Далеко тощо)",
+          "resilient": "Компаньйон отримує додаткову комірку Стресу.",
+          "bonded": "Коли ви позначаєте останнє Очко здоров'я, компаньйон кидається до вас, щоб розрадити. Киньте стільки d6, скільки в нього непозначених комірок Стресу, і позначте їх. Якщо на будь-якій випаде 6, компаньйон допомагає вам підвестися. Очистьте останнє Очко здоров'я й поверніться в сцену.",
+          "aware": "Компаньйон назавжди отримує бонус +2 до Ухилення."
+        },
+        "selections": {
+          "emptyDomainCardHint": "{domain}, рівень {level} чи нижче",
+          "viciousDamage": "Шкода",
+          "viciousRange": "Дальність"
+        },
+        "summary": {
+          "levelAchievements": "Досягнення рівня",
+          "levelAdvancements": "Покращення рівня",
+          "proficiencyIncrease": "Майстерність збільшено: {proficiency}",
+          "hpIncrease": "Очки здоров'я збільшено: {hitPoints}",
+          "stressIncrease": "Стрес збільшено: {stress}",
+          "evasionIncrease": "Ухилення збільшено: {evasion}",
+          "damageThresholdMajorIncrease": "Значна: {threshold}",
+          "damageThresholdSevereIncrease": "Тяжка: {threshold}",
+          "newExperiences": "Нові Досвіди",
+          "experiencePlaceholder": "Новий Досвід..",
+          "domainCards": "Карти доменів",
+          "subclass": "Підклас",
+          "multiclass": "Мультиклас",
+          "traits": "Підвищені риси",
+          "experienceIncreases": "Підвищення Досвідів",
+          "damageThresholds": "Пороги шкоди",
+          "vicious": "Лютий",
+          "damageIncreased": "Шкоду збільшено: {damage}",
+          "rangeIncreased": "Дальність збільшено: {range}",
+          "simpleFeature": "Особливість: {feature}"
+        },
+        "takeLevelUp": "Завершити підвищення рівня",
+        "tier2": {
+          "name": "Ранг 2",
+          "label": "Рівні 2–4",
+          "infoLabel": "На 2-му рівні отримайте додатковий Досвід +2 і бонус +1 до Майстерності.",
+          "pretext": "Оберіть два варіанти зі списку нижче",
+          "posttext": "Візьміть додаткову карту домену свого рівня чи нижче з доступного вам домену."
+        },
+        "tier3": {
+          "name": "Ранг 3",
+          "label": "Рівні 5–7",
+          "infoLabel": "На 5-му рівні візьміть додатковий Досвід і очистьте всі позначки на рисах персонажа.",
+          "pretext": "Підвищуючи рівень, запишіть це на аркуші персонажа, а потім оберіть два варіанти зі списку нижче чи будь-які непозначені з попереднього рангу.",
+          "posttext": "Візьміть додаткову карту домену свого рівня чи нижче з доступного вам домену."
+        },
+        "tier4": {
+          "name": "Ранг 4",
+          "label": "Рівні 8–10",
+          "infoLabel": "На 8-му рівні візьміть додатковий Досвід і очистьте всі позначки на рисах персонажа.",
+          "pretext": "Підвищуючи рівень, запишіть це на аркуші персонажа, а потім оберіть два варіанти зі списку нижче чи будь-які непозначені з попереднього рангу.",
+          "posttext": "Візьміть додаткову карту домену свого рівня чи нижче з доступного вам домену."
+        },
+        "title": "{actor}: підвищення рівня",
+        "viewModeTitle": "{actor}: підвищення рівня (перегляд)"
+      },
+      "LevelupOptionsDialog": {
+        "title": "Варіанти підвищення рівня: {name}"
+      },
+      "MulticlassChoice": {
+        "title": "Мультиклас — {actor}",
+        "explanation": "Ви додаєте {class} як мультиклас",
+        "selectDomainPrompt": "Оберіть новий домен"
+      },
+      "CountdownPermissions": {
+        "HiddenOptions": {
+          "true": "Прихований",
+          "false": "Розкрито"
+        },
+        "title": "Права на відлік — {name}",
+        "noPlayers": "Немає гравців, яким можна надати права",
+        "defaultPermission": "Базова видимість",
+        "inheritLabeled": "Базова ({base})"
+      },
+      "PendingReactionsDialog": {
+        "title": "Знайдено незавершені кидки реакції",
+        "unfinishedRolls": "Деякі токени не завершили кидки реакції.",
+        "warning": "Незавершені кидки реакції вважатимуться проваленими.",
+        "confirmation": "Справді продовжити?"
+      },
+      "ReactionRoll": {
+        "title": "Кидок реакції: {trait}"
+      },
+      "ResourceDice": {
+        "title": "Ресурс: {name}",
+        "rerollDice": "Перекинути кості"
+      },
+      "RiskItAllDialog": {
+        "title": "{name} — Поставити все на карту",
+        "subtitle": "Очистити Стрес і Очки здоров'я",
+        "remainingTitle": "Залишок очок",
+        "clearResource": "Очистити: {resource}",
+        "finalTitle": "Підсумкові ресурси персонажа"
+      },
+      "TagTeamSelect": {
+        "title": "Командний кидок",
+        "FIELDS": {
+          "initiator": {
+            "memberId": {
+              "label": "Ініціатор"
+            },
+            "cost": {
+              "label": "Вартість у Надії"
+            }
+          }
+        },
+        "leaderTitle": "Ініціатор",
+        "membersTitle": "Учасники",
+        "partyTeam": "Команда загону",
+        "hopeCost": "Вартість у Надії",
+        "initiatingCharacter": "Ініціатор",
+        "selectParticipants": "Оберіть двох учасників",
+        "startTagTeamRoll": "Почати командний кидок",
+        "openDialogForAll": "Відкрити діалог для всіх",
+        "rollType": "Тип кидка",
+        "makeYourRoll": "Зробіть кидок",
+        "cancelTagTeamRoll": "Скасувати командний кидок",
+        "finishTagTeamRoll": "Завершити командний кидок",
+        "linkMessageHint": "Зробіть кидок з аркуша персонажа, щоб пов'язати його з командним кидком",
+        "damageNotRolled": "Шкоду ще не кинуто в повідомленні чату",
+        "insufficientHope": "У персонажа-ініціатора бракує Надії",
+        "createTagTeam": "Створити командний кидок",
+        "chatMessageRollTitle": "Кинути",
+        "cancelConfirmTitle": "Скасувати командний кидок",
+        "cancelConfirmText": "Справді скасувати командний кидок? Він закриється й для всіх інших гравців.",
+        "hints": {
+          "completeRolls": "Налаштуйте й завершіть кидки персонажів",
+          "selectRoll": "Оберіть, яке значення кидка використати для командного кидка"
+        }
+      },
+      "GroupRollSelect": {
+        "cancelConfirmText": "Справді скасувати груповий кидок? Він закриється й для всіх інших гравців.",
+        "cancelConfirmTitle": "Скасувати груповий кидок",
+        "initializationTitle": "Вибір персонажів",
+        "finishGroupRoll": "Завершити груповий кидок",
+        "leader": "Ватажок",
+        "leaderRoll": "Кидок ватажка",
+        "members": "Учасники",
+        "openDialogForAll": "Відкрити діалог для всіх",
+        "removeRoll": "Вилучити кидок",
+        "resultsHint": "Результати з'являться, коли персонажі кинуть",
+        "selectLeaderHint": "Оберіть одного персонажа ватажком",
+        "selectParticipantsHint": "Оберіть усіх персонажів, що беруть участь у кидку",
+        "startGroupRoll": "Почати груповий кидок",
+        "title": "Груповий кидок"
+      },
+      "TokenConfig": {
+        "actorSizeUsed": "Розмір актора задано, він визначає габарити",
+        "tokenSize": "Розмір токена",
+        "sizeCategory": "Категорія розміру"
+      },
+      "MultiActionSelect": {
+        "instructionText": "Оберіть, яку дію використати"
+      },
+      "SettingsSidebar": {
+        "systemLabel": "Ігрова система",
+        "versionLabel": "Версія {version}",
+        "wikiLink": "Вікі",
+        "discordLink": "Discord"
+      }
+    },
+    "CLASS": {
+      "Feature": {
+        "rallyDice": "Кості згуртування барда",
+        "short": "Згуртування"
+      }
+    },
+    "CONFIG": {
+      "ActiveEffectDuration": {
+        "temporary": "Тимчасово",
+        "act": "Наступний центр уваги",
+        "scene": "Наступна сцена",
+        "shortRest": "Наступний відпочинок",
+        "longRest": "Наступний довгий відпочинок",
+        "session": "Наступна сесія",
+        "custom": "Власне"
+      },
+      "ActiveEffectExtraPaths": {
+        "allCategory": "Усі актори",
+        "cast": {
+          "label": "Модифікатор чаротворення"
+        },
+        "fear": {
+          "label": "Кількість Страху"
+        },
+        "partySize": {
+          "label": "Розмір загону"
+        }
+      },
+      "ActionAutomationChoices": {
+        "never": "Ніколи",
+        "showDialog": "Лише показати діалог",
+        "always": "Завжди"
+      },
+      "AdversaryTrait": {
+        "relentless": {
+          "name": "Невблаганний",
+          "description": "Ворог із властивістю «Невблаганний» може активуватися до X разів за хід ГМ, якщо вистачає жетонів дій.",
+          "tip": "Властивість «Невблаганний» корисна, якщо потрібен супротивник, якого можна активувати кілька разів за один хід ГМ. Найкраще вона пасує надзвичайно швидким чи небезпечним ворогам або супротивникам, що, найімовірніше, битимуться із загоном самі."
+        },
+        "slow": {
+          "name": "Повільний",
+          "description": "Активація ворога з властивістю «Повільний» коштує X жетонів дій.",
+          "tip": "Властивість «Повільний» корисна, якщо потрібен супротивник, якому за оповіддю треба більше часу на дію, ніж іншим, як-от гігантському слимакові чи величезному огрові. Зазвичай найефективніше, коли створіння дуже могутнє, коли таки діє, але витрачає на це багато жетонів дій."
+        },
+        "minion": {
+          "name": "Посіпака",
+          "description": "За кожні X шкоди, які ПГ завдає цьому супротивникові, він також завдає 1 ОЗ ще одному посіпаці в межах дальності атаки.",
+          "tip": "Властивість «Посіпака» корисна, коли хочеться кинути на поле бою багато дрібних ворогів, знаючи, що загін легко їх розкидає. Якщо ПГ влучає в одного посіпаку й завдає досить шкоди, він також влучає в кількох інших у межах дальності. Тому часто найкраще, щоб посіпаки оточували ПГ — це здаватиметься приголомшливим і небезпечним, доки він не зможе їх атакувати. Якщо вам потрібне кінематографічне відчуття, як ПГ косять хвилі ворогів одним кидком атаки, посіпаки — чудовий інструмент."
+        }
+      },
+      "AdversaryType": {
+        "bruiser": {
+          "label": "Громила",
+          "description": "Витривалі супротивники з потужними атаками."
+        },
+        "horde": {
+          "label": "Орда",
+          "description": "Орда — це кілька ворогів, що діють групою."
+        },
+        "leader": {
+          "label": "Ватажок",
+          "description": "Супротивники, що командують і закликають інших супротивників."
+        },
+        "minion": {
+          "label": "Посіпака",
+          "description": "Базові вороги, яких легко здолати, але небезпечні гуртом."
+        },
+        "ranged": {
+          "label": "Стрілець",
+          "description": "Супротивники, що атакують здалеку."
+        },
+        "skulk": {
+          "label": "Скрадник",
+          "description": "Супротивники, що маневрують і використовують нагоди, щоб улаштовувати засідки."
+        },
+        "social": {
+          "label": "Соціальний",
+          "description": "Супротивники, що становлять передусім міжособистісну загрозу чи виклик."
+        },
+        "solo": {
+          "label": "Одинак",
+          "description": "Створений, щоб кинути виклик цілому загону."
+        },
+        "standard": {
+          "label": "Стандартний",
+          "description": "Рядові супротивники."
+        },
+        "support": {
+          "label": "Підтримка",
+          "description": "Вороги, що посилюють союзників і/або заважають супротивникам."
+        }
+      },
+      "AdversaryTypeCost": {
+        "minion": "за кожну групу Посіпак, що дорівнює розміру загону.",
+        "support": "за кожного Соціального супротивника чи Підтримку.",
+        "standard": "за кожну Орду, Стрільця, Скрадника чи Стандартного супротивника.",
+        "leader": "за кожного Ватажка.",
+        "bruiser": "за кожного Громилу.",
+        "solo": "за кожного Одинака."
+      },
+      "AreaTypes": {
+        "attached": {
+          "label": "Прикріплено до токена"
+        },
+        "placed": {
+          "label": "Розміщено на сцені"
+        }
+      },
+      "ArmorInteraction": {
+        "none": {
+          "label": "Ігнорує броню"
+        },
+        "active": {
+          "label": "Активне з бронею"
+        },
+        "inactive": {
+          "label": "Неактивне з бронею"
+        }
+      },
+      "ArmorFeature": {
+        "absorbing": {
+          "name": "Поглинальна",
+          "description": "Раз на сцену, коли ви отримуєте магічну шкоду, можна очистити комірку Броні.",
+          "actions": {
+            "heal": {
+              "name": "Очистити Броню",
+              "description": "Раз на сцену, коли ви отримуєте магічну шкоду, можна очистити комірку Броні."
+            }
+          }
+        },
+        "accursed": {
+          "name": "Проклята",
+          "description": "Коли ви позначаєте будь-яку кількість Очок здоров'я від атаки, киньте d4. На 4 нападник мусить позначити стільки ж Стресу.",
+          "actions": {
+            "accursed": {
+              "name": "Проклята",
+              "description": "Коли ви позначаєте будь-яку кількість Очок здоров'я від атаки, киньте d4. На 4 нападник мусить позначити стільки ж Стресу."
+            }
+          }
+        },
+        "aquatic": {
+          "name": "Водна",
+          "description": "Ви можете дихати під водою й маєте перевагу на кидки Спритності під водою.",
+          "effects": {
+            "aquatic": {
+              "name": "Водна",
+              "description": "Ви можете дихати під водою й маєте перевагу на кидки Спритності під водою."
+            }
+          }
+        },
+        "attuned": {
+          "name": "Налаштована",
+          "description": "Максимальна кількість карт доменів у наборі зменшується на одну, але ви отримуєте бонус до порогів шкоди, що дорівнює вашому рангу.",
+          "effects": {
+            "attuned": {
+              "name": "Налаштована",
+              "description": "Максимальна кількість карт доменів у наборі зменшується на одну, але ви отримуєте бонус до порогів шкоди, що дорівнює вашому рангу."
+            }
+          }
+        },
+        "blessed": {
+          "name": "Благословенна",
+          "description": "Раз на довгий відпочинок можна витратити будь-яку кількість Надії, перш ніж робити смертельний хід «Поставити все на карту». Ви отримуєте бонус до результату Кістки Надії, що дорівнює кількості витраченої Надії.",
+          "actions": {
+            "blessed": {
+              "name": "Благословенна",
+              "description": "Раз на довгий відпочинок можна витратити будь-яку кількість Надії, перш ніж робити смертельний хід «Поставити все на карту». Ви отримуєте бонус до результату Кістки Надії, що дорівнює кількості витраченої Надії."
+            }
+          }
+        },
+        "bloodthirsty": {
+          "name": "Кровожерлива",
+          "description": "Коли ви отримуєте критичний успіх в атаці зброєю в межах Впритул, очистьте Очко здоров'я.",
+          "actions": {
+            "heal": {
+              "name": "Очистити Очко здоров'я",
+              "description": "Коли ви отримуєте критичний успіх в атаці зброєю в межах Впритул, очистьте Очко здоров'я."
+            }
+          }
+        },
+        "bulky": {
+          "name": "Громіздка",
+          "description": "−1 до Ухилення; коли ви отримуєте Тяжку шкоду, мусите позначити Стрес.",
+          "effects": {
+            "bulky": {
+              "name": "Громіздка",
+              "description": "−1 до Ухилення; коли ви отримуєте Тяжку шкоду, мусите позначити Стрес."
+            }
+          }
+        },
+        "burning": {
+          "name": "Палюча",
+          "description": "Коли супротивник атакує вас у межах Впритул, він позначає Стрес.",
+          "actions": {
+            "burn": {
+              "name": "Опік",
+              "description": "Коли супротивник атакує вас у межах Впритул, він позначає Стрес."
+            }
+          }
+        },
+        "channeling": {
+          "name": "Спрямування",
+          "description": "+1 до кидків чаротворення",
+          "effects": {
+            "channeling": {
+              "name": "Спрямування",
+              "description": "+1 до кидків чаротворення"
+            }
+          }
+        },
+        "cumbersome": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності",
+          "effects": {
+            "cumbersome": {
+              "name": "Незграбна",
+              "description": "−1 до Вправності"
+            }
+          }
+        },
+        "difficult": {
+          "name": "Обтяжлива",
+          "description": "−1 до всіх рис персонажа й Ухилення",
+          "effects": {
+            "difficult": {
+              "name": "Обтяжлива",
+              "description": "−1 до всіх рис персонажа й Ухилення"
+            }
+          }
+        },
+        "divine": {
+          "name": "Божественна",
+          "description": "Коли ви позначаєте комірку Броні, отримайте Надію.",
+          "actions": {
+            "heal": {
+              "name": "Отримати Надію",
+              "description": "Коли ви позначаєте комірку Броні, отримайте Надію."
+            }
+          }
+        },
+        "enchanted": {
+          "name": "Зачарована",
+          "description": "Отримайте бонус до порогів шкоди, що дорівнює вашій рисі чаротворення.",
+          "effects": {
+            "enchanted": {
+              "name": "Зачарована",
+              "description": "Отримайте бонус до порогів шкоди, що дорівнює вашій рисі чаротворення."
+            }
+          }
+        },
+        "flexible": {
+          "name": "Гнучка",
+          "description": "+1 до Ухилення",
+          "effects": {
+            "flexible": {
+              "name": "Гнучка",
+              "description": "+1 до Ухилення"
+            }
+          }
+        },
+        "fortified": {
+          "name": "Укріплена",
+          "description": "Коли ви позначаєте комірку Броні, ви зменшуєте тяжкість атаки на два пороги замість одного.",
+          "effects": {
+            "fortified": {
+              "name": "Укріплена",
+              "description": "Коли ви позначаєте комірку Броні, ви зменшуєте тяжкість атаки на два пороги замість одного."
+            }
+          }
+        },
+        "fortuneFavored": {
+          "name": "Улюблениця фортуни",
+          "description": "Раз на сцену можна перетворити невдачу з Надією на успіх зі Страхом.",
+          "actions": {
+            "fortuneFavored": {
+              "name": "Улюблениця фортуни",
+              "description": "Раз на сцену можна перетворити невдачу з Надією на успіх зі Страхом."
+            }
+          }
+        },
+        "ghostwalker": {
+          "name": "Примарна хода",
+          "description": "Раз на відпочинок позначте Стрес, щоб переміститися на відстань до Близько крізь тверді предмети.",
+          "actions": {
+            "ghostwalker": {
+              "name": "Примарна хода",
+              "description": "Раз на відпочинок позначте Стрес, щоб переміститися на відстань до Близько крізь тверді предмети."
+            }
+          }
+        },
+        "gilded": {
+          "name": "Позолочена",
+          "description": "+1 до Присутності",
+          "effects": {
+            "gilded": {
+              "name": "Позолочена",
+              "description": "+1 до Присутності"
+            }
+          }
+        },
+        "gliding": {
+          "name": "Планерна",
+          "description": "Ви можете планувати на відстань до Далеко й несприйнятливі до шкоди від падіння.",
+          "actions": {
+            "gliding": {
+              "name": "Планерна",
+              "description": "Ви можете планувати на відстань до Далеко й несприйнятливі до шкоди від падіння."
+            }
+          }
+        },
+        "heavy": {
+          "name": "Важка",
+          "description": "−1 до Ухилення",
+          "effects": {
+            "heavy": {
+              "name": "Важка",
+              "description": "−1 до Ухилення"
+            }
+          }
+        },
+        "hopeful": {
+          "name": "Сповнена надії",
+          "description": "Коли ви мали б витратити Надію, можна натомість позначити комірку Броні.",
+          "actions": {
+            "hope": {
+              "name": "Надія",
+              "description": "Коли ви мали б витратити Надію, можна натомість позначити комірку Броні."
+            }
+          }
+        },
+        "impenetrable": {
+          "name": "Непробивна",
+          "description": "Раз на короткий відпочинок, коли ви мали б позначити останнє Очко здоров'я, можна натомість позначити Стрес.",
+          "actions": {
+            "impenetrable": {
+              "name": "Непробивна",
+              "description": "Раз на короткий відпочинок, коли ви мали б позначити останнє Очко здоров'я, можна натомість позначити Стрес."
+            }
+          }
+        },
+        "lined": {
+          "name": "Підбита",
+          "description": "Позначте Стрес, щоб звести нанівець Незначну шкоду.",
+          "effects": {
+            "lined": {
+              "name": "Підбита",
+              "description": "Позначте Стрес, щоб звести нанівець Незначну шкоду."
+            }
+          }
+        },
+        "magical": {
+          "name": "Магічна",
+          "description": "Не можна позначати комірку Броні, щоб зменшити фізичну шкоду.",
+          "effects": {
+            "magical": {
+              "name": "Магічна",
+              "description": "Не можна позначати комірку Броні, щоб зменшити фізичну шкоду."
+            }
+          }
+        },
+        "magnificent": {
+          "name": "Розкішна",
+          "description": "Отримайте бонус до показника Броні, що дорівнює вашій Присутності.",
+          "effects": {
+            "magnificent": {
+              "name": "Розкішна",
+              "description": "Отримайте бонус до показника Броні, що дорівнює вашій Присутності."
+            }
+          }
+        },
+        "mnemonic": {
+          "name": "Мнемонічна",
+          "description": "Раз на сцену можна відкликати карту домену зі сховища, не сплачуючи вартості відкликання.",
+          "actions": {
+            "mnemonic": {
+              "name": "Мнемонічна",
+              "description": "Раз на сцену можна відкликати карту домену зі сховища, не сплачуючи вартості відкликання."
+            }
+          }
+        },
+        "painful": {
+          "name": "Болісна",
+          "description": "Щоразу, як ви позначаєте комірку Броні, мусите позначити Стрес.",
+          "actions": {
+            "pain": {
+              "name": "Біль",
+              "description": "Щоразу, як ви позначаєте комірку Броні, мусите позначити Стрес."
+            }
+          }
+        },
+        "physical": {
+          "name": "Фізична",
+          "description": "Не можна позначати комірку Броні, щоб зменшити магічну шкоду.",
+          "effects": {
+            "physical": {
+              "name": "Фізична",
+              "description": "Не можна позначати комірку Броні, щоб зменшити магічну шкоду."
+            }
+          }
+        },
+        "quiet": {
+          "name": "Тиха",
+          "description": "Ви отримуєте бонус +2 до кидків, щоб рухатися безшумно.",
+          "actions": {
+            "quiet": {
+              "name": "Тиха",
+              "description": "Ви отримуєте бонус +2 до кидків, щоб рухатися безшумно."
+            }
+          }
+        },
+        "quickStriding": {
+          "name": "Прудконога",
+          "description": "Вас не можна Скувати, і ви можете переміститися на відстань до Далеко як частину кидка дії.",
+          "actions": {
+            "quickStriding": {
+              "name": "Прудконога",
+              "description": "Вас не можна Скувати, і ви можете переміститися на відстань до Далеко як частину кидка дії."
+            }
+          }
+        },
+        "reinforced": {
+          "name": "Підсилена",
+          "description": "Коли ви позначаєте останню комірку Броні, збільште пороги шкоди на +2, доки не очистите принаймні 1 комірку Броні.",
+          "actions": {
+            "reinforce": {
+              "name": "Підсилити",
+              "description": "Коли ви позначаєте останню комірку Броні, збільште пороги шкоди на +2, доки не очистите принаймні 1 комірку Броні."
+            }
+          },
+          "effects": {
+            "reinforced": {
+              "name": "Підсилена",
+              "description": "Коли ви позначаєте останню комірку Броні, збільште пороги шкоди на +2, доки не очистите принаймні 1 комірку Броні."
+            }
+          }
+        },
+        "resilient": {
+          "name": "Витривала",
+          "description": "Перш ніж позначити останню комірку Броні, киньте d6. На 6 зменште тяжкість на один поріг, не позначаючи комірку Броні.",
+          "actions": {
+            "resilient": {
+              "name": "Витривала",
+              "description": "Перш ніж позначити останню комірку Броні, киньте d6. На 6 зменште тяжкість на один поріг, не позначаючи комірку Броні."
+            }
+          }
+        },
+        "resplendent": {
+          "name": "Сяйна",
+          "description": "Раз на сцену, коли ви витрачаєте Надію, можна очистити комірку Броні.",
+          "actions": {
+            "heal": {
+              "name": "Сяйна",
+              "description": "Раз на сцену, коли ви витрачаєте Надію, можна очистити комірку Броні."
+            }
+          }
+        },
+        "selfHealing": {
+          "name": "Самозцілювальна",
+          "description": "Коли ви відпочиваєте, очистьте комірку Броні.",
+          "actions": {
+            "heal": {
+              "name": "Самозцілювальна",
+              "description": "Коли ви відпочиваєте, очистьте комірку Броні."
+            }
+          }
+        },
+        "sharp": {
+          "name": "Гостра",
+          "description": "У разі успішної атаки проти цілі в межах Впритул додайте d4 до кидка шкоди.",
+          "effects": {
+            "sharp": {
+              "name": "Гостра",
+              "description": "У разі успішної атаки проти цілі в межах Впритул додайте d4 до кидка шкоди."
+            }
+          }
+        },
+        "shifting": {
+          "name": "Мінлива",
+          "description": "Коли ви стаєте ціллю атаки, можна позначити комірку Броні, щоб дати кидку атаки проти вас заваду.",
+          "actions": {
+            "shift": {
+              "name": "Зсув",
+              "description": "Коли ви стаєте ціллю атаки, можна позначити комірку Броні, щоб дати кидку атаки проти вас заваду."
+            }
+          }
+        },
+        "stellar": {
+          "name": "Зоряна",
+          "description": "Позначте Стрес, щоб отримати перевагу на кидок чаротворення.",
+          "actions": {
+            "stellar": {
+              "name": "Зоряна",
+              "description": "Позначте Стрес, щоб отримати перевагу на кидок чаротворення."
+            }
+          }
+        },
+        "timeslowing": {
+          "name": "Сповільнення часу",
+          "description": "Позначте комірку Броні, щоб кинути d4 і додати результат як бонус до Ухилення проти атаки.",
+          "actions": {
+            "slowTime": {
+              "name": "Сповільнити час",
+              "description": "Позначте комірку Броні, щоб кинути d4 і додати результат як бонус до Ухилення проти атаки."
+            }
+          }
+        },
+        "truthseeking": {
+          "name": "Правдошукачка",
+          "description": "Ця броня світиться, коли інше створіння в межах Близько каже неправду.",
+          "actions": {
+            "truthseeking": {
+              "name": "Правдошукачка",
+              "description": "Ця броня світиться, коли інше створіння в межах Близько каже неправду."
+            }
+          }
+        },
+        "veryHeavy": {
+          "name": "Дуже важка",
+          "description": "−2 до Ухилення; −1 до Спритності",
+          "effects": {
+            "veryHeavy": {
+              "name": "Дуже важка",
+              "description": "−2 до Ухилення; −1 до Спритності"
+            }
+          }
+        },
+        "vigilant": {
+          "name": "Пильна",
+          "description": "+2 до Ухилення.",
+          "effects": {
+            "vigilant": {
+              "name": "Пильна",
+              "description": "+2 до Ухилення."
+            }
+          }
+        },
+        "vitreous": {
+          "name": "Скляна",
+          "description": "Коли ви мали б отримати Тяжку чи більшу шкоду, можна позначити 2 комірки Броні, щоб звести цю шкоду нанівець. Тоді ви отримуєте штраф −5 до порогів шкоди, доки не вирішите полагодити броню як хід дозвілля.",
+          "actions": {
+            "vitreous": {
+              "name": "Скляна",
+              "description": "Коли ви мали б отримати Тяжку чи більшу шкоду, можна позначити 2 комірки Броні, щоб звести цю шкоду нанівець. Тоді ви отримуєте штраф −5 до порогів шкоди, доки не вирішите полагодити броню як хід дозвілля."
+            }
+          },
+          "effects": {
+            "vitreous": {
+              "name": "Скляна",
+              "description": "Ви маєте штраф −5 до порогів шкоди, доки не вирішите полагодити броню як хід дозвілля"
+            }
+          }
+        },
+        "wallCrawling": {
+          "name": "Стінолазна",
+          "description": "+1 до Ухилення; ви можете ходити по стінах так само легко, як по землі.",
+          "effects": {
+            "wallCrawling": {
+              "name": "Стінолазна",
+              "description": "+1 до Ухилення; ви можете ходити по стінах так само легко, як по землі."
+            }
+          }
+        },
+        "warded": {
+          "name": "Оберегова",
+          "description": "Ви зменшуєте вхідну магічну шкоду на свій показник Броні, перш ніж застосувати її до порогів шкоди.",
+          "effects": {
+            "warded": {
+              "name": "Оберегова",
+              "description": "Ви зменшуєте вхідну магічну шкоду на свій показник Броні, перш ніж застосувати її до порогів шкоди."
+            }
+          }
+        }
+      },
+      "BeastformType": {
+        "normal": "Звичайний",
+        "evolved": "Еволюціонований",
+        "hybrid": "Гібрид"
+      },
+      "BPModifiers": {
+        "increaseDamage": {
+          "description": "якщо додаєте +1d4 (чи сталі +2) до кидків шкоди всіх супротивників (щоб посилити виклик, не подовжуючи битви)",
+          "effect": {
+            "name": "Збільшити шкоду",
+            "description": "Додати 1d4 до шкоди"
+          }
+        },
+        "lessDifficult": {
+          "description": "якщо бій має бути легшим чи коротшим."
+        },
+        "lowerTier": {
+          "description": "якщо обираєте супротивника нижчого рангу."
+        },
+        "manySolos": {
+          "description": "якщо використовуєте 2 чи більше Одинаків."
+        },
+        "moreDangerous": {
+          "description": "якщо бій має бути небезпечнішим чи довшим"
+        },
+        "noToughies": {
+          "description": "якщо не включаєте жодного Громили, Орди, Ватажка чи Одинака"
+        }
+      },
+      "Burden": {
+        "oneHanded": "Одноручна",
+        "twoHanded": "Дворучна"
+      },
+      "RangeInclusion": {
+        "withinRange": "У межах дальності",
+        "outsideRange": "Поза дальністю"
+      },
+      "Condition": {
+        "deathMove": {
+          "name": "Смертельний хід",
+          "description": "Персонаж от-от зробить смертельний хід"
+        },
+        "dead": {
+          "name": "Мертвий",
+          "description": "Персонаж мертвий"
+        },
+        "defeated": {
+          "name": "Переможений",
+          "description": "Цього супротивника переможено."
+        },
+        "hidden": {
+          "name": "Прихований",
+          "description": "Поки створіння Приховане, атаки не можуть прямо обирати його ціллю, а будь-які кидки проти нього мають заваду.\nКоли Приховане створіння рухається чи атакує, воно більше не Приховане. Утім, якщо створіння Приховане, коли починає атаку, кидок має перевагу; стан «Прихований» очищується лише після розв'язання атаки."
+        },
+        "restrained": {
+          "name": "Скутий",
+          "description": "Коли ефект робить створіння Скутим, воно не може рухатися, доки цей стан не очищено.\nВоно все одно може діяти зі свого поточного місця."
+        },
+        "unconscious": {
+          "name": "Непритомний",
+          "description": "Непритомний персонаж не може рухатися чи діяти, і його не можна обрати ціллю атаки."
+        },
+        "vulnerable": {
+          "name": "Вразливий",
+          "description": "Поки створіння Вразливе, усі кидки проти нього мають перевагу.\nСтворіння, що вже Вразливе, не можна зробити Вразливим знову.",
+          "autoAppliedByLabel": "Макс. Стрес"
+        }
+      },
+      "ConditionalComparator": {
+        "less": "Менше ніж",
+        "lessEquals": "Менше або дорівнює",
+        "equals": "Дорівнює",
+        "greaterEquals": "Більше або дорівнює",
+        "greater": "Більше ніж",
+        "truthy": "Істина",
+        "falsy": "Хиба"
+      },
+      "ConditionalFailureMode": {
+        "suppress": "Придушити",
+        "hide": "Приховати"
+      },
+      "ConditionalPhase": {
+        "preparation": "Підготовка",
+        "roll": "Кинути"
+      },
+      "ConditionalType": {
+        "dataCompare": "Порівняння даних",
+        "weaponRestriction": "Обмеження зброї",
+        "actionType": "Тип дії",
+        "damageType": "Тип шкоди"
+      },
+      "ConditionalWeaponRestrictionType": {
+        "sameWeapon": "Та сама зброя",
+        "anyWeapon": "Будь-яка зброя"
+      },
+      "CountdownProgressType": {
+        "actionRoll": "Кидок дії",
+        "characterAttack": "Атака персонажа",
+        "characterSpotlight": "Центр уваги персонажа",
+        "custom": "Власне",
+        "fear": "Страх",
+        "spotlight": "Центр уваги"
+      },
+      "CountdownType": {
+        "encounter": {
+          "label": "Короткотривалий",
+          "shortLabel": "Короткий"
+        },
+        "narrative": {
+          "label": "Довготривалий",
+          "shortLabel": "Довгий"
+        },
+        "misc": {
+          "label": "Різне",
+          "shortLabel": "Різне"
+        }
+      },
+      "DaggerheartDiceAnimationEvents": {
+        "critical": {
+          "name": "Критичний"
+        },
+        "higher": {
+          "name": "Найвищий кидок"
+        }
+      },
+      "DamageOnSave": {
+        "none": {
+          "name": "Нічого в разі успіху"
+        },
+        "half": {
+          "name": "Половина в разі успіху"
+        },
+        "full": {
+          "name": "Повністю в разі успіху"
+        },
+        "doubleOnFail": {
+          "name": "Подвійна в разі невдачі"
+        }
+      },
+      "DamageType": {
+        "physical": {
+          "name": "Фізична",
+          "lowercase": "фізична",
+          "abbreviation": "Фіз"
+        },
+        "magical": {
+          "name": "Магічна",
+          "lowercase": "магічна",
+          "abbreviation": "Маг"
+        },
+        "direct": {
+          "name": "Пряма шкода",
+          "short": "Пряма",
+          "abbreviation": "Прям"
+        }
+      },
+      "DeathMoves": {
+        "avoidDeath": {
+          "name": "Уникнути смерті",
+          "description": "Ваш персонаж уникає смерті й зазнає наслідків. Він тимчасово непритомніє, а ви разом із ГМ описуєте, як погіршується ситуація. Непритомний персонаж не може рухатися чи діяти, і його не можна обрати ціллю атаки. Він приходить до тями, коли союзник очищає 1 чи більше його позначених Очок здоров'я або коли загін завершує довгий відпочинок. Після того як персонаж знепритомнів, киньте Кістку Надії. Якщо результат дорівнює рівню персонажа чи менший, він отримує шрам: назавжди закресліть комірку Надії й разом із ГМ визначте, як це вплине на історію і як, якщо можливо, її можна відновити. Якщо ви колись закреслите останню комірку Надії, шлях вашого персонажа закінчується."
+        },
+        "riskItAll": {
+          "name": "Поставити все на карту",
+          "description": "Киньте Кості двоїстості. Якщо Кістка Надії вища, персонаж лишається на ногах і очищає кількість Очок здоров'я чи Стресу, що дорівнює значенню Кістки Надії (значення можна розподілити між Очками здоров'я й Стресом як завгодно). Якщо вища Кістка Страху, персонаж переходить за завісу смерті. Якщо на Костях двоїстості випали однакові значення, персонаж лишається на ногах і очищає всі Очки здоров'я й Стрес."
+        },
+        "blazeOfGlory": {
+          "name": "У сяйві слави",
+          "description": "Ваш персонаж приймає смерть і йде у сяйві слави. Зробіть останню дію. Вона автоматично є критичним успіхом (за згодою ГМ), а потім ви переходите за завісу смерті. ПРИМІТКА: персонажеві додано ефект «У сяйві слави». Будь-який кидок двоїстості автоматично буде критичним."
+        }
+      },
+      "DiceSoNice": {
+        "colorsets": {
+          "hope": "Надія за замовчуванням",
+          "fear": "Страх за замовчуванням",
+          "advantage": "Перевага за замовчуванням",
+          "disadvantage": "Завада за замовчуванням"
+        },
+        "diceRoles": {
+          "hope": "Кістка Надії",
+          "fear": "Кістка Страху",
+          "advantage": "Кістка переваги",
+          "disadvantage": "Кістка завади"
+        },
+        "triggers": {
+          "dualityRoll": {
+            "label": "Кидок двоїстості",
+            "results": {
+              "hope": "З Надією",
+              "fear": "Зі Страхом",
+              "critical": "Критичний"
+            }
+          },
+          "gmRoll": {
+            "label": "Кидок ГМ",
+            "results": {
+              "critical": "Критичний"
+            }
+          }
+        }
+      },
+      "DomainCardTypes": {
+        "ability": "Здібність",
+        "spell": "Заклинання",
+        "grimoire": "Гримуар"
+      },
+      "EnvironmentType": {
+        "exploration": {
+          "label": "Дослідження",
+          "description": ""
+        },
+        "social": {
+          "label": "Соціальний",
+          "description": ""
+        },
+        "traversal": {
+          "label": "Подолання",
+          "description": ""
+        },
+        "event": {
+          "label": "Подія",
+          "description": ""
+        }
+      },
+      "EvolutionState": {
+        "unevolved": "Нееволюціонований",
+        "evolved": "Еволюціонований"
+      },
+      "fallAndCollision": {
+        "veryClose": {
+          "label": "Дуже близько",
+          "chatTitle": "Шкода від падіння: Дуже близько"
+        },
+        "close": {
+          "label": "Близько",
+          "chatTitle": "Шкода від падіння: Близько"
+        },
+        "far": {
+          "label": "Далеко",
+          "chatTitle": "Шкода від падіння: Далеко"
+        },
+        "collision": {
+          "label": "Зіткнення",
+          "chatTitle": "Небезпечне зіткнення"
+        }
+      },
+      "FeatureForm": {
+        "label": "Форма особливості",
+        "passive": "Пасивна",
+        "action": "Дія",
+        "reaction": "Реакція",
+        "evolution": "Еволюція"
+      },
+      "Gold": {
+        "title": "Золото",
+        "coins": "Монети",
+        "handfuls": "Жмені",
+        "bags": "Торбини",
+        "chests": "Скрині"
+      },
+      "HealingType": {
+        "hitPoints": {
+          "name": "Очки здоров'я",
+          "abbreviation": "ОЗ",
+          "inChatRoll": "Шкода"
+        },
+        "stress": {
+          "name": "Стрес",
+          "abbreviation": "СТР",
+          "inChatRoll": "Стрес"
+        },
+        "hope": {
+          "name": "Надія",
+          "abbreviation": "НД",
+          "inChatRoll": "Надія"
+        },
+        "armor": {
+          "name": "Комірка Броні",
+          "abbreviation": "КБ",
+          "inChatRoll": "Комірка Броні"
+        },
+        "fear": {
+          "name": "Страх",
+          "abbreviation": "СТХ",
+          "inChatRoll": "Страх"
+        },
+        "resource": {
+          "name": "Ресурс предмета",
+          "abbreviation": "РП",
+          "inChatRoll": "Ресурс предмета"
+        }
+      },
+      "ItemResourceProgression": {
+        "increasing": "Зростаючий",
+        "decreasing": "Спадний"
+      },
+      "ItemResourceType": {
+        "simple": "Простий",
+        "diceValue": "Значення кості",
+        "die": "Кістка"
+      },
+      "LevelupData": {
+        "checkboxSelections": "Прапорці",
+        "minCost": "Мінімум позначених"
+      },
+      "Range": {
+        "self": {
+          "name": "Себе",
+          "description": "означає вас самих.",
+          "short": "Себе"
+        },
+        "melee": {
+          "name": "Впритул",
+          "description": "означає, що персонаж на відстані дотику до цілі. ПГ зазвичай можуть торкнутися цілей за кілька футів від себе, але для особливо великих НІП дальність «Впритул» може бути більшою.",
+          "short": "Впритул"
+        },
+        "veryClose": {
+          "name": "Дуже близько",
+          "description": "означає відстань, з якої видно дрібні подробиці цілі, — дотягнутися за мить, якщо треба. Зазвичай це приблизно 5–10 футів. У небезпеці ПГ зазвичай може дістатися будь-чого «Дуже близько» в межах будь-якої іншої дії. На бойовій мапі все в межах найкоротшої сторони ігрової карти (~5–7 см) зазвичай вважається «Дуже близько».",
+          "short": "Д. близько"
+        },
+        "close": {
+          "name": "Близько",
+          "description": "означає відстань, з якої видно помітні подробиці цілі, — через кімнату чи до сусідньої ринкової ятки, зазвичай приблизно 10–30 футів. У небезпеці ПГ зазвичай може дістатися будь-чого «Близько» в межах будь-якої іншої дії. На бойовій мапі все в межах довжини звичайної ручки чи олівця (~13–15 см) зазвичай вважається «Близько».",
+          "short": "Близько"
+        },
+        "far": {
+          "name": "Далеко",
+          "description": "означає відстань, з якої видно вигляд людини чи предмета, але, мабуть, без подробиць, — через невелике поле бою чи вздовж довгого коридору. Зазвичай це приблизно 30–100 футів. У небезпеці ПГ, найімовірніше, доведеться зробити кидок Спритності, щоб безпечно сюди дістатися. На бойовій мапі все в межах довжини аркуша паперу (~25–28 см) зазвичай вважається «Далеко».",
+          "short": "Далеко"
+        },
+        "veryFar": {
+          "name": "Дуже далеко",
+          "description": "означає відстань, з якої видно обриси людини чи предмета, але, мабуть, не подробиці, — через велике поле бою чи вздовж довгої вулиці, зазвичай приблизно 100–300 футів. У небезпеці ПГ, найімовірніше, доведеться зробити кидок Спритності, щоб безпечно сюди дістатися. На бойовій мапі все, що далі «Далеко», але досі в полі зору персонажів, зазвичай вважається «Дуже далеко».",
+          "short": "Д. далеко"
+        }
+      },
+      "ReloadChoices": {
+        "off": {
+          "label": "Не використовувати"
+        },
+        "manual": {
+          "label": "Вручну"
+        },
+        "auto": {
+          "label": "Автоматично"
+        }
+      },
+      "Resources": {
+        "optionalResources": {
+          "favor": "Прихильність",
+          "focus": "Зосередження"
+        }
+      },
+      "RollTypes": {
+        "trait": {
+          "name": "Риса"
+        },
+        "attack": {
+          "name": "Атака"
+        },
+        "spellcast": {
+          "name": "Чаротворення"
+        },
+        "reaction": {
+          "name": "Реакція"
+        },
+        "diceSet": {
+          "name": "Набір костей"
+        }
+      },
+      "RuleChoice": {
+        "off": "Вимкнено",
+        "offWithToggle": "Вимкнено з перемикачем",
+        "on": "Увімкнено",
+        "onWithToggle": "Увімкнено з перемикачем"
+      },
+      "SceneRangeMeasurementTypes": {
+        "disable": "Вимкнути вимірювання дальності Daggerheart",
+        "default": "За замовчуванням",
+        "custom": "Власне"
+      },
+      "SelectAction": {
+        "selectType": "Оберіть тип дії",
+        "selectAction": "Вибір дії"
+      },
+      "GroupActionSelectionType": {
+        "selected": "Обрано",
+        "randomized": "Випадково"
+      },
+      "TagTeamRollTypes": {
+        "trait": "Риса",
+        "ability": "Здібність",
+        "damageAbility": "Здібність шкоди"
+      },
+      "TargetTypes": {
+        "any": "Будь-який",
+        "friendly": "Дружні",
+        "hostile": "Ворожий",
+        "self": "Себе",
+        "other": "Інше"
+      },
+      "TemplateTypes": {
+        "circle": "Коло",
+        "cone": "Конус",
+        "emanation": "Випромінювання",
+        "inFront": "Попереду",
+        "rectangle": "Прямокутник",
+        "line": "Лінія"
+      },
+      "TokenSize": {
+        "tiny": "Крихітний",
+        "small": "Малий",
+        "medium": "Середній",
+        "large": "Великий",
+        "huge": "Величезний",
+        "gargantuan": "Гігантський"
+      },
+      "Traits": {
+        "agility": {
+          "name": "Спритність",
+          "short": "СПР",
+          "verb": {
+            "sprint": "Бігти",
+            "leap": "Стрибати",
+            "maneuver": "Маневрувати"
+          },
+          "description": "Висока Спритність означає, що ви швидкі на ногу, вправні на важкій місцевості й миттєво реагуєте на небезпеку. Кидок Спритності роблять, щоб видертися по мотузці, добігти до укриття чи перестрибувати з даху на дах."
+        },
+        "strength": {
+          "name": "Сила",
+          "short": "СТР",
+          "verb": {
+            "lift": "Піднімати",
+            "smash": "Трощити",
+            "grapple": "Хапати"
+          },
+          "description": "Висока Сила означає, що ви краще даєте раду випробуванням фізичної потуги й витривалості. Кидок Сили роблять, щоб виламати двері, підняти важке чи встояти проти ворога, що мчить на вас."
+        },
+        "finesse": {
+          "name": "Вправність",
+          "short": "ВПР",
+          "verb": {
+            "control": "Контролювати",
+            "hide": "Приховати",
+            "tinker": "Майструвати"
+          },
+          "description": "Висока Вправність означає, що ви майстерні в завданнях, які вимагають точності, скритності чи цілковитого контролю. Кидок Вправності роблять, щоб користуватися тонкими інструментами, лишитися непоміченим чи влучно вдарити."
+        },
+        "instinct": {
+          "name": "Інстинкт",
+          "short": "ІНС",
+          "verb": {
+            "perceive": "Помічати",
+            "sense": "Відчувати",
+            "navigate": "Орієнтуватися"
+          },
+          "description": "Високий Інстинкт означає, що ви гостро відчуваєте довкілля й маєте природну інтуїцію. Кидок Інстинкту роблять, щоб відчути небезпеку, помітити подробиці довкола чи вистежити невловимого ворога."
+        },
+        "presence": {
+          "name": "Присутність",
+          "short": "ПРС",
+          "verb": {
+            "charm": "Чарувати",
+            "perform": "Виступати",
+            "deceive": "Обманювати"
+          },
+          "description": "Висока Присутність означає, що ви маєте сильну особистість і хист до соціальних ситуацій. Кидок Присутності роблять, щоб обстояти свою позицію, залякати ворога чи привернути увагу натовпу."
+        },
+        "knowledge": {
+          "name": "Знання",
+          "short": "ЗНН",
+          "verb": {
+            "recall": "Відкликати",
+            "analyze": "Аналізувати",
+            "comprehend": "Осягати"
+          },
+          "description": "Високе Знання означає, що ви знаєте те, чого не знають інші, і вмієте застосовувати розум через дедукцію й умовиводи. Кидок Знання роблять, щоб тлумачити факти, чітко бачити закономірності чи пригадати важливе."
+        }
+      },
+      "TraitsSpecial": {
+        "spellcast": {
+          "label": "Риса чаротворення",
+          "short": "Риса чаротворення"
+        },
+        "highest": {
+          "label": "Найкраща риса",
+          "short": "Найкраща риса"
+        }
+      },
+      "Triggers": {
+        "postDamageReduction": {
+          "label": "Після зменшення шкоди"
+        },
+        "preDamageReduction": {
+          "label": "До зменшення шкоди"
+        },
+        "dualityRoll": {
+          "label": "Кидок двоїстості"
+        },
+        "fearRoll": {
+          "label": "Кидок Страху"
+        },
+        "triggerTexts": {
+          "strangePatternsContentTitle": "Збіглося {nr} раз(и).",
+          "strangePatternsContentSubTitle": "Збільшити Надію й Стрес загалом до {nr}.",
+          "strangePatternsActionExplanation": "Лівий клік — збільшити, правий — зменшити",
+          "ferocityContent": "Витратити 2 Надії, щоб отримати бонус {bonus} до Ухилення до кінця наступної атаки проти вас?",
+          "ferocityEffectDescription": "Ваше Ухилення збільшено на {bonus}. Бонус діє до кінця наступної атаки проти вас."
+        },
+        "triggerType": "Тип тригера",
+        "triggeringActorType": "Тип актора-тригера",
+        "triggerError": "Тригер {trigger} на {item}({itemUuid}) не спрацював для {actor}. Імовірно, його налаштовано неправильно."
+      },
+      "WeaponFeature": {
+        "accelerator": {
+          "name": "Прискорювач",
+          "description": "Раз на сцену позначте Стрес, щоб переміститися на відстань Далеко, а потім атакувати. Отримайте бонус +1 до Майстерності на цю атаку.",
+          "actions": {
+            "accelerator": {
+              "name": "Прискорювач",
+              "description": "Раз на сцену позначте Стрес, щоб переміститися на відстань Далеко, а потім атакувати. Отримайте бонус +1 до Майстерності на цю атаку."
+            }
+          },
+          "effects": {
+            "accelerator": {
+              "name": "Прискорювач",
+              "description": "Отримайте бонус +1 до Майстерності на цю атаку."
+            }
+          }
+        },
+        "aimed": {
+          "name": "Прицільна",
+          "description": "Ваша атака має заваду, якщо ціль у межах Дуже близько від вас чи Впритул до одного з ваших союзників. Можна позначити Стрес, щоб ігнорувати цей штраф.",
+          "actions": {
+            "aimed": {
+              "name": "Прицільна",
+              "description": "Ваша атака має заваду, якщо ціль у межах Дуже близько від вас чи Впритул до одного з ваших союзників. Можна позначити Стрес, щоб ігнорувати цей штраф."
+            }
+          }
+        },
+        "barrier": {
+          "name": "Бар'єр",
+          "description": "@Resolve[@item.tier + 1|sign]{Отримайте ранг зброї + 1} до показника Броні; −1 до Ухилення",
+          "effects": {
+            "barrier": {
+              "name": "Бар'єр",
+              "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+            }
+          }
+        },
+        "braced": {
+          "name": "Упор",
+          "description": "Коли супротивник у межах дальності цієї зброї завдає вам шкоди, можна позначити 2 Стресу, щоб змусити його позначити Очко здоров'я.",
+          "actions": {
+            "braced": {
+              "name": "Упор",
+              "description": "Коли супротивник у межах дальності цієї зброї завдає вам шкоди, можна позначити 2 Стресу, щоб змусити його позначити Очко здоров'я."
+            }
+          }
+        },
+        "bolstering": {
+          "name": "Підбадьорлива",
+          "description": "Коли ви отримуєте критичний успіх в атаці, усі ПГ у межах Близько отримують Надію.",
+          "actions": {
+            "bolstering": {
+              "name": "Підбадьорлива",
+              "description": "Коли ви отримуєте критичний успіх в атаці, усі ПГ у межах Близько отримують Надію."
+            }
+          }
+        },
+        "bonded": {
+          "name": "Зв'язані",
+          "description": "Отримайте бонус до кидків шкоди, що дорівнює вашому рівню.",
+          "effects": {
+            "damage": {
+              "name": "Зв'язок зі зброєю",
+              "description": "Отримайте бонус до кидків шкоди, що дорівнює вашому рівню."
+            }
+          }
+        },
+        "bouncing": {
+          "name": "Відскок",
+          "description": "Позначте 1 чи більше Стресу, щоб влучити в стільки ж цілей у межах дальності атаки.",
+          "actions": {
+            "bounce": {
+              "name": "Відскок",
+              "description": "Позначте 1 чи більше Стресу, щоб влучити в стільки ж цілей у межах дальності атаки."
+            }
+          }
+        },
+        "brave": {
+          "name": "Відважна",
+          "description": "−1 до Ухилення; + ранг зброї до порогу Тяжкої шкоди",
+          "effects": {
+            "brave": {
+              "name": "Відважна",
+              "description": "−1 до Ухилення; + ранг зброї до порогу Тяжкої шкоди"
+            }
+          }
+        },
+        "brutal": {
+          "name": "Брутальна",
+          "description": "Коли на кістці шкоди випадає максимальне значення, киньте додаткову кістку шкоди."
+        },
+        "burning": {
+          "name": "Палюча",
+          "description": "Коли на кістці шкоди випадає 6, ціль мусить позначити Стрес.",
+          "actions": {
+            "burn": {
+              "name": "Опік",
+              "description": "Коли на кістці шкоди випадає 6, ціль мусить позначити Стрес."
+            }
+          }
+        },
+        "catalytic": {
+          "name": "Каталітична",
+          "description": "У разі успішної атаки можна позначити Стрес, щоб дати союзникові в межах Близько бонус +3 до його наступного кидка атаки.",
+          "actions": {
+            "catalytic": {
+              "name": "Каталітична",
+              "description": "У разі успішної атаки можна позначити Стрес, щоб дати союзникові в межах Близько бонус +3 до його наступного кидка атаки."
+            }
+          },
+          "effects": {
+            "catalytic": {
+              "name": "Каталітична",
+              "description": "Ви маєте бонус +3 до наступного кидка атаки."
+            }
+          }
+        },
+        "charged": {
+          "name": "Заряджена",
+          "description": "Позначте Стрес, щоб отримати бонус +1 до Майстерності на атаку основною зброєю.",
+          "actions": {
+            "markStress": {
+              "name": "Заряд",
+              "description": "Позначте Стрес, щоб отримати бонус +1 до Майстерності на атаку основною зброєю."
+            }
+          },
+          "effects": {
+            "charged": {
+              "name": "Заряджена",
+              "description": "Отримайте бонус +1 до Майстерності на атаку основною зброєю."
+            }
+          }
+        },
+        "concussive": {
+          "name": "Приголомшлива",
+          "description": "У разі успішної атаки можна витратити Надію, щоб відкинути ціль на відстань Далеко.",
+          "actions": {
+            "attack": {
+              "name": "Приголомшити",
+              "description": "У разі успішної атаки можна витратити Надію, щоб відкинути ціль на відстань Далеко."
+            }
+          }
+        },
+        "cumbersome": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності",
+          "effects": {
+            "cumbersome": {
+              "name": "Незграбна",
+              "description": "−1 до Вправності"
+            }
+          }
+        },
+        "deadly": {
+          "name": "Смертоносна",
+          "description": "Коли ви завдаєте Тяжкої шкоди, ціль мусить позначити додаткове ОЗ.",
+          "actions": {
+            "extraDamage": {
+              "name": "Смертоносна",
+              "description": "Коли ви завдаєте Тяжкої шкоди, ціль мусить позначити додаткове ОЗ."
+            }
+          }
+        },
+        "deflecting": {
+          "name": "Відбивна",
+          "description": "Коли вас атакують, можна позначити комірку Броні, щоб отримати бонус до Ухилення проти цієї атаки, що дорівнює кількості доступних комірок Броні.",
+          "actions": {
+            "deflect": {
+              "name": "Відбити",
+              "description": "Коли вас атакують, можна позначити комірку Броні, щоб отримати бонус до Ухилення проти цієї атаки, що дорівнює кількості доступних комірок Броні."
+            }
+          },
+          "effects": {
+            "deflecting": {
+              "name": "Відбивна",
+              "description": "Отримайте бонус до Ухилення проти атаки, що дорівнює кількості доступних комірок Броні"
+            }
+          }
+        },
+        "destructive": {
+          "name": "Руйнівна",
+          "description": "−1 до Спритності; у разі успішної атаки всі супротивники в межах Дуже близько мусять позначити Стрес.",
+          "actions": {
+            "attack": {
+              "name": "Руйнування",
+              "description": "У разі успішної атаки всі супротивники в межах Дуже близько мусять позначити Стрес."
+            }
+          },
+          "effects": {
+            "agility": {
+              "name": "Руйнівна",
+              "description": "−1 до Спритності"
+            }
+          }
+        },
+        "devastating": {
+          "name": "Нищівна",
+          "description": "Перш ніж робити кидок атаки, можна позначити Стрес, щоб використати d20 як кістку шкоди.",
+          "actions": {
+            "devastate": {
+              "name": "Знищити",
+              "description": "Перш ніж робити кидок атаки, можна позначити Стрес, щоб використати d20 як кістку шкоди."
+            }
+          }
+        },
+        "disturbing": {
+          "name": "Тривожна",
+          "description": "Коли ви перемагаєте створіння цією зброєю, усі супротивники в межах Близько мусять позначити Стрес.",
+          "actions": {
+            "disturbing": {
+              "name": "Тривожна",
+              "description": "Коли ви перемагаєте створіння цією зброєю, усі супротивники в межах Близько мусять позначити Стрес."
+            }
+          }
+        },
+        "doubleDuty": {
+          "name": "Подвійне призначення",
+          "description": "+1 до показника Броні; +1 до шкоди основною зброєю в межах Впритул",
+          "effects": {
+            "doubleDuty": {
+              "name": "Подвійне призначення",
+              "description": "+1 до показника Броні; +1 до шкоди основною зброєю в межах Впритул"
+            }
+          }
+        },
+        "doubledUp": {
+          "name": "Подвоєння",
+          "description": "Атакуючи основною зброєю, можна завдати шкоди ще одній цілі в межах Впритул.",
+          "actions": {
+            "doubleUp": {
+              "name": "Подвоїти",
+              "description": "Атакуючи основною зброєю, можна завдати шкоди ще одній цілі в межах Впритул."
+            }
+          }
+        },
+        "draining": {
+          "name": "Виснажлива",
+          "description": "У разі успішної атаки можна витратити Надію, щоб змусити ціль позначити Стрес. Тоді ви очищаєте Стрес.",
+          "actions": {
+            "draining": {
+              "name": "Виснажлива",
+              "description": "У разі успішної атаки можна витратити Надію, щоб змусити ціль позначити Стрес. Тоді ви очищаєте Стрес."
+            }
+          }
+        },
+        "dueling": {
+          "name": "Дуельна",
+          "description": "Коли біля цілі в межах Близько немає інших створінь, отримайте перевагу на кидок атаки проти неї.",
+          "actions": {
+            "duel": {
+              "name": "Дуель",
+              "description": "Коли біля цілі в межах Близько немає інших створінь, отримайте перевагу на кидок атаки проти неї."
+            }
+          }
+        },
+        "entangling": {
+          "name": "Обплутувальна",
+          "description": "У разі успішної атаки основною зброєю проти цілі в межах Дуже близько можна витратити Надію, щоб зробити ціль тимчасово Вразливою.",
+          "actions": {
+            "entangling": {
+              "name": "Обплутувальна",
+              "description": "У разі успішної атаки основною зброєю проти цілі в межах Дуже близько можна витратити Надію, щоб зробити ціль тимчасово Вразливою."
+            }
+          },
+          "effects": {
+            "entangling": {
+              "name": "Обплутувальна",
+              "description": ""
+            }
+          }
+        },
+        "eruptive": {
+          "name": "Вибухова",
+          "description": "У разі успішної атаки проти цілі в межах Впритул усі інші супротивники в межах Дуже близько мусять досягти успіху в кидку реакції (14), інакше отримують половину шкоди.",
+          "actions": {
+            "erupt": {
+              "name": "Вибух",
+              "description": "У разі успішної атаки проти цілі в межах Впритул усі інші супротивники в межах Дуже близько мусять досягти успіху в кидку реакції (14), інакше отримують половину шкоди."
+            }
+          }
+        },
+        "ethereal": {
+          "name": "Ефірна",
+          "description": "Щоб закликати цю зброю, треба позначити Стрес. Вона існує до кінця сцени.",
+          "actions": {
+            "ethereal": {
+              "name": "Ефірна",
+              "description": "Щоб закликати цю зброю, треба позначити Стрес. Вона існує до кінця сцени."
+            }
+          },
+          "effects": {
+            "ethereal": {
+              "name": "Ефірна",
+              "description": "Ця зброя існує до кінця сцени."
+            }
+          }
+        },
+        "extending": {
+          "name": "Подовжувана",
+          "description": "Можна збільшити дальність цієї зброї до Дуже далеко. Ви отримуєте штраф −1 до кидків атаки за кожен крок збільшення дальності (як-от з Впритул до Дуже близько, з Дуже близько до Близько чи з Близько до Далеко)."
+        },
+        "focused": {
+          "name": "Зосереджена",
+          "description": "+1 до шкоди основною зброєю по цілях у межах Дуже близько.",
+          "effects": {
+            "focused": {
+              "name": "Зосереджена",
+              "description": "+1 до шкоди основною зброєю по цілях у межах Дуже близько."
+            }
+          }
+        },
+        "followUp": {
+          "name": "Добивання",
+          "description": "У разі успішної атаки основною зброєю в межах Впритул можна позначити Стрес, щоб отримати бонус +1 до Майстерності на цю атаку.",
+          "actions": {
+            "followUp": {
+              "name": "Добивання",
+              "description": "У разі успішної атаки основною зброєю в межах Впритул можна позначити Стрес, щоб отримати бонус +1 до Майстерності на цю атаку."
+            }
+          },
+          "effects": {
+            "followUp": {
+              "name": "Добивання",
+              "description": "Ви маєте бонус +1 до Майстерності на цю атаку."
+            }
+          }
+        },
+        "freezing": {
+          "name": "Морозна",
+          "description": "Коли атака цією зброєю змушує ціль позначити 2 чи більше ОЗ, ціль стає тимчасово Скутою.",
+          "actions": {
+            "freezing": {
+              "name": "Морозна",
+              "description": "Коли атака цією зброєю змушує ціль позначити 2 чи більше ОЗ, ціль стає тимчасово Скутою."
+            }
+          },
+          "effects": {
+            "freezing": {
+              "name": "Морозна",
+              "description": ""
+            }
+          }
+        },
+        "grappling": {
+          "name": "Захоплення",
+          "description": "У разі успішної атаки можна витратити Надію, щоб Скувати ціль чи підтягти її на відстань Впритул до себе.",
+          "actions": {
+            "grapple": {
+              "name": "Хапати",
+              "description": "У разі успішної атаки можна витратити Надію, щоб Скувати ціль чи підтягти її на відстань Впритул до себе."
+            }
+          }
+        },
+        "greedy": {
+          "name": "Жадібна",
+          "description": "Витратьте жменю золота, щоб отримати бонус +1 до Майстерності на кидок шкоди.",
+          "actions": {
+            "greed": {
+              "name": "Жадібність",
+              "description": "Витратьте жменю золота, щоб отримати бонус +1 до Майстерності на кидок шкоди."
+            }
+          }
+        },
+        "healing": {
+          "name": "Лікування",
+          "description": "Під час дозвілля автоматично очистьте Очко здоров'я.",
+          "actions": {
+            "heal": {
+              "name": "Зцілення",
+              "description": "Під час дозвілля автоматично очистьте Очко здоров'я."
+            }
+          }
+        },
+        "heavy": {
+          "name": "Важка",
+          "description": "−1 до Ухилення",
+          "effects": {
+            "heavy": {
+              "name": "Важка",
+              "description": "−1 до Ухилення"
+            }
+          }
+        },
+        "hooked": {
+          "name": "Гакова",
+          "description": "У разі успішної атаки можна підтягти ціль на відстань Впритул.",
+          "actions": {
+            "hook": {
+              "name": "Підчепити",
+              "description": "У разі успішної атаки можна підтягти ціль на відстань Впритул."
+            }
+          }
+        },
+        "hot": {
+          "name": "Розпечена",
+          "description": "Ця зброя розрізає тверді матеріали.",
+          "actions": {
+            "hot": {
+              "name": "Розпечена",
+              "description": "Ця зброя розрізає тверді матеріали."
+            }
+          }
+        },
+        "incendiary": {
+          "name": "Запальна",
+          "description": "−1 до Спритності; у разі успішної атаки всі створіння в межах Дуже близько від цілі мусять позначити Очко здоров'я.",
+          "actions": {
+            "incendiary": {
+              "name": "Запальна",
+              "description": "У разі успішної атаки всі створіння в межах Дуже близько від цілі мусять позначити Очко здоров'я."
+            }
+          },
+          "effects": {
+            "incendiary": {
+              "name": "Запальна",
+              "description": "−1 до Спритності."
+            }
+          }
+        },
+        "inverted": {
+          "name": "Перевернута",
+          "description": "Коли ви кидаєте атаку зброєю зі Страхом, ви отримуєте Надію.",
+          "effects": {
+            "inverted": {
+              "name": "Перевернута",
+              "description": "Коли ви кидаєте атаку зброєю зі Страхом, ви отримуєте Надію."
+            }
+          }
+        },
+        "invigorating": {
+          "name": "Бадьорлива",
+          "description": "У разі успішної атаки киньте d4. На 4 очистьте Стрес.",
+          "actions": {
+            "invigorate": {
+              "name": "Підбадьорити",
+              "description": "У разі успішної атаки киньте d4. На 4 очистьте Стрес."
+            }
+          }
+        },
+        "lifestealing": {
+          "name": "Висмоктування життя",
+          "description": "У разі успішної атаки киньте d6. На 6 очистьте Очко здоров'я чи Стрес.",
+          "actions": {
+            "lifesteal": {
+              "name": "Висмоктати життя",
+              "description": "У разі успішної атаки киньте d6. На 6 очистьте Очко здоров'я чи Стрес."
+            }
+          }
+        },
+        "lockedOn": {
+          "name": "Наведення",
+          "description": "У разі успішної атаки ваша наступна атака основною зброєю проти тієї самої цілі автоматично успішна.",
+          "actions": {
+            "lockOn": {
+              "name": "Навестися",
+              "description": "У разі успішної атаки ваша наступна атака основною зброєю проти тієї самої цілі автоматично успішна."
+            }
+          }
+        },
+        "long": {
+          "name": "Довгий",
+          "description": "Атака цієї зброї влучає в усіх супротивників на лінії в межах дальності.",
+          "actions": {
+            "long": {
+              "name": "Довгий",
+              "description": "Атака цієї зброї влучає в усіх супротивників на лінії в межах дальності."
+            }
+          }
+        },
+        "lucky": {
+          "name": "Щаслива",
+          "description": "У разі невдалої атаки можна позначити Стрес, щоб перекинути атаку.",
+          "actions": {
+            "luck": {
+              "name": "Удача",
+              "description": "У разі невдалої атаки можна позначити Стрес, щоб перекинути атаку."
+            }
+          }
+        },
+        "magnetic": {
+          "name": "Магнітна",
+          "description": "Атакуючи цією зброєю, можна витратити Надію, щоб змусити всіх супротивників у межах Дуже близько від цілі зробити кидок реакції (16). Ті, хто провалить, мусять позначити Стрес і притягуються на відстань Впритул до цілі.",
+          "actions": {
+            "magnetic": {
+              "name": "Магнітна",
+              "description": "Атакуючи цією зброєю, можна витратити Надію, щоб змусити всіх супротивників у межах Дуже близько від цілі зробити кидок реакції (16). Ті, хто провалить, мусять позначити Стрес і притягуються на відстань Впритул до цілі."
+            }
+          }
+        },
+        "massive": {
+          "name": "Масивна",
+          "description": "−1 до Ухилення; у разі успішної атаки киньте додаткову кістку шкоди й відкиньте найменший результат.",
+          "effects": {
+            "massive": {
+              "name": "Масивна",
+              "description": "−1 до Ухилення"
+            }
+          }
+        },
+        "nonlethal": {
+          "name": "Нелетальна",
+          "description": "Коли ціль мала б позначити будь-яку кількість Очок здоров'я від атаки цією зброєю, вона натомість позначає стільки ж Стресу."
+        },
+        "omnipresent": {
+          "name": "Всюдисуща",
+          "description": "Можна атакувати цілі в межах Дуже далеко, але із завадою."
+        },
+        "padded": {
+          "name": "Підбита",
+          "description": "Отримайте ранг цієї зброї + 1 до порогів шкоди.",
+          "effects": {
+            "padded": {
+              "name": "Підбита",
+              "description": "Отримайте ранг цієї зброї + 1 до порогів шкоди."
+            }
+          }
+        },
+        "otherwordly": {
+          "name": "Потойбічна",
+          "description": "У разі успішної атаки можна завдати фізичної чи магічної шкоди.",
+          "effects": {
+            "otherwordly": {
+              "name": "Потойбічна",
+              "description": "У разі успішної атаки можна завдати фізичної чи магічної шкоди."
+            }
+          }
+        },
+        "painful": {
+          "name": "Болісна",
+          "description": "Щоразу, як ви успішно атакуєте, мусите позначити Стрес.",
+          "actions": {
+            "pain": {
+              "name": "Біль",
+              "description": "Щоразу, як ви успішно атакуєте, мусите позначити Стрес."
+            }
+          }
+        },
+        "paired": {
+          "name": "Парна",
+          "description": "@Resolve[@item.tier + 1|sign]{Додайте ранг цієї допоміжної зброї + 1} до шкоди основною зброєю по цілях у межах Впритул",
+          "actions": {
+            "paired": {
+              "name": "Парна",
+              "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+            }
+          },
+          "effects": {
+            "paired": {
+              "name": "Парна",
+              "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+            }
+          }
+        },
+        "parry": {
+          "name": "Парирування",
+          "description": "Коли вас атакують, киньте кості шкоди цієї зброї. Якщо на будь-якій кістці шкоди нападника випало те саме значення, що й на ваших, збіжні результати відкидаються з костей шкоди нападника, перш ніж підрахувати отриману вами шкоду.",
+          "actions": {
+            "parry": {
+              "name": "Парирування",
+              "description": "Коли вас атакують, киньте кості шкоди цієї зброї. Якщо на будь-якій кістці шкоди нападника випало те саме значення, що й на ваших, збіжні результати відкидаються з костей шкоди нападника, перш ніж підрахувати отриману вами шкоду."
+            }
+          }
+        },
+        "persuasive": {
+          "name": "Переконлива",
+          "description": "Перш ніж робити кидок Присутності, можна позначити Стрес, щоб отримати бонус +2 до результату.",
+          "actions": {
+            "persuade": {
+              "name": "Переконати",
+              "description": "Перш ніж робити кидок Присутності, можна позначити Стрес, щоб отримати бонус +2 до результату."
+            }
+          },
+          "effects": {
+            "persuasive": {
+              "name": "Переконлива",
+              "description": "Отримайте бонус +2 до кидка Присутності"
+            }
+          }
+        },
+        "piercing": {
+          "name": "Пробивна",
+          "description": "Шкода цієї зброї вважає поріг Значної шкоди цілі на 2 меншим.",
+          "effects": {
+            "piercing": {
+              "name": "Пробивна",
+              "description": "Шкода цієї зброї вважає поріг Значної шкоди цілі на 2 меншим."
+            }
+          }
+        },
+        "poisonous": {
+          "name": "Отруйна",
+          "description": "Коли ціль позначає будь-яку кількість Очок здоров'я від атаки, яку ви кинули зі Страхом, вона позначає стільки ж Стресу."
+        },
+        "pompous": {
+          "name": "Пихата",
+          "description": "Щоб користуватися цією зброєю, ваша Присутність має бути 0 чи менше.",
+          "actions": {
+            "pompous": {
+              "name": "Пихата",
+              "description": "Щоб користуватися цією зброєю, ваша Присутність має бути 0 чи менше."
+            }
+          }
+        },
+        "powerful": {
+          "name": "Потужна",
+          "description": "У разі успішної атаки киньте додаткову кістку шкоди й відкиньте найменший результат."
+        },
+        "protective": {
+          "name": "Захисна",
+          "description": "@Resolve[@item.itemFeatures.protective.config.value|sign]{Додайте ранг предмета} до показника Броні",
+          "effects": {
+            "protective": {
+              "name": "Захисна",
+              "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+            }
+          }
+        },
+        "quick": {
+          "name": "Швидка",
+          "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності.",
+          "actions": {
+            "quick": {
+              "name": "Швидка",
+              "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності."
+            }
+          }
+        },
+        "rebounding": {
+          "name": "Рикошетна",
+          "description": "Коли ви кидаєте цю зброю, вона повертається вам у руку. У разі невдалої атаки можна перекинути атаку із завадою."
+        },
+        "recursive": {
+          "name": "Рекурсивна",
+          "description": "Коли на кістці шкоди випадає максимальне значення, киньте додаткову кістку шкоди й додайте результат до загальної шкоди. Ця властивість може спрацьовувати повторно.",
+          "effects": {
+            "recursive": {
+              "name": "Рекурсивна",
+              "description": "Коли на кістці шкоди випадає максимальне значення, киньте додаткову кістку шкоди й додайте результат до загальної шкоди. Ця властивість може спрацьовувати повторно."
+            }
+          }
+        },
+        "reliable": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки",
+          "effects": {
+            "reliable": {
+              "name": "Надійна",
+              "description": "+1 до кидків атаки"
+            }
+          }
+        },
+        "reloading": {
+          "name": "Перезаряджання",
+          "description": "Після атаки киньте d6. На 1 ви мусите позначити Стрес, щоб перезарядити цю зброю, перш ніж стріляти знову.",
+          "actions": {
+            "reload": {
+              "name": "Перезарядити",
+              "description": "Після атаки киньте d6. На 1 ви мусите позначити Стрес, щоб перезарядити цю зброю, перш ніж стріляти знову."
+            }
+          },
+          "errors": {
+            "missingResource": "Для перезаряджання на зброї має бути налаштовано ресурс із максимумом 1 чи більше."
+          }
+        },
+        "retractable": {
+          "name": "Складана",
+          "description": "Лезо можна сховати в руків'ї, щоб уникнути виявлення."
+        },
+        "returning": {
+          "name": "Поворотна",
+          "description": "Коли цю зброю кидають у межах її дальності, вона з'являється у вас у руці одразу після атаки.",
+          "actions": {
+            "return": {
+              "name": "Повернути",
+              "description": "Коли цю зброю кидають у межах її дальності, вона з'являється у вас у руці одразу після атаки."
+            }
+          }
+        },
+        "ricochet": {
+          "name": "Рикошет",
+          "description": "Коли ви кидаєте цю зброю, вона повертається вам у руку. Атакуючи, можна позначити Стрес, щоб цією атакою обрати ціллю ще одне створіння в межах Дуже близько від першої цілі.",
+          "actions": {
+            "ricochet": {
+              "name": "Рикошет",
+              "description": "Атакуючи, можна позначити Стрес, щоб цією атакою обрати ціллю ще одне створіння в межах Дуже близько від першої цілі."
+            }
+          }
+        },
+        "scary": {
+          "name": "Страхітлива",
+          "description": "У разі успішної атаки ціль мусить позначити Стрес.",
+          "actions": {
+            "scare": {
+              "name": "Налякати",
+              "description": "У разі успішної атаки ціль мусить позначити Стрес."
+            }
+          }
+        },
+        "selfCorrecting": {
+          "name": "Самокоригування",
+          "description": "Коли на кістці шкоди випадає 1, вона натомість завдає 6 шкоди."
+        },
+        "serrated": {
+          "name": "Зазубрена",
+          "description": "Коли на кістці шкоди випадає 1, вона натомість завдає 8 шкоди."
+        },
+        "sharpwing": {
+          "name": "Гостре крило",
+          "description": "Отримайте бонус до кидків шкоди, що дорівнює вашій Спритності.",
+          "effects": {
+            "sharpwing": {
+              "name": "Гостре крило",
+              "description": "Отримайте бонус до кидків шкоди, що дорівнює вашій Спритності."
+            }
+          }
+        },
+        "sheltering": {
+          "name": "Прихисток",
+          "description": "Коли ви позначаєте комірку Броні, вона зменшує шкоду для вас і всіх союзників у межах Впритул, які отримали ту саму шкоду.",
+          "actions": {
+            "shelter": {
+              "name": "Прихистити",
+              "description": "Коли ви позначаєте комірку Броні, вона зменшує шкоду для вас і всіх союзників у межах Впритул, які отримали ту саму шкоду."
+            }
+          }
+        },
+        "startling": {
+          "name": "Лякаюча",
+          "description": "Позначте Стрес, щоб ляснути батогом і відкинути всіх супротивників у межах Впритул на відстань Близько.",
+          "actions": {
+            "startle": {
+              "name": "Злякати",
+              "description": "Позначте Стрес, щоб ляснути батогом і відкинути всіх супротивників у межах Впритул на відстань Близько."
+            }
+          }
+        },
+        "stockpiled": {
+          "name": "Запасна",
+          "description": "Цю зброю можна кидати в межах дальності @Lookup[@item.attack.range|type:range|adjustment:2]. Її не треба підбирати — у вас завжди є ще одна напохваті."
+        },
+        "targeted": {
+          "name": "Прицільна",
+          "description": "Коли атака зброєю невдала, можна витратити Надію, щоб досягти успіху в наступній атаці зброєю.",
+          "actions": {
+            "targeted": {
+              "name": "Прицільна",
+              "description": "Коли атака зброєю невдала, можна витратити Надію, щоб досягти успіху в наступній атаці зброєю."
+            }
+          }
+        },
+        "timebending": {
+          "name": "Викривлення часу",
+          "description": "Ціль атаки можна обрати після кидка атаки.",
+          "actions": {
+            "bendTime": {
+              "name": "Викривити час",
+              "description": "Ціль атаки можна обрати після кидка атаки."
+            }
+          }
+        },
+        "trusty": {
+          "name": "Вірна",
+          "description": "+1 до кидків атаки основною зброєю.",
+          "effects": {
+            "trusty": {
+              "name": "Вірна",
+              "description": "+1 до кидків атаки основною зброєю."
+            }
+          }
+        },
+        "venomous": {
+          "name": "Отруйна",
+          "description": "Коли ви завдаєте цією зброєю Значної чи більшої шкоди, ціль стає тимчасово Вразливою.",
+          "actions": {
+            "venomous": {
+              "name": "Отруйна",
+              "description": "Коли ви завдаєте цією зброєю Значної чи більшої шкоди, ціль стає тимчасово Вразливою."
+            }
+          },
+          "effects": {
+            "venomous": {
+              "name": "Отруйна",
+              "description": ""
+            }
+          }
+        },
+        "versatile": {
+          "name": "Універсальна",
+          "description": "Цю зброю також можна використовувати з такими характеристиками — @Lookup[@item.itemFeatures.versatile.config.trait|type:trait]{Риса}, @Lookup[@item.itemFeatures.versatile.config.range|type:range]{Дальність}, @Lookup[@item.itemFeatures.versatile.config.damage]{Шкода}"
+        },
+        "volleyed": {
+          "name": "Залпова",
+          "description": "Витратьте Надію, щоб обрати ціллю групу створінь у межах дальності. Цілі, проти яких ви досягли успіху, отримують половину шкоди."
+        }
+      }
+    },
+    "EFFECTS": {
+      "AddChange": "Додати зміну",
+      "AddConditional": "Додати умову",
+      "ApplyLocations": {
+        "attackRoll": {
+          "name": "Кидок атаки"
+        },
+        "damageRoll": {
+          "name": "Кидок шкоди"
+        },
+        "healingRoll": {
+          "name": "Кидок лікування"
+        }
+      },
+      "ChangeTypes": {
+        "armor": {
+          "name": "Броня",
+          "FIELDS": {
+            "value": {
+              "current": {
+                "label": "Позначені комірки Броні"
+              },
+              "max": {
+                "label": "Показник Броні"
+              }
+            },
+            "interaction": {
+              "label": "Взаємодія з бронею"
+            }
+          }
+        },
+        "standardAttack": {
+          "name": "Стандартна атака",
+          "FIELDS": {
+            "damageFormula": "Формула шкоди",
+            "damageTypes": "Типи шкоди",
+            "attackRange": "Дальність атаки",
+            "img": "Зображення атаки",
+            "name": "Назва атаки",
+            "trait": "Риса атаки"
+          }
+        },
+        "damageReduction": {
+          "name": "Зменшення шкоди"
+        }
+      },
+      "Conditionals": {
+        "phase": "Фаза",
+        "failureMode": "Режим невдачі",
+        "role": {
+          "title": "Роль, що оцінюється",
+          "origin": "Джерело",
+          "target": "Ціль"
+        },
+        "dataCompare": {
+          "comparator": "Порівняння"
+        },
+        "weaponRestriction": {
+          "weaponType": "Тип зброї"
+        },
+        "actionType": {
+          "actionTypes": "Типи дій"
+        },
+        "damageType": {
+          "damageType": "Тип шкоди"
+        }
+      },
+      "Duration": {
+        "passive": "Пасивна",
+        "temporary": "Тимчасово"
+      },
+      "Types": {
+        "damage": {
+          "name": "Шкода"
+        },
+        "hitPoints": {
+          "name": "Очки здоров'я"
+        },
+        "reach": {
+          "name": "Досяжність"
+        },
+        "stress": {
+          "name": "Стрес"
+        }
+      },
+      "Attachments": {
+        "attachHint": "Перетягніть предмети сюди, щоб прикріпити",
+        "transferHint": "Якщо позначено, ефект застосовується до будь-якого актора, що володіє батьківським предметом цього ефекту. Ефект завжди застосовується, якщо предмет прикріплено до іншого."
+      },
+      "OriginTag": "Джерело: {name}"
+    },
+    "GENERAL": {
+      "Ability": {
+        "single": "Здібність",
+        "plural": "Здібності"
+      },
+      "Action": {
+        "single": "Дія",
+        "plural": "Дії"
+      },
+      "Advantage": {
+        "full": "Перевага",
+        "plural": "Переваги",
+        "short": "Перев"
+      },
+      "Adversary": {
+        "singular": "Супротивник",
+        "plural": "Супротивники"
+      },
+      "Attack": {
+        "hpDamageMultiplier": {
+          "label": "Множник завданої шкоди ОЗ",
+          "hint": "Помножує будь-яку завдану вами шкоду на це число"
+        },
+        "hpDamageTakenMultiplier": {
+          "label": "Множник отриманої шкоди ОЗ",
+          "hint": "Помножує будь-яку шкоду, завдану вам, на це число"
+        }
+      },
+      "Battlepoints": {
+        "full": "Бойові очки",
+        "short": "БО"
+      },
+      "Bonuses": {
+        "rest": {
+          "downtimeAction": "Дія дозвілля",
+          "shortRest": {
+            "shortRestMoves": {
+              "label": "Короткий відпочинок: бонусні ходи короткого відпочинку",
+              "hint": "Кількість додаткових ходів короткого відпочинку, які персонаж може зробити під час короткого відпочинку."
+            },
+            "longRestMoves": {
+              "label": "Короткий відпочинок: бонусні ходи довгого відпочинку",
+              "hint": "Кількість додаткових ходів довгого відпочинку, які персонаж може зробити під час короткого відпочинку."
+            }
+          },
+          "longRest": {
+            "shortRestMoves": {
+              "label": "Довгий відпочинок: бонусні ходи короткого відпочинку",
+              "hint": "Кількість додаткових ходів короткого відпочинку, які персонаж може зробити під час довгого відпочинку."
+            },
+            "longRestMoves": {
+              "label": "Довгий відпочинок: бонусні ходи довгого відпочинку",
+              "hint": "Кількість додаткових ходів довгого відпочинку, які персонаж може зробити під час довгого відпочинку."
+            }
+          },
+          "target": "Ціль",
+          "targetSelf": "Себе"
+        },
+        "maxLoadout": {
+          "label": "Бонус до макс. карт у наборі"
+        }
+      },
+      "Character": {
+        "singular": "Персонаж",
+        "plural": "Персонажі"
+      },
+      "Cost": {
+        "single": "Вартість",
+        "plural": "Вартість"
+      },
+      "Damage": {
+        "massive": "Масивна",
+        "severe": "Тяжка",
+        "major": "Значна",
+        "minor": "Незначна",
+        "none": "Немає",
+        "allDamage": "Уся шкода",
+        "physicalDamage": "Фізична шкода",
+        "magicalDamage": "Магічна шкода",
+        "primaryWeapon": "Шкода основною зброєю",
+        "secondaryWeapon": "Шкода допоміжною зброєю"
+      },
+      "DamageResistance": {
+        "none": "Немає",
+        "physicalResistance": {
+          "label": "Стійкість до шкоди: фізичної",
+          "hint": "Фізична шкода зменшується вдвічі, якщо встановлено 1"
+        },
+        "magicalResistance": {
+          "label": "Стійкість до шкоди: магічної",
+          "hint": "Магічна шкода зменшується вдвічі, якщо встановлено 1"
+        },
+        "physicalImmunity": {
+          "label": "Несприйнятливість до шкоди: фізичної",
+          "hint": "Несприйнятливий до фізичної шкоди, якщо встановлено 1"
+        },
+        "magicalImmunity": {
+          "label": "Несприйнятливість до шкоди: магічної",
+          "hint": "Несприйнятливий до магічної шкоди, якщо встановлено 1"
+        },
+        "physicalReduction": {
+          "label": "Зменшення шкоди: фізичної",
+          "hint": "Фізична шкода зменшується на вказане тут значення"
+        },
+        "magicalReduction": {
+          "label": "Зменшення шкоди: магічної",
+          "hint": "Магічна шкода зменшується на вказане тут значення"
+        }
+      },
+      "DamageThresholds": {
+        "title": "Пороги шкоди",
+        "minor": "Незначна",
+        "major": "Значна",
+        "severe": "Тяжка",
+        "majorThreshold": "Поріг Значної шкоди",
+        "severeThreshold": "Поріг Тяжкої шкоди",
+        "with": "Поріг шкоди: {threshold}"
+      },
+      "Dice": {
+        "single": "Кістка",
+        "plural": "Кості"
+      },
+      "Difficulty": {
+        "all": "Складність: усі",
+        "reaction": "Складність: реакція"
+      },
+      "Disadvantage": {
+        "full": "Завада",
+        "short": "Зав"
+      },
+      "Domain": {
+        "single": "Домен",
+        "plural": "Домени",
+        "arcana": {
+          "label": "Аркана",
+          "description": "Аркана — домен вродженої й інстинктивної магії. Ті, хто обирає цей шлях, черпають сирі загадкові сили царин, щоб керувати власною енергією й стихіями. Аркана дає своїм носіям мінливу силу, але неймовірно могутню, якщо правильно її спрямувати."
+        },
+        "blade": {
+          "label": "Клинок",
+          "description": "Клинок — домен володіння зброєю. Сталлю, луком чи особливішою зброєю ті, хто йде цим шляхом, уміють обривати чужі життя. Носії Клинка присвячують себе здобуттю невблаганної влади над смертю."
+        },
+        "bone": {
+          "label": "Кістка",
+          "description": "Кістка — домен тактики й тіла. Ті, хто практикує цей домен, мають неймовірний контроль над власними фізичними здібностями й хист передбачати поведінку інших у бою. Прихильники Кістки здобувають неперевершене розуміння тіл і їхніх рухів."
+        },
+        "codex": {
+          "label": "Кодекс",
+          "description": "Кодекс — домен глибокого магічного навчання. Ті, хто шукає магічних знань, звертаються до формул сили, записаних у книжках, на сувоях, вирізьблених на стінах чи витатуюваних на тілах. Кодекс дає владне й різнобічне розуміння магії тим, хто прагне знань за межами загальної мудрості."
+        },
+        "dread": {
+          "label": "Жах",
+          "description": "Жах — домен кошмарів і страху. Ті, хто обирає цей шлях, можуть закликати чудовиськ, знесилювати ворогів і спрямовувати моторошну магію, щоб нищити супротивників. Жах дає своїм прихильникам владу над силами, яких більшість боїться торкатися."
+        },
+        "grace": {
+          "label": "Благодать",
+          "description": "Благодать — домен харизми. Захопливими оповідями, чарівними заклинаннями чи завісою брехні ті, хто спрямовує цю силу, визначають реальність своїх супротивників, підкоряючи сприйняття своїй волі. Благодать дає своїм носіям сирий магнетизм і володіння мовою."
+        },
+        "midnight": {
+          "label": "Опівніч",
+          "description": "Опівніч — домен тіней і таємниць. Хитрими трюками, вправною магією чи покровом ночі ті, хто спрямовує ці сили, практикують мистецтво непомітності й можуть відкривати сховані скарби. Опівніч дає своїм прихильникам силу керувати загадками й творити їх."
+        },
+        "sage": {
+          "label": "Мудрець",
+          "description": "Мудрець — домен світу природи. Ті, хто йде цим шляхом, черпають нестримну силу землі та її створінь, щоб вивільняти сиру магію. Мудрець дає своїм прихильникам життєву силу квітки, що розпускається, і лютість голодного хижака."
+        },
+        "splendor": {
+          "label": "Пишнота",
+          "description": "Пишнота — домен життя. Завдяки цій магії послідовники здобувають здатність зцілювати й певною мірою керувати смертю. Пишнота дає своїм учням величну здатність і дарувати, і обривати життя."
+        },
+        "valor": {
+          "label": "Звитяга",
+          "description": "Звитяга — домен захисту. Атакою чи обороною ті, хто обирає цю дисципліну, спрямовують грізну силу, щоб захищати союзників у бою. Звитяга дає велику силу тим, хто піднімає щит на захист інших."
+        }
+      },
+      "Effect": {
+        "single": "Ефект",
+        "plural": "Ефекти"
+      },
+      "Experience": {
+        "single": "Досвід",
+        "plural": "Досвіди"
+      },
+      "Healing": {
+        "healingAmount": "Кількість лікування"
+      },
+      "Modifier": {
+        "single": "Модифікатор",
+        "plural": "Модифікатори"
+      },
+      "Neutral": {
+        "full": "Немає",
+        "short": "ні"
+      },
+      "Range": {
+        "other": "Збільшення дальності: інше",
+        "spell": "Збільшення дальності: заклинання",
+        "weapon": "Збільшення дальності: зброя"
+      },
+      "RefreshType": {
+        "scene": "Сцена",
+        "session": "Сесія",
+        "shortrest": "Короткий відпочинок",
+        "longrest": "Довгий відпочинок"
+      },
+      "Resource": {
+        "single": "Ресурс",
+        "plural": "Ресурси",
+        "unloaded": "Зброю не заряджено",
+        "loaded": "Зброю заряджено"
+      },
+      "Roll": {
+        "attack": "Кидок атаки",
+        "basic": "Кинути",
+        "difficulty": "Кидок (Складність {difficulty})",
+        "primaryWeaponAttack": "Кидок атаки основною зброєю",
+        "secondaryWeaponAttack": "Кидок атаки допоміжною зброєю",
+        "spellcast": "Кидок чаротворення",
+        "trait": "Кидок риси",
+        "action": "Кидок дії",
+        "reaction": "Кидок реакції"
+      },
+      "Rules": {
+        "conditionImmunities": {
+          "hidden": "Несприйнятливість до стану: Прихований",
+          "restrained": "Несприйнятливість до стану: Скутий",
+          "vulnerable": "Несприйнятливість до стану: Вразливий"
+        },
+        "damageReduction": {
+          "disabledArmor": {
+            "label": "Вимкнені комірки Броні"
+          },
+          "increasePerArmorMark": {
+            "label": "Зменшення шкоди за комірку Броні",
+            "hint": "Використана комірка Броні зазвичай зменшує шкоду на один крок. Це значення збільшує кількість кроків, на які зменшується шкода."
+          },
+          "magical": {
+            "label": "Зменшення шкоди: лише магічної",
+            "hint": "Броню можна використовувати лише для зменшення магічної шкоди"
+          },
+          "maxArmorMarkedBonus": "Макс. використаної Броні",
+          "maxArmorMarkedStress": {
+            "label": "Макс. використаної Броні зі Стресом",
+            "hint": "Якщо задано, можна витратити до цієї кількості Стресу на додаткові позначки Броні понад звичайний максимум."
+          },
+          "reduceSeverity": {
+            "label": "Зменшити тяжкість шкоди",
+            "hint": "Зменшує будь-яку отриману шкоду на задану кількість ступенів тяжкості"
+          },
+          "physical": {
+            "label": "Зменшення шкоди: лише фізичної",
+            "hint": "Броню можна використовувати лише для зменшення фізичної шкоди"
+          },
+          "stress": {
+            "any": {
+              "label": "Зменшення шкоди Стресом: будь-яка",
+              "hint": "Вартість у Стресі, яку можна сплатити, щоб знизити вхідну шкоду на один поріг"
+            },
+            "severe": {
+              "label": "Зменшення шкоди Стресом: Тяжка",
+              "hint": "Вартість у Стресі, яку можна сплатити, щоб знизити Тяжку шкоду до Значної."
+            },
+            "major": {
+              "label": "Зменшення шкоди Стресом: Значна",
+              "hint": "Вартість у Стресі, яку можна сплатити, щоб знизити Значну шкоду до Незначної."
+            },
+            "minor": {
+              "label": "Зменшення шкоди Стресом: Незначна",
+              "hint": "Вартість у Стресі, яку можна сплатити, щоб знизити Незначну шкоду до нуля."
+            }
+          },
+          "thresholdImmunities": {
+            "minor": {
+              "label": "Несприйнятливість до порогів: Незначна",
+              "hint": "Автоматично ігнорує Незначну шкоду, якщо встановлено 1"
+            }
+          }
+        }
+      },
+      "SpotlightRequests": {
+        "singular": "Запит центру уваги",
+        "plural": "Запити центру уваги"
+      },
+      "Tabs": {
+        "details": "Подробиці",
+        "attack": "Атака",
+        "experiences": "Досвіди",
+        "features": "Особливості",
+        "actions": "Дії",
+        "potentialAdversaries": "Можливі супротивники",
+        "adversaries": "Супротивники",
+        "advancement": "Покращення рівня",
+        "selections": "Вибір покращень",
+        "summary": "Підсумок",
+        "effects": "Ефекти",
+        "settings": "Налаштування",
+        "description": "Опис",
+        "main": "Дані",
+        "information": "Інформація",
+        "itemFeatures": "Властивості предмета",
+        "notes": "Нотатки",
+        "inventory": "Інвентар",
+        "loadout": "Набір",
+        "vault": "Сховище",
+        "heritage": "Спадщина",
+        "story": "Історія",
+        "biography": "Біографія",
+        "general": "Загальне",
+        "resources": "Ресурси",
+        "foundation": "Основа",
+        "specialization": "Спеціалізація",
+        "mastery": "Майстерність",
+        "optional": "Необов'язкове",
+        "recovery": "Відновлення",
+        "setup": "Налаштування",
+        "equipment": "Спорядження",
+        "attachments": "Прикріплення",
+        "advanced": "Розширене",
+        "tier1": "Ранг 1",
+        "tier2": "Ранг 2",
+        "tier3": "Ранг 3",
+        "tier4": "ранг 4",
+        "domains": "Домени",
+        "downtime": "Дозвілля",
+        "roll": "Кинути",
+        "rules": "Правила",
+        "partyMembers": "Учасники загону",
+        "projects": "Проєкти",
+        "types": "Типи",
+        "questions": "Питання",
+        "configuration": "Конфігурація",
+        "base": "Основа",
+        "triggers": "Тригери",
+        "deathMoves": "Смертельні ходи",
+        "sources": "Джерела",
+        "packs": "Паки",
+        "conditionals": "Умови",
+        "compendiumPacks": "Паки компендіумів"
+      },
+      "Tiers": {
+        "singular": "Ранг",
+        "typed": "Ранг {tier}, {type}",
+        "1": "Ранг 1",
+        "2": "Ранг 2",
+        "3": "Ранг 3",
+        "4": "Ранг 4"
+      },
+      "Trait": {
+        "single": "Риса",
+        "plural": "Риси"
+      },
+      "Transformation": {
+        "single": "Перетворення",
+        "plural": "Перетворення"
+      },
+      "actorName": "Ім'я актора",
+      "amount": "Кількість",
+      "any": "Будь-який",
+      "armor": "Броня",
+      "armorFeatures": "Властивості броні",
+      "armors": "Броня",
+      "armorScore": "Показник Броні",
+      "activeEffects": "Активні ефекти",
+      "armorSlots": "Комірки Броні",
+      "artistAttribution": "Ілюстрація: {artist}",
+      "attack": "Атака",
+      "automation": "Автоматизація",
+      "basics": "Основне",
+      "bonus": "Бонус",
+      "burden": "Хват",
+      "condition": "Стан",
+      "continue": "Продовжити",
+      "criticalSuccess": "Критичний успіх",
+      "criticalShort": "Критичний",
+      "currentLevel": "Поточний рівень",
+      "custom": "Власне",
+      "customModifier": "Власний модифікатор",
+      "d20Roll": "Кидок d20",
+      "damage": "Шкода",
+      "damageModifier": "Базовий модифікатор",
+      "damageRoll": "Кидок шкоди",
+      "damageType": "Тип шкоди",
+      "description": "Опис",
+      "difficulty": "Складність",
+      "disabled": "Вимкнено",
+      "downtime": "Дозвілля",
+      "dropActorsHere": "Перетягніть акторів сюди",
+      "dropFeaturesHere": "Перетягніть особливості сюди",
+      "duality": "Двоїстість",
+      "dualityDice": "Кості двоїстості",
+      "dualityRoll": "Кидок двоїстості",
+      "effect": "Ефект",
+      "enabled": "Увімкнено",
+      "evasion": "Ухилення",
+      "equipment": "Спорядження",
+      "experience": {
+        "single": "Досвід",
+        "plural": "Досвіди"
+      },
+      "failure": "Невдача",
+      "fate": "Доля",
+      "fateRoll": "Кидок долі",
+      "fear": "Страх",
+      "features": "Особливості",
+      "formula": "Формула",
+      "general": "Загальне",
+      "gm": "ГМ",
+      "guaranteedCriticalSuccess": "Гарантований критичний успіх",
+      "healing": "Лікування",
+      "healingRoll": "Кидок лікування",
+      "hit": {
+        "single": "Влучання",
+        "plural": "Влучання"
+      },
+      "HitPoints": {
+        "single": "Очко здоров'я",
+        "plural": "Очки здоров'я",
+        "short": "ОЗ"
+      },
+      "hope": "Надія",
+      "hordeHp": "ОЗ орди",
+      "icon": "Іконка",
+      "identify": "Особа",
+      "imagePath": "Шлях до зображення",
+      "immune": "Несприйнятливий",
+      "inactiveEffects": "Неактивні ефекти",
+      "initial": "Початкове",
+      "inventory": "Інвентар",
+      "itemResource": "Ресурс предмета",
+      "itemQuantity": "Кількість предмета",
+      "items": "Предмети",
+      "key": "Ключ",
+      "label": "Підпис",
+      "level": "Рівень",
+      "levelShort": "Рів",
+      "levelUp": "Підвищити рівень",
+      "loadout": "Набір",
+      "max": "Макс.",
+      "miss": {
+        "single": "Промах",
+        "plural": "Промах"
+      },
+      "missingX": "Бракує: {x}",
+      "missingItemDescription": "Предмета, на який посилаються, більше не існує",
+      "maxWithThing": "Макс. {thing}",
+      "missingDragDropThing": "Перетягніть сюди: {thing}",
+      "multiclass": "Мультиклас",
+      "name": "Назва",
+      "newCategory": "Нова категорія",
+      "newThing": "Нове: {thing}",
+      "next": "Далі",
+      "none": "Немає",
+      "noTarget": "Немає поточних цілей",
+      "opacity": "Непрозорість",
+      "optionalThing": "Необов'язкове: {thing}",
+      "partner": "Партнер",
+      "player": {
+        "single": "Гравець",
+        "plural": "Гравці"
+      },
+      "portrait": "Портрет",
+      "preview": "Попередній перегляд",
+      "proficiency": "Майстерність",
+      "quantity": "Кількість",
+      "range": "Дальність",
+      "reactionRoll": "Кидок реакції",
+      "recovery": "Відновлення",
+      "refresh": "Оновити",
+      "reroll": "Перекинути",
+      "rerolled": "Перекинуто",
+      "rerollThing": "Перекинути: {thing}",
+      "resistant": "Стійкий",
+      "result": {
+        "single": "Результат",
+        "plural": "Результати"
+      },
+      "roll": "Кинути",
+      "rollAll": "Кинути все",
+      "rollDamage": "Кинути шкоду",
+      "rollWith": "Кидок: {roll}",
+      "save": "Зберегти",
+      "saveSettings": "Зберегти налаштування",
+      "scalable": "Масштабований",
+      "scars": "Шрами",
+      "situationalBonus": "Ситуативний бонус",
+      "searchPlaceholder": "Пошук...",
+      "spellcastTrait": "Риса чаротворення",
+      "spent": "Витрачено",
+      "step": "Крок",
+      "stress": "Стрес",
+      "subclasses": "Підкласи",
+      "subType": "Підтип",
+      "success": "Успіх",
+      "summon": {
+        "single": "Закликання",
+        "plural": "Закликані"
+      },
+      "take": "Взяти",
+      "Target": {
+        "single": "Ціль",
+        "plural": "Цілі"
+      },
+      "thingsAndThing": "{things} і {thing}",
+      "title": "Заголовок",
+      "tokenSize": "Розмір токена",
+      "total": "Разом",
+      "traitModifier": "Модифікатор риси",
+      "true": "Істина",
+      "type": "Тип",
+      "typeSheet": "Аркуш системи: {type}",
+      "unarmed": "Без зброї",
+      "unarmedAttack": "Беззбройна атака",
+      "unarmored": "Без броні",
+      "use": "Використати",
+      "used": "Використано",
+      "uses": "Використання",
+      "value": "Значення",
+      "weaponFeatures": "Властивості зброї",
+      "weapons": "Зброя",
+      "withThing": "З {thing}"
+    },
+    "ITEMS": {
+      "FIELDS": {
+        "attribution": {
+          "source": {
+            "label": "Джерело"
+          },
+          "page": {
+            "label": "Сторінка"
+          },
+          "campaignFrame": {
+            "label": "Рамка кампанії"
+          },
+          "artist": {
+            "label": "Художник"
+          }
+        },
+        "resource": {
+          "amount": {
+            "label": "Кількість"
+          },
+          "dieFaces": {
+            "label": "Грані кості"
+          },
+          "icon": {
+            "label": "Іконка"
+          },
+          "max": {
+            "label": "Макс."
+          },
+          "progression": {
+            "label": "Прогресія"
+          },
+          "recovery": {
+            "label": "Відновлення"
+          },
+          "type": {
+            "label": "Тип"
+          },
+          "value": {
+            "label": "Значення"
+          }
+        },
+        "identifier": {
+          "label": "Ідентифікатор"
+        },
+        "gmNotes": {
+          "label": "Нотатки ГМ"
+        },
+        "quantity": {
+          "label": "Кількість"
+        },
+        "loreReference": {
+          "label": "Посилання на лор",
+          "hint": "Шлях чи id сторінки журналу з повним описом"
+        }
+      },
+      "Ancestry": {
+        "primaryFeature": "Основна особливість",
+        "secondaryFeature": "Друга особливість",
+        "featuresLabel": "Особливості походження"
+      },
+      "Armor": {
+        "baseScore": "Базовий показник",
+        "scoreShort": "Показник",
+        "baseThresholds": {
+          "base": "Базові пороги",
+          "major": "Поріг Значної шкоди",
+          "severe": "Поріг Тяжкої шкоди"
+        }
+      },
+      "Base": {
+        "addGMNote": "Додати нотатку ГМ",
+        "viewReference": "Переглянути повні подробиці",
+        "Refresh": {
+          "Title": "Оновити з компендіуму",
+          "AreYouSure": "Справді оновити цей предмет новим вмістом?",
+          "Error": {
+            "doesNotExist": "Цей документ не має копії в компендіумі",
+            "invalidTier": "Цей документ іншого рангу, ніж джерело, і, імовірно, його ранг змінено",
+            "invalidType": "Документ-джерело неправильного типу"
+          }
+        }
+      },
+      "Beastform": {
+        "FIELDS": {
+          "beastformType": {
+            "label": "Тип звіриної подоби"
+          },
+          "tier": {
+            "label": "Ранг"
+          },
+          "mainTrait": {
+            "label": "Головна риса"
+          },
+          "examples": {
+            "label": "Приклади"
+          },
+          "advantageOn": {
+            "label": "Перевага на"
+          },
+          "tokenImg": {
+            "label": "Зображення токена"
+          },
+          "tokenRingImg": {
+            "label": "Текстура об'єкта"
+          },
+          "tokenSize": {
+            "placeholder": "Розмір токена",
+            "disabledPlaceholder": "Розмір токена",
+            "height": {
+              "label": "Висота"
+            },
+            "width": {
+              "label": "Ширина"
+            },
+            "depth": {
+              "label": "Глибина"
+            },
+            "scale": {
+              "label": "Масштаб токена"
+            }
+          },
+          "evolved": {
+            "maximumTier": {
+              "label": "Максимальний ранг"
+            },
+            "mainTraitBonus": {
+              "label": "Бонус до головної риси"
+            },
+            "damageBonus": {
+              "label": "Бонус до шкоди"
+            },
+            "evasionBonus": {
+              "label": "Бонус до Ухилення"
+            },
+            "increaseDamageDice": {
+              "label": "Збільшення розміру костей шкоди"
+            }
+          },
+          "hybrid": {
+            "beastformOptions": {
+              "label": "К-сть звіриних подоб"
+            },
+            "advantages": {
+              "label": "К-сть переваг"
+            },
+            "features": {
+              "label": "К-сть особливостей"
+            }
+          }
+        },
+        "attackName": "Атака звіра",
+        "beastformEffect": "Перетворення на звірину подобу",
+        "dialogTitle": "Вибір звіриної подоби",
+        "tokenTitle": "Токен звіриної подоби",
+        "transform": "Перетворення",
+        "evolve": "Еволюціонувати",
+        "evolvedFeatureTitle": "Еволюціонований",
+        "evolvedDrag": "Перетягніть сюди подобу, щоб еволюціонувати її.",
+        "hybridize": "Схрестити",
+        "hybridizeFeatureTitle": "Гібридні особливості",
+        "hybridizeDrag": "Перетягніть сюди подобу, щоб схрестити її.",
+        "mainTrait": "Головна риса",
+        "traitBonus": "Бонус до риси",
+        "evolvedTokenHint": "Токен еволюціонованої звіриної подоби базується на токені подоби, яку ви еволюціонуєте",
+        "evolvedImagePlaceholder": "Буде використано зображення подоби, обраної для еволюції"
+      },
+      "Class": {
+        "startingEvasionScore": "Початкове Ухилення",
+        "startingHitPoints": "Початкові Очки здоров'я",
+        "classItems": "Предмети класу",
+        "hopeFeatureLabel": "Особливість Надії: {class}",
+        "hopeFeatures": "Особливості Надії",
+        "classFeature": "Класова особливість",
+        "classFeatures": "Класові особливості",
+        "guide": {
+          "suggestedEquipment": "Рекомендоване спорядження",
+          "suggestedPrimaryWeaponTitle": "Основна зброя",
+          "suggestedSecondaryWeaponTitle": "Допоміжна зброя",
+          "suggestedArmorTitle": "Броня",
+          "inventory": {
+            "thenChoose": "Потім оберіть між",
+            "andEither": "І або"
+          }
+        }
+      },
+      "Community": {
+        "featuresLabel": "Особливість спільноти"
+      },
+      "Consumable": {
+        "consumeOnUse": "Витрачається під час використання"
+      },
+      "DomainCard": {
+        "type": "Тип",
+        "recallCost": "Вартість відкликання",
+        "vaultActive": "Активна у сховищі",
+        "loadoutIgnore": "Ігнорує ліміти набору",
+        "domainTouched": "Позначено доменом",
+        "foundationTitle": "Основа",
+        "specializationTitle": "Спеціалізація",
+        "masteryTitle": "Майстерність"
+      },
+      "Feature": {
+        "activeWhenEvolved": "Активна після еволюції",
+        "evolutionFeature": "Особливість еволюції",
+        "evolutionLocked": "Особливості з дією еволюції мають бути типу «еволюція»",
+        "actorResources": "Ресурси актора"
+      },
+      "Item": {
+        "FIELDS": {
+          "category": {
+            "label": "Категорія"
+          }
+        }
+      },
+      "Subclass": {
+        "spellcastingTrait": "Риса чаротворення",
+        "spellcastTrait": "Риса чаротворення",
+        "foundationFeatures": "Особливості основи",
+        "specializationFeature": "Особливість спеціалізації",
+        "masteryFeature": "Особливість майстерності"
+      },
+      "Transformation": {
+        "featuresLabel": "Особливості перетворення"
+      },
+      "Weapon": {
+        "weaponType": "Тип зброї",
+        "configureAttack": "Налаштувати атаку",
+        "primaryWeapon": {
+          "full": "Основна зброя",
+          "short": "Основна"
+        },
+        "secondaryWeapon": {
+          "full": "Допоміжна зброя",
+          "short": "Допоміжна"
+        }
+      }
+    },
+    "MACROS": {
+      "Spotlight": {
+        "errors": {
+          "noTokenSelected": "Щоб передати центр уваги, токен на полотні має бути вибраний або під курсором"
+        }
+      }
+    },
+    "ROLLTABLES": {
+      "FIELDS": {
+        "formulaName": {
+          "label": "Назва формули"
+        }
+      },
+      "formula": "Формула"
+    },
+    "SETTINGS": {
+      "Appearance": {
+        "FIELDS": {
+          "displayFear": {
+            "label": "Показувати Страх"
+          },
+          "fearPosition": {
+            "label": "Положення Страху"
+          },
+          "displayCountdownUI": {
+            "label": "Показувати інтерфейс відліків"
+          },
+          "showGenericStatusEffects": {
+            "label": "Показувати ефекти статусів Foundry"
+          },
+          "showTokenDistance": {
+            "label": "Показувати відстань до токена під час наведення",
+            "choices": {
+              "always": "Завжди",
+              "encounters": "Сутички",
+              "never": "Ніколи"
+            }
+          },
+          "expandedTitle": "Автоматично розгортати описи",
+          "extendCharacterDescriptions": {
+            "label": "Персонажі"
+          },
+          "extendAdversaryDescriptions": {
+            "label": "Супротивники"
+          },
+          "extendEnvironmentDescriptions": {
+            "label": "Оточення"
+          },
+          "extendItemDescriptions": {
+            "label": "Предмети"
+          },
+          "expandRollMessage": {
+            "title": "Автоматично розгортати розділи повідомлень",
+            "desc": {
+              "label": "Опис"
+            },
+            "roll": {
+              "label": "Формула"
+            },
+            "damage": {
+              "label": "Шкода/лікування"
+            },
+            "target": {
+              "label": "Ціль"
+            }
+          },
+          "useResourcePips": {
+            "label": "Ресурси кружечками"
+          },
+          "tooltipCardTheme": {
+            "label": "Тема карток-підказок"
+          }
+        },
+        "fearDisplay": {
+          "token": "Токени",
+          "bar": "Смуга",
+          "hide": "Приховати"
+        },
+        "fearPosition": {
+          "free": "Вільно",
+          "topCenter": "Угорі по центру",
+          "bottomCenter": "Унизу по центру",
+          "rightTop": "Праворуч угорі",
+          "leftBottom": "Ліворуч унизу"
+        }
+      },
+      "Automation": {
+        "fear": {
+          "name": "Страх",
+          "hint": "Автоматично збільшувати запас Страху ГМ за результату кидка двоїстості зі Страхом."
+        },
+        "FIELDS": {
+          "autoExpireActiveEffects": {
+            "label": "Автоматичне завершення активних ефектів",
+            "hint": "Активні ефекти із заданою тривалістю автоматично вилучаються, коли тривалість минає"
+          },
+          "damageReductionRulesDefault": {
+            "label": "Правила зменшення шкоди за замовчуванням",
+            "hint": "Чи увімкнено за замовчуванням правила використання броні й зменшень"
+          },
+          "defeated": {
+            "enabled": {
+              "label": "Увімкнено"
+            },
+            "overlay": {
+              "label": "Накладений ефект"
+            },
+            "characterDefault": {
+              "label": "Стандартний статус поразки персонажа"
+            },
+            "adversaryDefault": {
+              "label": "Стандартний статус поразки супротивника"
+            },
+            "companionDefault": {
+              "label": "Стандартний статус поразки компаньйона"
+            },
+            "deathMove": {
+              "label": "Смертельний хід"
+            },
+            "dead": {
+              "label": "Мертвий"
+            },
+            "defeated": {
+              "label": "Переможений"
+            },
+            "unconscious": {
+              "label": "Непритомний"
+            }
+          },
+          "hopeFear": {
+            "label": "Надія і Страх",
+            "gm": {
+              "label": "ГМ"
+            },
+            "players": {
+              "label": "Гравці"
+            }
+          },
+          "vulnerableAutomation": {
+            "label": "Автоматизація «Вразливий»",
+            "hint": "Автоматично застосовувати стан «Вразливий», коли актор досягає максимального Стресу"
+          },
+          "countdownAutomation": {
+            "label": "Автоматизація відліків",
+            "hint": "Автоматично просувати відліки за їхніми налаштуваннями прогресії"
+          },
+          "levelupAuto": {
+            "label": "Автоматизація підвищення рівня",
+            "hint": "Коли ви зробили вибір і завершили підвищення рівня, числові зміни автоматично застосовуються до персонажа."
+          },
+          "hordeDamage": {
+            "label": "Автоматична шкода орди",
+            "hint": "Автоматично активувати ефект орди, щоб зменшити шкоду, коли ОЗ падають до половини чи нижче."
+          },
+          "effects": {
+            "rangeDependent": {
+              "label": "Ефекти залежно від дальності",
+              "hint": "Ефекти з визначеною залежністю від дальності автоматично вмикаються/вимикаються залежно від дальності"
+            }
+          },
+          "reload": {
+            "label": "Перевірка перезаряджання",
+            "hint": "Чи має система автоматично кидати перевірки перезаряджання, чи чекати натискання кнопки в чаті"
+          },
+          "resourceScrollTexts": {
+            "label": "Показувати спливний текст зміни ресурсів",
+            "hint": "Коли персонаж отримує шкоду, використовує броню тощо, біля токена на мить з'являється текст, що це показує."
+          },
+          "roll": {
+            "damage": {
+              "label": "Кидок шкоди/лікування",
+              "hint": "Автоматична поведінка кидків шкоди й лікування після атаки/чаротворення."
+            },
+            "save": {
+              "label": "Кидок реакції",
+              "hint": "Автоматична поведінка, якщо потрібен кидок реакції. Цілі мають бути обрані до виконання дії"
+            },
+            "damageApply": {
+              "label": "Застосувати шкоду/лікування",
+              "hint": "Автоматично застосовувати шкоду й лікування. Цілі мають бути обрані до виконання дії, а автоматизація кидків реакції має бути відмінна від «Ніколи». Обходить дозволи користувачів."
+            },
+            "effect": {
+              "label": "Застосувати ефекти",
+              "hint": "Автоматично застосовувати ефекти. Цілі мають бути обрані до виконання дії, а автоматизація кидків реакції має бути відмінна від «Ніколи». Обходить дозволи користувачів."
+            }
+          },
+          "triggers": {
+            "enabled": {
+              "label": "Увімкнено",
+              "hint": "Розширена автоматизація, як-от спливне вікно для «Дивних закономірностей» чарівника"
+            }
+          },
+          "summaryMessages": {
+            "label": "Підсумкові повідомлення"
+          }
+        },
+        "defeated": {
+          "title": "Обробка поразки"
+        },
+        "roll": {
+          "title": "Дії"
+        },
+        "trigger": {
+          "title": "Тригери"
+        }
+      },
+      "Metagaming": {
+        "FIELDS": {
+          "hideObserverPermissionInChat": {
+            "label": "Приховувати інформацію в чаті від гравців",
+            "hint": "Інформацію на кшталт влучання/промаху атак проти супротивників буде приховано"
+          },
+          "hidePartyStats": {
+            "label": "Приховувати характеристики загону",
+            "hint": "Ресурси й характеристики в списку учасників аркуша загону буде приховано від цих користувачів, навіть якщо вони в тому самому загоні",
+            "choices": {
+              "never": "Ніколи, завжди показувати",
+              "players": "Приховувати від гравців",
+              "always": "Приховувати від усіх"
+            }
+          }
+        }
+      },
+      "Homebrew": {
+        "newDowntimeMove": "Хід дозвілля",
+        "downtimeMove": "Хід дозвілля",
+        "armorFeature": "Властивість броні",
+        "weaponFeature": "Властивість зброї",
+        "newFeature": "Нова властивість предмета",
+        "downtimeMoves": "Ходи дозвілля",
+        "itemFeatures": "Властивості предмета",
+        "nrChoices": "К-сть ходів за відпочинок",
+        "resetMovesTitle": "Скинути ходи дозвілля: {type}",
+        "resetItemFeaturesTitle": "Скинути: {type}",
+        "resetMovesText": "Справді скинути?",
+        "deleteItemTitle": "Видалити хоумбрю-предмет",
+        "deleteItemText": "Справді видалити предмет?",
+        "deleteResourceTitle": "Видалити хоумбрю-ресурс",
+        "deleteResourceText": "Справді видалити ресурс?",
+        "reset": "Скинути",
+        "FIELDS": {
+          "domains": {
+            "color": {
+              "label": "Колір банера"
+            },
+            "invertText": {
+              "label": "Інвертувати колір тексту"
+            }
+          },
+          "maxFear": {
+            "label": "Макс. Страху"
+          },
+          "maxHope": {
+            "label": "Макс. Надії"
+          },
+          "traitArray": {
+            "label": "Початкові модифікатори рис"
+          },
+          "maxLoadout": {
+            "label": "Макс. карт у наборі",
+            "hint": "Залиште порожнім чи 0 для необмеженої кількості"
+          },
+          "resources": {
+            "resources": {
+              "value": {
+                "label": "Іконка"
+              },
+              "isIcon": {
+                "label": "Іконка FA"
+              },
+              "noColorFilter": {
+                "label": "Без фільтра"
+              }
+            }
+          },
+          "maxDomains": {
+            "label": "Макс. доменів класу",
+            "hint": "Максимальна кількість доменів, які можна задати класу"
+          },
+          "tokenSizes": {
+            "label": "Розміри токенів"
+          }
+        },
+        "currency": {
+          "title": "Перевизначення валюти",
+          "changeIcon": "Змінити іконку валюти",
+          "currencyName": "Назва валюти",
+          "coinName": "Назва монети",
+          "handfulName": "Назва жмені",
+          "iconName": "Назва іконки",
+          "iconNameHint": "Іконки з fontawesome",
+          "bagName": "Назва торбини",
+          "chestName": "Назва скрині",
+          "denomination": "Номінал",
+          "initialAmount": "Початкова кількість"
+        },
+        "damageTypes": {
+          "title": "Перевизначення типів шкоди",
+          "changeIcon": "Змінити іконку типу шкоди",
+          "abbreviation": "Скор."
+        },
+        "domains": {
+          "domainsTitle": "Базові домени",
+          "homebrewDomains": "Хоумбрю-домени",
+          "newDomain": "Новий домен",
+          "newDomainInputTitle": "Створити хоумбрю-домен",
+          "newDomainInputLabel": "Назва нового домену",
+          "newDomainInputHint": "Згодом це змінити не можна",
+          "editDomain": "Активний домен",
+          "deleteDomain": "Видалити домен",
+          "deleteDomainText": "Справді видалити домен {name}? Його буде негайно вилучено з усіх акторів цього світу, де він використовується. Компендіуми не очищуються.",
+          "duplicateDomain": "Домен із таким ідентифікатором уже існує."
+        },
+        "adversaryType": {
+          "title": "Власні типи супротивників",
+          "newType": "Тип супротивника"
+        },
+        "resources": {
+          "typeTitle": "Ресурси: {type}",
+          "filledIcon": "Заповнена іконка",
+          "emptyIcon": "Порожня іконка",
+          "resourceIdentifier": "Ідентифікатор ресурсу",
+          "setResourceIdentifier": "Задати ідентифікатор ресурсу"
+        }
+      },
+      "Keybindings": {
+        "partySheet": {
+          "name": "Перемкнути аркуш загону",
+          "hint": "Відкрити чи закрити аркуш активного загону"
+        },
+        "spotlight": {
+          "name": "Центр уваги на учаснику бою",
+          "hint": "Перемістити центр уваги на токен під курсором чи вибраний"
+        }
+      },
+      "Menu": {
+        "title": "Ігрові налаштування Daggerheart",
+        "automation": {
+          "name": "Налаштування автоматизації",
+          "label": "Налаштувати автоматизацію",
+          "hint": "Різні налаштування автоматизації керування ресурсами тощо"
+        },
+        "metagaming": {
+          "name": "Налаштування метагри",
+          "label": "Налаштувати метагру",
+          "hint": "Різні налаштування, що керують потоком інформації до гравців"
+        },
+        "homebrew": {
+          "name": "Налаштування хоумбрю",
+          "label": "Налаштувати хоумбрю",
+          "hint": "Різні налаштування для розширення типів чи змінених правил гри"
+        },
+        "range": {
+          "name": "Налаштування дальності",
+          "label": "Налаштувати обробку дальності",
+          "hint": "Налаштування системної лінійки для показу дальностей Daggerheart"
+        },
+        "appearance": {
+          "label": "Налаштування вигляду",
+          "hint": "Змінити вигляд різних частин системи",
+          "duality": "Кидки двоїстості"
+        },
+        "variantRules": {
+          "title": "Варіантні правила",
+          "label": "Варіантні правила",
+          "hint": "Застосувати варіантні правила системи Daggerheart",
+          "name": "Варіантні правила",
+          "actionTokens": "Жетони дій"
+        },
+        "SpotlightRequestQueue": {
+          "name": "Черга запитів центру уваги",
+          "label": "Черга запитів центру уваги",
+          "hint": "Додає структури запитам центру уваги, впорядковуючи їх від найстаріших до найновіших"
+        }
+      },
+      "Resources": {
+        "fear": {
+          "name": "Страх",
+          "hint": "Запас Страху ГМ."
+        }
+      },
+      "VariantRules": {
+        "FIELDS": {
+          "actionTokens": {
+            "enabled": {
+              "label": "Увімкнено"
+            },
+            "tokens": {
+              "label": "Токени"
+            },
+            "automation": {
+              "label": "Автоматизація",
+              "hint": "Автоматично видавати й забирати очки дій, коли учасники бою роблять ходи."
+            }
+          },
+          "massiveDamage": {
+            "title": "Масивна шкода",
+            "enabled": {
+              "label": "Увімкнено"
+            }
+          }
+        }
+      },
+      "ResetSettings": {
+        "resetConfirmationTitle": "Скинути налаштування",
+        "resetConfirmationText": "Справді скинути {settings}?"
+      },
+      "Scene": {
+        "FIELDS": {
+          "rangeMeasurement": {
+            "setting": {
+              "label": "Налаштування"
+            }
+          }
+        },
+        "disabledText": "Вимірювання Daggerheart вимкнено в налаштуваннях системи — Варіантні правила",
+        "rangeMeasurement": "Вимірювання дальності",
+        "sceneEnvironments": "Оточення сцени",
+        "dragEnvironmentHere": "Перетягніть оточення сюди"
+      }
+    },
+    "UI": {
+      "Chat": {
+        "action": {
+          "title": "Дія"
+        },
+        "appliedTo": "Застосовано до",
+        "applyEffect": {
+          "title": "Застосувати ефекти — {name}"
+        },
+        "attackRoll": {
+          "title": "Атака — {attack}",
+          "rollDamage": "Кинути шкоду",
+          "rollHealing": "Кинути лікування",
+          "applyEffect": "Застосувати ефекти"
+        },
+        "clearResource": "Очистити {quantity} {resource}",
+        "clearResourceFully": "Повністю очистити {resource}",
+        "damageSummary": {
+          "title": "Шкоду застосовано",
+          "healingTitle": "Лікування застосовано",
+          "undoDamage": "Скасувати: {type}"
+        },
+        "damageRoll": {
+          "title": "Шкода — {damage}",
+          "dealDamageToTargets": "Шкода по влучених цілях",
+          "dealDamage": "Завдати шкоди",
+          "rollDamage": "Кинути шкоду",
+          "hitTarget": "Влучання",
+          "targetingInitial": "Цілі",
+          "targetingSelected": "Обрано",
+          "totalTargetedTokens": "Вибрано: {total}",
+          "noTokensSelected": "Токени не вибрано",
+          "setSelectedAsTargets": "Зробити вибрані цілями"
+        },
+        "deathMove": {
+          "title": "Смертельний хід",
+          "gainScar": "Ви отримали шрам.",
+          "avoidScar": "Ви уникнули нового шраму.",
+          "journeysEnd": "У вас {scars} шрам(ів), і ви закреслили останню комірку Надії. Шлях вашого персонажа закінчується.",
+          "riskItAllCritical": "Критичний результат: очищено весь позначений Стрес і Очки здоров'я.",
+          "riskItAllFailure": "На Кістці Страху випало більше. Ви перейшли за завісу смерті.",
+          "blazeOfGlory": "Додано ефект «У сяйві слави»!",
+          "riskItAllDialogButton": "Очистити Стрес і Очки здоров'я.",
+          "riskItAllSuccessWithEnoughHope": "Значення Надії більше за позначений Стрес і Очки здоров'я. Обидва повністю очищено.",
+          "riskItAllSuccess": "На Кістці Надії випало більше: очистьте разом до {hope} Стресу й Очок здоров'я."
+        },
+        "dicePool": {
+          "title": "Пул костей"
+        },
+        "domainCard": {
+          "title": "Карта домену"
+        },
+        "dualityRoll": {
+          "abilityCheckTitle": "Кидок: {ability}"
+        },
+        "effectSummary": {
+          "title": "Ефекти застосовано",
+          "immunityTo": "Несприйнятливість: {immunities}"
+        },
+        "featureTitle": "Класова особливість",
+        "healingRoll": {
+          "title": "Лікування — {damage}",
+          "heal": "Зцілення",
+          "applyHealing": "Застосувати лікування"
+        },
+        "markResource": "Позначити {quantity} {resource}",
+        "reloadWeapon": "Перезарядити {weapon}",
+        "restoreWeaponResource": "Відновити {quantity} на {weapon}",
+        "refreshMessage": {
+          "title": "Оновлення особливостей",
+          "header": "Оновлено"
+        },
+        "reroll": {
+          "confirmTitle": "Перекинути кості",
+          "confirmText": "Справді перекинути?"
+        },
+        "resourceRoll": {
+          "playerMessage": "{user} перекидає {name}"
+        },
+        "saveRoll": {
+          "reactionRollAllTargets": "Кидок реакції для всіх цілей"
+        },
+        "tagTeam": {
+          "title": "Командний кидок",
+          "membersTitle": "Учасники"
+        }
+      },
+      "ChatLog": {
+        "rerollActionRoll": "Перекинути дію",
+        "rerollDamage": "Перекинути шкоду",
+        "assignTagRoll": "Призначити як командний кидок"
+      },
+      "ConsoleLogs": {
+        "triggerRun": "DH TRIGGER | Предмет '{item}' актора '{actor}' запустив тригер '{trigger}'."
+      },
+      "Countdowns": {
+        "title": "Відліки",
+        "toggleIconMode": "Лише іконка",
+        "hidden": "Цей відлік приховано від усіх гравців.",
+        "hiddenPartial": "Цей відлік приховано від гравців, крім {players}.",
+        "reveal": "Розкрити відлік",
+        "hide": "Приховати відлік",
+        "loop": "Циклічний",
+        "decreasingLoop": "Спадний циклічний",
+        "increasingLoop": "Зростаючий циклічний",
+        "inherit": "Основа"
+      },
+      "EffectsDisplay": {
+        "removeThing": "[Правий клік] Вилучити {thing}",
+        "increaseStacks": "[Лівий клік] Збільшити стос",
+        "decreaseStacks": "[Правий клік] Зменшити стос",
+        "appliedBy": "Застосував: {by}"
+      },
+      "ItemBrowser": {
+        "title": "Браузер компендіумів Daggerheart",
+        "windowTitle": "Браузер компендіумів",
+        "hint": "Оберіть теку на бічній панелі, щоб почати перегляд компендіуму",
+        "browserSettings": "Налаштування браузера",
+        "columnName": "Назва",
+        "tooltipFilters": "Фільтри",
+        "tooltipErase": "Стерти",
+        "difficultyMin": "Складність (мін.)",
+        "difficultyMax": "Складність (макс.)",
+        "hitPointsMin": "Очки здоров'я (мін.)",
+        "hitPointsMax": "Очки здоров'я (макс.)",
+        "stressMin": "Стрес (мін.)",
+        "stressMax": "Стрес (макс.)",
+        "armorScoreMin": "Показник Броні (мін.)",
+        "armorScoreMax": "Показник Броні (макс.)",
+        "levelMin": "Рівень (мін.)",
+        "levelMax": "Рівень (макс.)",
+        "recallCostMin": "Вартість відкликання (мін.)",
+        "recallCostMax": "Вартість відкликання (макс.)",
+        "evasionMin": "Ухилення (мін.)",
+        "evasionMax": "Ухилення (макс.)",
+        "spellcasting": "Чаротворення",
+        "thresholds": "Пороги",
+        "subtype": "Підтип",
+        "missing": "<i>Бракує</i>",
+        "folders": {
+          "characters": "Персонажі",
+          "adversaries": "Супротивники",
+          "ancestries": "Походження",
+          "equipment": "Спорядження",
+          "classes": "Класи",
+          "subclasses": "Підкласи",
+          "domainCards": "Карти доменів",
+          "communities": "Спільноти",
+          "environments": "Оточення",
+          "beastforms": "Звірині подоби",
+          "features": "Особливості",
+          "items": "Предмети",
+          "weapons": "Зброя",
+          "armors": "Броня",
+          "consumables": "Витратні предмети",
+          "loots": "Предмети",
+          "transformations": "Перетворення"
+        }
+      },
+      "Notifications": {
+        "adversaryMissing": "Пов'язаного супротивника немає у світі.",
+        "beastformInapplicable": "Звірину подобу можна застосувати лише до персонажа.",
+        "beastformAlreadyApplied": "На персонажа вже застосовано звірину подобу!",
+        "noTargetsSelected": "Цілі не вибрано.",
+        "noTargetsHit": "Жодна ціль не влучена",
+        "attackTargetDoesNotExist": "Токена-цілі більше не існує",
+        "insufficentAdvancements": "У вас не лишилося достатньо покращень.",
+        "noAssignedPlayerCharacter": "Вам не призначено персонажа.",
+        "noSelectedToken": "Не вибрано жодного токена",
+        "onlyUseableByPC": "Це можна використати лише з токеном ПГ",
+        "dualityParsing": "Кидок двоїстості відформатовано неправильно",
+        "fateParsing": "Кидок долі відформатовано неправильно",
+        "fateTypeParsing": "Кидок долі відформатовано неправильно: хибний тип долі. Допустимі типи — 'Hope' і 'Fear'",
+        "attributeFaulty": "Вказаного атрибута не існує",
+        "domainCardWrongDomain": "Ви не маєте доступу до цього домену",
+        "domainCardToHighLevel": "Рівень карти домену зависокий, щоб її обрати",
+        "domainCardDuplicate": "У вас уже є ця карта домену!",
+        "noSelectionsLeft": "Більше нічого обирати!",
+        "alreadySelectedClass": "У вас уже є цей клас!",
+        "classAlreadySelected": "У персонажа вже є клас",
+        "subclassAlreadySelected": "У персонажа вже є підклас для цього класу.",
+        "noClassSelected": "Персонажеві не обрано клас!",
+        "lacksDomain": "Персонаж не має домену цієї карти!",
+        "duplicateDomainCard": "У вас уже є карта домену з такою назвою!",
+        "missingClassOrSubclass": "Персонаж не має класу й підкласу",
+        "tooHighLevel": "Не можна підвищити рівень персонажа понад максимальний",
+        "tooLowLevel": "Не можна знизити рівень персонажа нижче початкового",
+        "subclassNotInClass": "Цей підклас не належить до обраного класу.",
+        "subclassNotInMulticlass": "Цей підклас не належить до обраного мультикласу.",
+        "missingClass": "Ви ще не обрали клас.",
+        "missingMulticlass": "Бракує мультикласу",
+        "wrongDomain": "Карта не належить до жодного з доменів вашого класу.",
+        "cardTooHighLevel": "Рівень карти зависокий!",
+        "duplicateCard": "Не можна обрати ту саму карту більше одного разу.",
+        "duplicateCharacter": "Цей актор уже є в списку учасників загону.",
+        "limitedActorsInPartySheet": "На аркуш загону можна перетягувати лише акторів типу {allowedTypes}.",
+        "notPrimary": "Ця зброя не основна!",
+        "notSecondary": "Ця зброя не допоміжна!",
+        "itemTooHighTier": "Предмет має бути з Рангу 1",
+        "primaryIsTwoHanded": "Не можна обрати допоміжну зброю, якщо основна — дворучна!",
+        "noMoreMoves": "Більше не можна обирати ходи дозвілля",
+        "damageAlreadyNone": "Шкоду вже зменшено до нуля",
+        "noAvailableArmorMarks": "У вас немає доступних позначок Броні",
+        "notEnoughStress": "У вас бракує Стресу",
+        "damageIgnore": "{character} не отримує шкоди",
+        "featureIsMissing": "Бракує особливості",
+        "actionIsMissing": "Бракує дії",
+        "attackIsMissing": "Бракує атаки",
+        "unownedActionMacro": "Не можна створити макрос використання для дії, якої немає у вашого персонажа",
+        "unownedAttackMacro": "Не можна створити макрос використання для атаки, що не належить жодному з ваших персонажів",
+        "featureNotHope": "Ця особливість використовується не як особливість Надії, тож тут її не можна використати.",
+        "featureNotClass": "Ця особливість використовується не як класова, тож тут її не можна використати.",
+        "featureNotPrimary": "Ця особливість використовується не як основна, тож тут її не можна використати.",
+        "featureNotSecondary": "Ця особливість використовується не як друга, тож тут її не можна використати.",
+        "featureNotFoundation": "Ця особливість використовується не як особливість основи, тож тут її не можна використати.",
+        "featureNotSpecialization": "Ця особливість використовується не як особливість спеціалізації, тож тут її не можна використати.",
+        "featureNotMastery": "Ця особливість використовується не як особливість майстерності, тож тут її не можна використати.",
+        "beastformMissingEffect": "Звіриній подобі бракує ефекту звіриної подоби. Використати неможливо.",
+        "beastformToManyAdvantages": "Більше не можна обирати переваги.",
+        "beastformToManyFeatures": "Більше не можна обирати особливості.",
+        "beastformEquipWeapon": "У звириній подобі не можна користуватися зброєю.",
+        "loadoutMaxReached": "Ви досягли максимального розміру набору. Щоб додати більше, перемістіть принаймні одну карту домену в сховище.",
+        "domainMaxReached": "Ви досягли максимальної кількості доменів для класу. За бажання збільште ліміт у налаштуваннях хоумбрю.",
+        "insufficientResources": "У вас бракує ресурсів, щоб використати цю дію.",
+        "actionNoUsesRemaining": "У цієї дії не лишилося використань.",
+        "multiclassAlreadyPresent": "У вас уже є клас і мультиклас",
+        "subclassesAlreadyPresent": "У вас уже є клас і підклас мультикласу",
+        "noDiceSystem": "Обраний набір костей {system} не має кості {faces}",
+        "gmMenuRefresh": "Ви оновили всі дії й ресурси {types}",
+        "gmRequired": "Для цієї дії потрібен ГМ онлайн",
+        "gmOnly": "Доступ до цього має лише ГМ",
+        "noActorOwnership": "Ви не маєте дозволів на цього персонажа",
+        "documentIsMissing": "{documentType} відсутній у світі.",
+        "tokenActorMissing": "У {name} бракує актора",
+        "tokenActorsMissing": "[{names}] бракує акторів",
+        "domainTouchRequirement": "Щоб використати цю карту домену, у наборі має бути {nr} карт(и) домену {domain}",
+        "knowTheTide": "«Знати плин» отримує жетон",
+        "lackingItemTransferPermission": "Користувачеві {user} бракує прав власника, щоб передати предмети {target}",
+        "noTokenTargeted": "Ціль не обрано",
+        "behaviorRegionRequiresGM": "Для створення регіону з прикріпленою поведінкою потрібен ГМ онлайн",
+        "comboDiceOnlyTwoDiceError": "Комбо-кості працюють лише з однією парою з двох костей",
+        "reloadRequired": "{weapon} треба перезарядити, щоб використати!",
+        "partnerRequired": "Щоб використати цю дію, треба призначити партнера.",
+        "actorMissing": "Актору {actorName} не вдалося завдати шкоди, бо його більше не існує"
+      },
+      "Progress": {
+        "migrationLabel": "Виконується міграція системи. Зачекайте й не закривайте Foundry."
+      },
+      "Sidebar": {
+        "actorDirectory": {
+          "tier": "Ранг {tier}, {type}",
+          "character": "Персонаж {level}-го рівня",
+          "companion": "Рівень {level} — {partner}",
+          "companionNoPartner": "Без партнера",
+          "duplicateToNewTier": "Дублювати в новий ранг",
+          "activateParty": "Зробити активним загоном",
+          "partyIsActive": "Активне",
+          "createAdversary": "Створити супротивника",
+          "pickTierTitle": "Оберіть новий ранг для цього супротивника"
+        },
+        "daggerheartMenu": {
+          "title": "Меню Daggerheart",
+          "startSession": "Почати сесію",
+          "startScene": "Почати сцену"
+        }
+      },
+      "Tooltip": {
+        "disableEffect": "Вимкнути ефект",
+        "enableEffect": "Увімкнути ефект",
+        "edit": "Редагувати",
+        "openItemWorld": "Відкрити світ предмета",
+        "openActorWorld": "Відкрити світ актора",
+        "sendToChat": "Надіслати в чат",
+        "maxEvasionClassBound": "Базове Ухилення задає клас. Це збільшення понад нього.",
+        "maxHPClassBound": "Базовий макс. ОЗ задає клас. Це збільшення понад нього.",
+        "moreOptions": "Більше варіантів",
+        "equip": "Спорядити",
+        "unequip": "Зняти",
+        "sendToVault": "Перемістити в сховище",
+        "sendToLoadout": "Перемістити в набір",
+        "makeDeathMove": "Зробити смертельний хід",
+        "rangeAndTarget": "Дальність і ціль",
+        "dragApplyEffect": "Перетягніть ефект, щоб застосувати його до актора",
+        "appliedEvenIfSuccessful": "Застосовується, навіть якщо кидок реакції успішний",
+        "pendingSaves": "Незавершені кидки реакції",
+        "openSheetSettings": "Відкрити налаштування",
+        "compendiumBrowser": "Браузер компендіумів",
+        "rulesOn": "Правила увімк.",
+        "rulesOff": "Правила вимк.",
+        "remainingUses": "Використання оновлюються: {type}",
+        "rightClickExtend": "Правий клік — розгорнути",
+        "companionPartnerLevelBlock": "Компаньйонові потрібен призначений партнер, щоб підвищити рівень.",
+        "configureAttribution": "Налаштувати атрибуцію",
+        "configureLevelupOptions": "Налаштувати варіанти підвищення рівня",
+        "deleteItem": "Видалити предмет",
+        "immune": "Несприйнятливий",
+        "middleClick": "[Середній клік] Залишити підказку",
+        "tokenSize": "Розмір токена на полотні",
+        "previewTokenHelp": "Лівий клік — розмістити, правий — скасувати",
+        "suppressedEffect": {
+          "general": "Цей ефект придушено",
+          "invalid": "Цей ефект придушено через умови",
+          "unequipped": "Цей ефект придушено, бо предмет не споряджено"
+        },
+        "toggleVersatile": "Перемикання універсальності"
+      }
+    }
+  }
+}

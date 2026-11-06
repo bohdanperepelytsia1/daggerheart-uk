@@ -1,0 +1,872 @@
+d0000	Level 1
+d0001	Level 2
+d0002	Level 3
+d0003	Level 4
+d0004	Level 5
+d0005	Level 6
+d0006	Level 7
+d0007	Level 8
+d0008	Level 9
+d0009	Level 10
+d0010	Adjust Reality
+d0011	<p>After you or a willing ally make any roll, you can <strong>spend 5 Hope</strong> to change the numerical result of that roll to a result of your choice instead. The result must be plausible within the range of the dice.</p>
+d0012	Arcana-Touched
+d0013	<p>When 4 or more of the domain cards in your loadout are from the Arcana domain, gain the following benefits:</p><ul><li class="vertical-card-list-found"><p>+1 bonus to your Spellcast Rolls</p></li><li class="vertical-card-list-found"><p>Once per rest, you can switch the results of your Hope and Fear Dice.</p></li></ul>
+d0014	Switch Duality Results
+d0015	<p>Once per rest, you can switch the results of your Hope and Fear Dice.</p>
+d0016	Arcane Reflection
+d0017	<p>When you would take magic damage, you can <strong>spend any number of Hope</strong> to roll that many <strong>d6s</strong>. If any roll a 6, the attack is reflected back to the caster, dealing the damage to them instead.</p>
+d0018	Reflect Back
+d0019	Armorer
+d0020	<p>While you're wearing armor, gain a +1 bonus to your Armor Score.</p><p>During a rest, when you choose to repair your armor as a downtime move, your allies also clear an Armor Slot.</p>
+d0021	<p>During a rest, when you choose to repair your armor as a downtime move, your allies also clear an Armor Slot.</p>
+d0022	<p>While you're wearing armor, gain a +1 bonus to your Armor Score.</p>
+d0023	Astral Projection
+d0024	<p>Once per long rest, <strong>mark a Stress</strong> to create a projected copy of yourself that can appear anywhere you've been before.</p><p>You can see and hear through the projection as though it were you and affect the world as though you were there. A creature investigating the projection can tell it's of magical origin. This effect lasts until your next rest or your projection takes any damage.</p>
+d0025	Project
+d0026	A Soldier's Bond
+d0027	<p>Once per long rest, when you compliment someone or ask them about something they're good at, you can both gain 3 Hope.</p>
+d0028	Gain 3 Hope
+d0029	Banish
+d0030	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, roll a number of <strong>d20</strong>s equal to your Spellcast trait. The target must make a reaction roll with a Difficulty equal to your highest result. On a success, the target must mark a Stress but isn't banished. Once per rest on a failure, they are banished from this realm.</p><p>When the PCs roll with Fear, the Difficulty gains a -1 penalty and the target makes another reaction roll. On a success, they return from banishment.</p>
+d0031	Bare Bones
+d0032	<p>When you choose not to equip armor, you have a base Armor Score of 3 + your Strength and use the following as your base damage thresholds:</p><ul><li class="vertical-card-list-found"><p><em><strong>Tier 1:</strong></em> 9/19</p></li><li class="vertical-card-list-found"><p><em><strong>Tier 2:</strong></em> 11/24</p></li><li class="vertical-card-list-found"><p><em><strong>Tier 3:</strong></em> 13/31</p></li><li class="vertical-card-list-found"><p><em><strong>Tier 4:</strong></em> 15/38</p></li></ul>
+d0033	<p>You have a base Armor Score of 3 + your Strength.</p>
+d0034	Battle Cry
+d0035	<p>Once per long rest, while you're charging into danger, you can muster a rousing call that inspires your allies. All allies who can hear you each clear a Stress and gain a Hope. Additionally, your allies gain advantage on attack rolls until you or an ally rolls a failure with Fear.</p>
+d0036	Clear Stress & Gain Hope
+d0037	<p>You gain advantage on attack rolls until you or an ally rolls a failure with Fear.</p>
+d0038	Battle-Hardened
+d0039	<p>Once per long rest when you would make a Death Move, you can <strong>spend a Hope</strong> to clear a Hit Point instead.</p>
+d0040	Spend a Hope
+d0041	Battle Monster
+d0042	<p>When you make a successful attack against an adversary, you can <strong>mark 4 Stress</strong> to force the target to mark a number of Hit Points equal to the number of Hit Points you currently have marked instead of rolling for damage.</p>
+d0043	Blade-Touched
+d0044	<p>When 4 or more of the domain cards in your loadout are from the Blade domain, gain the following benefits:</p><ul><li class="vertical-card-list-found"><p>+2 bonus to your attack rolls</p></li><li class="vertical-card-list-found"><p>+4 bonus to your Severe damage threshold</p></li></ul>
+d0045	Blink Out
+d0046	<p>Make a <strong>Spellcast Roll</strong><strong> (12)</strong>. On a success, <strong>spend a </strong><strong>Hope</strong> to teleport to another point you can see within Far range. If any willing creatures are within Very Close range, <strong>spend an additional Hope</strong> for each creature to bring them with you.</p>
+d0047	<p>Make a <strong>Spellcast Roll (12)</strong>. On a success, <strong>spend a Hope</strong> to teleport to another point you can see within Far range. If any willing creatures are within Very Close range, <strong>spend an additional Hope</strong> for each creature to bring them with you.</p>
+d0048	Body Basher
+d0049	<p>You use the full force of your body in a fight. On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.</p>
+d0050	<p>On a successful attack using a weapon with a Melee range, gain a bonus to your damage roll equal to your Strength.</p>
+d0051	Bold Presence
+d0052	<p>When you make a Presence Roll, you can <strong>spend a Hope</strong> to add your Strength to the roll.</p><p>Additionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.</p>
+d0053	<p>When you make a Presence Roll, you can <strong>spend a Hope</strong> to add your Strength to the roll.</p>
+d0054	Avoid Condition
+d0055	<p>Additionally, once per rest when you would gain a condition, you can describe how your bold presence aids you in the situation and avoid gaining the condition.</p>
+d0056	<p>Add your Strength to the presence roll.</p>
+d0057	Bolt Beacon
+d0058	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, <strong>spend a Hope</strong> to send a bolt of shimmering light toward them, dealing <strong>d8+2</strong> magic damage using your Proficiency. The target becomes temporarily <em>Vulnerable</em> and glows brightly until this condition is cleared.</p>
+d0059	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, spend a <strong>Hope</strong> to send a bolt of shimmering light toward them, dealing d8+2 magic damage using your Proficiency. The target becomes temporarily <em>Vulnerable</em> and glows brightly until this condition is cleared.</p>
+d0060	<p>Temporarily Vulnerable and glows brightly until this condition is cleared.</p>
+d0061	Bone-Touched
+d0062	<p>When 4 or more of the domain cards in your loadout are from the Bone domain, gain the following benefits:</p><ul><li class="vertical-card-list-found"><p>+1 bonus to Agility</p></li><li class="vertical-card-list-found"><p>Once per rest, you can <strong>spend 3 Hope</strong> to cause an attack that succeeded against you to fail instead.</p></li></ul>
+d0063	<p>Once per rest, you can <strong>spend 3 Hope</strong> to cause an attack that succeeded against you to fail instead.</p>
+d0064	Bone Touched
+d0065	<p>+1 bonus to Agility</p>
+d0066	Book of Ava
+d0067	<p><em><strong>Power Push:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, they're knocked back to Far range and take <strong>d10+2</strong> magic damage using your Proficiency.</p><p><em><strong>Tava's Armor:</strong></em> <strong>Spend a Hope</strong> to give a target you can touch a +1 bonus to their Armor Score until their next rest or you cast Tava's Armor again.</p><p><em><strong>Ice Spike:</strong></em> Make a <strong>Spellcast Roll (12)</strong> to summon a large ice spike within Far range. If you use it as a weapon, make the Spellcast Roll against the target's Difficulty instead. On a success, deal <strong>d6</strong> physical damage using your Proficiency.</p>
+d0068	Power Push
+d0069	<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, they're knocked back to Far range and take <strong>d10+2</strong> magic damage using your Proficiency.</p>
+d0070	Tava's Armor
+d0071	<p><strong>Spend a Hope</strong> to give a target you can touch a +1 bonus to their Armor Score until their next rest or you cast Tava's Armor again.</p>
+d0072	Ice Spike
+d0073	<p>Make a <strong>Spellcast Roll (12)</strong> to summon a large ice spike within Far range. If you use it as a weapon, make the Spellcast Roll against the target's Difficulty instead. On a success, deal <strong>d6</strong> physical damage using your Proficiency.</p>
+d0074	Ice Spike (Attack)
+d0075	<p>+1 bonus to your Armor Score until your next rest, or the caster cast's Tava's Armor again.</p>
+d0076	Book of Exota
+d0077	<p><em><strong>Repudiate:</strong></em> You can interrupt a magical effect taking place. Make a reaction roll using your Spellcast trait. Once per rest on a success, the effect stops and any consequences are avoided.</p><p><em><strong>Create Construct:</strong></em> <strong>Spend a Hope</strong> to choose a group of objects around you and create an animated construct from them that obeys basic commands. Make a <strong>Spellcast Roll</strong> to command them to take action. When necessary, they share your Evasion and traits and their attacks deal <strong>2d10+3</strong> physical damage. You can only maintain one construct at a time, and they fall apart when they take any amount of damage.</p>
+d0078	Repudiate
+d0079	<p>You can interrupt a magical effect taking place. Make a reaction roll using your Spellcast trait. Once per rest on a success, the effect stops and any consequences are avoided.</p>
+d0080	Create Construct
+d0081	<p><strong>Spend a Hope</strong> to choose a group of objects around you and create an animated construct from them that obeys basic commands.</p>
+d0082	Construct (Take Action)
+d0083	<p>Make a <strong>Spellcast Roll</strong> to command the constructs to take action. When necessary, they share your Evasion and traits and their attacks deal <strong>2d10+3</strong> physical damage. You can only maintain one construct at a time, and they fall apart when they take any amount of damage.</p>
+d0084	Book of Grynn
+d0085	<p><em><strong>Arcane Deflection:</strong></em> Once per long rest, <strong>spend a Hope</strong> to negate the damage of an attack targeting you or an ally within Very Close range.</p><p><em><strong>Time Lock:</strong></em> Target an object within Far range. That object stops in time and space exactly where it is until your next rest. If a creature tries to move it, make a <strong>Spellcast Roll</strong> against them to maintain this spell.</p><p><em><strong>Wall of Flame:</strong></em> Make a <strong>Spellcast Roll (15)</strong>. On a success, create a temporary wall of magical flame between two points within Far range. All creatures in its path must choose a side to be on, and anything that subsequently passes through the wall takes <strong>4d10+3</strong> magic damage.</p>
+d0086	Arcane Deflection
+d0087	<p>Once per long rest, <strong>spend a Hope</strong> to negate the damage of an attack targeting you or an ally within Very Close range.</p>
+d0088	Time Lock
+d0089	<p>Target an object within Far range. That object stops in time and space exactly where it is until your next rest. If a creature tries to move it, make a <strong>Spellcast Roll</strong> against them to maintain this spell.</p>
+d0090	Wall Of Flame
+d0091	<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, create a temporary wall of magical flame between two points within Far range. All creatures in its path must choose a side to be on, and anything that subsequently passes through the wall takes <strong>4d10+3</strong> magic damage.</p>
+d0092	Book of Homet
+d0093	<p><em><strong>Pass Through:</strong></em> Make a <strong>Spellcast Roll (13)</strong>. Once per rest on a success, you and all creatures touching you can pass through a wall or door within Close range. The effect ends once everyone is on the other side.</p><p><em><strong>Plane Gate:</strong></em> Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, open a gateway to a location in another dimension or plane of existence you've been to before. This gateway lasts until your next rest.</p>
+d0094	Pass Through
+d0095	<p>Make a <strong>Spellcast Roll (13)</strong>. Once per rest on a success, you and all creatures touching you can pass through a wall or door within Close range. The effect ends once everyone is on the other side.</p>
+d0096	Plane Gate
+d0097	<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, open a gateway to a location in another dimension or plane of existence you've been to before. This gateway lasts until your next rest.</p>
+d0098	Book of Illiat
+d0099	<p><em><strong>Slumber:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Very Close range. On a success, they're <em>Asleep</em> until they take damage or the GM spends a <strong>Fear</strong> on their turn to clear this condition.</p><p><em><strong>Arcane Barrage:</strong></em> Once per rest, <strong>spend any number of Hope</strong> and shoot magical projectiles that strike a target of your choice within Close range. Roll a number of <strong>d6s</strong> equal to the Hope spent and deal that much magic damage to the target.</p><p><em><strong>Telepathy:</strong></em> <strong>Spend a Hope</strong> to open a line of mental communication with one target you can see. This connection lasts until your next rest or you cast Telepathy again.</p>
+d0100	Slumber
+d0101	<p><em><strong>Slumber:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Very Close range. On a success, they're <em>Asleep</em> until they take damage or the GM spends a <strong>Fear</strong> on their turn to clear this condition.</p>
+d0102	Arcane Barrage
+d0103	<p>Once per rest, <strong>spend any number of Hope</strong> and shoot magical projectiles that strike a target of your choice within Close range. Roll a number of <strong>d6s</strong> equal to the Hope spent and deal that much magic damage to the target.</p>
+d0104	Telepathy
+d0105	<p><strong>Spend a Hope</strong> to open a line of mental communication with one target you can see. This connection lasts until your next rest or you cast Telepathy again.</p>
+d0106	<p>Lasts until your next rest or the caster casts Telepathy again.</p>
+d0107	<p>Asleep until they take damage or the GM spends a Fear on their turn to clear this condition.</p>
+d0108	Book of Korvax
+d0109	<p><em><strong>Levitation:</strong></em> Make a <strong>Spellcast Roll</strong> to temporarily lift a target you can see up into the air and move them within Close range of their original position.</p><p><em><strong>Recant:</strong></em> <strong>Spend a Hope</strong> to force a target within Melee range to make a Reaction Roll (15). On a failure, they forget the last minute of your conversation.</p><p><em><strong>Rune Circle:</strong></em> <strong>Mark a Stress</strong> to create a temporary magical circle on the ground where you stand. All adversaries within Melee range, or who enter Melee range, take <strong>2d12+4</strong> magic damage and are knocked back to Very Close range.</p>
+d0110	Levitation
+d0111	<p>Make a <strong>Spellcast Roll</strong> to temporarily lift a target you can see up into the air and move them within Close range of their original position.</p>
+d0112	Recant
+d0113	<p><strong>Spend a Hope</strong> to force a target within Melee range to make a Reaction Roll (15). On a failure, they forget the last minute of your conversation.</p>
+d0114	Rune Circle
+d0115	<p><strong>Mark a Stress</strong> to create a temporary magical circle on the ground where you stand. All adversaries within Melee range, or who enter Melee range, take <strong>2d12+4</strong> magic damage and are knocked back to Very Close range.</p>
+d0116	Book of Norai
+d0117	<p><em><strong>Mystic Tether:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, they're temporarily <em>Restrained</em> and must mark a Stress. If you target a flying creature, this spell grounds and temporarily <em>Restrains</em> them.</p><p><em><strong>Fireball:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, hurl a sphere of fire toward them that explodes on impact. The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who fail take<strong> d20+5</strong> magic damage using your Proficiency. Targets who succeed take half damage.</p>
+d0118	Mystic Tether
+d0119	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, they're temporarily <em>Restrained</em> and must mark a Stress. If you target a flying creature, this spell grounds and temporarily <em>Restrains</em> them.</p>
+d0120	Fireball - Cast
+d0121	<p>Make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, hurl a sphere of fire toward them that explodes on impact.</p>
+d0122	Fireball - Explosion
+d0123	<p>The target and all creatures within Very Close range of them must make a Reaction Roll (13). Targets who fail take<strong> d20+5</strong> magic damage using your Proficiency. Targets who succeed take half damage.</p>
+d0124	Book of Ronin
+d0125	<p><em><strong>Transform:</strong></em> Make a <strong>Spellcast Roll (15)</strong>. On a success, transform into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p><p><em><strong>Eternal Enervation:</strong> </em>Once per long rest, make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>
+d0126	<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, transform into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p>
+d0127	Eternal Enervation
+d0128	<p>Once per long rest, make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>
+d0129	<p>You've transformed into an inanimate object no larger than twice your normal size. You can remain in this shape until you take damage.</p>
+d0130	<p>Permanently <em>Vulnerable</em>. They can't clear this condition by any means.</p>
+d0131	Book of Sitil
+d0132	<p><em><strong>Adjust Appearance:</strong></em> You magically shift your appearance and clothing to avoid recognition.</p><p><em><strong>Parallela:</strong></em><strong> Spend 2 Hope</strong> to cast this spell on yourself or an ally within Close range. The next time the target makes an attack, they can hit an additional target within range that their attack roll would succeed against. You can only hold this spell on one creature at a time.</p><p><em><strong>Illusion:</strong></em> Make a <strong>Spellcast Roll (14)</strong>. On a success, create a temporary visual illusion no larger than you within Close range that lasts for as long as you look at it. It holds up to scrutiny until an observer is within Melee range.</p>
+d0133	Adjust Appearance
+d0134	<p>You magically shift your appearance and clothing to avoid recognition.</p>
+d0135	Parallela
+d0136	<p><strong>Spend 2 Hope</strong> to cast this spell on yourself or an ally within Close range. The next time the target makes an attack, they can hit an additional target within range that their attack roll would succeed against. You can only hold this spell on one creature at a time.</p>
+d0137	Illusion
+d0138	<p>Make a <strong>Spellcast Roll (14)</strong>. On a success, create a temporary visual illusion no larger than you within Close range that lasts for as long as you look at it. It holds up to scrutiny until an observer is within Melee range.</p>
+d0139	<p>The next time you make an attack, you can hit an additional target within range that your attack roll would succeed against.</p>
+d0140	Book of Tyfar
+d0141	<p><em><strong>Wild Flame:</strong></em> Make a <strong>Spellcast Roll</strong> against up to three adversaries within Melee range. Targets you succeed against take <strong>2d6</strong> magic damage and must mark a Stress as flames erupt from your hand.</p><p><em><strong>Magic Hand:</strong></em> You conjure a magical hand with the same size and strength as your own within Far range.</p><p><em><strong>Mysterious Mist:</strong></em> Make a <strong>Spellcast Roll (13)</strong> to cast a temporary thick fog that gathers in a stationary area within Very Close range. The fog heavily obscures this area and everything in it.</p>
+d0142	Wild Flame
+d0143	<p>Make a <strong>Spellcast Roll</strong> against up to three adversaries within Melee range. Targets you succeed against take <strong>2d6</strong> magic damage and must mark a Stress as flames erupt from your hand.</p>
+d0144	Magic Hand
+d0145	<p>You conjure a magical hand with the same size and strength as your own within Far range.</p>
+d0146	Mysterious Mist
+d0147	<p>Make a <strong>Spellcast Roll (13)</strong> to cast a temporary thick fog that gathers in a stationary area within Very Close range. The fog heavily obscures this area and everything in it.</p><p>@Template[type:emanation|range:vc]</p>
+d0148	Book of Vagras
+d0149	<p><em><strong>Runic Lock:</strong></em> Make a <strong>Spellcast Roll (15)</strong> on an object you're touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.</p><p><em><strong>Arcane Door:</strong></em> When you have no adversaries within Melee range, make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend a Hope</strong> to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.</p><p><em><strong>Reveal:</strong></em> Make a <strong>Spellcast Roll</strong>. If there is anything magically hidden within Close range the roll would succeed against, it is revealed.</p>
+d0150	Runic Lock
+d0151	<p>Make a <strong>Spellcast Roll (15)</strong> on an object you're touching that can close (such as a lock, chest, or box). Once per rest on a success, you can lock the object so it can only be opened by creatures of your choice. Someone with access to magic and an hour of time to study the spell can break it.</p>
+d0152	Arcane Door
+d0153	<p>When you have no adversaries within Melee range, make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend a Hope</strong> to create a portal from where you are to a point within Far range you can see. It closes once a creature has passed through it.</p>
+d0154	Reveal
+d0155	<p>Make a <strong>Spellcast Roll</strong>. If there is anything magically hidden within Close range the roll would succeed against, it is revealed.</p><p>@Template[type:emanation|range:c]</p>
+d0156	Book of Vyola
+d0157	<p><em><strong>Memory Delve:</strong></em> Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, peer into the target's mind and ask the GM a question. The GM describes any memories the target has pertaining to the answer.</p><p><em><strong>Shared Clarity:</strong> </em>Once per long rest, <strong>spend a Hope</strong> to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.</p>
+d0158	Memory Delve
+d0159	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, peer into the target's mind and ask the GM a question. The GM describes any memories the target has pertaining to the answer.</p>
+d0160	Shared Clarity
+d0161	<p>Once per long rest, <strong>spend a Hope</strong> to choose two willing creatures. When one of them would mark Stress, they can choose between the two of them who marks it. This spell lasts until their next rest.</p>
+d0162	Book of Yarrow
+d0163	<p><em><strong>Timejammer:</strong></em> Make a <strong>Spellcast Roll</strong><strong> (18)</strong>. On a success, time temporarily slows to a halt for everyone within Far range except for you. It resumes the next time you make an action roll that targets another creature.</p><p><em><strong>Magic Immunity:</strong></em> <strong>Spend 5 </strong><strong>Hope</strong> to become immune to magic damage until your next rest.</p>
+d0164	Timejammer
+d0165	<p>Make a <strong>Spellcast Roll (18)</strong>. On a success, time temporarily slows to a halt for everyone within Far range except for you. It resumes the next time you make an action roll that targets another creature.</p>
+d0166	Magic Immunity
+d0167	<p><strong>Spend 5 Hope</strong> to become immune to magic damage until your next rest.</p>
+d0168	<p><strong>I</strong>mmune to magic damage until your next rest.</p>
+d0169	Boost
+d0170	<p><strong>Mark a Stress</strong> to boost off a willing ally within Close range, fling yourself into the air, and perform an aerial attack against a target within Far range. You have advantage on the attack, add a<strong> d10</strong> to the damage roll, and end your move within Melee range of the target.</p>
+d0171	Brace
+d0172	<p>When you mark an Armor Slot to reduce incoming damage, you can <strong>mark a Stress</strong> to mark an additional Armor Slot.</p>
+d0173	Breaking Blow
+d0174	<p>When you make a successful attack, you can <strong>mark a Stress</strong> to make the next successful attack against that same target deal an extra <strong>2d12</strong> damage.</p>
+d0175	<p>The next successful attack against this target deals an extra <strong>2d12</strong> damage.</p>
+d0176	Chain Lightning
+d0177	<p><strong>Mark 2 Stress</strong> to make a <strong>Spellcast Roll</strong>, unleashing lightning on all targets within Close range. Targets you succeed against must make a reaction roll with a Difficulty equal to the result of your Spellcast Roll. Targets who fail take <strong>2d8+4</strong> magic damage. Additional adversaries not already targeted by Chain Lightning and within Close range of previous targets who took damage must also make the reaction roll. Targets who fail take <strong>2d8+4</strong> magic damage. This chain continues until there are no more adversaries within range.</p>
+d0178	<p><strong>Mark 2 Stress</strong> to make a <strong>Spellcast Roll</strong>, unleashing lightning on all targets within Close range. Targets you succeed against must make a reaction roll with a Difficulty equal to the result of your Spellcast Roll. Targets who fail take <strong>2d8+4</strong> magic damage.</p>
+d0179	Chain Damage
+d0180	<p>Additional adversaries not already targeted by Chain Lightning and within Close range of previous targets who took damage must also make the reaction roll. Targets who fail take <strong>2d8+4</strong> magic damage. This chain continues until there are no more adversaries within range.</p>
+d0181	Champion's Edge
+d0182	<p>When you critically succeed on an attack, you can <strong>spend up to 3 Hope</strong> and choose one of the following options for each Hope spent:</p><ul><li class="vertical-card-list"><p>You clear a Hit Point.</p></li><li class="vertical-card-list"><p>You clear an Armor Slot.</p></li><li class="vertical-card-list">The target must mark an additional Hit Point.</li></ul><p>You can't choose the same option more than once.</p>
+d0183	Clear 1 HP
+d0184	<p>When you critically succeed on an attack, you can <strong>spend up to 3 Hope</strong> and choose one of the following options for each Hope spent:</p><ul class=""><li class="vertical-card-list"><p>You clear a Hit Point.</p></li><li class="vertical-card-list"><p>You clear an Armor Slot.</p></li><li class="vertical-card-list">The target must mark an additional Hit Point.</li></ul><p>You can't choose the same option more than once.</p>
+d0185	Clear 1 Armor Slot
+d0186	Deal 1 HP Damage
+d0187	Chokehold
+d0188	<p>When you position yourself behind a creature who's about your size, you can <strong>mark a Stress</strong> to pull them into a chokehold, making them temporarily <em>Vulnerable</em>.</p><p>When a creature attacks a target who is <em>Vulnerable</em> in this way, they deal an extra <strong>2d6</strong> damage.</p>
+d0189	Pull into Chokehold
+d0190	<p>When you position yourself behind a creature who's about your size, you can mark a <strong>Stress</strong> to pull them into a chokehold, making them temporarily <em>Vulnerable</em>.</p>
+d0191	<p>When a creature attacks a target who is <em>Vulnerable</em> in this way, they deal an extra <strong>2d6</strong> damage.</p>
+d0192	<p>Temporarily Vulnerable</p>
+d0193	Cinder Grasp
+d0194	<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, the target instantly bursts into flames, takes <strong>1d20+3</strong> magic damage, and is temporarily lit <em>On Fire</em>.</p><p>When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> magic damage if they are still <em>On Fire</em> at the end of their action.</p>
+d0195	<p>Make a <strong>Spellcast Roll</strong> against a target within Melee range. On a success, the target instantly bursts into flames, takes <strong>1d20+3</strong> magic damage, and is temporarily lit <em>On Fire</em>.</p>
+d0196	On Fire: Damage
+d0197	<p>When a creature acts while <em>On Fire</em>, they must take an extra <strong>2d6</strong> magic damage if they are still <em>On Fire</em> at the end of their action.</p>
+d0198	On Fire
+d0199	Cloaking Blast
+d0200	<p>When you make a successful <strong>Spellcast Roll</strong> to cast a different spell, you can <strong>spend a Hope</strong> to become <em>Cloaked</em>. While <em>Cloaked</em>, you remain unseen if you are stationary when an adversary moves to where they would normally see you. When you move into or within an adversary's line of sight or make an attack, you are no longer <em>Cloaked</em>.</p>
+d0201	Become Cloaked
+d0202	<p>While <em>Cloaked</em>, you remain unseen if you are stationary when an adversary moves to where they would normally see you. When you move into or within an adversary's line of sight or make an attack, you are no longer <em>Cloaked</em>.</p>
+d0203	Codex-Touched
+d0204	<p>When 4 or more of the domain cards in your loadout are from the Codex domain, gain the following benefits:</p><ul><li class="vertical-card-list">You can <strong>mark a </strong><strong>Stress</strong> to add your Proficiency to a Spellcast Roll.            </li><li class="vertical-card-list">Once per rest, replace this card with any card from your vault without paying its Recall Cost.</li></ul>
+d0205	<p>You can <strong>mark a Stress</strong> to add your Proficiency to a Spellcast Roll.</p>
+d0206	Replace Card
+d0207	<p>Once per rest, replace this card with any card from your vault without paying its Recall Cost.</p>
+d0208	<p>Add your Proficiency to a Spellcast Roll.</p>
+d0209	Confusing Aura
+d0210	<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you create a layer of illusion over your body that makes it hard to tell exactly where you are. <strong>Mark any number of Stress</strong> to make that many additional layers. When an adversary makes an attack against you, roll a number of <strong>d6s</strong> equal to the number of layers currently active. If any roll a 5 or higher, one layer of the aura is destroyed and the attack fails. If all the results are 4 or lower, you take the damage and this spell ends.</p>
+d0211	Create First Layer
+d0212	<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you create a layer of illusion over your body that makes it hard to tell exactly where you are.</p>
+d0213	Create Extra Layers
+d0214	<p>Mark any number of Stress to make that many additional layers.</p>
+d0215	Conjured Steeds
+d0216	<p><strong>Spend any number of Hope</strong> to conjure that many magical steeds (such as horses, camels, or elephants) that you and your allies can ride until your next long rest or the steeds take any damage. The steeds double your land speed while traveling and, when in danger, allow you to move within Far range without having to roll. Creatures riding a steed gain a -2 penalty to attack rolls and a +2 bonus to damage rolls.</p>
+d0217	Conjure
+d0218	Riding
+d0219	<p>Creatures riding a steed gain a -2 penalty to attack rolls and a +2 bonus to damage rolls.</p>
+d0220	Conjure Swarm
+d0221	<p><em><strong>Tekaira Armored Beetles:</strong></em> <strong>Mark a Stress</strong> to conjure armored beetles that encircle you. When you next take damage, reduce the severity by one threshold. You can <strong>spend a Hope</strong> to keep the beetles conjured after taking damage.</p><p><em><strong>Fire Flies:</strong></em> Make a <strong>Spellcast Roll</strong> against all adversaries within Close range. <strong>Spend a Hope</strong> to deal <strong>2d8+3</strong> magic damage to targets you succeeded against.</p>
+d0222	Tekaira's Armored Beetles: Stress
+d0223	<p><em><strong>Tekaira Armored Beetles:</strong></em> <strong>Mark a Stress</strong> to conjure armored beetles that encircle you. When you next take damage, reduce the severity by one threshold.</p>
+d0224	Keep Beetles
+d0225	<p>You can <strong>spend a Hope</strong> to keep the beetles conjured after taking damage.</p>
+d0226	Fire Flies: Cast
+d0227	<p><em><strong>Fire Flies:</strong></em> Make a <strong>Spellcast Roll</strong> against all adversaries within Close range. <strong>Spend a Hope</strong> to deal <strong>2d8+3</strong> magic damage to targets you succeeded against.</p>
+d0228	Reduced Damage
+d0229	<p>When you next take damage, reduce the severity by one threshold.</p>
+d0230	Copycat
+d0231	<p>Once per long rest, this card can mimic the features of another domain card of level 8 or lower in another player's loadout. <strong>Spend Hope equal to half the card's level</strong> to gain access to the feature. It lasts until your next rest or they place the card in their vault.</p>
+d0232	Mimic
+d0233	Corrosive Projectile
+d0234	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, deal <strong>d6+4</strong> magic damage using your Proficiency. Additionally, <strong>mark 2 or more Stress</strong> to make them permanently <em>Corroded</em>. While a target is <em>Corroded</em>, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>
+d0235	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, deal <strong>d6+4</strong> magic damage using your Proficiency.</p>
+d0236	Corrode
+d0237	<p>Additionally, <strong>mark 2 or more Stress</strong> to make them permanently <em>Corroded</em>. While a target is <em>Corroded</em>, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>
+d0238	Corroded
+d0239	<p>While a target is Corroded, they gain a -1 penalty to their Difficulty for every 2 Stress you spent. This condition can stack.</p>
+d0240	Counterspell
+d0241	<p>You can interrupt a magical effect taking place by making a reaction roll using your Spellcast trait. On a success, the effect stops and any consequences are avoided, and this card is placed in your vault.</p>
+d0242	Interrupt
+d0243	Critical Inspiration
+d0244	<p>Once per rest, when you critically succeed on an attack, all allies within Very Close range can clear a Stress or gain a Hope.</p>
+d0245	Critically Succeed
+d0246	Cruel Precision
+d0247	<p>When you make a successful attack with a weapon, gain a bonus to your damage roll equal to either your Finesse or Agility.</p>
+d0248	Cruel Precision (Agi)
+d0249	Cruel Precision (Fin)
+d0250	Dark Whispers
+d0251	<p>You can speak into the mind of any person with whom you've made physical contact. Once you've opened a channel with them, they can speak back into your mind. Additionally, you can <strong>mark a Stress</strong> to make a <strong>Spellcast Roll</strong> against them. On a success, you can ask the GM one of the following questions and receive an answer:</p><ul><li class="vertical-card-list-found">Where are they?</li><li class="vertical-card-list-found">What are they doing?</li><li class="vertical-card-list-found">What are they afraid of?</li><li class="vertical-card-list-found">What do they cherish most in the world?</li></ul>
+d0252	Ask a question
+d0253	Deadly Focus
+d0254	<p>Once per rest, you can apply all your focus toward a target of your choice. Until you attack another creature, you defeat the target, or the battle ends, gain a +1 bonus to your Proficiency.</p>
+d0255	<p>Until you attack another creature, you defeat the target, or the battle ends, gain a +1 bonus to your Proficiency.</p>
+d0256	Deathrun
+d0257	<p><strong>Spend 3 Hope</strong> to run a straight path through the battlefield to a point within Far range, making an attack against all adversaries within your weapon's range along that path. Choose the order in which you deal damage to the targets you succeeded against. For the first, roll your weapon damage with a +1 bonus to your Proficiency. Then remove a die from your damage roll and deal the remaining damage to the next target. Continue to remove a die for each subsequent target until you have no more damage dice or adversaries.</p><p>You can't target the same adversary more than once per attack.</p>
+d0258	Death Grip
+d0259	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose one of the following options:</p><ul><li class="vertical-card-list"><p>You pull the target into Melee range or pull yourself into Melee range of them.</p></li><li class="vertical-card-list"><p>You constrict the target and force them to mark 2 Stress.</p></li><li class="vertical-card-list"><p>All adversaries between you and the target must succeed on a Reaction Roll (13) or be hit by vines, taking <strong>3d6+2</strong> physical damage.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>
+d0260	Pull
+d0261	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range, and choose the following option:</p><ul><li class="vertical-card-list"><p>You pull the target into Melee range or pull yourself into Melee range of them.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>
+d0262	Constrict
+d0263	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose the following option:</p><ul><li class="vertical-card-list"><p>You constrict the target and force them to mark 2 Stress.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>
+d0264	Hit All Adversaries Between
+d0265	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range and choose the following option:</p><ul><li class="vertical-card-list"><p>All adversaries between you and the target must succeed on a Reaction Roll (13) or be hit by vines, taking <strong>3d6+2</strong> physical damage.</p></li></ul><p>On a success, vines reach out from your hands, causing the chosen effect and temporarily <em>Restraining</em> the target.</p>
+d0266	Deft Deceiver
+d0267	<p><strong>Spend a Hope</strong> to gain advantage on a roll to deceive or trick someone into believing a lie you tell them</p>
+d0268	Gain Advantage
+d0269	<p>Gain advantage on a roll to deceive or trick someone into believing a lie you tell them.</p>
+d0270	Deft Maneuvers
+d0271	<p>Once per rest,<strong> mark a Stress</strong> to sprint anywhere within Far range without making an Agility Roll to get there.</p><p>If you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.</p>
+d0272	<p>If you end this movement within Melee range of an adversary and immediately make an attack against them, gain a +1 bonus to the attack roll.</p>
+d0273	Disintegration Wave
+d0274	<p>Make a <strong>Spellcast Roll (18)</strong>. Once per long rest on a success, the GM tells you which adversaries within Far range have a Difficulty of 18 or lower. <strong>Mark a Stress</strong> for each one you wish to hit with this spell. They are killed and can't come back to life by any means.</p>
+d0275	Divination
+d0276	<p>Once per long rest, <strong>spend 3 Hope</strong> to reach out to the forces beyond and ask one "yes or no" question about an event, person, place, or situation in the near future. For a moment, the present falls away and you see the answer before you.</p>
+d0277	Ask one Question
+d0278	Earthquake
+d0279	<p>Make a <strong>Spellcast Roll (16)</strong>. Once per rest on a success, all targets within Very Far range who aren't flying must make a Reaction Roll (18). Targets who fail take <strong>3d10+8</strong> physical damage and are temporarily <em>Vulnerable</em>. Targets who succeed take half damage.</p><p>Additionally, when you succeed on the Spellcast Roll, all terrain within Very Far range becomes difficult to move through and structures within this range might sustain damage or crumble.</p>
+d0280	<p>Temporarily Vulnerable.</p>
+d0281	Eclipse
+d0282	<p>Make a <strong>Spellcast Roll (16)</strong>. Once per long rest on a success, plunge the entire area within Far range into complete darkness only you and your allies can see through. Attack rolls have disadvantage when targeting you or an ally within this shadow.</p><p>Additionally, when you or an ally succeeds with Hope against an adversary within this shadow, the target must mark a Stress.</p><p>This spell lasts until the GM spends a <strong>Fear</strong> on their turn to clear this effect or you take Severe damage.</p>
+d0283	<p>Make a <strong>Spellcast Roll (16)</strong>. Once per long rest on a success, plunge the entire area within Far range into complete darkness only you and your allies can see through. Attack rolls have disadvantage when targeting you or an ally within this shadow.</p>
+d0284	Target Marks Stress
+d0285	In the Eclipse
+d0286	<p>Attack rolls have disadvantage when targeting you or an ally within this shadow.</p>
+d0287	Encore
+d0288	<p>When an ally within Close range deals damage to an adversary, you can make a <strong>Spellcast Roll</strong> against that same target. On a success, you deal the same damage to the target that your ally dealt. If your Spellcast Roll succeeds with Fear, place this card in your vault.</p>
+d0289	Repeat Attack
+d0290	Endless Charisma
+d0291	<p>After you make an action roll to persuade, lie, or garner favor, you can <strong>spend a Hope</strong> to reroll the Hope or Fear Die.</p>
+d0292	Spend Hope to Reroll
+d0293	Enrapture
+d0294	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice. Once per rest on a success, you can <strong>mark a Stress</strong> to force the <em>Enraptured</em> target to mark a Stress as well.</p>
+d0295	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, they become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>
+d0296	<p>Once per rest on a success, you can <strong>mark a Stress</strong> to force the <em>Enraptured</em> target to mark a Stress as well.</p>
+d0297	Enraptured
+d0298	<p>While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>
+d0299	Falling Sky
+d0300	<p>Make a <strong>Spellcast Roll</strong> against all adversaries within Far range. <strong>Mark any number of Stress</strong> to make shards of arcana rain down from above. Targets you succeed against take <strong>1d20+2</strong> magic damage for each Stress marked.</p>
+d0301	Fane of the Wilds
+d0302	<p>After a long rest, place a number of tokens equal to the number of Sage domain cards in your loadout and vault on this card.</p><p>When you would make a Spellcast Roll, you can spend any number of tokens after the roll to gain a +1 bonus for each token spent.</p><p>When you critically succeed on a Spellcast Roll for a Sage domain spell, gain a token.</p><p>When you take a long rest, clear all unspent tokens.</p>
+d0303	Ferocity
+d0304	<p>When you cause an adversary to mark 1 or more Hit Points, you can <strong>spend 2 Hope</strong> to increase your Evasion by the number of Hit Points they marked. This bonus lasts until after the next attack made against you.</p>
+d0305	Final Words
+d0306	<p>You can infuse a corpse with a moment of life to speak with it. Make a <strong>Spellcast Roll (13)</strong>. On a success with Hope, the corpse answers up to three questions. On a success with Fear, the corpse answers one question. The corpse answers truthfully, but it can't impart information it didn't know in life. On a failure, or once the corpse has finished answering your questions, the body turns to dust.</p>
+d0307	Infuse Corpse
+d0308	Flight
+d0309	<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, place a number of tokens equal to your Agility on this card (minimum 1). When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>
+d0310	<p>Make a <strong>Spellcast Roll</strong> (15). On a success, place a number of tokens equal to your Agility on this card (minimum 1).</p>
+d0311	Spend Token
+d0312	<p>When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>
+d0313	Flying
+d0314	<p>You can fly. When you make an action roll while flying, spend a token from this card. After the action that spends the last token is resolved, you descend to the ground directly below you.</p>
+d0315	Floating Eye
+d0316	<p><strong>Spend a </strong><strong>Hope</strong> to create a single, small floating orb that you can move anywhere within Very Far range. While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>
+d0317	Create Orb
+d0318	<p>Spend a <strong>Hope</strong> to create a single, small floating orb that you can move anywhere within Very Far range. While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>
+d0319	<p>While this spell is active, you can see through the orb as though you're looking out from its position. You can transition between using your own senses and seeing through the orb freely. If the orb takes damage or moves out of range, the spell ends.</p>
+d0320	Forager
+d0321	<p>As an additional downtime move you can choose, roll a d6 to see what you forage. Work with the GM to describe it and add it to your inventory as a consumable. Your party can carry up to five foraged consumables at a time.</p><ol><li><p>A unique food (Clear 2 Stress)</p></li><li><p>A beautiful relic (Gain 2 Hope)</p></li><li><p>An arcane rune (+2 to a Spellcast Roll)</p></li><li>A healing vial (Clear 2 Hit Points)</li><li>A luck charm (Reroll any die)</li><li>Choose one of the options above.</li></ol>
+d0322	1. Unique Food (Stress)
+d0323	<ol><li><p>A unique food (Clear 2 Stress)</p></li></ol>
+d0324	2. Beautiful Relic (Hope)
+d0325	<ol start="2"><li><p>A beautiful relic (Gain 2 Hope)</p></li></ol>
+d0326	3. Arcane Rune (Spellcast Roll)
+d0327	<ol start="3"><li><p>An arcane rune (+2 to a Spellcast Roll)</p></li></ol>
+d0328	4. Healing Vial (HP)
+d0329	<ol start="4"><li><p>A healing vial (Clear 2 Hit Points)</p></li></ol>
+d0330	Arcane Rune
+d0331	<p>+2 to a Spellcast Roll</p>
+d0332	Forceful Push
+d0333	<p>Make an attack with your primary weapon against a target within Melee range. On a success, you deal damage and knock them back to Close range. On a success with Hope, add a <strong>d6</strong> to your damage roll.</p><p>Additionally, you can <strong>spend a Hope</strong> to make them temporarily <em>Vulnerable</em>.</p>
+d0334	Forcefully Pushed
+d0335	Force of Nature
+d0336	<p><strong>Mark a Stress</strong> to transform into a hulking nature spirit, gaining the following benefits:</p><ul><li class="vertical-card-list"><p>When you succeed on an attack or Spellcast Roll, gain a +10 bonus to the damage roll.</p></li><li class="vertical-card-list"><p>When you deal enough damage to defeat a creature within Close range, you absorb them and clear an Armor Slot.</p></li><li class="vertical-card-list"><p>You can't be <em>Restrained</em>.</p></li></ul><p>Before you make an action roll, you must <strong>spend a Hope</strong>. If you can't, you revert to your normal form.</p>
+d0337	Spend Hope for Action
+d0338	<p>Before you make an action roll, you must <strong>spend a Hope</strong>. If you can't, you revert to your normal form.</p>
+d0339	<ul><li><p>When you succeed on an attack or Spellcast Roll, gain a +10 bonus to the damage roll.</p></li><li><p>When you deal enough damage to defeat a creature within Close range, you absorb them and clear an Armor Slot.</p></li><li><p>You can't be <em>Restrained</em>.</p></li><li><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p></li></ul>
+d0340	Forest Sprites
+d0341	<p>Make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend any number of Hope</strong> to create an equal number of small forest sprites who appear at points you choose within Far range, providing the following benefits:</p><ul><li class="vertical-card-list"><p>Your allies gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p></li><li class="vertical-card-list"><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p></li></ul><p>A sprite vanishes after granting a benefit or taking any damage.</p>
+d0342	<p>Make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend any number of Hope</strong> to create an equal number of small forest sprites who appear at points you choose within Far range, providing the following benefits:</p><ul class=""><li class="vertical-card-list"><p>Your allies gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p></li><li class="vertical-card-list"><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p></li></ul><p>A sprite vanishes after granting a benefit or taking any damage.</p>
+d0343	Sprite
+d0344	<p>Gain a +3 bonus to attack rolls against adversaries within Melee range of a sprite.</p><p>An ally who marks an Armor Slot while within Melee range of a sprite can mark an additional Armor Slot.</p><p>A sprite vanishes after granting a benefit or taking any damage.</p>
+d0345	Fortified Armor
+d0346	<p>While you are wearing armor, gain a +2 bonus to your damage thresholds.</p>
+d0347	Frenzy
+d0348	<p>Once per long rest, you can go into a <em>Frenzy</em> until there are no more adversaries within sight.</p><p>While <em>Frenzied</em>, you can't use Armor Slots, and you gain a +10 bonus to your damage rolls and a +8 bonus to your Severe damage threshold.</p>
+d0349	Full Surge
+d0350	<p>Once per long rest, <strong>mark 3 Stress</strong> to push your body to its limits. Gain a +2 bonus to all of your character traits until your next rest.</p>
+d0351	<p>Gain a +2 bonus to all of your character traits until your next rest.</p>
+d0352	Get Back Up
+d0353	<p>When you take Severe damage, you can <strong>mark a Stress</strong> to reduce the severity by one threshold.</p>
+d0354	Gifted Tracker
+d0355	<p>When you're tracking a specific creature or group of creatures based on signs of their passage, you <strong>can spend any number of Hope</strong> and ask the GM that many questions from the following list.</p><ul><li class="vertical-card-list">What direction did they go?</li><li class="vertical-card-list">How long ago did they pass through?</li><li class="vertical-card-list">What were they doing in this location?</li><li class="vertical-card-list">How many of them were here?</li></ul><p>When you encounter creatures you've tracked in this way, gain a +1 bonus to your Evasion against them.</p>
+d0356	Ask Questions
+d0357	<p>When you encounter creatures you've tracked in this way, gain a +1 bonus to your Evasion against them.</p>
+d0358	Glancing Blow
+d0359	<p>When you fail an attack, you can <strong>mark a Stress</strong> to deal weapon damage using half your Proficiency.</p>
+d0360	Mark a Stress
+d0361	Glyph of Nightfall
+d0362	<p>Make a <strong>Spellcast Roll</strong> against a target within Very Close range. On a success, <strong>spend a Hope</strong> to conjure a dark glyph upon their body that exposes their weak points, temporarily reducing the target's Difficulty by a value equal to your Knowledge (minimum 1).</p>
+d0363	<p>Conjure a dark glyph upon their body that exposes their weak points, temporarily reducing the target's Difficulty by a value equal to your Knowledge (minimum 1).</p>
+d0364	Goad Them On
+d0365	<p>Describe how you taunt a target within Close range, then make a <strong>Presence Roll</strong> against them. On a success, the target must mark a Stress, and the next time the GM spotlights them, they must target you with an attack, which they make with disadvantage.</p>
+d0366	Goad
+d0367	Goaded
+d0368	<p>The next time this Adversary is spotlighted, they must target the Goading Character with an attack, which they make with disadvantage.</p>
+d0369	Gore and Glory
+d0370	<p>When you critically succeed on a weapon attack, gain an additional Hope or clear an additional Stress.</p><p>Additionally, when you deal enough damage to defeat an enemy, gain a Hope or clear a Stress.</p>
+d0371	Grace-Touched
+d0372	<p>When 4 or more of the domain cards in your loadout are from the Grace domain, gain the following benefits:</p><ul><li class="vertical-card-list-found"><p>You can <strong>mark an Armor Slot</strong> instead of marking a Stress.</p></li><li class="vertical-card-list-found"><p>When you would force a target to mark a number of Hit Points, you can choose instead to force them to mark that number of Stress.</p></li></ul>
+d0373	Mark 1 Stress
+d0374	Ground Pound
+d0375	<p><strong>Spend 2 Hope</strong> to strike the ground where you stand and make a <strong>Strength Roll</strong> against all targets within Very Close range. Targets you succeed against are thrown back to Far range and must make a Reaction Roll (17). Targets who fail take <strong>4d10+8</strong> damage. Targets who succeed take half damage.</p>
+d0376	Strike Ground
+d0377	Healing Field
+d0378	<p>Once per long rest, you can conjure a field of healing plants around you. Everywhere within Close range of you bursts to life with vibrant nature, allowing you and all allies in the area to clear a Hit Point.</p><p><strong>Spend 2 Hope</strong> to allow you and all allies to clear 2 Hit Points instead.</p>
+d0379	Heal 1 Hit Point
+d0380	Heal 2 Hit Points
+d0381	Healing Hands
+d0382	<p>Make a <strong>Spellcast Roll (13)</strong> and target a creature other than yourself within Melee range. On a success, <strong>mark a Stress</strong> to clear 2 Hit Points or 2 Stress on the target. On a failure, <strong>mark a Stress</strong> to clear a Hit Point or a Stress on the target. You can't heal the same target again until your next long rest.</p>
+d0383	<p>Make a <strong>Spellcast Roll (13)</strong> and target a creature other than yourself within Melee range.</p>
+d0384	Heal One Hit Point
+d0385	<p>On a failure, mark a Stress to clear a Hit Point or a Stress on the target. You can't heal the same target again until your next long rest.</p>
+d0386	Heal Two Hit Points
+d0387	<p>On a success, mark a Stress to clear 2 Hit Points or 2 Stress on the target. You can't heal the same target again until your next long rest.</p>
+d0388	Heal One Stress
+d0389	Heal Two Stress
+d0390	<p>On a success, mark a Stress to clear 2 Hit Points or 2 Stress on the target.  You can't heal the same target again until your next long rest.</p>
+d0391	Healed by Healing Hands
+d0392	<p>Can't be healed again with Healing Hands by the caster of the Healing Hands until a long rest.</p>
+d0393	Healing Strike
+d0394	<p>When you deal damage to an adversary, you can <strong>spend 2 Hope</strong> to clear a Hit Point on an ally within Close range.</p>
+d0395	Clear Hit Point
+d0396	Hold the Line
+d0397	<p>Describe the defensive stance you take and <strong>spend a Hope</strong>. If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p><p>This condition lasts until you move or fail a roll with Fear, or the GM spends 2 Fear on their turn to clear it.</p>
+d0398	<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p>
+d0399	<p>If an adversary moves within Very Close range, they're pulled into Melee range and <em>Restrained.</em></p><p>This condition lasts until you move or fail a roll with Fear, or the GM spends 2 Fear on their turn to clear it.</p>
+d0400	Hush
+d0401	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, <strong>spend a Hope</strong> to conjure suppressive magic around the target that encompasses everything within Very Close range of them and follows them as they move.</p><p>The target and anything within the area is <em>Silenced </em>until the GM spends a Fear on their turn to clear this condition, you cast Hush again, or you take Major damage. While <em>Silenced</em>, they can't make noise and can't cast spells.</p>
+d0402	Silenced
+d0403	<p>Suppressive magic around the target that encompasses everything within Very Close range of them and follows them as they move. The target and anything within the area is Silenced until the GM spends a Fear on their turn to clear this condition, you cast Hush again, or you take Major damage. While Silenced, they can't make noise and can't cast spells.</p>
+d0404	Hypnotic Shimmer
+d0405	<p>Make a <strong>Spellcast Roll</strong> against all adversaries in front of you within Close range. Once per rest on a success, create an illusion of flashing colors and lights that temporarily <em>Stuns</em> targets you succeed against and forces them to mark a Stress. While <em>Stunned</em>, they can't use reactions and can't take any other actions until they clear this condition.</p>
+d0406	Stunned
+d0407	<p>An illusion of flashing colors and lights that temporarily Stuns targets. While Stunned, they can't use reactions and can't take any other actions until they clear this condition.</p>
+d0408	Inevitable
+d0409	<p>When you fail an action roll, your next action roll has advantage.</p>
+d0410	Inspirational Words
+d0411	<p>Your speech is imbued with power. After a long rest, place a number of tokens on this card equal to your Presence. When you speak with an ally, you can spend a token from this card to give them one benefit from the following options:</p><ul><li class="vertical-card-list-found"><p>Your ally clears a Stress.</p></li><li class="vertical-card-list-found"><p>Your ally clears a Hit Point.</p></li><li class="vertical-card-list-found"><p>Your ally gains a Hope.</p></li></ul><p>When you take a long rest, clear all unspent tokens.</p>
+d0412	<p>Spend a token from this card to give them the following:</p><ul class=""><li class="vertical-card-list-found"><p>Your ally clears a Stress.</p></li></ul>
+d0413	<p>Spend a token from this card to give them the following:</p><ul class=""><li class="vertical-card-list-found"><p>Your ally clears a Hit Point.</p></li></ul>
+d0414	<p>Spend a token from this card to give them the following:</p><ul class=""><li class="vertical-card-list-found"><p>Your ally gains a Hope.</p></li></ul>
+d0415	Invigoration
+d0416	<p>When you or an ally within Close range has used a feature that has an exhaustion limit (such as once per rest or once per session), you can <strong>spend any number of Hope</strong> and roll that many <strong>d6s</strong>. If any roll a 6, the feature can be used again.</p>
+d0417	Roll Dice Pool
+d0418	Invisibility
+d0419	<p>Make a <strong>Spellcast Roll (10)</strong>. On a success, <strong>mark a Stress</strong> and choose yourself or an ally within Melee range to become <em>Invisible</em>. An <em>Invisible</em> creature can't be seen except through magical means and attack rolls against them are made with disadvantage. Place a number of tokens on this card equal to your Spellcast trait. When the <em>Invisible</em> creature takes an action, spend a token from this card. After the action that spends the last token is resolved, the effect ends.</p><p>You can only hold Invisibility on one creature at a time.</p>
+d0420	Invisible
+d0421	<p>An <em>Invisible</em> creature can't be seen except through magical means and attack rolls against them are made with disadvantage. Place a number of tokens on this card equal to your Spellcast trait. When the <em>Invisible</em> creature takes an action, spend a token from this card. After the action that spends the last token is resolved, the effect ends.</p>
+d0422	I Am Your Shield
+d0423	<p>When an ally within Very Close range would take damage, you can <strong>mark a Stress</strong> to stand in the way and make yourself the target of the attack instead. When you take damage from this attack, you can mark any number of Armor Slots.</p>
+d0424	I See It Coming
+d0425	<p>When you're targeted by an attack made from beyond Melee range, you can <strong>mark a Stress</strong> to roll a <strong>d4</strong> and gain a bonus to your Evasion equal to the result against the attack.</p>
+d0426	Roll d4
+d0427	Know Thy Enemy
+d0428	<p>When observing a creature, you can make an <strong>Instinct Roll</strong> against them. On a success, <strong>spend a Hope</strong> and ask the GM for one set of information about the target from the following options:</p><ul><li class="vertical-card-list-found"><p>Their unmarked Hit Points and Stress.</p></li><li class="vertical-card-list-found"><p>Their Difficulty and damage thresholds.</p></li><li class="vertical-card-list-found">Their tactics and standard attack damage dice.</li><li class="vertical-card-list-found"><p>Their features and Experiences.</p></li></ul><p>Additionally on a success, you can <strong>mark a Stress</strong> to remove a Fear from the GM's Fear Pool.</p>
+d0429	Instinct Roll
+d0430	<p>When observing a creature, you can make an <strong>Instinct Roll</strong> against them. On a success, <strong>spend a Hope</strong> and ask the GM for one set of information about the target from the following options:</p><ul class=""><li class="vertical-card-list-found"><p>Their unmarked Hit Points and Stress.</p></li><li class="vertical-card-list-found"><p>Their Difficulty and damage thresholds.</p></li><li class="vertical-card-list-found">Their tactics and standard attack damage dice.</li><li class="vertical-card-list-found"><p>Their features and Experiences.</p></li></ul>
+d0431	<p>On a success, you can <strong>mark a Stress</strong> to remove a Fear from the GM's Fear Pool.</p>
+d0432	Lead by Example
+d0433	<p>When you deal damage to an adversary, you can <strong>mark a Stress</strong> and describe how you encourage your allies. The next PC to make an attack against that adversary can clear a Stress or gain a Hope.</p>
+d0434	<p>The next PC to make an attack against that adversary can clear a Stress or gain a Hope.</p>
+d0435	Lean on Me
+d0436	<p>Once per long rest, when you console or inspire an ally who failed an action roll, you can both clear 2 Stress.</p>
+d0437	Life Ward
+d0438	<p><strong>Spend 3 </strong><strong>Hope</strong> and choose an ally within Close range. They are marked with a glowing sigil of protection. When this ally would make a death move, they clear a Hit Point instead.</p><p>This effect ends when it saves the target from a death move, you cast Life Ward on another target, or you take a long rest.</p>
+d0439	Mark with Sigil
+d0440	<p><strong>Spend 3 Hope</strong> and choose an ally within Close range. They are marked with a glowing sigil of protection. When this ally would make a death move, they clear a Hit Point instead.</p><p>This effect ends when it saves the target from a death move, you cast Life Ward on another target, or you take a long rest.</p>
+d0441	<p>Marked with a glowing sigil of protection. When this ally would make a death move, they clear a Hit Point instead.</p><p>This effect ends when it saves the target from a death move, you cast Life Ward on another target, or you take a long rest.</p>
+d0442	Manifest Wall
+d0443	<p>Make a <strong>Spellcast Roll (15)</strong>. Once per rest on a success, <strong>spend a Hope</strong> to create a temporary magical wall between two points within Far range. It can be up to 50 feet high and form at any angle. Creatures or objects in its path are shunted to a side of your choice. The wall stays up until your next rest or you cast Manifest Wall again.</p>
+d0444	Mass Disguise
+d0445	<p>When you have a few minutes of silence to focus, you can <strong>mark a Stress</strong> to change the appearance of all willing creatures within Close range. Their new forms must share a general body structure and size, and can be somebody or something you've seen before or entirely fabricated. A disguised creature has advantage on Presence Rolls to avoid scrutiny.</p><p>Activate a Countdown (8). It ticks down as a consequence the GM chooses. When it triggers, the disguise drops.</p>
+d0446	<p>Activate a <em>Countdown (8)</em>. It ticks down as a consequence the GM chooses. When it triggers, the disguise drops.</p>
+d0447	Disguised
+d0448	<p>A disguised creature has advantage on Presence Rolls to avoid scrutiny.</p>
+d0449	Mass Enrapture
+d0450	<p>Make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against become temporarily <em>Enraptured</em>. While <em>Enraptured</em>, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice. <strong>Mark a Stress</strong> to force all <em>Enraptured</em> targets to mark a Stress, ending this spell.</p>
+d0451	<p><strong>Mark a Stress</strong> to force all <em>Enraptured</em> targets to mark a Stress, ending this spell.</p>
+d0452	<p>While Enraptured, a target's attention is fixed on you, narrowing their field of view and drowning out any sound but your voice.</p>
+d0453	Master of the Craft
+d0454	<p>Gain a permanent +2 bonus to two of your Experiences or a permanent +3 bonus to one of your Experiences. Then place this card in your vault permanently.</p>
+d0455	Mending Touch
+d0456	<p>You lay your hands upon a creature and channel healing magic to close their wounds. When you can take a few minutes to focus on the target you're helping, you can <strong>spend 2 Hope</strong> to clear a Hit Point or a Stress on them.</p><p>Once per long rest, when you spend this healing time learning something new about them or revealing something about yourself, you can clear 2 Hit Points or 2 Stress on them instead.</p>
+d0457	Heal One Hitpoint
+d0458	<p>When you can take a few minutes to focus on the target you're helping, you can spend 2 Hope to clear a Hit Point or a Stress on them.</p>
+d0459	<p>When you can take a few minutes to focus on the target you're helping, you can <strong>spend 2 Hope</strong> to clear a Hit Point or a Stress on them.</p><p>Once per long rest, when you spend this healing time learning something new about them or revealing something about yourself, you can clear 2 Hit Points or 2 Stress on them instead.</p>
+d0460	Midnight Spirit
+d0461	<p><strong>Spend a Hope</strong> to summon a humanoid-sized spirit that can move or carry things for you until your next rest.</p><p>You can also send it to attack an adversary. When you do, make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, the spirit moves into Melee range with that target. Roll a number of <strong>d6s</strong> equal to your Spellcast trait and deal that much magic damage to the target. The spirit then dissipates. You can only have one spirit at a time.</p>
+d0462	Summon Spirit
+d0463	<p>Spend a <strong>Hope</strong> to summon a humanoid-sized spirit that can move or carry things for you until your next rest.</p>
+d0464	Attack Adversary
+d0465	<p>You can also send it to attack an adversary. When you do, make a <strong>Spellcast Roll</strong> against a target within Very Far range. On a success, the spirit moves into Melee range with that target. Roll a number of d6s equal to your Spellcast trait and deal that much magic damage to the target. The spirit then dissipates. You can only have one spirit at a time.</p>
+d0466	Midnight-Touched
+d0467	<p>When 4 or more of the domain cards in your loadout are from the Midnight domain, gain the following benefits:</p><ul><li class="vertical-card-list-found"><p>Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.</p></li><li class="vertical-card-list-found"><p>When you make a successful attack, you can <strong>mark a Stress</strong> to add the result of your Fear Die to your damage roll.</p></li></ul>
+d0468	<p>Once per rest, when you have 0 Hope and the GM would gain a Fear, you can gain a Hope instead.</p>
+d0469	<p>When you make a successful attack, you can <strong>mark a Stress</strong> to add the result of your Fear Die to your damage roll.</p>
+d0470	Natural Familiar
+d0471	<p><strong>Spend a Hope</strong> to summon a small nature spirit or forest critter to your side until your next rest, you cast Natural Familiar again, or the familiar is targeted by an attack. If you <strong>spend an additional Hope</strong>, you can summon a familiar that flies. You can communicate with them, make a <strong>Spellcast Roll</strong> to command them to perform simple tasks, and <strong>mark a Stress</strong> to see through their eyes.</p><p>When you deal damage to an adversary within Melee range of your familiar, you add a <strong>d6</strong> to your damage roll.</p>
+d0472	Summon Familiar
+d0473	<p><strong>Spend a Hope</strong> to summon a small nature spirit or forest critter to your side until your next rest, you cast Natural Familiar again, or the familiar is targeted by an attack. If you <strong>spend an additional Hope</strong>, you can summon a familiar that flies.</p>
+d0474	Perform Task
+d0475	<p>You can communicate with them, make a <strong>Spellcast Roll</strong> to command them to perform simple tasks.</p>
+d0476	See Through Eyes
+d0477	<p><strong>Mark a Stress</strong> to see through their eyes.</p>
+d0478	Familiar Damage
+d0479	Nature's Tongue
+d0480	<p>You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an <strong>Instinct Roll (12)</strong>. On a success, they'll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.</p><p>Additionally, before you make a Spellcast Roll while within a natural environment, you can <strong>spend a Hope</strong> to gain a +2 bonus to the roll.</p>
+d0481	Speak with Nature
+d0482	<p>You can speak the language of the natural world. When you want to speak to the plants and animals around you, make an <strong>Instinct Roll (12)</strong>. On a success, they'll give you the information they know. On a roll with Fear, their knowledge might be limited or come at a cost.</p>
+d0483	Gain Bonus
+d0484	<p>Additionally, before you make a Spellcast Roll while within a natural environment, you can <strong>spend a Hope</strong> to gain a +2 bonus to the roll.</p>
+d0485	Bonus to Spellcast
+d0486	Never Upstaged
+d0487	<p>When you mark 1 or more Hit Points from an attack, you can <strong>mark a Stress</strong> to place a number of tokens equal to the number of Hit Points you marked on this card. On your next successful attack, gain a +5 bonus to your damage roll for each token on this card, then clear all tokens.</p>
+d0488	Mark Stress (1 token)
+d0489	Mark Stress (2 tokens)
+d0490	Mark Stress (3 tokens)
+d0491	Mark Stress (4 tokens)
+d0492	Never Upstaged (1 token)
+d0493	<p>Gain a +5 bonus to your damage roll</p>
+d0494	Never Upstaged (2 tokens)
+d0495	<p>Gain a +10 bonus to your damage roll</p>
+d0496	Never Upstaged (3 tokens)
+d0497	<p>Gain a +15 bonus to your damage roll</p>
+d0498	Never Upstaged (4 tokens)
+d0499	<p>Gain a +20 bonus to your damage roll</p>
+d0500	Night Terror
+d0501	<p>Once per long rest, choose any targets within Very Close range to perceive you as a nightmarish horror. The targets must succeed on a Reaction Roll (16) or become temporarily <em>Horrified</em>. While <em>Horrified</em>, they're <em>Vulnerable</em>. Steal a number of Fear from the GM equal to the number of targets that are <em>Horrified</em> (up to the number of Fear in the GM's pool). Roll a number of <strong>d6s</strong> equal to the number of stolen Fear and deal the total damage to each <em>Horrified</em> target. Discard the stolen Fear.</p>
+d0502	Horrify
+d0503	Steal Fear
+d0504	<p>Steal a number of Fear from the GM equal to the number of targets that are Horrified (up to the number of Fear in the GM's pool). Roll a number of d6s equal to the number of stolen Fear and deal the total damage to each Horrified target. Discard the stolen Fear.</p>
+d0505	Horrified
+d0506	<p>While Horrified, they're Vulnerable.</p>
+d0507	Notorious
+d0508	<p>People know who you are and what you've done, and they treat you differently because of it. When you leverage your notoriety to get what you want, you can <strong>mark a Stress</strong> before you roll to gain a +10 bonus to the result. Your food and drinks are always free wherever you go, and everything else you buy is reduced in price by one bag of gold (to a minimum of one handful).</p><p>This card doesn't count against your loadout's domain card maximum of 5 and can't be placed in your vault.</p>
+d0509	<p>When you leverage your notoriety to get what you want, you can <strong>mark a Stress</strong> before you roll to gain a +10 bonus to the result.</p><p>This card doesn't count against your loadout's domain card maximum of 5 and can't be placed in your vault.</p>
+d0510	Not Good Enough
+d0511	<p>When you roll your damage dice, you can reroll any 1s or 2s.</p>
+d0512	Onslaught
+d0513	<p>When you successfully make an attack with your weapon, you never deal damage beneath a target's Major damage threshold (the target always marks a minimum of 2 Hit Points).</p><p>Additionally, when a creature within your weapon's range deals damage to an ally with an attack that doesn't include you, you can <strong>mark a Stress</strong> to force them to make a Reaction Roll (15). On a failure, the target must mark a Hit Point.</p>
+d0514	<p>When a creature within your weapon's range deals damage to an ally with an attack that doesn't include you, you can <strong>mark a Stress</strong> to force them to make a Reaction Roll (15). On a failure, the target must mark a Hit Point.</p>
+d0515	On the Brink
+d0516	<p>When you have 2 or fewer Hit Points unmarked, you don't take Minor damage.</p>
+d0517	On The Brink
+d0518	Overwhelming Aura
+d0519	<p>Make a <strong>Spellcast Roll (15)</strong> to magically empower your aura. On a success, <strong>spend 2 Hope</strong> to make your Presence equal to your Spellcast trait until your next long rest.</p><p>While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>
+d0520	<p>Make a <strong>Spellcast Roll (15)</strong> to magically empower your aura. On a success, <strong>spend 2 Hope</strong> to make your Presence equal to your Spellcast trait until your next long rest.While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>
+d0521	<p>Your Presence is equal to your Spellcast trait until your next long rest.<br>While this spell is active, an adversary must mark a Stress when they target you with an attack.</p>
+d0522	Phantom Retreat
+d0523	<p><strong>Spend a Hope</strong> to activate Phantom Retreat where you're currently standing. <strong>Spend another Hope</strong> at any time before your next rest to disappear from where you are and reappear where you were standing when you activated Phantom Retreat. This spell ends after you reappear.</p>
+d0524	Activate
+d0525	<p>Spend a <strong>Hope</strong> to activate Phantom Retreat where you're currently standing.</p>
+d0526	Retreat
+d0527	<p><strong>Spend another Hope</strong> at any time before your next rest to disappear from where you are and reappear where you were standing when you activated Phantom Retreat. This spell ends after you reappear.</p>
+d0528	Pick and Pull
+d0529	<p>You have advantage on action rolls to pick nonmagical locks, disarm nonmagical traps, or steal items from a target (either through stealth or by force).</p>
+d0530	Plant Dominion
+d0531	<p>Make a <strong>Spellcast Roll (18)</strong>. Once per long rest on a success, you reshape the natural world, changing the surrounding plant life anywhere within Far range of you. For example, you can grow trees instantly, clear a path through dense vines, or create a wall of roots.</p>
+d0532	Reshape Natural World
+d0533	Premonition
+d0534	<p>You can channel arcane energy to have visions of the future. Once per long rest, immediately after the GM conveys the consequences of a roll you made, you can rescind the move and consequences like they never happened and make another move instead.</p>
+d0535	Rescind Move
+d0536	<p>Once per long rest, immediately after the GM conveys the consequences of a roll you made, you can rescind the move and consequences like they never happened and make another move instead.</p>
+d0537	Preservation Blast
+d0538	<p>Make a <strong>Spellcast Roll</strong> against all targets within Melee range. Targets you succeed against are forced back to Far range and take <strong>d8+3</strong> magic damage using your Spellcast trait.</p>
+d0539	Rage Up
+d0540	<p>Before you make an attack, you can <strong>mark a Stress</strong> to gain a bonus to your damage roll equal to twice your Strength.</p><p>You can Rage Up twice per attack.</p>
+d0541	<p>You can <strong>mark a Stress</strong> to gain a bonus to your damage roll equal to twice your Strength.</p>
+d0542	<p>For your next attack you have a bonus to your damage roll equal to twice your Strength.</p>
+d0543	Rage Up (2)
+d0544	Rain of Blades
+d0545	<p><strong>Spend a Hope</strong> to make a <strong>Spellcast Roll</strong> and conjure throwing blades that strike out at all targets within Very Close range. Targets you succeed against take <strong>d8+2</strong> magic damage using your Proficiency.</p><p>If a target you hit is <em>Vulnerable</em>, they take an extra <strong>1d8</strong> damage.</p>
+d0546	<p><strong>Spend a Hope</strong> to make a <strong>Spellcast Roll</strong> and conjure throwing blades that strike out at all targets within Very Close range. Targets you succeed against take <strong>d8+2</strong> magic damage using your Proficiency.</p>
+d0547	Rapid Riposte
+d0548	<p>When an attack made against you from within Melee range fails, you can <strong>mark a Stress</strong> and seize the opportunity to deal the weapon damage of one of your active weapons to the attacker.</p>
+d0549	Reaper's Strike
+d0550	<p>Once per long rest, <strong>spend a Hope</strong> to make an attack roll. The GM tells you which targets within range it would succeed against. Choose one of these targets and force them to mark 5 Hit Points.</p>
+d0551	Reassurance
+d0552	<p>Once per rest, after an ally attempts an action roll but before the consequences take place, you can offer assistance or words of support. When you do, your ally can reroll their dice.</p>
+d0553	Reassure
+d0554	Reckless
+d0555	<p><strong>Mark a Stress</strong> to gain advantage on an attack.</p>
+d0556	<p>During a short rest, you can choose a long rest downtime move instead. You can <strong>spend a Hope</strong> to let an ally do the same.</p>
+d0557	Recovery (Ally)
+d0558	<p>During this short rest, you can choose a long rest downtime move instead.</p>
+d0559	<p>During a short rest, you can choose a long rest downtime move instead.</p>
+d0560	Redirect
+d0561	<p>When an attack made against you from beyond Melee range fails, roll a number of <strong>d6s</strong> equal to your Proficiency. If any roll a 6, you can <strong>mark a Stress</strong> to redirect the attack to damage an adversary within Very Close range instead.</p>
+d0562	Rejuvenation Barrier
+d0563	<p>Make a <strong>Spellcast Roll (15)</strong>. Once per rest on a success, create a temporary barrier of protective energy around you at Very Close range. You and all allies within the barrier when this spell is cast clear <strong>1d4</strong> Hit Points. While the barrier is up, you and all allies within have resistance to physical damage from outside the barrier.</p><p>When you move, the barrier follows you.</p>
+d0564	<p>While the barrier is up, the caster and all allies within have resistance to physical damage from outside the barrier. When the caster moves, the barrier follows them.</p>
+d0565	Restoration
+d0566	<p>After a long rest, place a number of tokens equal to your Spellcast trait on this card. Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.</p><p>You can also spend a token from this card when touching a creature to clear the <em>Vulnerable</em> condition or heal a physical or magical ailment (the GM might require additional tokens depending on the strength of the ailment).</p><p>When you take a long rest, clear all unspent tokens.</p>
+d0567	Heal Hitpoints
+d0568	<p>Touch a creature and spend any number of tokens to clear 2 Hit Points or 2 Stress for each token spent.</p>
+d0569	Reduce Stress
+d0570	Remove Condition
+d0571	<p>You can also spend a token from this card when touching a creature to clear the <em>Vulnerable</em> condition or heal a physical or magical ailment (the GM might require additional tokens depending on the strength of the ailment).</p>
+d0572	Resurrection
+d0573	<p>Make a <strong>Spellcast Roll</strong><strong> (20)</strong>. On a success, restore one creature who has been dead no longer than 100 years to full strength. Then roll a <strong>d6</strong>. On a result of 5 or lower, place this card in your vault permanently.</p><p>On a failure, you can't cast Resurrection again for a week.</p>
+d0574	<p>Make a <strong>Spellcast Roll (20)</strong>. On a success, restore one creature who has been dead no longer than 100 years to full strength.</p>
+d0575	Keep Card
+d0576	<p>Then roll a <strong>d6</strong>. On a result of 5 or lower, place this card in your vault permanently. On a failure, you can't cast Resurrection again for a week.</p>
+d0577	Rift Walker
+d0578	<p>Make a <strong>Spellcast Roll (15)</strong>. On a success, you place an arcane marking on the ground where you currently stand. The next time you successfully cast Rift Walker, a rift in space opens up, providing safe passage back to the exact spot where the marking was placed. This rift stays open until you choose to close it or you cast another spell.</p><p>You can drop the spell at any time to cast Rift Walker again and place the marking somewhere new.</p>
+d0579	Rise Up
+d0580	<p>Gain a bonus to your Severe threshold equal to your Proficiency.</p><p>When you mark 1 or more Hit Points from an attack, clear a Stress.</p>
+d0581	<p>When you mark 1 or more Hit Points from an attack, clear a Stress.</p>
+d0582	<p>Gain a bonus to your Severe threshold equal to your Proficiency.</p>
+d0583	Rousing Strike
+d0584	<p>Once per rest, when you critically succeed on an attack, you and all allies who can see or hear you can clear a Hit Point or <strong>1d4</strong> Stress.</p>
+d0585	Rune Ward
+d0586	<p>You have a deeply personal trinket that can be infused with protective magic and held as a ward by you or an ally. Describe what it is and why it's important to you. The ward's holder can spend a Hope to reduce incoming damage by <strong>1d8</strong>.</p><p>If the Ward Die result is 8, the ward's power ends after it reduces damage this turn. It can be recharged for free on your next rest.</p>
+d0587	Give Rune Ward
+d0588	<p>The ward's holder can spend a Hope to reduce incoming damage by <strong>1d8</strong>.</p><p>If the Ward Die result is 8, the ward's power ends after it reduces damage this turn. It can be recharged for free on your next rest.</p>
+d0589	Safe Haven
+d0590	<p>When you have a few minutes of calm to focus, you can <strong>spend 2 Hope</strong> to summon your Safe Haven, a large interdimensional home where you and your allies can take shelter. When you do, a magical door appears somewhere within Close range. Only creatures of your choice can enter. Once inside, you can make the entrance invisible. You and anyone else inside can always exit. Once you leave, the doorway must be summoned again.</p><p>When you take a rest within your own Safe Haven, you can choose an additional downtime move.</p>
+d0591	<p>When you take a rest within your own Safe Haven, you can choose an additional downtime move.</p>
+d0592	Sage-Touched
+d0593	<p>When 4 or more of the domain cards in your loadout are from the Sage domain, gain the following benefits:</p><ul><li class="vertical-card-list"><p>While you're in a natural environment, you gain a +2 bonus to your Spellcast Rolls.</p></li><li class="vertical-card-list"><p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p></li></ul>
+d0594	Double Agility
+d0595	<p>Once per rest, you can double your Agility or Instinct when making a roll that uses that trait. You must choose to do this before you roll.</p>
+d0596	Double Instinct
+d0597	Increase Spellcasting
+d0598	<p>While you're in a natural environment, you gain a +2 bonus to your Spellcast Rolls.</p>
+d0599	Salvation Beam
+d0600	<p>Make a <strong>Spellcast Roll (16)</strong>. On a success, <strong>mark any number of Stress</strong> to target a line of allies within Far range. You can clear Hit Points on the targets equal to the number of Stress marked, divided among them however you'd like.</p>
+d0601	Scramble
+d0602	<p>Once per rest, when a creature within Melee range would deal damage to you, you can avoid the attack and safely move out of Melee range of the enemy.</p>
+d0603	Avoid
+d0604	Second Wind
+d0605	<p>Once per rest, when you succeed on an attack against an adversary, you can clear 3 Stress or a Hit Point. On a success with Hope, you also clear 3 Stress or a Hit Point on an ally within Close range of you.</p>
+d0606	Clear Three Stress
+d0607	Sensory Projection
+d0608	<p>Once per rest, make a <strong>Spellcast Roll</strong><strong> (15)</strong>. On a success, drop into a vision that lets you clearly see and hear any place you have been before as though you are standing there in this moment. You can move freely in this vision and are not constrained by the physics or impediments of a physical body. This spell cannot be detected by mundane or magical means. You drop out of this vision upon taking damage or casting another spell.</p>
+d0609	Shadowbind
+d0610	<p>Make a <strong>Spellcast Roll</strong> against all adversaries within Very Close range. Targets you succeed against are temporarily <em>Restrained</em> as their shadow binds them in place.</p>
+d0611	Shadowhunter
+d0612	<p>Your prowess is enhanced under the cover of shadow. While you're shrouded in low light or darkness, you gain a +1 bonus to your Evasion and make attack rolls with advantage.</p>
+d0613	Shadowhunter Evasion
+d0614	<p>While you're shrouded in low light or darkness, you gain a +1 bonus to your Evasion and make attack rolls with advantage.</p>
+d0615	Shadowhunter Advantage Hint
+d0616	Shape Material
+d0617	<p><strong>Spend a Hope</strong> to shape a section of natural material you're touching (such as stone, ice, or wood) to suit your purpose. The area of the material can be no larger than you. For example, you can form a rudimentary tool or create a door.</p><p>You can only affect the material within Close range of where you're touching it.</p>
+d0618	Share the Burden
+d0619	<p>Once per rest, take on the Stress from a willing creature within Melee range. The target describes what intimate knowledge or emotions telepathically leak from their mind in this moment between you. Transfer any number of their marked Stress to you, then gain a Hope for each Stress transferred.</p>
+d0620	Take Stress
+d0621	Shield Aura
+d0622	<p><strong>Mark a </strong><strong>Stress</strong> to cast a protective aura on a target within Very Close range. When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p><p>You can only hold Shield Aura on one creature at a time.</p>
+d0623	Cast Protective Aura
+d0624	<p><strong>Mark a Stress</strong> to cast a protective aura on a target within Very Close range. When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p><p>You can only hold Shield Aura on one creature at a time.</p>
+d0625	Protective Aura
+d0626	<p>When the target marks an Armor Slot, they reduce the severity of the attack by an additional threshold. If this spell causes a creature who would be damaged to instead mark no Hit Points, the effect ends.</p>
+d0627	Shrug It Off
+d0628	<p>When you would take damage, you can <strong>mark a Stress</strong> to reduce the severity of the damage by one threshold. When you do, roll a <strong>d6</strong>. On a result of 3 or lower, place this card in your vault.</p>
+d0629	Sigil of Retribution
+d0630	<p>Mark an adversary within Close range with a sigil of retribution. The GM gains a Fear. When the marked adversary deals damage to you or your allies, place a <strong>d8</strong> on this card. You can hold a number of <strong>d8s</strong> equal to your level. When you successfully attack the marked adversary, roll the dice on this card and add the total to your damage roll, then clear the dice. This effect ends when the marked adversary is defeated or you cast Sigil of Retribution again.</p>
+d0631	Mark
+d0632	<p>When the marked adversary deals damage to you or your allies, place a <strong>d8</strong> on this card. You can hold a number of <strong>d8s</strong> equal to your level. When you successfully attack the marked adversary, roll the dice on this card and add the total to your damage roll, then clear the dice. This effect ends when the marked adversary is defeated or you cast Sigil of Retribution again.</p>
+d0633	Signature Move
+d0634	<p>Name and describe your signature combat move. Once per rest, when you perform this signature move as part of an action you're taking, you can roll a<strong> d20</strong> as your Hope Die. On a success, clear a Stress.</p>
+d0635	Smite
+d0636	<p>Once per rest, <strong>spend 3 Hope</strong> to charge your powerful smite. When you next successfully attack with a weapon, double the result of your damage roll. This attack deals magic damage regardless of the weapon's damage type.</p>
+d0637	Charge Smite
+d0638	<p>When you next successfully attack with a weapon, double the result of your damage roll. This attack deals magic damage regardless of the weapon's damage type.</p>
+d0639	Soothing Speech
+d0640	<p>During a short rest, when you take the time to comfort another character while using the Tend to Wounds downtime move on them, clear an additional Hit Point on that character. When you do, you also clear 2 Hit Points.</p>
+d0641	Heal Another
+d0642	<p>During a short rest, when you take the time to comfort another character while using the Tend to Wounds downtime move on them, clear an additional Hit Point on that character.</p>
+d0643	Heal Self
+d0644	<p>When you do, you also clear 2 Hit Points.</p>
+d0645	Specter of the Dark
+d0646	<p><strong>Mark a Stress</strong> to become <em>Spectral </em>until you make an action roll targeting another creature. While <em>Spectral</em>, you're immune to physical damage and can float and pass through solid objects. Other creatures can still see you while you're in this form.</p>
+d0647	Become Spectral
+d0648	<p>Mark a <strong>Stress</strong> to become Spectral until you make an action roll targeting another creature. While Spectral, you're immune to physical damage and can float and pass through solid objects. Other creatures can still see you while you're in this form.</p>
+d0649	Spectral
+d0650	Spellcharge
+d0651	<p>When you take magic damage, place tokens equal to the number of Hit Points you marked on this card. You can store a number of tokens equal to your Spellcast trait.</p><p>When you make a successful attack against a target, you can spend any number of tokens to add a <strong>d6</strong> for each token spent to your damage roll.</p>
+d0652	Spend Tokens
+d0653	<p>When you make a successful attack against a target, you can spend any number of tokens to add a d6 for each token spent to your damage roll.</p>
+d0654	Splendor-Touched
+d0655	<p>When 4 or more of the domain cards in your loadout are from the Splendor domain, gain the following benefits:</p><ul><li class="vertical-card-list">+3 bonus to your Severe damage threshold</li><li class="vertical-card-list">Once per long rest, when incoming damage would require you to mark a number of Hit Points, you can choose to mark that much Stress or spend that much Hope instead.</li></ul>
+d0656	<ul><li class="vertical-card-list"><p>+3 bonus to your Severe damage threshold</p></li><li class="vertical-card-list"><p>Once per long rest, when incoming damage would require you to mark a number of Hit Points, you can choose to mark that much Stress or spend that much Hope instead.</p></li></ul>
+d0657	Splintering Strike
+d0658	<p><strong>Spend a Hope</strong> and make an attack against all adversaries within your weapon's range. Once per long rest, on a success against any targets, roll your weapon's damage and distribute that damage however you wish between the targets you succeeded against. Before you deal damage to each target, roll an additional damage die and add its result to the damage you deal to them.</p>
+d0659	Stealth Expertise
+d0660	<p>When you roll with Fear while attempting to move unnoticed through a dangerous area, you can <strong>mark a Stress</strong> to roll with Hope instead.</p><p>If an ally within Close range is also attempting to move unnoticed and rolls with Fear, you can <strong>mark a Stress</strong> to change their result to a roll with Hope.</p>
+d0661	Change Fear to Hope
+d0662	Strategic Approach
+d0663	<p>After a long rest, place a number of tokens equal to your Knowledge on this card (minimum 1). The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul><li class="vertical-card-list-found"><p>You make the attack with advantage.</p></li><li class="vertical-card-list-found"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class="vertical-card-list-found"><p>You add a <strong>d8</strong> to your damage roll.</p></li></ul><p>When you take a long rest, clear all unspent tokens.</p>
+d0664	<p>The first time you move within Close range of an adversary and make an attack against them, you can spend one token to choose one of the following options:</p><ul class=""><li class="vertical-card-list-found"><p>You make the attack with advantage.</p></li><li class="vertical-card-list-found"><p>You clear a Stress on an ally within Melee range of the adversary.</p></li><li class="vertical-card-list-found"><p>You add a <strong>d8</strong> to your damage roll.</p></li></ul>
+d0665	Stunning Sunlight
+d0666	<p>Make a <strong>Spellcast Roll</strong> to unleash powerful rays of burning sunlight against all adversaries in front of you within Far range. On a success, <strong>spend any number of Hope</strong> and force that many targets you succeeded against to make a Reaction Roll (14).</p><p>Targets who succeed take <strong>3d20+3</strong> magic damage. Targets who fail take <strong>4d20+5</strong> magic damage and are temporarily <em>Stunned</em>. While <em>Stunned</em>, they can't use reactions and can't take any other actions until they clear this condition.</p>
+d0667	Damage on Successful Save
+d0668	<p>Targets who succeed take <strong>3d20+3</strong> magic damage.</p>
+d0669	<p>Temporarily Stunned. While Stunned, they can't use reactions and can't take any other actions until they clear this condition.</p>
+d0670	Support Tank
+d0671	<p>When an ally within Close range fails a roll, you can <strong>spend 2 Hope</strong> to allow them to reroll either their Hope or Fear Die.</p>
+d0672	Swift Step
+d0673	<p>When an attack made against you fails, clear a Stress. If you can't clear a Stress, gain a Hope.</p>
+d0674	Tactician
+d0675	<p>When you Help an Ally, they can spend a Hope to add one of your Experiences to their roll alongside your advantage die.</p><p>When making a Tag Team Roll, you can roll a <strong>d20</strong> as your Hope Die.</p>
+d0676	Telekinesis
+d0677	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, you can use your mind to move them anywhere within Far range of their original position. You can throw the lifted target as an attack by making an additional Spellcast Roll against the second target you're trying to attack. On a success, deal<strong> d12+4</strong> physical damage to the second target using your Proficiency. This spell then ends.</p>
+d0678	Move Target
+d0679	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, you can use your mind to move them anywhere within Far range of their original position.</p>
+d0680	Throw Target
+d0681	<p>You can throw the lifted target as an attack by making an additional Spellcast Roll against the second target you're trying to attack. On a success, deal<strong> d12+4</strong> physical damage to the second target using your Proficiency. This spell then ends.</p>
+d0682	<p>Once per long rest, you can instantly teleport yourself and any number of willing targets within Close range to a place you've been before. Choose one of the following options, then make a <strong>Spellcast Roll (16)</strong>:</p><ul><li class="vertical-card-list">If you know the place very well, gain a +3 bonus.</li><li class="vertical-card-list">If you've visited the place frequently, gain a +1 bonus.</li><li class="vertical-card-list">If you've visited the place infrequently, gain no modifier.</li><li class="vertical-card-list">If you've only been there once, gain a -2 penalty.</li></ul><p>On a success, you appear where you were intending to go. On a failure, you appear off course, with the range of failure determining how far off course.</p>
+d0683	<p>Once per long rest, you can instantly teleport yourself and any number of willing targets within Close range to a place you've been before. Choose one of the following options, then make a <strong>Spellcast Roll (16)</strong>:</p><ul class=""><li class="vertical-card-list">If you know the place very well, gain a +3 bonus.</li><li class="vertical-card-list">If you've visited the place frequently, gain a +1 bonus.</li><li class="vertical-card-list">If you've visited the place infrequently, gain no modifier.</li><li class="vertical-card-list">If you've only been there once, gain a -2 penalty.</li></ul><p>On a success, you appear where you were intending to go. On a failure, you appear off course, with the range of failure determining how far off course.</p>
+d0684	Tell No Lies
+d0685	<p>Make a <strong>Spellcast Roll</strong><strong> </strong>against a target within Very Close range. On a success, they can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>
+d0686	<p>Make a <strong>Spellcast Roll </strong>against a target within Very Close range. On a success, they can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>
+d0687	Can't Lie
+d0688	<p>Can't lie to you while they remain within Close range, but they are not compelled to speak. If you ask them a question and they refuse to answer, they must mark a Stress and the effect ends. The target is typically unaware this spell has been cast on them until it causes them to utter the truth.</p>
+d0689	Tempest
+d0690	<p>Choose one of the following tempests and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul><li class="vertical-card-list"><p><em><strong>Blizzard:</strong></em> Deal <strong>2d20+8</strong> magic damage and targets are temporarily <em>Vulnerable</em>.</p></li><li class="vertical-card-list"><em><strong>Hurricane: </strong></em>Deal <strong>3d10+10</strong> magic damage and choose a direction the wind is blowing. Targets can't move against the wind.</li><li class="vertical-card-list"><p><em><strong>Sandstorm:</strong></em> Deal <strong>5d6+9</strong> magic damage. Attacks made from beyond Melee range have disadvantage.</p></li></ul>
+d0691	Blizzard
+d0692	<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=""><li class="vertical-card-list"><p><em><strong>Blizzard:</strong></em> Deal <strong>2d20+8</strong> magic damage and targets are temporarily <em>Vulnerable</em>.</p></li></ul>
+d0693	Hurricane
+d0694	<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=""><li class="vertical-card-list"><em><strong>Hurricane: </strong></em>Deal <strong>3d10+10</strong> magic damage and choose a direction the wind is blowing. Targets can't move against the wind.</li></ul>
+d0695	Sandstorm
+d0696	<p>Choose the following tempest and make a <strong>Spellcast Roll</strong> against all targets within Far range. Targets you succeed against experience its effects until the GM spends a Fear on their turn to end this spell.</p><ul class=""><li class="vertical-card-list"><p><em><strong>Sandstorm:</strong></em> Deal <strong>5d6+9</strong> magic damage. Attacks made from beyond Melee range have disadvantage.</p></li></ul>
+d0697	Wind
+d0698	<p>Targets can't move against the wind.</p>
+d0699	Sand
+d0700	<p>Attacks made from beyond Melee range have disadvantage.</p>
+d0701	Thorn Skin
+d0702	<p>Once per rest, <strong>spend a Hope</strong> to sprout thorns all over your body. When you do, place a number of tokens equal to your Spellcast trait on this card. When you take damage, you can spend any number of tokens to roll that number of <strong>d6s</strong>. Add the results together and reduce the incoming damage by that amount. If you're within Melee range of the attacker, deal that amount of damage back to them.</p><p>When you take a rest, clear all unspent tokens.</p>
+d0703	<p>Once per rest, <strong>spend a Hope</strong> to sprout thorns all over your body. When you do, place a number of tokens equal to your Spellcast trait on this card.</p>
+d0704	Use Tokens
+d0705	<p>When you take damage, you can spend any number of tokens to roll that number of <strong>d6s</strong>. Add the results together and reduce the incoming damage by that amount. If you're within Melee range of the attacker, deal that amount of damage back to them.</p><p>When you take a rest, clear all unspent tokens.</p>
+d0706	Thought Delver
+d0707	<p>You can peek into the minds of others. <strong>Spend a Hope</strong> to read the vague surface thoughts of a target within Far range. Make a<strong> Spellcast Roll </strong>against the target to delve for deeper, more hidden thoughts.</p><p>On a roll with Fear, the target might, at the GM's discretion, become aware that you're reading their thoughts.</p>
+d0708	Read Surface Thoughts
+d0709	<p>You can peek into the minds of others. <strong>Spend a Hope</strong> to read the vague surface thoughts of a target within Far range.</p>
+d0710	Delve Deeper
+d0711	<p>Make a<strong> Spellcast Roll </strong>against the target to delve for deeper, more hidden thoughts. On a roll with Fear, the target might, at the GM's discretion, become aware that you're reading their thoughts.</p>
+d0712	Mind Read
+d0713	<p>Read the vague surface thoughts of a target within Far range. Make a <strong>Spellcast Roll</strong> against the target to delve for deeper, more hidden thoughts.</p>
+d0714	Through Your Eyes
+d0715	<p>Choose a target within Very Far range. You can see through their eyes and hear through their ears. You can transition between using your own senses or the target's freely until you cast another spell or until your next rest.</p>
+d0716	Seeing, Hearing
+d0717	<p>Can see through their eyes and hear through their ears.</p>
+d0718	Towering Stalk
+d0719	<p>Once per rest, you can conjure a thick, twisting stalk within Close range that can be easily climbed. Its height can grow up to Far range.</p><p><strong>Mark a Stress</strong> to use this spell as an attack. Make a <strong>Spellcast Roll</strong> against an adversary or group of adversaries within Close range. The erupting stalk lifts targets you succeed against into the air and drops them, dealing <strong>d8</strong> physical damage using your Proficiency.</p>
+d0720	Use as attack
+d0721	<p><strong>Mark a Stress</strong> to use this spell as an attack. Make a <strong>Spellcast Roll</strong> against an adversary or group of adversaries within Close range. The erupting stalk lifts targets you succeed against into the air and drops them, dealing <strong>d8</strong> physical damage using your Proficiency.</p>
+d0722	Conjure Stalk
+d0723	<p>Once per rest, you can conjure a thick, twisting stalk within Close range that can be easily climbed. Its height can grow up to Far range.</p>
+d0724	Transcendent Union
+d0725	<p>Once per long rest, <strong>spend 5 Hope</strong> to cast this spell on two or more willing creatures. Until your next rest, when a creature connected by this union would mark Stress or Hit Points, the connected creatures can choose who marks it.</p>
+d0726	<p>Until your next rest, when a creature connected by this union would mark Stress or Hit Points, the connected creatures can choose who marks it.</p>
+d0727	Troublemaker
+d0728	<p>When you taunt or provoke a target within Far range, make a <strong>Presence Roll</strong> against them. Once per rest on a success, roll a number of <strong>d4s</strong> equal to your Proficiency. The target must mark Stress equal to the highest result rolled.</p>
+d0729	Provoke
+d0730	Twilight Toll
+d0731	<p>Choose a target within Far range. When you succeed on an action roll against them that doesn't result in making a damage roll, place a token on this card. When you deal damage to this target, spend any number of tokens to add a<strong> d12</strong> for each token spent to your damage roll. You can only hold Twilight Toll on one creature at a time.</p><p>When you choose a new target or take a rest, clear all unspent tokens.</p>
+d0732	<p>When you deal damage to this target, spend any number of tokens to add a<strong> d12</strong> for each token spent to your damage roll. You can only hold Twilight Toll on one creature at a time.When you choose a new target or take a rest, clear all unspent tokens.</p>
+d0733	Unbreakable
+d0734	<p>When you mark your last Hit Point, instead of making a death move, you can roll a <strong>d6</strong> and clear a number of Hit Points equal to the result. Then place this card in your vault.</p>
+d0735	Uncanny Disguise
+d0736	<p>When you have a few minutes to prepare, you can <strong>mark a Stress</strong> to don the facade of any humanoid you can picture clearly in your mind. While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p><p>Place a number of tokens equal to your Spellcast trait on this card. When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>
+d0737	Don Facade
+d0738	<p>Place a number of tokens equal to your Spellcast trait on this card. When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>
+d0739	<p>Don the facade of any humanoid you can picture clearly in your mind. While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p>
+d0740	<p>While disguised, you have advantage on Presence Rolls to avoid scrutiny.</p><p>When you take an action while disguised, spend a token from this card. After the action that spends the last token is resolved, the disguise drops.</p>
+d0741	Unleash Chaos
+d0742	<p>At the beginning of a session, place a number of tokens equal to your Spellcast trait on this card.</p><p>Make a <strong>Spellcast Roll</strong> against a target within Far range and spend any number of tokens to channel raw energy from within yourself to unleash against them. On a success, roll a number of<strong> d10s</strong> equal to the tokens you spent and deal that much magic damage to the target. <strong>Mark a Stress</strong> to replenish this card with tokens (up to your Spellcast trait).</p><p>At the end of each session, clear all unspent tokens.</p>
+d0743	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range and spend any number of tokens to channel raw energy from within yourself to unleash against them. On a success, roll a number of d10s equal to the tokens you spent and deal that much magic damage to the target.</p>
+d0744	Replenish Tokens
+d0745	<p><strong>Mark a Stress</strong> to replenish this card with tokens (up to your Spellcast trait).</p>
+d0746	Untouchable
+d0747	<p>Gain a bonus to your Evasion equal to half your Agility.</p>
+d0748	Unyielding Armor
+d0749	<p>When you would mark an Armor Slot, roll a number of <strong>d6s</strong> equal to your Proficiency. If any roll a 6, reduce the severity by one threshold without marking an Armor Slot.</p>
+d0750	Valor-Touched
+d0751	<p>When 4 or more of the domain cards in your loadout are from the Valor domain, gain the following benefits:</p><ul><li class="vertical-card-list-found"><p>+1 bonus to your Armor Score</p></li><li class="vertical-card-list-found"><p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p></li></ul>
+d0752	<p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p>
+d0753	<ul><li class="vertical-card-list-found"><p>+1 bonus to your Armor Score</p></li><li class="vertical-card-list-found"><p>When you mark 1 or more Hit Points without marking an Armor Slot, clear an Armor Slot.</p></li></ul>
+d0754	Vanishing Dodge
+d0755	<p>When an attack made against you that would deal physical damage fails, you can <strong>spend a Hope</strong> to envelop yourself in shadow, becoming <em>Hidden</em> and teleporting to a point within Close range of the attacker. You remain <em>Hidden</em> until the next time you make an action roll.</p>
+d0756	Vanish
+d0757	<p>Envelop yourself in shadow, becoming Hidden and teleporting to a point within Close range of the attacker. You remain Hidden until the next time you make an action roll.</p>
+d0758	Veil of Night
+d0759	<p>Make a <strong>Spellcast Roll</strong><strong> (13)</strong>. On a success, you can create a temporary curtain of darkness between two points within Far range. Only you can see through this darkness. You're considered <em>Hidden</em> to adversaries on the other side of the veil, and you have advantage on attacks you make through the darkness. The veil remains until you cast another spell.</p>
+d0760	<p>Make a <strong>Spellcast Roll</strong> (13). On a success, you can create a temporary curtain of darkness between two points within Far range. Only you can see through this darkness. You're considered <em>Hidden</em> to adversaries on the other side of the veil, and you have advantage on attacks you make through the darkness. The veil remains until you cast another spell.</p>
+d0761	Veiled
+d0762	Versatile Fighter
+d0763	<p>You can use a different character trait for an equipped weapon, rather than the trait the weapon calls for.</p><p>When you deal damage, you can <strong>mark a Stress</strong> to use the maximum result of one of your damage dice instead of rolling it.</p>
+d0764	Vicious Entangle
+d0765	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, roots and vines reach out from the ground, dealing <strong>1d8+1</strong> physical damage and temporarily <em>Restraining</em> the target.</p><p>Additionally on a success, you can <strong>spend a Hope</strong> to temporarily <em>Restrain</em> another adversary within Very Close range of your target.</p>
+d0766	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, roots and vines reach out from the ground, dealing <strong>1d8+1</strong> physical damage and temporarily <em>Restraining</em> the target.</p>
+d0767	Restrain Another
+d0768	<p>Additionally on a success, you can <strong>spend a Hope</strong> to temporarily <em>Restrain</em> another adversary within Very Close range of your target.</p>
+d0769	Vitality
+d0770	<p>When you choose this card, permanently gain two of the following benefits:</p><ul><li class="vertical-card-list-found"><p>One Stress slot</p></li><li class="vertical-card-list-found"><p>One Hit Point slot</p></li><li class="vertical-card-list-found">+2 bonus to your damage thresholds</li></ul><p>Then place this card in your vault permanently.</p>
+d0771	Apply Effect
+d0772	<p>Choose from:</p><ul class=""><li class="vertical-card-list-found"><p>One Stress slot</p></li><li class="vertical-card-list-found"><p>One Hit Point slot</p></li><li class="vertical-card-list-found">+2 bonus to your damage thresholds</li></ul><p>(The effects are applied disabled. You have to manually enable two of them in your character sheet for now.</p>
+d0773	Vitality (HP)
+d0774	<p>Permanently add one Hit Point slot</p>
+d0775	Vitality (Stress)
+d0776	<p>Permanently add one Stress slot</p>
+d0777	Vitality (Thresholds)
+d0778	<p>Permanently add a +2 bonus to your damage thresholds</p>
+d0779	Voice of Reason
+d0780	<p>You speak with an unmatched power and authority. You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.</p><p>Additionally, you're emboldened in moments of duress. When all of your Stress slots are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>
+d0781	<p>You have advantage on action rolls to de-escalate violent situations or convince someone to follow your lead.</p>
+d0782	Emboldened (activate manually)
+d0783	<p>When all of your Stress slots are marked, you gain a +1 bonus to your Proficiency for damage rolls.</p>
+d0784	Wall Walk
+d0785	<p><strong>Spend a Hope</strong> to allow a creature you can touch to climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again.</p>
+d0786	<p>Can climb on walls and ceilings as easily as walking on the ground. This lasts until the end of the scene or you cast Wall Walk again.</p>
+d0787	Whirlwind
+d0788	<p>When you make a successful attack against a target within Very Close range, you can <strong>spend a Hope</strong> to use the attack against all other targets within Very Close range. All additional adversaries you succeed against with this ability take half damage.</p>
+d0789	Wild Fortress
+d0790	<p>Make a <strong>Spellcast Roll (13)</strong>. On a success, <strong>spend 2 Hope</strong> to grow a natural barricade in the shape of a dome that you and one ally can take cover within. While inside the dome, a creature can't be targeted by attacks and can't make attacks. Attacks made against the dome automatically succeed. The dome has a Major damage threshold of 15 and a Severe damage threshold of 30, and lasts until it marks 3 Hit Points. Place tokens on this card to represent marking Hit Points.</p>
+d0791	Wild Surge
+d0792	<p>Once per long rest, <strong>mark a Stress</strong> to channel the natural world around you and enhance yourself. Describe how your appearance changes, then place a <strong>d6</strong> on this card with the 1 value facing up.</p><p>While the Wild Surge Die is active, you add its value to every action roll you make. After you add its value to a roll, increase the Wild Surge Die's value by one. When the die's value would exceed 6 or you take a rest, this form drops and you must <strong>mark an additional Stress</strong>.</p>
+d0793	Channel Nature
+d0794	Words of Discord
+d0795	<p>Whisper words of discord to an adversary within Melee range and make a <strong>Spellcast Roll (13)</strong>. On a success, the target must mark a Stress and make an attack against another adversary instead of against you or your allies.</p><p>Once this attack is over, the target realizes what happened. The next time you cast Words of Discord on them, gain a -5 penalty to the Spellcast Roll.</p>
+d0796	<p>The target must make an attack against another adversary instead of against you or your allies. Once this attack is over, the target realizes what happened. The next time you cast Words of Discord on them, gain a -5 penalty to the Spellcast Roll.</p>
+d0797	Wrangle
+d0798	<p>Make an Agility Roll against all targets within Close range.<strong> Spend a Hope</strong> to move targets you succeed against, and any willing allies within Close range, to another point within Close range.</p>
+d0799	Agility Roll
+d0800	<p>Make an Agility Roll against all targets within Close range.<strong> Spend a Hope</strong> to move targets you succeed against, and any willing allies within Close range, to another point within Close range.</p><p>@Template[type:emanation|range:c]</p>
+d0801	Zone of Protection
+d0802	<p>Make a <strong>Spellcast Roll (16)</strong>. Once per long rest on a success, choose a point within Far range and create a visible zone of protection there for all allies within Very Close range of that point. When you do, place a <strong>d6</strong> on this card with the 1 value facing up. When an ally in this zone takes damage, they reduce it by the die's value. You then increase the die's value by one. When the die's value would exceed 6, this effect ends.</p>
+d0803	<p>When an ally in this zone takes damage, they reduce it by the die's value. You then increase the die's value by one. When the die's value would exceed 6, this effect ends.</p>
+d0804	Avatar of Terror
+d0805	<p><strong>Mark a Stress</strong> to transform into a creature fueled by fear. While in this form, you gain a <strong>1d6</strong> bonus to your damage rolls for each Fear in the GM's pool. Additionally, you gain a Hope when the GM spends a Fear to spotlight an adversary within Very Close range.</p><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p>
+d0806	Avatar Of Terror
+d0807	<p>While in this form, you gain a <strong>1d6</strong> bonus to your damage rolls for each Fear in the GM's pool. Additionally, you gain a Hope when the GM spends a Fear to spotlight an adversary within Very Close range.</p><p>Before you make an action roll, you must spend a Hope. If you can't, you revert to your normal form.</p>
+d0808	Blighting Strike
+d0809	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success:</p><ul><li><p>On a roll with Hope, deal <strong>d6+1</strong> magic damage using your Proficiency. On a roll with Fear, deal <strong>d10+1</strong> magic damage using your Proficiency.</p></li><li><p>The target's next successful attack deals half damage.</p></li></ul><p>On a failure, you must spend a Hope or mark a Stress.</p>
+d0810	Damage (With Hope)
+d0811	<p>On a roll with Hope, deal <strong>d6+1</strong> magic damage using your Proficiency.</p>
+d0812	Damage (With Fear)
+d0813	<p>On a roll with Fear, deal <strong>d10+1</strong> magic damage using your Proficiency.</p>
+d0814	Blightning Strike
+d0815	<p>The target's next successful attack deals half damage.</p>
+d0816	Chains of Affliction
+d0817	<p><strong>Mark 2 Stress</strong> to temporarily <em>Chain</em> a target within Close range. When a <em>Chained</em> creature deals damage, the target of their attack marks one fewer Hit Point than they normally would. You can't have more than one creature <em>Chained</em> at a time.</p>
+d0818	Chained
+d0819	<p>When a <em>Chained</em> creature deals damage, the target of their attack marks one fewer Hit Point than they normally would. You can't have more than one creature <em>Chained</em> at a time.</p>
+d0820	Damnation
+d0821	<p>Make a <strong>Spellcast Roll</strong> against a target within Far range. On a success, <strong>mark any number of Stress</strong> to roll an equal number of <strong>d20</strong>s, dealing magic damage equal to the total result. If this attack defeats the target, all adversaries within Far range of the target must mark a Stress.</p>
+d0822	<p>If this attack defeats the target, all adversaries within Far range of the target must mark a Stress.</p>
+d0823	Dark Army
+d0824	<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you can summon fiends that surround and move with you. Place 8 tokens on this card. When you deal damage to a target within Very Close range, you can spend any number of tokens to add <strong>1d8</strong> for each token spent to your damage roll. Additionally, when you take damage, you can spend any number of tokens to reduce the damage by <strong>1d8</strong> for each token spent. Each time you spend a token, a fiend acts on your behalf, then disappears.</p><p>When you take a rest, clear all unspent tokens.</p>
+d0825	<p>Make a <strong>Spellcast Roll (14)</strong>. Once per long rest on a success, you can summon fiends that surround and move with you. Place 8 tokens on this card. When you deal damage to a target within Very Close range, you can spend any number of tokens to add <strong>1d8</strong> for each token spent to your damage roll. Additionally, when you take damage, you can spend any number of tokens to reduce the damage by <strong>1d8</strong> for each token spent. Each time you spend a token, a fiend acts on your behalf, then disappears.</p>
+d0826	Darkfire
+d0827	<p>Once per scene, <strong>spend any number of Hope</strong> to target an equal number of adversaries within Close range. Each target makes a <strong>Reaction Roll (15)</strong>. Targets who fail take <strong>d8+6</strong> magic damage using your Spellcast trait as they are engulfed in dark fire. Targets who succeed take half damage.</p>
+d0828	Dire Strike
+d0829	<p>When a target marks any number of Hit Points from an attack you make, you can <strong>spend a Hope</strong> to drain power from them. The GM loses a Fear.</p>
+d0830	Dread-Touched
+d0831	<p>When 4 or more of the domain cards in your loadout are from the Dread domain, gain the following benefits:</p><ul><li><p>When you succeed with Fear, you can <strong>mark 2 Stress</strong> to prevent the GM from gaining a Fear.</p></li><li><p>Once per rest when making an action roll, you can gain a bonus to the roll equal to the number of Fear in the GM's pool.</p></li></ul>
+d0832	Eldritch Flesh
+d0833	<p>Gain a +1 bonus to your damage thresholds for each Stress you have marked.</p><p>Additionally, when you roll with Fear, you can <strong>spend 2 Hope</strong> to clear an Armor Slot.</p>
+d0834	<p>When you roll with Fear, you can <strong>spend 2 Hope</strong> to clear an Armor Slot.</p>
+d0835	<p>Gain a +1 bonus to your damage thresholds for each Stress you have marked.</p>
+d0836	Hideous Retribution
+d0837	<p>When an ally within Close range takes damage from a target you can see, you can make a reaction roll against the target using your Spellcast trait. On a success, <strong>mark a Stress</strong> to deal <strong>d6</strong> magic damage using your Proficiency.</p>
+d0838	Invoke Torment
+d0839	<p>You deal double damage to targets that have all their Stress marked.</p><p>Additionally, when an adversary within Close range is defeated with all its Stress marked, you gain a Hope.</p>
+d0840	<p>When an adversary within Close range is defeated with all its Stress marked, you gain a Hope.</p>
+d0841	<p>You deal double damage to targets that have all their Stress marked.</p>
+d0842	Jump Scare
+d0843	<p>When you deal magic damage to a target, you can <strong>mark a Stress</strong> to teleport into Melee range with them. When you do, they are <em>Vulnerable</em> until they mark 1 or more Hit Points.</p>
+d0844	Scared
+d0845	<p>They are <em>Vulnerable</em> until they mark 1 or more Hit Points.</p>
+d0846	Savor the Anguish
+d0847	<p>When an adversary within Close range takes Severe damage, you can clear a Stress.</p>
+d0848	Shared Trauma
+d0849	<p>You can transfer suffering from one creature to another. Once per rest, mark any number of Hit Points on a willing creature within Melee range to clear an equal number of Hit Points on another willing creature within Melee range.</p>
+d0850	Transfer Suffering
+d0851	Siphon Essence
+d0852	<p>Make a <strong>Spellcast Roll</strong> against a target within Very Close range. Once per long rest on a success, the target takes <strong>d12+4</strong> magic damage using your Proficiency. On a success with Fear, you gain a +1 bonus to your Proficiency for this attack.</p><p>You clear a number of Hit Points equal to the number of Hit Points the target marked from this attack.</p>
+d0853	<p>On a success with Fear, you gain a +1 bonus to your Proficiency for this attack.</p>
+d0854	Spectral Mist
+d0855	<p><strong>Spend 2 Hope</strong> to conjure an eerie mist that turns you and allies of your choice within Close range momentarily incorporeal. While a creature is incorporeal, they can move through solid objects and are immune to physical damage. They become corporeal again after they pass through a solid object or make an action roll. Otherwise, this effect lasts until the end of the scene.</p>
+d0856	<p>While a creature is incorporeal, they can move through solid objects and are immune to physical damage. They become corporeal again after they pass through a solid object or make an action roll. Otherwise, this effect lasts until the end of the scene.</p>
+d0857	Summon Horror
+d0858	<p>Once per scene<strong>, mark a Stress</strong> to summon an otherworldly creature that deals <strong>d8+1</strong> magic damage using your Spellcast trait to a target within Far range. If the target marks any Hit Points from this attack, they must succeed on a <strong>Reaction Roll (12)</strong> to steel themselves against the horror or mark an equal number of Stress.</p><p>After making the attack, the creature dissipates.</p>
+d0859	Terrify
+d0860	<p>Make a <strong>Spellcast Roll</strong> against a target within Close range. On a success, the target marks <strong>1d4</strong> Stress, and you can make the target flee one range away from you (such as Very Close to Close or Close to Far). On a success with Fear, the target also becomes temporarily <em>Vulnerable</em>.</p>
+d0861	Terrified
+d0862	Umbral Veil
+d0863	<p>Once per rest, you can <strong>mark a Stress</strong> to encase yourself in shadowy energy. When you do, place a number of tokens on this card equal to the number of Fear in the GM's pool. After an attack roll is made against you, you can spend any number of tokens to give the result a -1 penalty per token spent.</p><p>At the end of the scene, clear all unspent tokens.</p>
+d0864	<p>After an attack roll is made against you, you can spend any number of tokens to give the result a -1 penalty per token spent.</p>
+d0865	Voice of Dread
+d0866	<p>You can magically speak to a creature you can see, tormenting them with your words. Make a <strong>Spellcast Roll</strong> against them. On a success, they must mark a Stress and are frozen with terror, making them temporarily <em>Restrained</em>.</p>
+d0867	Dreading
+d0868	Wall of Hunger
+d0869	<p>Make a <strong>Spellcast Roll (10).</strong> On a success, you can spend a Hope to create a visible wall of writhing necrotic energy between two points within Far range. The wall lasts until you mark a Hit Point or cast this spell again. A creature inside the wall when it appears or that passes through it must mark 2 Stress.</p>
+d0870	Wall Damage
+d0871	<p>A creature inside the wall when it appears or that passes through it must mark 2 Stress.</p>

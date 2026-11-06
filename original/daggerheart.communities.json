@@ -1,0 +1,206 @@
+{
+  "label": "Communities",
+  "folders": {
+    "Community Features": "Community Features"
+  },
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Highborne": {
+      "name": "Highborne",
+      "description": "<p>Being part of a highborne community means you're accustomed to a life of elegance, opulence, and prestige within the upper echelons of society.</p>"
+    },
+    "Loreborne": {
+      "name": "Loreborne",
+      "description": "<p>Being part of a loreborne community means you're from a society that favors strong academic or political prowess.</p>"
+    },
+    "Orderborne": {
+      "name": "Orderborne",
+      "description": "<p>Being part of an orderborne community means you're from a collective that focuses on discipline or faith, and you uphold a set of principles that reflect your experience there.</p>"
+    },
+    "Ridgeborne": {
+      "name": "Ridgeborne",
+      "description": "<p>Being part of a ridgeborne community means you've called the rocky peaks and sharp cliffs of the mountainside home.</p>"
+    },
+    "Seaborne": {
+      "name": "Seaborne",
+      "description": "<p>Being part of a seaborne community means you lived on or near a large body of water.</p>"
+    },
+    "Slyborne": {
+      "name": "Slyborne",
+      "description": "<p>Being part of a slyborne community means you come from a group that operates outside the law, including all manner of criminals, grifters, and con artists.</p>"
+    },
+    "Underborne": {
+      "name": "Underborne",
+      "description": "<p>Being part of an underborne community means you're from a subterranean society.</p>"
+    },
+    "Wanderborne": {
+      "name": "Wanderborne",
+      "description": "<p>Being part of a wanderborne community means you've lived as a nomad, forgoing a permanent home and experiencing a wide variety of cultures.</p>"
+    },
+    "Wildborne": {
+      "name": "Wildborne",
+      "description": "<p>Being part of a wildborne community means you lived deep within the forest.</p>"
+    },
+    "Dedicated": {
+      "name": "Dedicated",
+      "description": "<p>Record three sayings or values your upbringing instilled in you. Once per rest, when you describe how you're embodying one of these principles through your current action, you can roll a d20 as your Hope Die</p>",
+      "actions": {
+        "ZBVqSlsDUKf8uGrI": {
+          "name": "Use"
+        }
+      }
+    },
+    "Know the Tide": {
+      "name": "Know the Tide",
+      "description": "<p>You can sense the ebb and flow of life. When you roll with Fear, place a token on your community card. You can hold a number of tokens equal to your level. Before you make an action roll, you can spend any number of these tokens to gain a +1 bonus to the roll for each token spent. At the end of each session, clear all unspent tokens.</p>",
+      "actions": {
+        "tFlus34KotJjHfTe": {
+          "name": "Know The Tide"
+        }
+      }
+    },
+    "Lightfoot": {
+      "name": "Lightfoot",
+      "description": "<p>Your movement is naturally silent. You have advantage on rolls to move without being heard.</p>",
+      "effects": {
+        "4my9X5XC3uwDSx7B": {
+          "name": "Lightfoot",
+          "description": "<p>Your movement is naturally silent. You have advantage on rolls to move without being heard.</p>"
+        }
+      }
+    },
+    "Low-Light Living": {
+      "name": "Low-Light Living",
+      "description": "<p>When you're in an area with low light or heavy shadow, you have advantage on rolls to hide, investigate, or perceive details within that area.</p>",
+      "effects": {
+        "pCp32u7UwqxCI4WW": {
+          "name": "Low-Light Living",
+          "description": "<p>When you're in an area with low light or heavy shadow, you have advantage on rolls to hide, investigate, or perceive details within that area.</p>"
+        }
+      }
+    },
+    "Nomadic Pack": {
+      "name": "Nomadic Pack",
+      "description": "<p>Add a Nomadic Pack to your inventory. Once per session, you can spend a Hope to reach into this pack and pull out a mundane item that's useful to your situation. Work with the GM to figure out what item you take out.</p>",
+      "actions": {
+        "Jd9uVincqkIMAXgU": {
+          "name": "Pull Item"
+        }
+      }
+    },
+    "Privilege": {
+      "name": "Privilege",
+      "description": "<p>You have advantage on rolls to consort with nobles, negotiate prices, or leverage your reputation to get what you want.</p>",
+      "effects": {
+        "xgtjykfgvg142urA": {
+          "name": "Privilege",
+          "description": "<p>You have advantage on rolls to consort with nobles, negotiate prices, or leverage your reputation to get what you want.</p>"
+        }
+      }
+    },
+    "Scoundrel": {
+      "name": "Scoundrel",
+      "description": "<p>You have advantage on rolls to negotiate with criminals, detect lies, or find a safe place to hide.</p>",
+      "effects": {
+        "snkYmZ22Q8HHLY9M": {
+          "name": "Scoundrel",
+          "description": "<p>You have advantage on rolls to negotiate with criminals, detect lies, or find a safe place to hide.</p>"
+        }
+      }
+    },
+    "Steady": {
+      "name": "Steady",
+      "description": "<p>You have advantage on rolls to traverse dangerous cliffs and ledges, navigate harsh environments, and use your survival knowledge.</p>",
+      "effects": {
+        "QDf9LD8Mhd0Cw0CB": {
+          "name": "Steady",
+          "description": "<p>You have advantage on rolls to traverse dangerous cliffs and ledges, navigate harsh environments, and use your survival knowledge.</p>"
+        }
+      }
+    },
+    "Well-Read": {
+      "name": "Well-Read",
+      "description": "<p>You have advantage on rolls that involve the history, culture, or politics of a prominent person or place.</p>",
+      "effects": {
+        "RwhxYOAAKKlYZiz0": {
+          "name": "Well-Read",
+          "description": "<p>You have advantage on rolls that involve the history, culture, or politics of a prominent person or place.</p>"
+        }
+      }
+    },
+    "Duneborne": {
+      "name": "Duneborne",
+      "description": "<p>Being part of a duneborne community means you've made a home among the shifting sands and arid climate of the desert.</p>"
+    },
+    "Freeborne": {
+      "name": "Freeborne",
+      "description": "<p>Being part of a freeborne community means you're from a collective that once lived under tyrannical rule but is now liberated.</p>"
+    },
+    "Frostborne": {
+      "name": "Frostborne",
+      "description": "<p>Being part of a frostborne community means you come from a place of snow and ice.</p>"
+    },
+    "Hearthborne": {
+      "name": "Hearthborne",
+      "description": "<p>Being part of a hearthborne community means you come from humble origins, having lived in a modest village or quaint countryside.</p>"
+    },
+    "Reborne": {
+      "name": "Reborne",
+      "description": "<p>You were once a member of a different community that you're no longer part of.</p>"
+    },
+    "Warborne": {
+      "name": "Warborne",
+      "description": "<p>Being part of a warborne community means you come from a place that is, or was, ravaged by war.</p>"
+    },
+    "Brave Face": {
+      "name": "Brave Face",
+      "description": "<p>Once per session when you would be forced to mark a Stress, you can <strong>spend a Hope</strong> instead.</p>",
+      "actions": {
+        "sguCcIhnp8FjwVZd": {
+          "name": "Spend Hope"
+        }
+      }
+    },
+    "Close-Knit": {
+      "name": "Close-Knit",
+      "description": "<p>Once per long rest, you can <strong>spend any number of Hope</strong> to grant an ally within Far range an equal number of Hope.</p>",
+      "actions": {
+        "OmflNw0H1vsGAQVp": {
+          "name": "Give Hope"
+        }
+      }
+    },
+    "Found Family": {
+      "name": "Found Family",
+      "description": "<p>Once per rest, you can <strong>spend a Hope</strong> to use an ally's Experience as if it were your own. When you do so, describe how your time with that ally prepared you for this moment.</p><p>When you join a new community or rediscover your old one, you can permanently trade this card for that one instead.</p>",
+      "actions": {
+        "jt9gOu3FQLcW1TFC": {
+          "name": "Spend Hope"
+        }
+      }
+    },
+    "Hardy": {
+      "name": "Hardy",
+      "description": "<p>When you take a rest, you clear a Hit Point.</p>"
+    },
+    "Oasis": {
+      "name": "Oasis",
+      "description": "<p>During a short rest, you or an ally can reroll a die used for a downtime move and take the higher result.</p>"
+    },
+    "Unbound": {
+      "name": "Unbound",
+      "description": "<p>Once per session when you roll with Fear, you can change it into a roll with Hope instead.</p>",
+      "actions": {
+        "L03g0jA9msxRiuXL": {
+          "name": "Fear To Hope"
+        }
+      }
+    }
+  }
+}

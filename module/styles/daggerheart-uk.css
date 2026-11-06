@@ -1,0 +1,10 @@
+/* Довші українські підписи порогів і статусів */
+.daggerheart.sheet.actor .threshold-section h4.threshold-label {
+  font-size: var(--font-size-11, 11px);
+}
+.daggerheart.sheet.actor .status-section .status-label h4 {
+  font-size: 10px;
+}
+.daggerheart.dialog .dice-select select {
+  width: fit-content;
+}

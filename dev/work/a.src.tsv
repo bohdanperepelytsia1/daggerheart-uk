@@ -1,0 +1,406 @@
+a0000	Clank
+a0001	<p>Clanks are sentient mechanical beings built from a variety of materials, including metal, wood, and stone.</p>
+a0002	Drakona
+a0003	<p>Drakona resemble wingless dragons in humanoid form and possess a powerful elemental breath.</p>
+a0004	Dwarf
+a0005	<p>Dwarves are most easily recognized as short humanoids with square frames, dense musculature, and thick hair.</p>
+a0006	Elf
+a0007	<p>Elves are typically tall humanoids with pointed ears and acutely attuned senses.</p>
+a0008	Faerie
+a0009	<p>Faeries are winged humanoid creatures with insectile features.</p>
+a0010	Faun
+a0011	<p>Fauns resemble humanoid goats with curving horns, square pupils, and cloven hooves.</p>
+a0012	Firbolg
+a0013	<p>Firbolgs are bovine humanoids typically recognized by their broad noses and long, drooping ears.</p>
+a0014	Fungril
+a0015	<p>Galapa resemble anthropomorphic turtles with large, domed shells into which they can retract.</p>
+a0016	Galapa
+a0017	Giant
+a0018	<p>Giants are towering humanoids with broad shoulders, long arms, and one to three eyes.</p>
+a0019	Goblin
+a0020	<p>Goblins are small humanoids easily recognizable by their large eyes and massive membranous ears.</p>
+a0021	Halfling
+a0022	<p>Halflings are small humanoids with large hairy feet and prominent rounded ears.</p>
+a0023	Human
+a0024	<p>Humans are most easily recognized by their dexterous hands, rounded ears, and bodies built for endurance.</p>
+a0025	Infernis
+a0026	<p>Infernis are humanoids who possess sharp canine teeth, pointed ears, and horns. They are the descendants of demons from the Circles Below.</p>
+a0027	Katari
+a0028	<p>Katari are feline humanoids with retractable claws, vertically slit pupils, and high, triangular ears.</p>
+a0029	Orc
+a0030	<p>Orcs are humanoids most easily recognized by their square features and boar-like tusks that protrude from their lower jaw.</p>
+a0031	Ribbet
+a0032	<p>Ribbets resemble anthropomorphic frogs with protruding eyes and webbed hands and feet.</p>
+a0033	Simiah
+a0034	<p>Simiah resemble anthropomorphic monkeys and apes with long limbs and prehensile feet.</p>
+a0035	Adaptability
+a0036	<p>When you fail a roll that utilized one of your Experiences, you can <strong>mark a Stress</strong> to reroll.</p>
+a0037	Mark Stress
+a0038	Amphibious
+a0039	<p>You can breathe and move naturally underwater.</p>
+a0040	Caprine Leap
+a0041	<p>You can leap anywhere within Close range as though you were using normal movement, allowing you to vault obstacles, jump across gaps, or scale barriers with ease.</p>
+a0042	Celestial Trance
+a0043	<p>During a rest, you can drop into a trance to choose an additional downtime move.</p>
+a0044	<p>When you succeed on an Agility Roll to move from Far or Very Far range into Melee range with one or more targets, you can <strong>mark a Stress</strong> to deal <strong>1d12</strong> physical damage to all targets within Melee range.</p>
+a0045	Danger Sense
+a0046	<p>Once per rest, <strong>mark a Stress</strong> to force an adversary to reroll an attack against you or an ally within Very Close range.</p>
+a0047	Death Connection
+a0048	<p>While touching a corpse that died recently, you can <strong>mark a Stress</strong> to extract one memory from the corpse related to a specific emotion or sensation of your choice.</p>
+a0049	Extract
+a0050	Dread Visage
+a0051	<p>You have advantage on rolls to intimidate hostile creatures.</p>
+a0052	<p>You have advantage on rolls to intimidate hostile creatures</p>
+a0053	Efficient
+a0054	<p>When you take a short rest, you can choose a long rest move instead of a short rest move.</p>
+a0055	Elemental Breath
+a0056	<p>Choose an element for your breath (such as electricity, fire, or ice). You can use this breath against a target or group of targets within Very Close range, treating it as an Instinct weapon that deals <strong>d8</strong> magic damage using your Proficiency.</p>
+a0057	Endurance
+a0058	<p>Gain an additional Hit Point slot at character creation.</p>
+a0059	Fearless
+a0060	<p>When you roll with Fear, you can <strong>mark 2 Stress</strong> to change it into a roll with Hope instead.</p>
+a0061	Feline Instincts
+a0062	<p>When you make an Agility Roll, you can <strong>spend 2 Hope</strong> to reroll your Hope Die.</p>
+a0063	Spend Hope
+a0064	Fungril Network
+a0065	<p>Make an <strong>Instinct Roll (12)</strong> to use your mycelial array to speak with others of your ancestry. On a success, you can communicate across any distance.</p>
+a0066	Communicate
+a0067	High Stamina
+a0068	<p>Gain an additional Stress slot at character creation.</p>
+a0069	Increased Fortitude
+a0070	<p><strong>Spend 3 Hope</strong> to halve incoming physical damage.</p>
+a0071	Internal Compass
+a0072	<p>When you roll a 1 on your Hope Die, you can reroll it.</p>
+a0073	Kick
+a0074	<p>When you succeed on an attack against a target within Melee range, you can <strong>mark a Stress</strong> to kick yourself off them, dealing an extra <strong>2d6</strong> damage and knocking back either yourself or the target to Very Close range.</p>
+a0075	Long Tongue
+a0076	<p>You can use your long tongue to grab onto things within Close range. <strong>Mark a Stress</strong> to use your tongue as a Finesse Close weapon that deals <strong>d12</strong> physical damage using your Proficiency.</p>
+a0077	Luckbender
+a0078	<p>Once per session, after you or a willing ally within Close range makes an action roll, you can <strong>spend 3 Hope</strong> to reroll the Duality Dice.</p>
+a0079	Luckbringer
+a0080	<p>At the start of each session, everyone in your party gains a Hope.</p>
+a0081	Natural Climber
+a0082	<p>You have advantage on Agility Rolls that involve balancing and climbing.</p>
+a0083	Nimble
+a0084	<p>Gain a permanent +1 bonus to your Evasion at character creation.</p>
+a0085	Purposeful Design
+a0086	<p>Decide who made you and for what purpose. At character creation, choose one of your Experiences that best aligns with this purpose and gain a permanent +1 bonus to it.</p><section id="secret-buVzWddXKTJlXDpq" class="secret"><p>Note: Automation isn't implemented for the permanent bonus. Manually increase the experience in the respective editing field.</p></section>
+a0087	Quick Reactions
+a0088	<p><strong>Mark a Stress</strong> to gain advantage on a reaction roll.</p>
+a0089	<p>Treat any weapon, ability, spell, or other feature that has a Melee range as though it has a Very Close range instead.</p>
+a0090	Retracting Claws
+a0091	<p>Make an <strong>Agility Roll</strong> to scratch a target within Melee range. On a success, they become temporarily Vulnerable.</p>
+a0092	Scratch
+a0093	Retractable Claws
+a0094	Retract
+a0095	<p><strong>Mark a Stress</strong> to retract into your shell. While in your shell, you have resistance to physical damage, you have disadvantage on action rolls, and you can't move.<br><br>(When marked, manually enable the Retract effect to Active in effects tab and mark disadvantage when doing any action rolls. Manually disable the Retract effect to Inactive in the effects tab when no longer retracted into your shell.)</p>
+a0096	<p>While in your shell, you have resistance to physical damage, you have disadvantage on action rolls, and you can't move.</p>
+a0097	Scales
+a0098	<p>Your scales act as natural protection. When you would take Severe damage, you can <strong>mark a Stress</strong> to mark 1 fewer Hit Points.</p>
+a0099	<p>When you would take Severe damage, you can mark a Stress to mark 1 fewer Hit Points.</p>
+a0100	Shell
+a0101	<p>Gain a bonus to your damage thresholds equal to your Proficiency.</p>
+a0102	Sturdy
+a0103	<p>When you have 1 Hit Point remaining, attacks against you have disadvantage.</p>
+a0104	Surefooted
+a0105	<p>You ignore disadvantage on Agility Rolls.</p>
+a0106	Thick Skin
+a0107	<p>When you take Minor damage, you can <strong>mark 2 Stress</strong> instead of marking a Hit Point.</p>
+a0108	<p>When you take Minor damage, you can mark 2 Stress instead of marking a Hit Point.</p>
+a0109	Tusks
+a0110	<p>When you succeed on an attack against a target within Melee range, you can <strong>spend a Hope</strong> to gore the target with your tusks, dealing an extra <strong>1d6</strong> damage.</p>
+a0111	<p>You gore the target with your tusks, dealing an extra 1d6 damage on this attack.</p>
+a0112	Unshakeable
+a0113	<p>When you would mark a Stress, roll a <strong>d6</strong>. On a result of 6, don't mark it.</p>
+a0114	Wings
+a0115	<p>You can fly. While flying, you can <strong>mark a Stress</strong> after an adversary makes an attack against you to gain a +2 bonus to your Evasion against that attack.</p>
+a0116	<p>You to gain a +2 bonus to your Evasion against the Adversary's attack.</p>
+a0117	Aetheris
+a0118	<p>Aetheris are humanoids most easily recognized by their wings and sacred markings.</p>
+a0119	Earthkin
+a0120	<p>Earthkin are humanoids whose bodies are made of flesh and earth.</p>
+a0121	Emberkin
+a0122	<p>Emberkin are humanoids whose bodies are made of flesh and fire.</p>
+a0123	Gnome
+a0124	<p>Gnomes are typically small humanoids with conical heads and the ability to teleport short distances.</p>
+a0125	Skykin
+a0126	<p>Skykin are humanoids whose bodies are made of flesh and air.</p>
+a0127	Tidekin
+a0128	<p>Tidekin are humanoids whose bodies are made of flesh and water.</p>
+a0129	Celestial Wings
+a0130	<p>You have wings that allow you to fly. Once per scene while flying, you can <strong>spend a Hope</strong> instead of marking an Armor Slot.</p>
+a0131	Eye of the Storm
+a0132	<p><strong>Spend 2 Hope</strong> to grant you or an ally within Melee range a +1 bonus to Evasion until you take Severe damage or you use this feature again.</p>
+a0133	Eye Of The Storm
+a0134	<p>+1 bonus to Evasion.</p>
+a0135	Fireproof
+a0136	<p>You are immune to damage from magical or mundane flame.</p>
+a0137	Flicker Step
+a0138	<p>Once per scene, you can teleport to another point you can see within Far range.</p>
+a0139	Teleport
+a0140	Gale Force
+a0141	<p><strong>Mark a Stress</strong> to conjure a gust of wind that carries you or a Very Close ally up to Very Far range. Additionally, you can always control the speed at which you fall.</p>
+a0142	Hallowed Aura
+a0143	<p>Once per long rest when an ally within Close range rolls with Fear, you can change it into a roll with Hope instead.</p>
+a0144	Fear To Hope
+a0145	Ignition
+a0146	<p><strong>Mark a Stress</strong> to wreathe your primary weapon in flame until the end of the scene. While the weapon is ablaze, it gives off a bright light, and you gain a <strong>1d6</strong> bonus to damage rolls with that weapon.</p>
+a0147	<p>While the weapon is ablaze, it gives off a bright light, and you gain a <strong>1d6</strong> bonus to damage rolls with that weapon.</p>
+a0148	Immovable
+a0149	<p>While you're touching the ground, you can't be lifted or moved against your will.</p>
+a0150	Lifespring
+a0151	<p>Once per rest when you have access to a small amount of water, you can <strong>mark a Stress</strong> to clear a Hit Point on yourself or an ally within Very Close range.</p>
+a0152	Nimble Fingers
+a0153	<p>When you make a Finesse Roll, you can <strong>spend 2 Hope</strong> to reroll your Hope Die.</p>
+a0154	Stoneskin
+a0155	<p>Gain a permanent +1 bonus to your Armor Score and damage thresholds at character creation.</p>
+a0156	Community Features
+a0157	Highborne
+a0158	<p>Being part of a highborne community means you're accustomed to a life of elegance, opulence, and prestige within the upper echelons of society.</p>
+a0159	Loreborne
+a0160	<p>Being part of a loreborne community means you're from a society that favors strong academic or political prowess.</p>
+a0161	Orderborne
+a0162	<p>Being part of an orderborne community means you're from a collective that focuses on discipline or faith, and you uphold a set of principles that reflect your experience there.</p>
+a0163	Ridgeborne
+a0164	<p>Being part of a ridgeborne community means you've called the rocky peaks and sharp cliffs of the mountainside home.</p>
+a0165	Seaborne
+a0166	<p>Being part of a seaborne community means you lived on or near a large body of water.</p>
+a0167	Slyborne
+a0168	<p>Being part of a slyborne community means you come from a group that operates outside the law, including all manner of criminals, grifters, and con artists.</p>
+a0169	Underborne
+a0170	<p>Being part of an underborne community means you're from a subterranean society.</p>
+a0171	Wanderborne
+a0172	<p>Being part of a wanderborne community means you've lived as a nomad, forgoing a permanent home and experiencing a wide variety of cultures.</p>
+a0173	Wildborne
+a0174	<p>Being part of a wildborne community means you lived deep within the forest.</p>
+a0175	Dedicated
+a0176	<p>Record three sayings or values your upbringing instilled in you. Once per rest, when you describe how you're embodying one of these principles through your current action, you can roll a d20 as your Hope Die</p>
+a0177	Know the Tide
+a0178	<p>You can sense the ebb and flow of life. When you roll with Fear, place a token on your community card. You can hold a number of tokens equal to your level. Before you make an action roll, you can spend any number of these tokens to gain a +1 bonus to the roll for each token spent. At the end of each session, clear all unspent tokens.</p>
+a0179	Know The Tide
+a0180	Lightfoot
+a0181	<p>Your movement is naturally silent. You have advantage on rolls to move without being heard.</p>
+a0182	Low-Light Living
+a0183	<p>When you're in an area with low light or heavy shadow, you have advantage on rolls to hide, investigate, or perceive details within that area.</p>
+a0184	Nomadic Pack
+a0185	<p>Add a Nomadic Pack to your inventory. Once per session, you can spend a Hope to reach into this pack and pull out a mundane item that's useful to your situation. Work with the GM to figure out what item you take out.</p>
+a0186	Pull Item
+a0187	Privilege
+a0188	<p>You have advantage on rolls to consort with nobles, negotiate prices, or leverage your reputation to get what you want.</p>
+a0189	Scoundrel
+a0190	<p>You have advantage on rolls to negotiate with criminals, detect lies, or find a safe place to hide.</p>
+a0191	Steady
+a0192	<p>You have advantage on rolls to traverse dangerous cliffs and ledges, navigate harsh environments, and use your survival knowledge.</p>
+a0193	Well-Read
+a0194	<p>You have advantage on rolls that involve the history, culture, or politics of a prominent person or place.</p>
+a0195	Duneborne
+a0196	<p>Being part of a duneborne community means you've made a home among the shifting sands and arid climate of the desert.</p>
+a0197	Freeborne
+a0198	<p>Being part of a freeborne community means you're from a collective that once lived under tyrannical rule but is now liberated.</p>
+a0199	Frostborne
+a0200	<p>Being part of a frostborne community means you come from a place of snow and ice.</p>
+a0201	Hearthborne
+a0202	<p>Being part of a hearthborne community means you come from humble origins, having lived in a modest village or quaint countryside.</p>
+a0203	Reborne
+a0204	<p>You were once a member of a different community that you're no longer part of.</p>
+a0205	Warborne
+a0206	<p>Being part of a warborne community means you come from a place that is, or was, ravaged by war.</p>
+a0207	Brave Face
+a0208	<p>Once per session when you would be forced to mark a Stress, you can <strong>spend a Hope</strong> instead.</p>
+a0209	Close-Knit
+a0210	<p>Once per long rest, you can <strong>spend any number of Hope</strong> to grant an ally within Far range an equal number of Hope.</p>
+a0211	Give Hope
+a0212	Found Family
+a0213	<p>Once per rest, you can <strong>spend a Hope</strong> to use an ally's Experience as if it were your own. When you do so, describe how your time with that ally prepared you for this moment.</p><p>When you join a new community or rediscover your old one, you can permanently trade this card for that one instead.</p>
+a0214	Hardy
+a0215	<p>When you take a rest, you clear a Hit Point.</p>
+a0216	Oasis
+a0217	<p>During a short rest, you or an ally can reroll a die used for a downtime move and take the higher result.</p>
+a0218	Unbound
+a0219	<p>Once per session when you roll with Fear, you can change it into a roll with Hope instead.</p>
+a0220	Beastform Features
+a0221	Agile Scout
+a0222	Fox, Mouse, Weasel, etc.
+a0223	Locate
+a0224	Sneak
+a0225	Aquatic Predator
+a0226	Dolphin, Orca, Shark, etc.
+a0227	Swim
+a0228	Track
+a0229	Aquatic Scout
+a0230	Eel, Fish, Octopus, etc.
+a0231	Armored Sentry
+a0232	Armadillo, Pangolin, Turtle, etc.
+a0233	Dig
+a0234	Protect
+a0235	Epic Aquatic Beast
+a0236	Giant Squid, Whale, etc.
+a0237	Great Predator
+a0238	Dire Wolf, Velociraptor, Sabertooth Tiger, etc.
+a0239	Great Winged Beast
+a0240	Giant Eagle, Falcon, etc.
+a0241	Distract
+a0242	Household Friend
+a0243	Cat, Dog, Rabbit, etc.
+a0244	Climb
+a0245	Legendary Beast
+a0246	<p>Pick a Tier 1 Beastform option and become a larger, more powerful version of that creature. While you're in this form, you retain all traits and features from the original form and gain the following bonuses:</p><ul><li><p>A +6 bonus to the damage rolls</p></li><li><p>A +1 bonus to the trait used by this form</p></li><li><p>A +2 bonus to evasion</p></li></ul>
+a0247	Legendary Hybrid
+a0248	<p>To transform into this creature, <strong>mark an additional Stress</strong>. Choose any two Beastform options from Tiers 1–2. Choose a total of four advantages and two features from those options.</p>
+a0249	Massive Behemoth
+a0250	Elephant, Mammoth, Rhinoceros, etc.
+a0251	Mighty Lizard
+a0252	Alligator, Crocodile, Gila Monster, etc.
+a0253	Mighty Strider
+a0254	Camel, Horse, Zebra, etc.
+a0255	Mythic Aerial Hunter
+a0256	Dragon, Pterodactyl, Roc, Wyvern, etc.
+a0257	Mythic Beast
+a0258	<p>Pick a Tier 1 or Tier 2 Beastform option and become a larger, more powerful version of that creature. While you're in this form, you retain all traits and features from the original form and gain the the following bonuses:</p><ul><li><p>A +9 bonus to damage rolls</p></li><li><p>A +2 bonus to the trait used by this form</p></li><li><p>A +3 bonus to Evasion</p></li><li><p>Your damage die increases by one size (d6 becomes d8, d8 becomes d10 etc.)</p></li></ul>
+a0259	Mythic Hybrid
+a0260	<p>To transform into this creature, <strong>mark 2 additional Stress</strong>. Choose any three Beastform options from Tiers 1–3. Choose a total of five advantages and three features from those options.</p>
+a0261	Nimble Grazer
+a0262	Deer, Gazelle, Goat, etc.
+a0263	Pack Predator
+a0264	Coyote, Hyena, Wolf, etc.
+a0265	Pouncing Predator
+a0266	Cheetah, Lion, Panther, etc.
+a0267	Powerful Beast
+a0268	Bear, Bull, Moose, etc.
+a0269	Stalking Arachnid
+a0270	Tarantula, Wolf Spider, etc.
+a0271	Striking Serpent
+a0272	Cobra, Rattlesnake, Viper, etc.
+a0273	Terrible Lizard
+a0274	Brachiosaurus, Tyrannosaurus, etc.
+a0275	Winged Beast
+a0276	Hawk, Owl, Raven, etc.
+a0277	Agile
+a0278	<p>Your movement is silent, and you can <strong>spend a Hope</strong> to move up to Far range without rolling.</p>
+a0279	<p><strong>Spend a Hope</strong> to move up to Far range without rolling.</p>
+a0280	Armored Shell
+a0281	<p>Your hardened exterior gives you resistance to physical damage. Additionally, <strong>mark an Armor Slot</strong> to retract into your shell. While in your shell, physical damage is reduced by a number equal to your Armor Score (after applying resistance), but you can't perform other actions without leaving this form.</p>
+a0282	<p><strong>Mark an Armor Slot</strong> to retract into your shell. While in your shell, physical damage is reduced by a number equal to your Armor Score (after applying resistance), but you can't perform other actions without leaving this form.</p>
+a0283	<p>Your hardened exterior gives you resistance to physical damage.</p>
+a0284	Retracted
+a0285	<p>While in your shell, physical damage is reduced by a number equal to your Armor Score (after applying resistance), but you can't perform other actions without leaving this form.</p>
+a0286	Bird's-Eye View
+a0287	<p>You can fly at will. Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.</p>
+a0288	Ask Question
+a0289	<p>Once per rest while you are airborne, you can ask the GM a question about the scene below you without needing to roll. The first time a character makes a roll to act on this information, they gain advantage on the roll.</p>
+a0290	Cannonball
+a0291	<p><strong>Mark a Stress</strong> to allow an ally to throw or launch you at an adversary. To do so, the ally makes an attack roll using Agility or Strength (their choice) against a target within Close range. On a success, the adversary takes <strong>d12+2</strong> physical damage using the thrower's Proficiency. You can <strong>spend a Hope</strong> to target an additional adversary within Very Close range of the first. The second target takes half the damage dealt to the first target.</p>
+a0292	<p><strong>Mark a Stress</strong> to allow an ally to throw or launch you at an adversary. To do so, the ally makes an attack roll using Agility or Strength (their choice) against a target within Close range. On a success, the adversary takes <strong>d12+2</strong> physical damage using the thrower's Proficiency.</p>
+a0293	<p>You can <strong>spend a Hope</strong> to target an additional adversary within Very Close range of the first. The second target takes half the damage dealt to the first target.</p>
+a0294	Carrier
+a0295	<p>You can carry up to three willing allies with you when you move.</p>
+a0296	<p>When you Help an Ally, you can roll a <strong>d8</strong> as your advantage die.</p>
+a0297	Deadly Raptor
+a0298	<p>You can fly at will and move up to Far range as part of your action. When you move in a straight line into Melee range of a target from at least Close range and make an attack against that target in the same action, you can reroll all damage dice that rolled a result lower than your Proficiency.</p>
+a0299	Demolish
+a0300	<p><strong>Spend a Hope</strong> to move up to Far range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take <strong>d8+10</strong> physical damage using your Proficiency and are temporarily <em>Vulnerable</em>.</p>
+a0301	<p>Spend a Hope to move up to Far range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take d8+10 physical damage using your Proficiency and are temporarily Vulnerable.</p>
+a0302	Demolished
+a0303	Devastating Strikes
+a0304	<p>When you deal Severe damage to a target within Melee range, you can <strong>mark a Stress</strong> to force them to mark an additional Hit Point.</p>
+a0305	Elusive Prey
+a0306	<p>When an attack roll against you would succeed, you can <strong>mark a Stress</strong> and roll a <strong>d4</strong>. Add the result to your Evasion against this attack.</p>
+a0307	Fleet
+a0308	Move
+a0309	Fragile
+a0310	<p>When you take Major or greater damage, you drop out of Beastform.</p>
+a0311	Hobbling Strike
+a0312	<p>When you succeed on an attack against a target within Melee range, you can <strong>mark a Stress</strong> to make the target temporarily <em>Vulnerable</em>.</p>
+a0313	Hollow Bones
+a0314	<p>You gain a -2 penalty to your damage thresholds.</p>
+a0315	Massive Stride
+a0316	<p>You can move up to Far range without rolling. You ignore rough terrain (at the GM's discretion) due to your size.</p>
+a0317	Ocean Master
+a0318	<p>You can breathe and move naturally underwater. When you succeed on an attack against a target within Melee range, you can temporarily <em>Restrain</em> them.</p>
+a0319	Restrain
+a0320	<p>When you succeed on an attack against a target within Melee range, you can temporarily <em>Restrain</em> them.</p>
+a0321	Pack Hunting
+a0322	<p>When you succeed on an attack against the same target as an ally who acts immediately before you, add a <strong>d8</strong> to your damage roll.</p>
+a0323	Physical Defense
+a0324	<p>You gain a +3 bonus to your damage thresholds.</p>
+a0325	Rampage
+a0326	<p>When you roll a 1 on a damage die, you can roll a d10 and add the result to the damage roll. Additionally, before you make an attack roll, you can <strong>mark a Stress</strong> to gain a +1 bonus to your Proficiency for that attack.</p>
+a0327	<p>Before you make an attack roll, you can mark a Stress to gain a +1 bonus to your Proficiency for that attack.</p>
+a0328	Snapping Strike
+a0329	<p>When you succeed on an attack against a target within Melee range, you can <strong>spend a Hope</strong> to clamp that opponent in your jaws, making them temporarily <em>Restrained</em> and <em>Vulnerable</em>.</p>
+a0330	Takedown
+a0331	<p><strong>Mark a Stress</strong> to move into Melee range of a target and make an attack roll against them. On a success, you gain a +2 bonus to your Proficiency for this attack and the target must mark a Stress.</p>
+a0332	<p>You gain a +2 bonus to your Proficiency for this attack and the target must mark a Stress.</p>
+a0333	Thick Hide
+a0334	<p>You gain a +2 bonus to your damage thresholds.</p>
+a0335	Trample
+a0336	<p><strong>Mark a Stress</strong> to move up to Close range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take <strong>d8+1</strong> physical damage using your Proficiency and are temporarily <em>Vulnerable</em>.</p>
+a0337	<p><strong>Mark a Stress</strong> to move up to Close range in a straight line and make an attack against all targets within Melee range of the line. Targets you succeed against take d8+1 physical damage using your Proficiency and are temporarily <em>Vulnerable</em>.</p>
+a0338	Trampled
+a0339	Undaunted
+a0340	<p>You gain a +2 bonus to all your damage thresholds.</p>
+a0341	Unyielding
+a0342	<p>When you would mark an Armor Slot, roll a <strong>d6</strong>. On a result of 5 or higher, reduce the severity by one threshold without marking an Armor Slot.</p>
+a0343	Roll d6
+a0344	Venomous Bite
+a0345	<p>When you succeed on an attack against a target within Melee range, the target becomes temporarily Poisoned. A Poisoned creature takes <strong>1d10</strong> direct physical damage each time they act.</p>
+a0346	Poison
+a0347	Poisoned
+a0348	<p>A Poisoned creature takes <strong>1d10</strong> direct physical damage each time they act.</p>
+a0349	Venomous Strike
+a0350	<p>Make an attack against any number of targets within Very Close range. On a success, a target is temporarily Poisoned. A Poisoned creature takes <strong>1d10</strong> physical direct damage each time they act.</p>
+a0351	<p>A Poisoned creature takes <strong>1d10</strong> physical direct damage each time they act.</p>
+a0352	Vicious Maul
+a0353	<p>When you succeed on an attack against a target, you can <strong>spend a Hope</strong> to make them temporarily Vulnerable and gain a +1 bonus to your Proficiency for this attack.</p>
+a0354	Mauled
+a0355	Warning Hiss
+a0356	<p><strong>Mark a Stress</strong> to force any number of targets within Melee range to move back to Very Close range.</p>
+a0357	Webslinger
+a0358	<p>You can create a strong web material useful for both adventuring and battle. The web is resilient enough to support one creature. You can temporarily <em>Restrain</em> a target within Close range by succeeding on a Finesse Roll against them.</p>
+a0359	<p>You can temporarily <em>Restrain</em> a target within Close range by succeeding on a Finesse Roll against them.</p>
+a0360	Demigod
+a0361	<p>Demigods are mortal creatures whose veins flow with the blood of the gods.</p>
+a0362	<ul><li><p>Your divinity has affected an aspect of your appearance. In what way do you look different from others?</p></li><li><p>Who bestowed demigod status upon you, and what trial did you complete to earn this gift?</p></li><li><p>You were made fun of as a child for your divine parentage. Why?</p></li><li><p>Why was the knowledge that you are a demigod kept from you for many years? Who kept this secret?</p></li><li><p>You have an obligation you must fulfill due to the immortal blood that runs in your veins. What is this duty?</p></li><li><p>In what way did your divinity initially manifest? Why did it surprise you?</p></li></ul>
+a0363	Ghost
+a0364	<p>Ghosts are the spirits of the once-living who are bound to the Mortal Realm.</p>
+a0365	<ul><li><p>How did you die, and what fear has your death instilled in you?</p></li><li><p>What brought you back from beyond the veil of death?</p></li><li><p>In life, you loved someone dearly. Why do you need to find them again?</p></li><li><p>What must you accomplish now that you’ve returned to the Mortal Realm? How will you meet your goal?</p></li><li><p>Who harmed you in your first life? How do you plan to deal with them now that you’ve returned?</p></li><li><p>You had to sacrifice something dear to you in order to come back to the Mortal Realm. What did you give up, and who did you give it to?</p></li></ul>
+a0366	Reanimated
+a0367	<p>Reanimated are corpses who have been brought back to life.</p>
+a0368	<ul><li><p>How did you first die, and how has that death affected your view on life?</p></li><li><p>A fragment of memory from your first life haunts you. What is the memory, and why do you think it’s important?</p></li><li><p>You had a dream for your life that you now believe you can never reach. What was your dream, and why do you think being reanimated makes it impossible to fulfill?</p></li><li><p>How were you brought back from the dead, and how did the process change your body?</p></li><li><p>Someone brought you back from death. Who were they, and how do you feel about this person and what they did to you?</p></li><li><p>In the brief time you passed through the veil of death, you saw something that changed you forever. What was it?</p></li></ul>
+a0369	Shapeshifter
+a0370	<p>Shapeshifters are creatures who can change their physical form.</p>
+a0371	<ul><li><p>You believe you have a “true form,” but you haven’t seen it. What do you think it is, and how do you know it’s there?</p></li><li><p>What trick have you developed to identify other shapeshifters?</p></li><li><p>Someone you loved dearly abandoned you when they found out about your ability to change shape. Who was it, and what happened?</p></li><li><p>What is one form you’ve vowed to never take, and why?</p></li><li><p>Which ancestry do you live as more than others? Why do you spend so much time in this form?</p></li><li><p>Someone you know can instantly recognize you, no matter your form. How do they claim to identify you and what does their familiarity mean to you?</p></li></ul>
+a0372	Vampire
+a0373	<p>Vampires are undead creatures with sharp fangs who feed on the blood of the living.</p>
+a0374	<ul><li><p>Who did you have to leave behind when you became a vampire, and why was it so hard to let them go?</p></li><li><p>You once killed an innocent for their blood. What characteristic of theirs do you notice most in others?</p></li><li><p>What does your vampirisim make you particularly vulnerable to?</p></li><li><p>Who were you able to save using your vampiric power? What happened, and how do they feel about you now?</p></li><li><p>How does your hunger for blood change you?</p></li><li><p>The vampire who sired you still has a hold over you. What’s their name, and what do they want you to do for them?</p></li></ul>
+a0375	Werewolf
+a0376	<p>Werewolves are creatures who transform into large supernatural wolves.</p>
+a0377	<ul><li><p>Someone is hunting you. Who is it, and why do they want you dead?</p></li><li><p>What were you afraid of before you became a werewolf, and how has your new power changed that fear?</p></li><li><p>You hear your wolf form in your head as if it were another entity. What lie does it tell you about yourself, and why are you beginning to believe it?</p></li><li><p>What led you to kill someone you love during your rampage?</p></li><li><p>Who cursed you to become a werewolf?</p></li><li><p>You were once entreated to join a pack of other werewolves. How did you respond?</p></li></ul>
+a0378	Change Shape
+a0379	<p>During a rest, you can use a downtime move to swap your current ancestry with another. When you do, describe how your appearance changes.</p>
+a0380	Corpse
+a0381	<p>During a rest, you can clear Hit Points only if you have access to remains from a recently deceased creature. Describe how you use these materials to maintain your corpse.</p>
+a0382	Ephemeral
+a0383	<p>Your body wavers in and out of being corporeal. You are resistant to physical damage, take double magic damage, and can <strong>mark 2 Stress</strong> to momentarily pass through a solid object.</p>
+a0384	<p><strong>Mark 2 Stress</strong> to momentarily pass through a solid object.</p>
+a0385	<p>Your body wavers in and out of being corporeal. You are resistant to physical damage, take double magic damage.</p>
+a0386	Fangs
+a0387	<p>Make an attack using a trait of your choice to bite a target within Melee range. On a success, deal <strong>d6</strong> physical damage using your Proficiency.</p>
+a0388	Feed
+a0389	<p>On a successful "Fangs" attack against a creature that can bleed, you can <strong>mark a Stress</strong> to feed. Place a number of tokens on this card equal to the number of Hit Points the target marks. You can hold up to 6 tokens at a time. Before you make an action roll, you can spend a token to make your Fear Die a <strong>d20</strong>. When you take a long rest, remove a token. While there are no tokens on this card, you make action and reaction rolls with disadvantage.</p>
+a0390	<p>On a successful "Fangs" attack against a creature that can bleed, you can <strong>mark a Stress</strong> to feed. Place a number of tokens on this card equal to the number of Hit Points the target marks.</p>
+a0391	Gifted
+a0392	<p>You gain a +1 bonus to action, reaction, and damage rolls.</p>
+a0393	Howling Rampage
+a0394	<p>When you mark your last Stress while in Wolf Form, you go into a rampage. Roll a number of <strong>d20s</strong> equal to your tier and deal that much physical damage to all creatures within Very Close range, then drop out of Wolf Form.</p>
+a0395	Only Skin Deep
+a0396	<p>You gain the benefit of only one of your chosen ancestry's features, which you select when you choose the ancestry. You can use a downtime move to choose a different feature from that ancestry.</p>
+a0397	Unfinished Business
+a0398	<p>Work with your GM to decide what purpose or desire keeps you bound to the Mortal Realm. When you fulfill it, you cross through the veil of death.</p>
+a0399	Weight of Divinity
+a0400	<p>When you fail a roll, you must mark a Stress or the GM gains a Fear.</p>
+a0401	Wolf Form
+a0402	<p>When you mark 1 or more Hit Points, you can <strong>mark a Stress</strong> to enter your Wolf Form. While in this form, you gain a <strong>1d10</strong> bonus to attack and damage rolls. When you roll with Hope while in Wolf Form, you must mark a Stress. Your Wolf Form lasts until you go into your "Howling Rampage" or take a rest.</p>
+a0403	<p>While in this form, you gain a <strong>1d10</strong> bonus to attack and damage rolls. When you roll with Hope while in Wolf Form, you must also mark a Stress. Your Wolf Form lasts until you go into your "Howling Rampage" or take a rest.</p>
+a0404	Won't Stay Dead
+a0405	<p>When you choose the Risk It All death move and fail, you can <strong>permanently mark a Hit Point</strong> to succeed instead. When you do, you still use the Hope Die's value to clear Hit Points and Stress. When you permanently mark your last Hit Point, you pass through the veil of death.</p>

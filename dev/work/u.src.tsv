@@ -1,0 +1,1778 @@
+u0000	Ancestry
+u0001	Community
+u0002	Class
+u0003	Subclass
+u0004	Feature
+u0005	Domain Card
+u0006	Consumable
+u0007	Item
+u0008	Weapon
+u0009	Armor
+u0010	Beastform
+u0011	Transformation
+u0012	Standard
+u0013	Character
+u0014	Companion
+u0015	Adversary
+u0016	Environment
+u0017	NPC
+u0018	Party
+u0019	In Front
+u0020	Change Scene Darkness Level
+u0021	Daggerheart
+u0022	Configure how diagonal distance is measured on square and hexagonal grids. The number in parentheses defines the length of diagonals in units of grid spaces under each option. This option has no effect on daggerheart range measurements (close/far/etc).
+u0023	Character Sheet
+u0024	Attack
+u0025	Offensive Action like weapon attack, spellcast, etc.
+u0026	Shapeshift the user into another form.
+u0027	Countdown
+u0028	Start a countdown
+u0029	Damage
+u0030	Damage (Critical)
+u0031	Direct damage without a roll.
+u0032	Generic
+u0033	Generic action that only display a chat message if nothing is configured.
+u0034	Healing
+u0035	Restore resources to the target. May have a roll configured.
+u0036	Macro
+u0037	Execute a macro by UUID.
+u0038	Summon
+u0039	Create tokens in the scene.
+u0040	You do not have permission to summon tokens or there is no active scene.
+u0041	You can only drop Actor entities to summon.
+u0042	Transform
+u0043	Transform one actor into another
+u0044	You can only drop an Actor to transform into.
+u0045	There is no assigned actor to transform into
+u0046	The assigned actor to transform into does not exist. It was probably deleted or moved in/out of a compendium
+u0047	There is no active scene.
+u0048	You can only use a transform action from a Token
+u0049	To transform a linked actor there either needs to be only a single token of it on the canvas, or you need to left-click select only one of them.
+u0050	You cannot transform a token with Actor Link set to true
+u0051	Evolution
+u0052	Evolve an actor, gaining new capabilities
+u0053	Token Image
+u0054	Scale
+u0055	Dynamic Token
+u0056	Dynamic Token Image
+u0057	Dynamic Token Ring Color
+u0058	Dynamic Token Background
+u0059	Dynamic Effects
+u0060	You can only use a evolution action from a Token
+u0061	Actor missing for token. Can't restore to unevolved state.
+u0062	Remove Evolution
+u0063	Are you sure you want to remove the evolution?
+u0064	Group
+u0065	Groups many actions under one button. Individual actions either selected or randomized.
+u0066	Action Selection Type
+u0067	Grouped Actions
+u0068	This action has no grouped actions attached to it
+u0069	Beastform Max Tier
+u0070	The Character's Tier is used if empty
+u0071	Trait Bonus
+u0072	Trait Bonuses
+u0073	Pick bonuses you apply to freely chosen traits at the time of transforming
+u0074	Bonus Amount
+u0075	Default Ownership
+u0076	Start Countdown
+u0077	Add Resource
+u0078	Multiplier
+u0079	Flat Multiplier
+u0080	Mark Resources
+u0081	Custom Formula
+u0082	Formula
+u0083	Areas
+u0084	Shape
+u0085	Size
+u0086	Area Hole
+u0087	Display in chat
+u0088	Delete Trigger
+u0089	Are you sure you want to delete the {trigger} trigger?
+u0090	Advantage State
+u0091	Damage on Save
+u0092	Use default Item values
+u0093	Check Reload
+u0094	Reload Required!
+u0095	Not Rolled
+u0096	Check Failed
+u0097	Check Passed
+u0098	Reroll Reload Check
+u0099	Are you sure you want to reroll the reload check?
+u0100	Should be
+u0101	Dice Type
+u0102	Dice Number
+u0103	Threshold
+u0104	Attack Modifier
+u0105	Attack Name
+u0106	Critical Threshold
+u0107	Include Base Damage
+u0108	Group Attack
+u0109	Set a default Trait to enable Reaction Roll. It can be changed later in Reaction Roll Dialog.
+u0110	Formula based on Hope/Fear result.
+u0111	Fully restore the resource.
+u0112	Full
+u0113	Full Restore
+u0114	Targeted Resource
+u0115	Consume on Success only
+u0116	(on Success only)
+u0117	+{step} per step
+u0118	Drop Summons Here
+u0119	Drop Transform Here
+u0120	The linked actor is missing. You should delete this link.
+u0121	Clear Hitpoints
+u0122	Clear Stress
+u0123	Feature Name
+u0124	Evolution State
+u0125	Range Dependence
+u0126	Stacking
+u0127	Conditionals
+u0128	Affected Dispositions
+u0129	Settings for an optional distance at which this effect should activate
+u0130	Range Dependant
+u0131	Immunity: {status}
+u0132	Name
+u0133	Modifier
+u0134	Range
+u0135	Damage Type
+u0136	Major Threshold
+u0137	Severe Threshold
+u0138	Description
+u0139	Difficulty
+u0140	Motives & Tactics
+u0141	Current
+u0142	Max
+u0143	Subtypes
+u0144	Tier
+u0145	Type
+u0146	Are you sure you want to delete this adversary's attack?
+u0147	Change Adversary Type
+u0148	You are changing the adversary type, which will delete type specific data. Are you sure you want to do this?
+u0149	ATK
+u0150	Thresholds
+u0151	Horde Damage (Half HP)
+u0152	Horde/HP
+u0153	Adversary Reaction Roll
+u0154	Stats
+u0155	Cannot add {itemType} items to {actorType} actors.
+u0156	{type} Bonus Value
+u0157	{type} Dice
+u0158	Advantage Sources
+u0159	Add single words or short text as reminders and hints of what a character has advantage on.
+u0160	Age
+u0161	Backgrounds
+u0162	Burden: Ignore
+u0163	Ignore burden rules
+u0164	Combo Die Index
+u0165	The number of dice sizes your combo die has been raised from 1d4. Add +1 to increase it one size.
+u0166	Companion Features
+u0167	Connections
+u0168	Consume Item
+u0169	Equip
+u0170	Send To Chat
+u0171	Send to Loadout
+u0172	Send to Vault
+u0173	Unequip
+u0174	Use Item
+u0175	Default Hope Dice
+u0176	Default Fear Dice
+u0177	Default Advantage Dice
+u0178	Default Disadvantage Dice
+u0179	Disadvantage Sources
+u0180	Add single words or short text as reminders and hints of what a character has disadvantage on.
+u0181	Faith
+u0182	You can level up
+u0183	Max Evasion Increase
+u0184	Max HP Increase
+u0185	Pronouns
+u0186	Guaranteed Critical
+u0187	Set to 1 to always roll a critical
+u0188	Background
+u0189	Characteristics
+u0190	Remove Experience Data
+u0191	The experience you are about to remove has levelup data linked to it (assumably because you did levelups with the 'levelupAuto' automation setting on). Removing it will remove this automation data aswell. Do you want to proceed?
+u0192	Multiclass
+u0193	Do you want to add this class as your multiclass?
+u0194	Multiclass Subclass
+u0195	Do you want to add this subclass as your multiclass subclass?
+u0196	You are using Levelup Auto. You cannot remove an experience given to you by the rule progression.
+u0197	Companion Levelup
+u0198	Would you like to level up your companion {name} by {levelChange} levels at this time? (You can do it manually later)
+u0199	View Levelups
+u0200	Reset Character
+u0201	View Party
+u0202	Old Character Import
+u0203	Character data exported prior to system version 1.1 will not generate a complete character. Do you wish to continue?
+u0204	Cancel Beastform
+u0205	You are reseting all character data except name and portrait. Are you sure?
+u0206	Evasion
+u0207	Partner
+u0208	Stress
+u0209	Current Stress
+u0210	Max Stress
+u0211	No Partner selected
+u0212	Impulses
+u0213	New Adversary
+u0214	Potential Adversaries
+u0215	Any
+u0216	Special
+u0217	Motives
+u0218	{community} {ancestry} | {subclass} {class}
+u0219	Companion of {partner}
+u0220	Remove member {name}
+u0221	Are you sure you want to remove {name} from the party?
+u0222	MIN
+u0223	MAJ
+u0224	SEV
+u0225	This will trigger a dialog to players make their downtime moves. Are you sure?
+u0226	Active Effect Path Viewer
+u0227	Search Paths
+u0228	Copied ActiveEffect path for {name} to clipboard
+u0229	Open Macro
+u0230	A macro to open the Path Viewer has been copied to your clipboard. Paste it in a macro on your hotbar.
+u0231	Attribution
+u0232	Experience
+u0233	Traits
+u0234	Domain Cards
+u0235	Equipment
+u0236	Story
+u0237	Your ancestry's name
+u0238	Character Setup
+u0239	Choice
+u0240	Finish Character Setup
+u0241	Heritage
+u0242	Initial Experiences
+u0243	Mixed Ancestry
+u0244	New Experience..
+u0245	Select Ancestry
+u0246	Select Primary Ancestry
+u0247	Select Secondary Ancestry
+u0248	Select Armor
+u0249	Select Class
+u0250	Select Community
+u0251	Select Primary Weapon
+u0252	Select Secondary Weapon
+u0253	Select Subclass
+u0254	Skipping Character Setup
+u0255	You are skipping the Character Setup by adding this manually. The character setup is the blinking button in the top-right. Are you sure you want to continue?
+u0256	Starting Items
+u0257	Select which background and connection prompts you want to copy into your character's background.
+u0258	Suggested Armor
+u0259	Suggested Primary Weapon
+u0260	Suggested Secondary Weapon
+u0261	Suggested Traits
+u0262	Suggested Weapon
+u0263	{actor} - Character Setup
+u0264	Trait Increases
+u0265	Deleted Data
+u0266	Optional Data
+u0267	Select which data you'd like to keep
+u0268	Active
+u0269	Give The Spotlight
+u0270	Requesting The Spotlight
+u0271	Request The Spotlight
+u0272	Countdowns
+u0273	Friendly
+u0274	Adversaries
+u0275	Enable Compendiums
+u0276	Sources
+u0277	Campaign Frames
+u0278	Excluded Attribute Sources
+u0279	Enable Source
+u0280	Disable Source
+u0281	World Compendiums
+u0282	Disable Effect
+u0283	Enable Effect
+u0284	Recall
+u0285	Switch Versatile
+u0286	Add Countdown
+u0287	No Looping
+u0288	Looping
+u0289	Increasing
+u0290	Decreasing
+u0291	Hidden
+u0292	Start
+u0293	Start Formula
+u0294	Label
+u0295	Used for custom
+u0296	Value
+u0297	Progression Type
+u0298	New Countdown
+u0299	Edit Player Ownership
+u0300	Are you sure you want to remove the countdown: {name}?
+u0301	Remove Countdown
+u0302	{type} Countdowns
+u0303	Toggle Simple View
+u0304	Narrative
+u0305	Encounter
+u0306	Set To Countdown UI Default
+u0307	Countdown Edit
+u0308	Edit Countdowns
+u0309	Current Value
+u0310	Start Value
+u0311	Randomized Start Value Formula
+u0312	Current: {value}
+u0313	Start: {value}
+u0314	Progression
+u0315	Hide New Countdowns
+u0316	Create Item
+u0317	Browse Compendium
+u0318	GM Tools
+u0319	Refresh Features
+u0320	Falling And Collision Damage
+u0321	Downtime Fear
+u0322	Party Size
+u0323	Determine Party Size
+u0324	There is no active Party actor in the world or it's empty. Manually input the number of player characters.
+u0325	GM Consequences
+u0326	The GM gains fear
+u0327	Delete {type} - {name}
+u0328	Are you sure you want to delete {name}?
+u0329	Useable Armor Slots
+u0330	Rules Enabled
+u0331	Rules Disabled
+u0332	Spend 1 stress to use an extra mark
+u0333	Threshold Immunities
+u0334	Reduce By Stress
+u0335	Damage Reduction
+u0336	You don't need to expend stress
+u0337	Used Marks
+u0338	Severity Reduced By {nr}
+u0339	Incoming Damage
+u0340	Additional Rules
+u0341	Damage Reductions
+u0342	
+u0343	Unfinished Reductions
+u0344	All damage reductions have not been rolled. Are you sure you want to continue?
+u0345	Select Move
+u0346	Take Death Move
+u0347	{actor} - Death Move
+u0348	Long Rest
+u0349	Long Rest Moves ({current}/{max})
+u0350	Describe how you blow off steam or pull yourself together, and clear all marked Stress.
+u0351	Describe how you are preparing for the next day's adventure, then gain a Hope.
+u0352	Prepare
+u0353	You prepare with one or more members of your party, and you each gain 2 Hope.
+u0354	Prepare (together)
+u0355	Describe how you spend time repairing your armor and clear all of its Armor Slots. You may also do this to an ally's armor instead.
+u0356	Repair Armor
+u0357	Describe how you patch yourself up and remove all marked Hit Points. You may also do this on an ally instead.
+u0358	Tend to Wounds
+u0359	Establish or continue work on a project.
+u0360	Work on a Project
+u0361	Short Rest
+u0362	Short Rest Moves ({current}/{max})
+u0363	Describe how you hastily patch yourself up, then clear a number of Hit Points equal to 1d4 + your tier. You can do this to an ally instead.
+u0364	Describe how you blow off steam or pull yourself together, then clear a number of Stress equal to 1d4 + your tier.
+u0365	Describe how you quickly repair your armor, then clear a number of Armor Slots equal to 1d4 + your tier. You can do this to an ally's armor instead.
+u0366	Describe how you prepare yourself for the path ahead, then gain a Hope.
+u0367	Extended Downtime
+u0368	Refreshing Resources
+u0369	Take Downtime
+u0370	Default {entity}
+u0371	Foundry Effects
+u0372	Deposit Party Tokens
+u0373	Retrieve Party Tokens
+u0374	Deposit Companion Token
+u0375	Retrieve Companion Token
+u0376	Select Image
+u0377	Transfer
+u0378	Creature Comfort
+u0379	Once per rest, when you take time during a quiet moment to give your companion love and attention, you can gain a Hope or you can both clear a Stress.
+u0380	Armored
+u0381	When your companion takes damage, you can mark one of your Armor Slots instead of marking one of their Stress.
+u0382	Bonded
+u0383	When you mark your last Hit Point, your companion rushes to your side to comfort you. Roll a number of d6s equal to the unmarked Stress slots they have and mark them. If any roll a 6, your companion helps you up. Clear your last Hit Point and return to the scene.
+u0384	Gain a +1 bonus to two unmarked character traits and mark them.
+u0385	Permanently gain one Hit Point slot.
+u0386	Permanently gain one Stress slot.
+u0387	Permanently gain a +1 bonus to two experiences.
+u0388	Choose an additional domain card of your level or lower from a domain you have access to (up to level {maxLevel})
+u0389	Permanently gain a +1 bonus to your Evasion.
+u0390	Increase your Proficiency by +1.
+u0391	Take an upgraded subclass card. Then cross out the multiclass option for this tier.
+u0392	Multiclass: Choose an additional class for your character, then cross out an unused “Take an upgraded subclass card” and the other multiclass option on this sheet.
+u0393	Returning to the previous level selection will remove all selections made for this level. Do you want to proceed?
+u0394	Go back to previous level
+u0395	To Level {level}
+u0396	Return To Levelup
+u0397	Finish Levelup
+u0398	To Summary
+u0399	Your companion gains a permanent +1 bonus to a Companion Experience of your choice.
+u0400	Gain an additional Hope slot for your character.
+u0401	Increase your companion's damage dice or range by one step (d6 to d8, Close to Far, etc.)
+u0402	Your companion gains an additional Stress slot.
+u0403	Your companion gains a permanent +2 bonus to their Evasion.
+u0404	{domain} level {level} or below
+u0405	Level Achievements
+u0406	Level Advancements
+u0407	Proficiency Increased: {proficiency}
+u0408	Hit Points Increased: {hitPoints}
+u0409	Stress Increased: {stress}
+u0410	Evasion Increased: {evasion}
+u0411	Major: {threshold}
+u0412	Severe: {threshold}
+u0413	New Experiences
+u0414	A new experience..
+u0415	Increased Traits
+u0416	Experience Increases
+u0417	Damage Thresholds
+u0418	Vicious
+u0419	Damage Increased: {damage}
+u0420	Range Increased: {range}
+u0421	Feature: {feature}
+u0422	Finish Level Up
+u0423	Tier 2
+u0424	Levels 2-4
+u0425	At Level 2, gain an additional Experience at +2 and gain a +1 bonus to your Proficiency.
+u0426	Choose two options from the list below
+u0427	Take an additional domain card of your level or lower from a domain you have access to.
+u0428	Tier 3
+u0429	Levels 5-7
+u0430	At Level 5, take an additional Experience and clear all marks on Character Traits.
+u0431	When you level up, record it on your character sheet, then choose two from the list below or any unmarked from the previous tier.
+u0432	Tier 4
+u0433	Levels 8-10
+u0434	At Level 8, take an additional Experience and clear all marks on Character Traits.
+u0435	{actor} Level Up
+u0436	{actor} Level Up (View Mode)
+u0437	Levelup Options: {name}
+u0438	Multiclassing - {actor}
+u0439	You are adding {class} as your multiclass
+u0440	Select your new domain
+u0441	Revealed
+u0442	Countdown Permissions - {name}
+u0443	No players to assign ownership to
+u0444	Base Visibility
+u0445	Base ({base})
+u0446	Pending Reaction Rolls Found
+u0447	Some Tokens have not finished their Reaction Rolls.
+u0448	Unfinished reaction rolls will be considered as failed.
+u0449	Are you sure you want to continue?
+u0450	Reaction Roll: {trait}
+u0451	{name} Resource
+u0452	Reroll Dice
+u0453	{name} - Risk It All
+u0454	Clear Stress and Hit Points
+u0455	Remaining Points
+u0456	Clear {resource}
+u0457	Final Character Resources
+u0458	Tag Team Roll
+u0459	Initiating Character
+u0460	Hope Cost
+u0461	Participants
+u0462	Party Team
+u0463	Select the two participants
+u0464	Start Tag Team Roll
+u0465	Open Dialog For All
+u0466	Roll Type
+u0467	Make your roll
+u0468	Cancel Tag Team Roll
+u0469	Finish Tag Team Roll
+u0470	Make a roll from your character sheet to link it to the Tag Team Roll
+u0471	Damage not rolled in chat message yet
+u0472	The initiating character doesn't have enough hope
+u0473	Create Tag Team Roll
+u0474	Roll
+u0475	Are you sure you want to cancel the Tag Team Roll? This will close it for all other players too.
+u0476	Set up and complete the rolls for the characters
+u0477	Select which roll value to be used for the Tag Team
+u0478	Are you sure you want to cancel the Group Roll? This will close it for all other players too.
+u0479	Cancel Group Roll
+u0480	Character Selection
+u0481	Finish Group Roll
+u0482	Leader
+u0483	Leader Roll
+u0484	Members
+u0485	Remove Roll
+u0486	Results will appear when characters roll
+u0487	Select one Character to be the leader
+u0488	Select all Characters who will participate in the roll
+u0489	Start Group Roll
+u0490	Group Roll
+u0491	Actor size is set, determining the dimensions
+u0492	Token Size
+u0493	Size Category
+u0494	Select Which Action to Use
+u0495	Game System
+u0496	Version {version}
+u0497	Wiki
+u0498	Discord
+u0499	Bardic Rally Dice
+u0500	Rally
+u0501	Temporary
+u0502	Next Spotlight
+u0503	Next Scene
+u0504	Next Rest
+u0505	Next Long Rest
+u0506	Next Session
+u0507	Custom
+u0508	All Actors
+u0509	Spellcasting Modifier
+u0510	Fear Amount
+u0511	Never
+u0512	Show Dialog Only
+u0513	Always
+u0514	Relentless
+u0515	A foe with Relentless can activate up to X times during a GM move so long as there are enough action tokens.
+u0516	The Relentless move is useful if you want an adversary you can activate more than once during a single GM move. This is often best for exceedingly fast or dangerous foes, or for adversaries who are likely to be battling the party on their own.
+u0517	Slow
+u0518	A foe with Slow costs X action tokens to activate.
+u0519	The Slow move is useful if you want an adversary who narratively takes longer to act than others, like a slug creature or a massive ogre. This is usually most effective when that creature is very powerful when it does act, but eats up lots of action tokens to do it.
+u0520	Minion
+u0521	For every X damage a PC deals to this adversary, they also deal 1 HP to an additional minion within their attack’s range.
+u0522	The Minion move is useful when you want to drop lots of small enemies into the battlefield, knowing the party can swing through them very easily. This move means that if a PC hits one minion and they do enough damage, they also hit a number of others that are in range for them. Because of this, it’s often best to have minions crowd a PC–it will feel overwhelming and dangerous until they’re able to make an attack against them. If you want that cinematic feeling of the PCs taking out waves of enemies with a single attack roll, minions are a great tool to make that happen.
+u0523	Bruiser
+u0524	Tough adversaries with powerful attacks.
+u0525	Horde
+u0526	A Horde represents a number of foes working in a group.
+u0527	Adversaries that command and summon other adversaries.
+u0528	Basic enemies that are easily dispatched but dangerous in numbers.
+u0529	Ranged
+u0530	Adversaries that attack from a distance.
+u0531	Skulk
+u0532	Adversaries that maneuver and exploit opportunities to ambush their opponents.
+u0533	Social
+u0534	Adversaries that are primarily interpersonal threats or challenges.
+u0535	Solo
+u0536	Designed to present a challenge to a whole party.
+u0537	Rank and File adversaries.
+u0538	Support
+u0539	Enemies that enhance their allies and/or disrupt their opponents.
+u0540	for each group of Minions equal to the size of the party.
+u0541	for each Social or Support adversary.
+u0542	for each Horde, Ranged, Skulk, or Standard adversary.
+u0543	for each Leader adversary.
+u0544	for each Bruiser adversary.
+u0545	for each Solo adversary.
+u0546	Attached To Token
+u0547	Placed In Scene
+u0548	Ignores Armor
+u0549	Active w/ Armor
+u0550	Inactive w/ Armor
+u0551	Absorbing
+u0552	Once per scene when you take magic damage, you can clear an Armor Slot.
+u0553	Clear Armor
+u0554	Accursed
+u0555	When you mark any number of Hit Points from an attack, roll a d4. On a result of 4, the attacker must mark an equal number of Stress.
+u0556	Aquatic
+u0557	You can breathe underwater and gain advantage on Agility Rolls while submerged.
+u0558	Attuned
+u0559	The maximum number of domain cards in your loadout is reduced by one, but you gain a bonus to your damage thresholds equal to your tier.
+u0560	Blessed
+u0561	Once per long rest, you can spend any number of Hope before you make the Risk It All death move. You gain a bonus to the result of your Hope Die equal to the number of Hope spent.
+u0562	Bloodthirsty
+u0563	When you critically succeed on a weapon attack within Melee range, clear a Hit Point.
+u0564	Clear Hitpoint
+u0565	Bulky
+u0566	−1 to Evasion; when you take Severe damage, you must mark a Stress.
+u0567	Burning
+u0568	When an adversary attacks you within Melee range, they mark a Stress.
+u0569	Burn
+u0570	Channeling
+u0571	+1 to Spellcast Rolls
+u0572	Cumbersome
+u0573	-1 to Finesse
+u0574	Difficult
+u0575	-1 to all character traits and Evasion
+u0576	Divine
+u0577	When you mark an Armor Slot, gain a Hope.
+u0578	Gain Hope
+u0579	Enchanted
+u0580	Gain a bonus to your damage thresholds equal to your Spellcast trait.
+u0581	Flexible
+u0582	+1 to Evasion
+u0583	Fortified
+u0584	When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one.
+u0585	Fortune-Favored
+u0586	Once per scene, you can change a failure with Hope into a success with Fear.
+u0587	Ghostwalker
+u0588	Once per rest, mark a Stress to move up to Close range through solid objects.
+u0589	Gilded
+u0590	+1 to Presence
+u0591	Gliding
+u0592	You can glide up to Far range and are immune to damage from falling.
+u0593	Heavy
+u0594	-1 to Evasion
+u0595	Hopeful
+u0596	When you would spend a Hope, you can mark an Armor Slot instead.
+u0597	Hope
+u0598	Impenetrable
+u0599	Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress.
+u0600	Lined
+u0601	Mark a Stress to negate Minor damage.
+u0602	Magical
+u0603	You can't mark an Armor Slot to reduce physical damage.
+u0604	Magnificent
+u0605	Gain a bonus to your Armor Score equal to your Presence.
+u0606	Mnemonic
+u0607	Once per scene, you can recall a domain card from your vault without paying its Recall Cost.
+u0608	Painful
+u0609	Each time you mark an Armor Slot, you must mark a Stress.
+u0610	Pain
+u0611	Physical
+u0612	You can't mark an Armor Slot to reduce magic damage.
+u0613	Quiet
+u0614	You gain a +2 bonus to rolls you make to move silently.
+u0615	Quick-Striding
+u0616	You can't be Restrained and can move up to Far range as part of an action roll.
+u0617	Reinforced
+u0618	When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.
+u0619	Reinforce
+u0620	Resilient
+u0621	Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.
+u0622	Resplendent
+u0623	Once per scene when you spend Hope, you can clear an Armor Slot.
+u0624	Self-Healing
+u0625	When you take a rest, clear an Armor Slot.
+u0626	Sharp
+u0627	On a successful attack against a target within Melee range, add a d4 to the damage roll.
+u0628	Shifting
+u0629	When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage.
+u0630	Shift
+u0631	Stellar
+u0632	Mark a Stress to gain advantage on a Spellcast roll.
+u0633	Timeslowing
+u0634	Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack.
+u0635	Slow Time
+u0636	Truthseeking
+u0637	This armor glows when another creature within Close range tells a lie.
+u0638	Very Heavy
+u0639	-2 to Evasion; -1 to Agility
+u0640	Vigilant
+u0641	+2 to Evasion.
+u0642	Vitreous
+u0643	When you would take Severe or greater damage, you can mark 2 Armor Slots to negate that damage. If you do, you gain a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move.
+u0644	You have a -5 penalty to your damage thresholds until you choose to repair your armor as a downtime move
+u0645	Wall-Crawling
+u0646	+1 Evasion; you can walk on walls as easily as on the ground.
+u0647	Warded
+u0648	You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.
+u0649	Normal
+u0650	Evolved
+u0651	Hybrid
+u0652	if you add +1d4 (or a static +2) to all adversaries' damage rolls (to increase the challenge without lengthening the battle)
+u0653	Increase Damage
+u0654	Add 1d4 to damage
+u0655	if the fight should be less difficult or shorter.
+u0656	if you choose an adversary from a lower tier.
+u0657	if you're using 2 or more Solo adversaries.
+u0658	if the fight should be more dangerous or last longer
+u0659	if you don't include any Bruisers, Hordes, Leaders, or Solos
+u0660	One-Handed
+u0661	Two-Handed
+u0662	Within Range
+u0663	Outside Range
+u0664	Death Move
+u0665	The character is about to make a Death Move
+u0666	Dead
+u0667	The character is dead
+u0668	Defeated
+u0669	This adversary is defeated.
+u0670	While Hidden, attacks cannot be made directly targeting them nd any rolls against them are at disadvantage.\nWhen a Hidden creature moves or attacks, they are no longer Hidden. However, if a creature is Hidden when they begin making an attack, the roll has advantage; the Hidden condition isn’t cleared until after the attack is resolved.
+u0671	Restrained
+u0672	When an effect makes a creature Restrained, it means they cannot move until this condition is cleared.\nThey can still take actions from their current position.
+u0673	Unconscious
+u0674	Your character can’t move or act while unconscious, they can’t be targeted by an attack.
+u0675	Vulnerable
+u0676	While a creature is Vulnerable, all rolls targeting them have advantage.\nA creature who is already Vulnerable can’t be made to take the condition again.
+u0677	Less Than
+u0678	Less Or Equals
+u0679	Equals
+u0680	Greater Or Equals
+u0681	Greater Than
+u0682	Is True
+u0683	Is False
+u0684	Suppress
+u0685	Hide
+u0686	Preparation
+u0687	Data Compare
+u0688	Weapon Restriction
+u0689	Action Type
+u0690	Same Weapon
+u0691	Any Weapon
+u0692	Action Roll
+u0693	Character Attack
+u0694	Character Spotlight
+u0695	Fear
+u0696	Spotlight
+u0697	Short Term
+u0698	Short
+u0699	Long Term
+u0700	Long
+u0701	Miscellaneous
+u0702	Misc
+u0703	Critical
+u0704	Highest Roll
+u0705	None On Success
+u0706	Half On Success
+u0707	Full On Success
+u0708	Double On Fail
+u0709	physical
+u0710	Phy
+u0711	magical
+u0712	Mag
+u0713	Direct Damage
+u0714	Direct
+u0715	Dir
+u0716	Avoid Death
+u0717	Your character avoids death and faces the consequences. They temporarily drop unconscious, and then you work with the GM to describe how the situation worsens. While unconscious, your character can't move or act, and they can't be targeted by an attack. They return to consciousness when an ally clears 1 or more of their marked Hit Points or when the party finishes a long rest. After your character falls unconscious, roll your Hope Die. If its value is equal to or less than your character's level, they gain a scar: permanently cross out a Hope slot and work with the GM to determine its lasting narrative impact and how, if possible, it can be restored. If you ever cross out your last Hope slot, your character's journey ends.
+u0718	Risk It All
+u0719	Roll your Duality Dice. If the Hope Die is higher, your character stays on their feet and clears a number of Hit Points or Stress equal to the value of the Hope Die (you can divide the Hope Die value between Hit Points and Stress however you'd prefer). If the Fear Die is higher, your character crosses through the veil of death. If the Duality Dice show matching results, your character stays up and clears all Hit Points and Stress.
+u0720	Blaze Of Glory
+u0721	Your character embraces death and goes out in a blaze of glory. Take one final action. It automatically critically succeeds (with GM approval), and then you cross through the veil of death. NOTE: A Blaze of Glory effect has been added to your character. Any Duality Roll will automatically be a critical.
+u0722	Hope Default
+u0723	Fear Default
+u0724	Advantage Default
+u0725	Disadvantage Default
+u0726	Hope Dice
+u0727	Fear Dice
+u0728	Advantage Dice
+u0729	Disadvantage Dice
+u0730	Duality Roll
+u0731	With Hope
+u0732	With Fear
+u0733	GM Roll
+u0734	Ability
+u0735	Spell
+u0736	Grimoire
+u0737	Exploration
+u0738	Traversal
+u0739	Event
+u0740	Unevolved
+u0741	Very Close
+u0742	Fall Damage: Very Close
+u0743	Close
+u0744	Fall Damage: Close
+u0745	Far
+u0746	Fall Damage: Far
+u0747	Collision
+u0748	Dangerous Collision
+u0749	Feature Form
+u0750	Passive
+u0751	Action
+u0752	Reaction
+u0753	Gold
+u0754	Coins
+u0755	Handfuls
+u0756	Bags
+u0757	Chests
+u0758	Hit Points
+u0759	HP
+u0760	STR
+u0761	HO
+u0762	Armor Slot
+u0763	AS
+u0764	FR
+u0765	Item Resource
+u0766	IR
+u0767	Simple
+u0768	Dice Value
+u0769	Die
+u0770	Checkboxes
+u0771	Minimum Boxes Picked
+u0772	Self
+u0773	means yourself.
+u0774	Melee
+u0775	means a character is within touching distance of the target. PCs can generally touch targets up to a few feet away from them, but melee range may be greater for especially large NPCs.
+u0776	means a distance where one can see fine details of a target- within moments of reaching, if need be. This is usually anywhere from about 5-10 feet away. While in danger, a PC can usually get to anything that’s very close as part of any other action they take. Anything on a battle map that is within the shortest length of a game card (~2-3 inches) can usually be considered very close.
+u0777	V. Close
+u0778	means a distance where one can see prominent details of a target-- across a room or to a neighboring market stall, generally about 10-30 feet away. While in danger, a PC can usually get to anything that’s close as part of any other action they take. Anything on a battle map that is within the length of a standard pen or pencil (~5-6 inches) can usually be considered close.
+u0779	means a distance where one can see the appearance of a person or object, but probably not in great detail-- across a small battlefield or down a large corridor. This is usually about 30-100 feet away. While under danger, a PC will likely have to make an Agility roll to get here safely. Anything on a battle map that is within the length of a standard piece of paper (~10-11 inches) can usually be considered far.
+u0780	Very Far
+u0781	means a distance where you can see the shape of a person or object, but probably not make outany details-- across a large battlefield or down a long street, generally about 100-300 feet away. While under danger, a PC likely has to make an Agility roll to get here safely. Anything on a battle map that is beyond far distance, but still within sight of the characters can usually be considered very far.
+u0782	V. Far
+u0783	Don't Use
+u0784	Manual
+u0785	Automatic
+u0786	Favor
+u0787	Focus
+u0788	Trait
+u0789	SpellCast
+u0790	Dice Set
+u0791	Off
+u0792	Off With Toggle
+u0793	On
+u0794	On With Toggle
+u0795	Disable Daggerheart Range Measurement
+u0796	Default
+u0797	Select Action Type
+u0798	Action Selection
+u0799	Selected
+u0800	Randomized
+u0801	Damage Ability
+u0802	Hostile
+u0803	Other
+u0804	Circle
+u0805	Cone
+u0806	Emanation
+u0807	Rectangle
+u0808	Line
+u0809	Tiny
+u0810	Small
+u0811	Medium
+u0812	Large
+u0813	Huge
+u0814	Gargantuan
+u0815	Agility
+u0816	AGI
+u0817	Sprint
+u0818	Leap
+u0819	Maneuver
+u0820	A high Agility means you’re fast on your feet, nimble on difficult terrain, and quick to react to danger. You’ll make an Agility Roll to scurry up a rope, sprint to cover, or bound from rooftop to rooftop.
+u0821	Strength
+u0822	Lift
+u0823	Smash
+u0824	Grapple
+u0825	A high Strength means you’re better at feats that test your physical prowess and stamina. You’ll make a Strength Roll to break through a door, lift heavy objects, or hold your ground against a charging foe.
+u0826	Finesse
+u0827	FIN
+u0828	Control
+u0829	Tinker
+u0830	A high Finesse means you’re skilled at tasks that require accuracy, stealth, or the utmost control. You’ll make a Finesse Roll to use fine tools, escape notice, or strike with precision.
+u0831	Instinct
+u0832	INS
+u0833	Perceive
+u0834	Sense
+u0835	Navigate
+u0836	A high Instinct means you have a keen sense of your surroundings and a natural intuition. You’ll make an Instinct Roll to sense danger, notice details in the world around you, or track an elusive foe.
+u0837	Presence
+u0838	PRE
+u0839	Charm
+u0840	Perform
+u0841	Deceive
+u0842	A high Presence means you have a strong force of personality and a facility for social situations. You’ll make a Presence Roll to plead your case, intimidate a foe, or capture the attention of a crowd.
+u0843	Knowledge
+u0844	KNO
+u0845	Analyze
+u0846	Comprehend
+u0847	A high Knowledge means you know information others don’t and understand how to apply your mind through deduction and inference. You’ll make a Knowledge Roll to interpret facts, see the patterns clearly, or remember important information.
+u0848	Spellcast Trait
+u0849	Best Trait
+u0850	After Damage Reduction
+u0851	Before Damage Reduction
+u0852	Fear Roll
+u0853	Matched {nr} times.
+u0854	Increase hope and stress to a total of {nr}.
+u0855	Left click to increase, right click to decrease
+u0856	Spend 2 Hope to gain {bonus} bonus Evasion until after the next attack against you?
+u0857	Your evasion is increased by {bonus}. This bonus lasts until after the next attack made against you.
+u0858	Trigger Type
+u0859	Triggering Actor Type
+u0860	{trigger} trigger on {item}({itemUuid}) failed for {actor}. It's probably configured wrong.
+u0861	Accelerator
+u0862	Once per scene, mark a Stress to move to Far range then make an attack. Gain a +1 bonus to your Proficiency on this attack.
+u0863	Gain a +1 bonus to your Proficiency on this attack.
+u0864	Aimed
+u0865	Your attack has disadvantage if the target is within Very Close range of you or within Melee range of one of your allies. You can mark a Stress to ignore this penalty.
+u0866	Barrier
+u0867	@Resolve[@item.tier + 1|sign]{Gain Weapon Tier + 1} to Armor Score; -1 to Evasion
+u0868	Gain Weapon Tier + 1 to Armor Score; -1 to Evasion
+u0869	Braced
+u0870	When an adversary within this weapon's range deals damage to you, you can mark 2 Stress to force them to mark a Hit Point.
+u0871	Bolstering
+u0872	When you critically succeed on an attack, all PCs within Close range gain a Hope.
+u0873	Gain a bonus to your damage rolls equal to your level.
+u0874	Weapon Bond
+u0875	Bouncing
+u0876	Mark 1 or more Stress to hit that many targets in range of the attack.
+u0877	Bounce
+u0878	Brave
+u0879	-1 to Evasion; + Weapon Tier to Severe damage threshold
+u0880	Brutal
+u0881	When you roll the maximum value on a damage die, roll an additional damage die.
+u0882	When you roll a 6 on a damage die, the target must mark a Stress.
+u0883	Catalytic
+u0884	On a successful attack, you can mark a Stress to give an ally within Close range a +3 bonus to their next attack roll.
+u0885	You have a +3 bonus to your next attack roll.
+u0886	Charged
+u0887	Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack.
+u0888	Charge
+u0889	Gain a +1 bonus to your Proficiency on a primary weapon attack.
+u0890	Concussive
+u0891	On a successful attack, you can spend a Hope to knock the target back to Far range.
+u0892	Concuss
+u0893	Deadly
+u0894	When you deal Severe damage, the target must mark an additional HP.
+u0895	Deflecting
+u0896	When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your available Armor Slots against the attack.
+u0897	Deflect
+u0898	Gain a bonus to your Evasion equal to your available Armor Slots against the attack
+u0899	Destructive
+u0900	-1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress.
+u0901	Destruction
+u0902	On a successful attack, all adversaries within Very Close range must mark a Stress.
+u0903	-1 to Agility
+u0904	Devastating
+u0905	Before you make an attack roll, you can mark a Stress to use a d20 as your damage die.
+u0906	Devastate
+u0907	Disturbing
+u0908	When you defeat a creature with this weapon, all adversaries within Close range must mark a Stress.
+u0909	Double Duty
+u0910	+1 to Armor Score; +1 to primary weapon damage within Melee range
+u0911	Doubled Up
+u0912	When you make an attack with your primary weapon, you can deal damage to another target within Melee range.
+u0913	Double Up
+u0914	Draining
+u0915	On a successful attack, you can spend a Hope to force the target to mark a Stress. If they do, you clear a Stress.
+u0916	Dueling
+u0917	When there are no other creatures within Close range of the target, gain advantage on your attack roll against them.
+u0918	Duel
+u0919	Entangling
+u0920	On a successful attack with your primary weapon against a target within Very Close range, you can spend a Hope to make the target temporarily Vulnerable.
+u0921	Eruptive
+u0922	On a successful attack against a target within Melee range, all other adversaries within Very Close range must succeed on a reaction roll (14) or take half damage.
+u0923	Erupt
+u0924	Ethereal
+u0925	You must mark a Stress to conjure this weapon. It lasts until the end of the scene.
+u0926	This weapon lasts until the end of the scene.
+u0927	Extending
+u0928	You can increase the range of this weapon up to Very Far. You gain a -1 penalty to attack rolls for each step you increase the range by (such as Melee to Very Close, Very Close to Close, or Close to Far).
+u0929	Focused
+u0930	+1 to primary weapon damage to targets within Very Close range.
+u0931	Follow-Up
+u0932	On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack.
+u0933	You have a +1 bonus to your Proficiency for this attack.
+u0934	Freezing
+u0935	When an attack from this weapon causes a target to mark 2 or more HP, they become temporarily Restrained.
+u0936	Grappling
+u0937	On a successful attack, you can spend a Hope to Restrain the target or pull them into Melee range with you.
+u0938	Greedy
+u0939	Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll.
+u0940	Greed
+u0941	During downtime, automatically clear a Hit Point.
+u0942	Heal
+u0943	Hooked
+u0944	On a successful attack, you can pull the target into Melee range.
+u0945	Hook
+u0946	Hot
+u0947	This weapon cuts through solid material.
+u0948	Incendiary
+u0949	-1 to Agility; on a successful attack, all creatures within Very Close range of the target must mark a Hit Point.
+u0950	On a successful attack, all creatures within Very Close range of the target must mark a Hit Point.
+u0951	-1 to Agility.
+u0952	Inverted
+u0953	When you roll a weapon attack with Fear, you gain a Hope.
+u0954	Invigorating
+u0955	On a successful attack, roll a d4. On a result of 4, clear a Stress.
+u0956	Invigorate
+u0957	Lifestealing
+u0958	On a successful attack, roll a d6. On a result of 6, clear a Hit Point or clear a Stress.
+u0959	Lifesteal
+u0960	Locked On
+u0961	On a successful attack, your next attack against the same target with your primary weapon automatically succeeds.
+u0962	Lock On
+u0963	This weapon's attack targets all adversaries in a line within range.
+u0964	Lucky
+u0965	On a failed attack, you can mark a Stress to reroll your attack.
+u0966	Luck
+u0967	Magnetic
+u0968	When you make an attack with this weapon, you can spend a Hope to force all adversaries within Very Close range of the target to make a Reaction Roll (16). Creatures who fail must mark a Stress and are pulled into Melee range of the target.
+u0969	Massive
+u0970	-1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.
+u0971	Nonlethal
+u0972	When a target would mark any number of Hit Points from an attack with this weapon, they mark an equal number of Stress instead.
+u0973	Omnipresent
+u0974	You can make attacks against targets within Very Far range, but must do so with disadvantage.
+u0975	Padded
+u0976	Gain this weapon's tier + 1 to damage thresholds.
+u0977	Otherwordly
+u0978	On a successful attack, you can deal physical or magic damage.
+u0979	Each time you make a successful attack, you must mark a Stress.
+u0980	Paired
+u0981	@Resolve[@item.tier + 1|sign]{Add this Secondary Weapon's tier + 1} to primary weapon damage to targets within Melee range
+u0982	Add this Secondary Weapon's tier + 1 to your primary weapon against targets within Melee range
+u0983	Parry
+u0984	When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled.
+u0985	Persuasive
+u0986	Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result.
+u0987	Persuade
+u0988	Gain a +2 bonus to the Presence roll
+u0989	Piercing
+u0990	Damage dealt with this weapon treats the target's Major threshold as having a -2 penalty.
+u0991	Poisonous
+u0992	When a target marks any number of Hit Points from an attack you rolled with Fear, they mark an equal number of Stress.
+u0993	Pompous
+u0994	You must have a Presence of 0 or lower to use this weapon.
+u0995	Powerful
+u0996	On a successful attack, roll an additional damage die and discard the lowest result.
+u0997	Protective
+u0998	@Resolve[@item.itemFeatures.protective.config.value|sign]{Add the item's Tier} to Armor Score
+u0999	Add @Resolve[@item.itemFeatures.protective.config.value|sign]{the item's Tier} to your Armor Score
+u1000	Quick
+u1001	When you make an attack, you can mark a Stress to target another creature within range.
+u1002	Rebounding
+u1003	When you throw this weapon, it returns to your hand. On a failed attack, you can reroll your attack with disadvantage.
+u1004	Recursive
+u1005	When you roll the maximum value on a damage die, roll an additional damage die and add the result to the total damage. This feature can trigger repeatedly.
+u1006	Reliable
+u1007	+1 to attack rolls
+u1008	Reloading
+u1009	After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.
+u1010	Reload
+u1011	Reloading requires that the weapon has a Resource set on it with a max of 1 or higher.
+u1012	Retractable
+u1013	The blade can be hidden in the hilt to avoid detection.
+u1014	Returning
+u1015	When this weapon is thrown within its range, it appears in your hand immediately after the attack.
+u1016	Return
+u1017	Ricochet
+u1018	When you throw this weapon, it returns to your hand. When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.
+u1019	When you make an attack, you can mark a Stress to target another creature within Very Close range of the first target with that attack.
+u1020	Scary
+u1021	On a successful attack, the target must mark a Stress.
+u1022	Scare
+u1023	Self Correcting
+u1024	When you roll a 1 on a damage die, it deals 6 damage instead.
+u1025	Serrated
+u1026	When you roll a 1 on a damage die, it deals 8 damage instead.
+u1027	Sharpwing
+u1028	Gain a bonus to your damage rolls equal to your Agility.
+u1029	Sheltering
+u1030	When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage.
+u1031	Shelter
+u1032	Startling
+u1033	Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.
+u1034	Startle
+u1035	Stockpiled
+u1036	You can throw this weapon within @Lookup[@item.attack.range|type:range|adjustment:2] range. You don't have to retrieve it, as you always have another on hand.
+u1037	Targeted
+u1038	When you fail a weapon attack, you can spend a Hope to succeed on your next weapon attack.
+u1039	Timebending
+u1040	You can choose the target of your attack after making your attack roll.
+u1041	Bend Time
+u1042	Trusty
+u1043	+1 to attack rolls made with your primary weapon.
+u1044	Venomous
+u1045	When you deal Major or greater damage with this weapon, the target becomes temporarily Vulnerable.
+u1046	Versatile
+u1047	This weapon can also be used with these statistics — @Lookup[@item.itemFeatures.versatile.config.trait|type:trait]{Trait}, @Lookup[@item.itemFeatures.versatile.config.range|type:range]{Range}, @Lookup[@item.itemFeatures.versatile.config.damage]{Damage}
+u1048	Volleyed
+u1049	Spend a Hope to target a group of creatures within range. Targets you succeed against take half damage.
+u1050	Add Change
+u1051	Add Conditional
+u1052	Attack Roll
+u1053	Damage Roll
+u1054	Healing Roll
+u1055	Marked Armor Slots
+u1056	Armor Score
+u1057	Armor Interaction
+u1058	Standard Attack
+u1059	Damage Formula
+u1060	Damage Types
+u1061	Attack Range
+u1062	Attack Image
+u1063	Attack Trait
+u1064	Phase
+u1065	Failure Mode
+u1066	Evaluated Role
+u1067	Origin
+u1068	Target
+u1069	Comparator
+u1070	Weapon Type
+u1071	Action Types
+u1072	Reach
+u1073	Drop items here to attach them
+u1074	If checked, this effect will be applied to any actor that owns this Effect's parent Item. The effect is always applied if this Item is attached to another one.
+u1075	Origin: {name}
+u1076	Abilities
+u1077	Actions
+u1078	Advantage
+u1079	Advantages
+u1080	Adv
+u1081	HP Damage Multiplier
+u1082	Multiply any damage you deal by this number
+u1083	HP Damage Taken Multiplier
+u1084	Multiply any damage dealt to you by this number
+u1085	Battlepoints
+u1086	BP
+u1087	Downtime Action
+u1088	Short Rest: Bonus Short Rest Moves
+u1089	The number of extra Short Rest Moves the character can take during a Short Rest.
+u1090	Short Rest: Bonus Long Rest Moves
+u1091	The number of extra Long Rest Moves the character can take during a Short Rest.
+u1092	Long Rest: Bonus Short Rest Moves
+u1093	The number of extra Short Rest Moves the character can take during a Long Rest.
+u1094	Long Rest: Bonus Long Rest Moves
+u1095	The number of extra Long Rest Moves the character can take during a Long Rest.
+u1096	Max Loadout Cards Bonus
+u1097	Characters
+u1098	Cost
+u1099	Costs
+u1100	Severe
+u1101	Major
+u1102	Minor
+u1103	None
+u1104	All Damage
+u1105	Physical Damage
+u1106	Magical Damage
+u1107	Primary Weapon Damage
+u1108	Secondary Weapon Damage
+u1109	Damage Resistance: Physical
+u1110	Physical Damage is halved if this is set to 1
+u1111	Damage Resistance: Magical
+u1112	Magical Damage is halved if this is set to 1
+u1113	Damage Immunity: Physical
+u1114	Immune to Physical Damage if this is set to 1
+u1115	Damage Immunity: Magical
+u1116	Immune to Magical Damage if this is set to 1
+u1117	Damage Reduction: Physical
+u1118	Physical Damage is reduced by the amount set here
+u1119	Damage Reduction: Magical
+u1120	Magical Damage is reduced by the amount set here
+u1121	Major Damage Threshold
+u1122	Severe Damage Threshold
+u1123	{threshold} Damage Threshold
+u1124	Dice
+u1125	Difficulty: all
+u1126	Difficulty: reaction
+u1127	Disadvantage
+u1128	Dis
+u1129	Domain
+u1130	Domains
+u1131	Arcana
+u1132	Arcana is the domain of innate and instinctual magic. Those who choose this path tap into the raw, enigmatic forces of the realms to manipulate both their own energy and the elements. Arcana offers wielders a volatile power, but it is incredibly potent when correctly channeled.
+u1133	Blade
+u1134	Blade is the domain of weapon mastery. Whether by steel, bow, or perhaps a more specialized arm, those who follow this path have the skill to cut short the lives of others. Wielders of Blade dedicate themselves to achieving inexorable power over death.
+u1135	Bone
+u1136	Bone is the domain of tactics and the body. Practitioners of this domain have an uncanny control over their own physical abilities and an eye for predicting the behaviors of others in combat. Adherents to Bone gain an unparalleled understanding of bodies and their movements.
+u1137	Codex
+u1138	Codex is the domain of intensive magical study. Those who seek magical knowledge turn to the equations of power recorded in books, written on scrolls, etched into walls, or tattooed on bodies. Codex offers a commanding and versatile understanding of magic to devotees who pursue knowledge beyond the boundaries of common wisdom.
+u1139	Dread
+u1140	Dread is the domain of nightmares and fear. Those who choose this path can call forth monstrosities, enfeeble their foes, and channel terrifying magic to destroy their enemies. Dread grants its adherents power over forces most are too afraid to employ.
+u1141	Grace
+u1142	Grace is the domain of charisma. Through rapturous storytelling, charming spells, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language.
+u1143	Midnight
+u1144	Midnight is the domain of shadows and secrecy. Whether by clever tricks, deft magic, or the cloak of night, those who channel these forces practice the art of obscurity and can uncover sequestered treasures. Midnight offers practitioners the power to control and create enigmas.
+u1145	Sage
+u1146	Sage is the domain of the natural world. Those who walk this path tap into the unfettered power of the earth and its creatures to unleash raw magic. Sage grants its adherents the vitality of a blooming flower and the ferocity of a ravenous predator.
+u1147	Splendor
+u1148	Splendor is the domain of life. Through this magic, followers gain the ability to heal and, to an extent, control death. Splendor offers its disciples the magnificent ability to both give and end life.
+u1149	Valor
+u1150	Valor is the domain of protection. Whether through attack or defense, those who choose this discipline channel formidable strength to protect their allies in battle. Valor offers great power to those who raise their shields in defense of others.
+u1151	Effect
+u1152	Effects
+u1153	Experiences
+u1154	Healing Amount
+u1155	Modifiers
+u1156	no
+u1157	Range Increase: Other
+u1158	Range Increase: Spell
+u1159	Range Increase: Weapon
+u1160	Scene
+u1161	Session
+u1162	Resource
+u1163	Resources
+u1164	The weapon is not loaded
+u1165	The weapon is loaded
+u1166	Roll (Difficulty {difficulty})
+u1167	Primary Weapon Attack Roll
+u1168	Secondary Weapon Attack Roll
+u1169	Spellcast Roll
+u1170	Trait Roll
+u1171	Reaction Roll
+u1172	Condition Immunity: Hidden
+u1173	Condition Immunity: Restrained
+u1174	Condition Immunity: Vulnerable
+u1175	Disabled Armorslots
+u1176	Damage Reduction per Armor Slot
+u1177	A used armor slot normally reduces damage by one step. This value increases the number of steps damage is reduced by.
+u1178	Damage Reduction: Only Magical
+u1179	Armor can only be used to reduce magical damage
+u1180	Max Armor Used
+u1181	Max Armor Used With Stress
+u1182	If this value is set you can use up to that much stress to spend additional Armor Marks beyond your normal maximum.
+u1183	Reduce Damage Severity
+u1184	Lowers any damage received by the set amount of severity degrees
+u1185	Damage Reduction: Only Physical
+u1186	Armor can only be used to reduce physical damage
+u1187	Stress Damage Reduction: Any
+u1188	The cost in stress you can pay to reduce incoming damage down one threshold
+u1189	Stress Damage Reduction: Severe
+u1190	The cost in stress you can pay to reduce severe damage down to major.
+u1191	Stress Damage Reduction: Major
+u1192	The cost in stress you can pay to reduce major damage down to minor.
+u1193	Stress Damage Reduction: Minor
+u1194	The cost in stress you can pay to reduce minor damage to none.
+u1195	Threshold Immunities: Minor
+u1196	Automatically ignores minor damage when set to 1
+u1197	Spotlight Request
+u1198	Spotlight Requests
+u1199	Details
+u1200	Features
+u1201	Level Advancement
+u1202	Advancement Choices
+u1203	Summary
+u1204	Settings
+u1205	Data
+u1206	Information
+u1207	Item Features
+u1208	Notes
+u1209	Inventory
+u1210	Loadout
+u1211	Vault
+u1212	Biography
+u1213	General
+u1214	Foundation
+u1215	Specialization
+u1216	Mastery
+u1217	Optional
+u1218	Recovery
+u1219	Setup
+u1220	Attachments
+u1221	Advanced
+u1222	Tier 1
+u1223	tier 4
+u1224	Downtime
+u1225	Rules
+u1226	Party Members
+u1227	Projects
+u1228	Types
+u1229	Questions
+u1230	Configuration
+u1231	Base
+u1232	Triggers
+u1233	Deathmoves
+u1234	Packs
+u1235	Compendium packs
+u1236	Tier {tier} {type}
+u1237	Transformations
+u1238	Actor Name
+u1239	Amount
+u1240	Armor Features
+u1241	Armors
+u1242	Active Effects
+u1243	Armor Slots
+u1244	Artwork By: {artist}
+u1245	Automation
+u1246	Basics
+u1247	Bonus
+u1248	Burden
+u1249	Condition
+u1250	Continue
+u1251	Critical Success
+u1252	Current Level
+u1253	Custom Modifier
+u1254	D20 Roll
+u1255	Base Modifier
+u1256	Disabled
+u1257	Drop Actors here
+u1258	Drop Features here
+u1259	Duality
+u1260	Duality Dice
+u1261	Enabled
+u1262	Failure
+u1263	Fate
+u1264	Fate Roll
+u1265	GM
+u1266	Guaranteed Critical Success
+u1267	Hit
+u1268	Hits
+u1269	Hit Point
+u1270	Horde HP
+u1271	Icon
+u1272	Identity
+u1273	Image Path
+u1274	Immune
+u1275	Inactive Effects
+u1276	Initial
+u1277	Item Quantity
+u1278	Items
+u1279	Key
+u1280	Level
+u1281	Lv
+u1282	Level Up
+u1283	Miss
+u1284	Missing {x}
+u1285	The referenced item no longer exists
+u1286	Max {thing}
+u1287	Drop {thing} here
+u1288	New Category
+u1289	New {thing}
+u1290	Next
+u1291	No Current Targets
+u1292	Opacity
+u1293	Optional {thing}
+u1294	Player
+u1295	Players
+u1296	Portrait
+u1297	Preview
+u1298	Proficiency
+u1299	Quantity
+u1300	Refresh
+u1301	Reroll
+u1302	Rerolled
+u1303	Reroll {thing}
+u1304	Resistant
+u1305	Result
+u1306	Results
+u1307	Roll All
+u1308	Roll Damage
+u1309	{roll} Roll
+u1310	Save
+u1311	Save Settings
+u1312	Scalable
+u1313	Scars
+u1314	Situational Bonus
+u1315	Search...
+u1316	Spent
+u1317	Step
+u1318	Subclasses
+u1319	Subtype
+u1320	Success
+u1321	Summons
+u1322	Take
+u1323	Targets
+u1324	{things} and {thing}
+u1325	Title
+u1326	Total
+u1327	Trait Modifier
+u1328	True
+u1329	System {type} Sheet
+u1330	Unarmed
+u1331	Unarmed Attack
+u1332	Unarmored
+u1333	Use
+u1334	Used
+u1335	Uses
+u1336	Weapon Features
+u1337	Weapons
+u1338	With {thing}
+u1339	Source
+u1340	Page
+u1341	Campaign Frame
+u1342	Artist
+u1343	Die Faces
+u1344	Identifier
+u1345	GM Notes
+u1346	Lore Reference
+u1347	Path or id of full description journal page
+u1348	Primary Feature
+u1349	Secondary Feature
+u1350	Ancestry Features
+u1351	Base Score
+u1352	Score
+u1353	Base Thresholds
+u1354	Add GM Note
+u1355	View Full Details
+u1356	Refresh From Compendium
+u1357	Are you sure you want to refresh this item with new contents?
+u1358	This document does not have a copy in the compendium
+u1359	This document is of a different tier than the source, and was likely re-tiered
+u1360	The source document is the incorrect type
+u1361	Beastform Type
+u1362	Main Trait
+u1363	Examples
+u1364	Gain Advantage On
+u1365	Subject Texture
+u1366	Height
+u1367	Width
+u1368	Depth
+u1369	Token Scale
+u1370	Maximum Tier
+u1371	Main Trait Bonus
+u1372	Damage Bonus
+u1373	Evasion Bonus
+u1374	Damage Dice Size Increases
+u1375	Nr Beastforms
+u1376	Nr Advantages
+u1377	Nr Features
+u1378	Beast Attack
+u1379	Beastform Transformation
+u1380	Beastform Selection
+u1381	Beastform Token
+u1382	Evolve
+u1383	Drag a form here to evolve it.
+u1384	Hybridize
+u1385	Hybrid Features
+u1386	Drag a form here to hybridize it.
+u1387	An evolved beastform's token is based on that of the form you evolve
+u1388	The image for the form selected for evolution will be used
+u1389	Starting Evasion Score
+u1390	Starting Hit Points
+u1391	Class Items
+u1392	{class}'s Hope Feature
+u1393	Hope Features
+u1394	Class Feature
+u1395	Class Features
+u1396	Suggested Equipments
+u1397	Primary Weapon
+u1398	Secondary Weapon
+u1399	Then Choose Between
+u1400	And Either
+u1401	Community Feature
+u1402	Consume On Use
+u1403	Recall Cost
+u1404	Active In Vault
+u1405	Ignores Loadout Limits
+u1406	Domain Touched
+u1407	Active When Evolved
+u1408	Evolution Feature
+u1409	Features with an evolution action must be of evolution type
+u1410	Actor Resources
+u1411	Category
+u1412	Spellcasting Trait
+u1413	Foundation Features
+u1414	Specialization Feature
+u1415	Mastery Feature
+u1416	Transformation Features
+u1417	Configure Attack
+u1418	Primary
+u1419	Secondary
+u1420	A token on the canvas must either be selected or hovered to spotlight it
+u1421	Formula Name
+u1422	Display Fear
+u1423	Fear Position
+u1424	Display Countdown UI
+u1425	Show Foundry Status Effects
+u1426	Show Token Distance on Highlight
+u1427	Encounters
+u1428	Auto-expand Descriptions
+u1429	Environments
+u1430	Auto-expand Message Sections
+u1431	Damage/Healing
+u1432	Pip Display For Resources
+u1433	Tooltip Card Theme
+u1434	Tokens
+u1435	Bar
+u1436	Free
+u1437	Top + Center
+u1438	Bottom + Center
+u1439	Right + Top
+u1440	Left + Bottom
+u1441	Automatically increase the GM's fear pool on a fear duality roll result.
+u1442	Auto Expire Active Effects
+u1443	Active Effects with set durations will automatically be removed when their durations are up
+u1444	Damage Reduction Rules Default
+u1445	Wether using armor and reductions has rules on by default
+u1446	Overlay Effect
+u1447	Character Default Defeated Status
+u1448	Adversary Default Defeated Status
+u1449	Companion Default Defeated Status
+u1450	Hope & Fear
+u1451	Vulnerable Automation
+u1452	Automatically apply the Vulnerable condition when a actor reaches max stress
+u1453	Countdown Automation
+u1454	Automatically progress countdowns based on their progression settings
+u1455	Levelup Automation
+u1456	When you've made your choices and finish levelup, the numerical changes are automatically applied to your character.
+u1457	Automatic Horde Damage
+u1458	Automatically active horde effect to lower damage when reaching half or lower HP.
+u1459	Effect Range Dependent
+u1460	Effects with defined range dependency will automatically turn on/off depending on range
+u1461	Reload Checking
+u1462	If the system should automatically roll reload checks or wait for the manual press of a button in chat
+u1463	Show Resource Change Scrolltexts
+u1464	When a character is damaged, uses armor etc, a scrolling text will briefly appear by the token to signify this.
+u1465	Damage/Healing Roll
+u1466	Auto behavior for Damage & Healing rolls after the Attack/Spellcast.
+u1467	Auto behavior if a Reaction Roll is needed. Targets must be selected before the action is made
+u1468	Apply Damage/Healing
+u1469	Automatically apply damages & healings. Targets must be selected before the action is made and Reaction Roll Automation must be different than Never. Bypass users permissions.
+u1470	Apply Effects
+u1471	Automatically apply effects. Targets must be selected before the action is made and Reaction Roll Automation must be different than Never. Bypass users permissions.
+u1472	Advanced automation such as triggering a popup for a wizard's Strange Patterns
+u1473	Summary Messages
+u1474	Defeated Handling
+u1475	Hide Chat Info From Players
+u1476	Information such as hit/miss on attack rolls against adversaries will be hidden
+u1477	Hide Party Stats
+u1478	Resources and stats in the party sheet's member list will be hidden to the following users, even if the user is part of the same party
+u1479	Never, always show
+u1480	Hide From Players
+u1481	Hide from Everyone
+u1482	Downtime Move
+u1483	Armor Feature
+u1484	Weapon Feature
+u1485	New Item Feature
+u1486	Downtime Moves
+u1487	# Moves Per Rest
+u1488	Reset {type} Downtime Moves
+u1489	Reset {type}
+u1490	Are you sure you want to reset?
+u1491	Delete Homebrew Item
+u1492	Are you sure you want to delete the item?
+u1493	Delete Homebrew Resource
+u1494	Are you sure you want to delete the resource?
+u1495	Reset
+u1496	Banner Color
+u1497	Invert Text Color
+u1498	Max Fear
+u1499	Max Hope
+u1500	Initial Trait Modifiers
+u1501	Max Cards in Loadout
+u1502	Set to blank or 0 for unlimited maximum
+u1503	FA Icon
+u1504	No Filter
+u1505	Max Class Domains
+u1506	Max domains you can set on a class
+u1507	Token Sizes
+u1508	Currency Overrides
+u1509	Change Currency Icon
+u1510	Currency Name
+u1511	Coin Name
+u1512	Handful Name
+u1513	Icon Name
+u1514	Icons are from fontawesome
+u1515	Bag Name
+u1516	Chest Name
+u1517	Denomination
+u1518	Starting Amount
+u1519	Damage Type Overrides
+u1520	Change Damage Type Icon
+u1521	Abbrev.
+u1522	Base Domains
+u1523	Homebrew Domains
+u1524	New Domain
+u1525	Create Homebrew Domain
+u1526	New Domain Name
+u1527	This cannot be altered later
+u1528	Active Domain
+u1529	Delete Domain
+u1530	Are you sure you want to delete the {name} domain? It will be immediately removed from all Actors in this world where it's currently used. Compendiums are not cleared.
+u1531	There is already a domain with this identification.
+u1532	Custom Adversary Types
+u1533	Adversary Type
+u1534	{type} Resources
+u1535	Filled Icon
+u1536	Empty Icon
+u1537	Resource Identifier
+u1538	Set Resource Identifier
+u1539	Toggle Party Sheet
+u1540	Open or close the active party's sheet
+u1541	Spotlight Combatant
+u1542	Move the spotlight to a hovered or selected token
+u1543	Daggerheart Game Settings
+u1544	Automation Settings
+u1545	Configure Automation
+u1546	Various settings automating resource management and more
+u1547	Metagaming Settings
+u1548	Configure Metagaming
+u1549	Various settings controlling the flow of information to players
+u1550	Homebrew Settings
+u1551	Configure Homebrew
+u1552	Various settings allowing extensions to types or altered game rules
+u1553	Range Settings
+u1554	Configure Range Handling
+u1555	System ruler setup for displaying ranges in Daggerheart
+u1556	Appearance Settings
+u1557	Modify the look of various parts of the system
+u1558	Duality Rolls
+u1559	Variant Rules
+u1560	Apply variant rules from the Daggerheart system
+u1561	Action Tokens
+u1562	Spotlight Request Queue
+u1563	Adds more structure to spotlight requests by ordering them from oldest to newest
+u1564	The Fear pool of the GM.
+u1565	Automatically give and take Action Points as combatants take their turns.
+u1566	Massive Damage
+u1567	Reset Settings
+u1568	Are you sure you want to reset the {settings}?
+u1569	Setting
+u1570	Daggerheart Measurements are disabled in System Settings - Variant Rules
+u1571	Range Measurement
+u1572	Scene Environments
+u1573	Drag environments here
+u1574	Applied To
+u1575	Apply Effects - {name}
+u1576	Attack - {attack}
+u1577	Roll Healing
+u1578	Clear {quantity} {resource}
+u1579	Fully Clear {resource}
+u1580	Damage Applied
+u1581	Healing Applied
+u1582	Undo {type}
+u1583	Damage - {damage}
+u1584	Damage Hit Targets
+u1585	Deal Damage
+u1586	{total} Selected
+u1587	No Tokens Selected
+u1588	Set Selected As Targets
+u1589	You gained a scar.
+u1590	You have avoided a new scar.
+u1591	You have {scars} Scars and have crossed out your last Hope slot. Your character's journey ends.
+u1592	Critical Rolled, clearing all marked Stress and Hit Points.
+u1593	The fear die rolled higher. You have crossed through the veil of death.
+u1594	Blaze of Glory Effect Added!
+u1595	Clear Stress And Hit Points.
+u1596	The Hope value is more than the marked Stress and Hit Points. Both are cleared fully.
+u1597	The hope die rolled higher, clear up to {hope} Stress And Hit Points.
+u1598	Dice Pool
+u1599	{ability} Roll
+u1600	Effects Applied
+u1601	Immunity: {immunities}
+u1602	Heal - {damage}
+u1603	Apply Healing
+u1604	Mark {quantity} {resource}
+u1605	Reload {weapon}
+u1606	Restore {quantity} on {weapon}
+u1607	Feature Refresh
+u1608	Refreshed
+u1609	Are you sure you want to reroll?
+u1610	{user} rerolled their {name}
+u1611	Reaction Roll All Targets
+u1612	Tag Team
+u1613	Reroll Action
+u1614	Reroll Damage
+u1615	Assign as Tag Roll
+u1616	DH TRIGGER | Item '{item}' on actor '{actor}' ran a '{trigger}' trigger.
+u1617	Toggle Icon Only
+u1618	This countdown is hidden to all players.
+u1619	This countdown is hidden to players except {players}.
+u1620	Reveal Countdown
+u1621	Hide Countdown
+u1622	Decreasing Looping
+u1623	Increasing Looping
+u1624	[Right Click] Remove {thing}
+u1625	[Left Click] Increment Stacks
+u1626	[Right Click] Decrement Stacks
+u1627	Applied By: {by}
+u1628	Daggerheart Compendium Browser
+u1629	Compendium Browser
+u1630	Select a Folder in sidebar to start browsing through the compendium
+u1631	Browser Settings
+u1632	Filters
+u1633	Erase
+u1634	Difficulty (Min)
+u1635	Difficulty (Max)
+u1636	Hit Points (Min)
+u1637	Hit Points (Max)
+u1638	Stress (Min)
+u1639	Stress (Max)
+u1640	Armor Score (Min)
+u1641	Armor Score (Max)
+u1642	Level (Min)
+u1643	Level (Max)
+u1644	Recall Cost (Min)
+u1645	Recall Cost (Max)
+u1646	Evasion (Min)
+u1647	Evasion (Max)
+u1648	Spellcasting
+u1649	<i>Missing</i>
+u1650	Ancestries
+u1651	Classes
+u1652	Communities
+u1653	Beastforms
+u1654	Consumables
+u1655	The linked adversary doesn't exist in the world.
+u1656	A beastform can only be applied to a Character.
+u1657	The character already has a beastform applied!
+u1658	No targets are selected.
+u1659	No targets are hit
+u1660	The target token no longer exists
+u1661	You don't have enough advancements left.
+u1662	You have no assigned character.
+u1663	You have no selected token
+u1664	This can only be used with a PC token
+u1665	Duality roll not properly formatted
+u1666	Fate roll not properly formatted
+u1667	Fate roll not properly formatted, bad fate type. Valid types are 'Hope' and 'Fear'
+u1668	The supplied Attribute doesn't exist
+u1669	You don't have access to that Domain
+u1670	The Domain Card is too high level to be selected
+u1671	You already have that domain card!
+u1672	Nothing more to select!
+u1673	You already have that class!
+u1674	The character already has a class
+u1675	The character already has a subclass for that class.
+u1676	Your character has no class selected!
+u1677	Your character doesn't have the domain of the card!
+u1678	You already have a domain card with that name!
+u1679	The character doesn't have a class and subclass
+u1680	You cannot raise the character level past the maximum
+u1681	You cannot lower the character level below starting level
+u1682	This subclass does not belong to your selected class.
+u1683	This subclass does not belong to your selected multiclass.
+u1684	You don't have a class selected yet.
+u1685	Missing multiclass
+u1686	The card isn't from one of your class domains.
+u1687	The card is too high level!
+u1688	You cannot select the same card more than once.
+u1689	This actor is already registered in the party members list.
+u1690	You can only drag actors of type {allowedTypes} to the party sheet.
+u1691	The weapon is not a primary weapon!
+u1692	The weapon is not a secondary weapon!
+u1693	The item must be from Tier1
+u1694	Cannot select a secondary weapon with a two-handed primary!
+u1695	You cannot select any more downtime moves
+u1696	The damage has already been reduced to none
+u1697	You have no more available armor marks
+u1698	You don't have enough stress
+u1699	{character} did not take damage
+u1700	Feature is missing
+u1701	Action is missing
+u1702	Attack is missing
+u1703	Cannot make a Use macro for an Action not on your character
+u1704	Cannot make a Use macro for an Attack that doesn't belong to one of your characters
+u1705	This feature is used as something else than a Hope feature and cannot be used here.
+u1706	This feature is used as something else than a Class feature and cannot be used here.
+u1707	This feature is used as something else than a Primary feature and cannot be used here.
+u1708	This feature is used as something else than a Secondary feature and cannot be used here.
+u1709	This feature is used as something else than a Foundation feature and cannot be used here.
+u1710	This feature is used as something else than a Specialization feature and cannot be used here.
+u1711	This feature is used as something else than a Mastery feature and cannot be used here.
+u1712	The Beastform is missing a Beastform Effect. Cannot be used.
+u1713	You cannot select any more advantages.
+u1714	You cannot select any more features.
+u1715	You cannot use weapons while in a Beastform.
+u1716	You've reached the maximum loadout size. To add more, move at least one domain card to the vault.
+u1717	You've reached the maximum domains for the class. Increase the limit in homebrew settings if desired.
+u1718	You don't have enough resources to use that action.
+u1719	That action doesn't have remaining uses.
+u1720	You already have a class and multiclass
+u1721	You already have a class and multiclass subclass
+u1722	Your selected dice {system} does not have a {faces} dice
+u1723	You refreshed all actions and resources {types}
+u1724	This action requires an online GM
+u1725	This can only be accessed by the GM
+u1726	You do not have permissions for this character
+u1727	The {documentType} is missing from the world.
+u1728	{name} is missing an Actor
+u1729	[{names}] missing Actors
+u1730	This domain card requires {nr} {domain} cards in the loadout to be used
+u1731	Know The Tide gained a token
+u1732	User {user} lacks owner permission needed to transfer items to {target}
+u1733	No token is targeted
+u1734	Creating a Region with an attached Behavior requires an online GM
+u1735	Combo dice functionality only works on a single pair of two dice
+u1736	The {weapon} must be reloaded to be used!
+u1737	A partner must be assigned to use this action.
+u1738	The actor {actorName} could not be dealt damage as it no longer exists
+u1739	Performing system migration. Please wait and do not close Foundry.
+u1740	Level {level} Character
+u1741	Level {level} - {partner}
+u1742	No Partner
+u1743	Duplicate to New Tier
+u1744	Make Active Party
+u1745	Create Adversary
+u1746	Pick a new tier for this adversary
+u1747	Daggerheart Menu
+u1748	Start Session
+u1749	Start Scene
+u1750	Edit
+u1751	Open Item World
+u1752	Open Actor World
+u1753	Send to Chat
+u1754	Your Evasion base is set on your class. This is the increase ontop of that.
+u1755	Your max HP base is set on your class. This is the increase ontop of that.
+u1756	More Options
+u1757	Make a Death Move
+u1758	Range & Target
+u1759	Drag effect to apply it to an actor
+u1760	Applied even if save succeeded
+u1761	Pending Reaction Rolls
+u1762	Open Settings
+u1763	Rules On
+u1764	Rules Off
+u1765	Uses refresh on {type}
+u1766	Right-Click to extend
+u1767	The companion needs an assigned partner to level up.
+u1768	Configure Attribution
+u1769	Configure Levelup Options
+u1770	Delete Item
+u1771	[Middle Click] Keep tooltip view
+u1772	The token size used on the canvas
+u1773	Left-click to place, right-click to cancel
+u1774	This effect is suppressed
+u1775	This effect is suppressed due to conditionals
+u1776	This effect is suppressed because this item is not equipped
+u1777	Versatile Switch

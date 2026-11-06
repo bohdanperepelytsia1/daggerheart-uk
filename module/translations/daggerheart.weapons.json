@@ -1,0 +1,2251 @@
+{
+  "label": "Зброя",
+  "folders": {
+    "Tier 1": "Ранг 1",
+    "Tier 2": "Ранг 2",
+    "Tier 3": "Ранг 3",
+    "Tier 4": "Ранг 4",
+    "Combat Wheelchairs": "Бойові візки",
+    "Magical Weapons": "Магічна зброя",
+    "Physical Weapons": "Фізична зброя",
+    "Primary Weapons": "Основна зброя",
+    "Secondary Weapons": "Допоміжна зброя"
+  },
+  "mapping": {
+    "description": "system.description",
+    "attack": "system.attack.name",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Black Powder Revolver": {
+      "name": "Порохівний револьвер",
+      "attack": "Атака"
+    },
+    "Aantari Bow": {
+      "name": "Лук Аантарі",
+      "effects": {
+        "c7kaHA5juEZGaGcM": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Arcane-Frame Wheelchair": {
+      "name": "Вдосконалений тайний візок",
+      "effects": {
+        "VnV5X9MBMabhz47b": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Arcane Gauntlets": {
+      "name": "Вдосконалені тайні рукавиці",
+      "attack": "Атака"
+    },
+    "Advanced Battleaxe": {
+      "name": "Вдосконалена бойова сокира",
+      "attack": "Атака"
+    },
+    "Advanced Broadsword": {
+      "name": "Вдосконалений широкий меч",
+      "effects": {
+        "wMyzeKXFaM2P4N05": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Crossbow": {
+      "name": "Вдосконалений арбалет",
+      "attack": "Атака"
+    },
+    "Advanced Cutlass": {
+      "name": "Вдосконалена абордажна шабля",
+      "attack": "Атака"
+    },
+    "Advanced Dagger": {
+      "name": "Вдосконалений кинджал",
+      "attack": "Атака"
+    },
+    "Advanced Dualstaff": {
+      "name": "Вдосконалений подвійний посох",
+      "attack": "Атака"
+    },
+    "Advanced Glowing Rings": {
+      "name": "Вдосконалені сяйні персні",
+      "attack": "Атака"
+    },
+    "Advanced Grappler": {
+      "name": "Вдосконалена гак-кішка",
+      "attack": "Атака"
+    },
+    "Advanced Greatstaff": {
+      "name": "Вдосконалений великий посох",
+      "attack": "Атака"
+    },
+    "Advanced Greatsword": {
+      "name": "Вдосконалений дворучний меч",
+      "effects": {
+        "ouQRbD8XVCEEnuhx": {
+          "name": "Масивна",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Halberd": {
+      "name": "Вдосконалена алебарда",
+      "effects": {
+        "pdRt0nO1ooGPO3cm": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Hallowed Axe": {
+      "name": "Вдосконалена освячена сокира",
+      "attack": "Атака"
+    },
+    "Advanced Hand Crossbow": {
+      "name": "Вдосконалений ручний арбалет",
+      "attack": "Атака"
+    },
+    "Advanced Hand Runes": {
+      "name": "Вдосконалені долонні руни",
+      "attack": "Атака"
+    },
+    "Advanced Heavy-Frame Wheelchair": {
+      "name": "Вдосконалений важкий візок",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Light-Frame Wheelchair": {
+      "name": "Вдосконалений легкий візок",
+      "attack": "Атака"
+    },
+    "Advanced Longbow": {
+      "name": "Вдосконалений довгий лук",
+      "effects": {
+        "CUpkNgCUE6CWAXc3": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Longsword": {
+      "name": "Вдосконалений довгий меч",
+      "attack": "Атака"
+    },
+    "Advanced Mace": {
+      "name": "Вдосконалена булава",
+      "attack": "Атака"
+    },
+    "Advanced Quarterstaff": {
+      "name": "Вдосконалена жердина",
+      "attack": "Атака"
+    },
+    "Advanced Rapier": {
+      "name": "Вдосконалена рапіра",
+      "attack": "Атака"
+    },
+    "Advanced Returning Blade": {
+      "name": "Вдосконалений поворотний клинок",
+      "attack": "Атака"
+    },
+    "Advanced Round Shield": {
+      "name": "Вдосконалений круглий щит",
+      "effects": {
+        "7285CRGdZfHCEtT2": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Scepter": {
+      "name": "Вдосконалений скіпетр",
+      "attack": "Атака"
+    },
+    "Advanced Shortbow": {
+      "name": "Вдосконалений короткий лук",
+      "attack": "Атака"
+    },
+    "Advanced Shortstaff": {
+      "name": "Вдосконалений короткий посох",
+      "attack": "Атака"
+    },
+    "Advanced Shortsword": {
+      "name": "Вдосконалений короткий меч",
+      "effects": {
+        "zQMaG3JcUWJR9k2L": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Small Dagger": {
+      "name": "Вдосконалений малий кинджал",
+      "effects": {
+        "6tJmTBsumbPmEwkY": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Spear": {
+      "name": "Вдосконалений спис",
+      "attack": "Атака"
+    },
+    "Advanced Tower Shield": {
+      "name": "Вдосконалений баштовий щит",
+      "effects": {
+        "87gedjJZGdFY81Mt": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        },
+        "J0f7zqqOr61ADpdy": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Wand": {
+      "name": "Вдосконалений жезл",
+      "attack": "Атака"
+    },
+    "Advanced Warhammer": {
+      "name": "Вдосконалений бойовий молот",
+      "effects": {
+        "S6jedo3xSQhFBQH0": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Whip": {
+      "name": "Вдосконалений батіг",
+      "attack": "Атака"
+    },
+    "Arcane-Frame Wheelchair": {
+      "name": "Тайний візок",
+      "effects": {
+        "dXHsy9qr5FWZqsVq": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Arcane Gauntlets": {
+      "name": "Тайні рукавиці",
+      "attack": "Атака"
+    },
+    "Axe of Fortunis": {
+      "name": "Сокира Фортуніса",
+      "attack": "Атака"
+    },
+    "Battleaxe": {
+      "name": "Бойова сокира",
+      "attack": "Атака"
+    },
+    "Bladed Whip": {
+      "name": "Батіг із лезами",
+      "attack": "Атака"
+    },
+    "Blessed Anlace": {
+      "name": "Благословенний анлас",
+      "attack": "Атака"
+    },
+    "Bloodstaff": {
+      "name": "Кровопосох",
+      "attack": "Атака"
+    },
+    "Blunderbuss": {
+      "name": "Мушкетон",
+      "attack": "Атака"
+    },
+    "Braveshield": {
+      "name": "Щит відваги",
+      "attack": "Атака"
+    },
+    "Bravesword": {
+      "name": "Меч відваги",
+      "effects": {
+        "lLM5uyDAGk3zVxoa": {
+          "name": "Відважна",
+          "description": "−1 до Ухилення; + ранг зброї до порогу Тяжкої шкоди"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Broadsword": {
+      "name": "Широкий меч",
+      "effects": {
+        "dCE1ee7imaFHNqG5": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Buckler": {
+      "name": "Баклер",
+      "actions": {
+        "i3J91scBT82JWSM1": {
+          "name": "Відбити",
+          "description": "Коли вас атакують, можна позначити комірку Броні, щоб отримати бонус до Ухилення проти цієї атаки, що дорівнює кількості доступних комірок Броні."
+        }
+      },
+      "effects": {
+        "iQdYFNjh3gM2KOJI": {
+          "name": "Відбивна",
+          "description": "Отримайте бонус до Ухилення проти атаки, що дорівнює кількості доступних комірок Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Casting Sword": {
+      "name": "Чарівний меч",
+      "attack": "Атака"
+    },
+    "Crossbow": {
+      "name": "Арбалет",
+      "attack": "Атака"
+    },
+    "Curved Dagger": {
+      "name": "Вигнутий кинджал",
+      "attack": "Атака"
+    },
+    "Cutlass": {
+      "name": "Абордажна шабля",
+      "attack": "Атака"
+    },
+    "Dagger": {
+      "name": "Кинджал",
+      "attack": "Атака"
+    },
+    "Devouring Dagger": {
+      "name": "Пожирний кинджал",
+      "attack": "Атака"
+    },
+    "Double Flail": {
+      "name": "Подвійний ціп",
+      "attack": "Атака"
+    },
+    "Dualstaff": {
+      "name": "Подвійний посох",
+      "attack": "Атака"
+    },
+    "Dual-Ended Sword": {
+      "name": "Двобічний меч",
+      "attack": "Атака"
+    },
+    "Ego Blade": {
+      "name": "Клинок его",
+      "attack": "Атака"
+    },
+    "Elder Bow": {
+      "name": "Старійшинський лук",
+      "attack": "Атака"
+    },
+    "Extended Polearm": {
+      "name": "Подовжене древкове",
+      "attack": "Атака"
+    },
+    "Finehair Bow": {
+      "name": "Лук із тонкої тятиви",
+      "effects": {
+        "mngO62y3Y6hYH7uB": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Firestaff": {
+      "name": "Вогняний посох",
+      "attack": "Атака"
+    },
+    "Flickerfly Blade": {
+      "name": "Мерехтливий клинок",
+      "effects": {
+        "jMIrOhpPUncn7dWg": {
+          "name": "Гостре крило",
+          "description": "<p>Отримайте бонус до кидків шкоди, що дорівнює вашій Спритності.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Floating Bladeshards": {
+      "name": "Ширяючі уламки клинків",
+      "effects": {
+        "T831j6kZiMnpMNmv": {
+          "name": "Потужна",
+          "description": "У разі успішної атаки киньте додаткову кістку шкоди й відкиньте найменший результат."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Fusion Gloves": {
+      "name": "Злиті рукавиці",
+      "effects": {
+        "7ltP049dqxCaedyX": {
+          "name": "Зв'язок зі зброєю",
+          "description": "<p>Отримайте бонус до кидків шкоди, що дорівнює вашому рівню.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Ghostblade": {
+      "name": "Примарний клинок",
+      "effects": {
+        "XlHX00XLEPQxMOwN": {
+          "name": "Потойбічна",
+          "description": "У разі успішної атаки можна завдати фізичної чи магічної шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Gilded Bow": {
+      "name": "Позолочений лук",
+      "attack": "Атака"
+    },
+    "Gilded Falchion": {
+      "name": "Позолочений фальшіон",
+      "attack": "Атака"
+    },
+    "Glowing Rings": {
+      "name": "Сяйні персні",
+      "attack": "Атака"
+    },
+    "Grappler": {
+      "name": "Гак-кішка",
+      "attack": "Атака"
+    },
+    "Greatbow": {
+      "name": "Великий лук",
+      "attack": "Атака"
+    },
+    "Greatstaff": {
+      "name": "Великий посох",
+      "attack": "Атака"
+    },
+    "Greatsword": {
+      "name": "Дворучний меч",
+      "effects": {
+        "1H1Bkj31KsAhMnDI": {
+          "name": "Масивна",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Halberd": {
+      "name": "Алебарда",
+      "effects": {
+        "YxaGOWcQEesO9zPR": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Hallowed Axe": {
+      "name": "Освячена сокира",
+      "attack": "Атака"
+    },
+    "Hammer of Exota": {
+      "name": "Молот Екзоти",
+      "attack": "Атака"
+    },
+    "Hammer of Wrath": {
+      "name": "Молот гніву",
+      "actions": {
+        "b9Nl6rOzaIoGUX5v": {
+          "name": "Знищити",
+          "description": "Перш ніж робити кидок атаки, можна позначити Стрес, щоб використати d20 як кістку шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Hand Cannon": {
+      "name": "Ручна гармата",
+      "attack": "Атака"
+    },
+    "Hand Crossbow": {
+      "name": "Ручний арбалет",
+      "attack": "Атака"
+    },
+    "Hand Runes": {
+      "name": "Долонні руни",
+      "attack": "Атака"
+    },
+    "Hand Sling": {
+      "name": "Ручна праща",
+      "attack": "Атака"
+    },
+    "Heavy-Frame Wheelchair": {
+      "name": "Важкий візок",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Ilmari's Rifle": {
+      "name": "Рушниця Ільмарі",
+      "attack": "Атака"
+    },
+    "Impact Gauntlet": {
+      "name": "Ударна рукавиця",
+      "attack": "Атака"
+    },
+    "Improved Arcane-Frame Wheelchair": {
+      "name": "Покращений тайний візок",
+      "effects": {
+        "1f6fFhOLwZrmA6e5": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Arcane Gauntlets": {
+      "name": "Покращені тайні рукавиці",
+      "attack": "Атака"
+    },
+    "Improved Battleaxe": {
+      "name": "Покращена бойова сокира",
+      "attack": "Атака"
+    },
+    "Improved Broadsword": {
+      "name": "Покращений широкий меч",
+      "effects": {
+        "Bq0nh6uMbsLNsKiB": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Crossbow": {
+      "name": "Покращений арбалет",
+      "attack": "Атака"
+    },
+    "Improved Cutlass": {
+      "name": "Покращена абордажна шабля",
+      "attack": "Атака"
+    },
+    "Improved Dagger": {
+      "name": "Покращений кинджал",
+      "attack": "Атака"
+    },
+    "Improved Dualstaff": {
+      "name": "Покращений подвійний посох",
+      "attack": "Атака"
+    },
+    "Improved Glowing Rings": {
+      "name": "Покращені сяйні персні",
+      "attack": "Атака"
+    },
+    "Improved Grappler": {
+      "name": "Покращена гак-кішка",
+      "attack": "Атака"
+    },
+    "Improved Greatstaff": {
+      "name": "Покращений великий посох",
+      "attack": "Атака"
+    },
+    "Improved Greatsword": {
+      "name": "Покращений дворучний меч",
+      "effects": {
+        "5yXDeMBPcGMEtSNz": {
+          "name": "Масивна",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Halberd": {
+      "name": "Покращена алебарда",
+      "effects": {
+        "POQepSxCro9T9OYT": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Hallowed Axe": {
+      "name": "Покращена освячена сокира",
+      "attack": "Атака"
+    },
+    "Improved Hand Crossbow": {
+      "name": "Покращений ручний арбалет",
+      "attack": "Атака"
+    },
+    "Improved Hand Runes": {
+      "name": "Покращені долонні руни",
+      "attack": "Атака"
+    },
+    "Improved Heavy-Frame Wheelchair": {
+      "name": "Покращений важкий візок",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Light-Frame Wheelchair": {
+      "name": "Покращений легкий візок",
+      "attack": "Атака"
+    },
+    "Improved Longbow": {
+      "name": "Покращений довгий лук",
+      "effects": {
+        "TC4yGDrnOisOpDQu": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Longsword": {
+      "name": "Покращений довгий меч",
+      "attack": "Атака"
+    },
+    "Improved Mace": {
+      "name": "Покращена булава",
+      "attack": "Атака"
+    },
+    "Improved Quarterstaff": {
+      "name": "Покращена жердина",
+      "attack": "Атака"
+    },
+    "Improved Rapier": {
+      "name": "Покращена рапіра",
+      "attack": "Атака"
+    },
+    "Improved Returning Blade": {
+      "name": "Покращений поворотний клинок",
+      "attack": "Атака"
+    },
+    "Improved Round Shield": {
+      "name": "Покращений круглий щит",
+      "effects": {
+        "pZCrWd7zLTarvEQK": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Scepter": {
+      "name": "Покращений скіпетр",
+      "attack": "Атака"
+    },
+    "Improved Shortbow": {
+      "name": "Покращений короткий лук",
+      "attack": "Атака"
+    },
+    "Improved Shortstaff": {
+      "name": "Покращений короткий посох",
+      "attack": "Атака"
+    },
+    "Improved Shortsword": {
+      "name": "Покращений короткий меч",
+      "effects": {
+        "UW2fqbhBqvnK1coG": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Small Dagger": {
+      "name": "Покращений малий кинджал",
+      "effects": {
+        "PMXG4l85UkXRf41E": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Spear": {
+      "name": "Покращений спис",
+      "attack": "Атака"
+    },
+    "Improved Tower Shield": {
+      "name": "Покращений баштовий щит",
+      "effects": {
+        "tkNEA1PO3jEFhKCa": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        },
+        "XugJeHJdnC6IymSa": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Wand": {
+      "name": "Покращений жезл",
+      "attack": "Атака"
+    },
+    "Improved Warhammer": {
+      "name": "Покращений бойовий молот",
+      "effects": {
+        "KvdwqkM3ErLxMzDq": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Whip": {
+      "name": "Покращений батіг",
+      "attack": "Атака"
+    },
+    "Keeper's Staff": {
+      "name": "Посох хранителя",
+      "effects": {
+        "Ah2Fgx3T8aARNa4N": {
+          "name": "Надійна",
+          "description": "<p>+1 до кидків атаки</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Knuckle Blades": {
+      "name": "Кастетні клинки",
+      "attack": "Атака"
+    },
+    "Knuckle Claws": {
+      "name": "Кастетні пазурі",
+      "attack": "Атака"
+    },
+    "Labrys Axe": {
+      "name": "Сокира-лабрис",
+      "effects": {
+        "vT53HtlnRIJzmU89": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Arcane-Frame Wheelchair": {
+      "name": "Легендарний тайний візок",
+      "effects": {
+        "TvsoAiqHCwgtYat1": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Arcane Gauntlets": {
+      "name": "Легендарні тайні рукавиці",
+      "attack": "Атака"
+    },
+    "Legendary Battleaxe": {
+      "name": "Легендарна бойова сокира",
+      "attack": "Атака"
+    },
+    "Legendary Broadsword": {
+      "name": "Легендарний широкий меч",
+      "effects": {
+        "7X0E1KJOFj34mC44": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Crossbow": {
+      "name": "Легендарний арбалет",
+      "attack": "Атака"
+    },
+    "Legendary Cutlass": {
+      "name": "Легендарна абордажна шабля",
+      "attack": "Атака"
+    },
+    "Legendary Dagger": {
+      "name": "Легендарний кинджал",
+      "attack": "Атака"
+    },
+    "Legendary Dualstaff": {
+      "name": "Легендарний подвійний посох",
+      "attack": "Атака"
+    },
+    "Legendary Glowing Rings": {
+      "name": "Легендарні сяйні персні",
+      "attack": "Атака"
+    },
+    "Legendary Grappler": {
+      "name": "Легендарна гак-кішка",
+      "attack": "Атака"
+    },
+    "Legendary Greatstaff": {
+      "name": "Легендарний великий посох",
+      "attack": "Атака"
+    },
+    "Legendary Greatsword": {
+      "name": "Легендарний дворучний меч",
+      "effects": {
+        "1KL9dbLMzdmDqr6X": {
+          "name": "Масивна",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Halberd": {
+      "name": "Легендарна алебарда",
+      "effects": {
+        "MmVRlnSLFWBfNJlB": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Hallowed Axe": {
+      "name": "Легендарна освячена сокира",
+      "attack": "Атака"
+    },
+    "Legendary Hand Crossbow": {
+      "name": "Легендарний ручний арбалет",
+      "attack": "Атака"
+    },
+    "Legendary Hand Runes": {
+      "name": "Легендарні долонні руни",
+      "attack": "Атака"
+    },
+    "Legendary Heavy-Frame Wheelchair": {
+      "name": "Легендарний важкий візок",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Light-Frame Wheelchair": {
+      "name": "Легендарний легкий візок",
+      "attack": "Атака"
+    },
+    "Legendary Longbow": {
+      "name": "Легендарний довгий лук",
+      "effects": {
+        "004BkCQeQzuMVGS3": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Longsword": {
+      "name": "Легендарний довгий меч",
+      "attack": "Атака"
+    },
+    "Legendary Mace": {
+      "name": "Легендарна булава",
+      "attack": "Атака"
+    },
+    "Legendary Quarterstaff": {
+      "name": "Легендарна жердина",
+      "attack": "Атака"
+    },
+    "Legendary Rapier": {
+      "name": "Легендарна рапіра",
+      "attack": "Атака"
+    },
+    "Legendary Returning Blade": {
+      "name": "Легендарний поворотний клинок",
+      "attack": "Атака"
+    },
+    "Legendary Round Shield": {
+      "name": "Легендарний круглий щит",
+      "effects": {
+        "EixxJrRHyc6kj3Wg": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Scepter": {
+      "name": "Легендарний скіпетр",
+      "attack": "Атака"
+    },
+    "Legendary Shortbow": {
+      "name": "Легендарний короткий лук",
+      "attack": "Атака"
+    },
+    "Legendary Shortstaff": {
+      "name": "Легендарний короткий посох",
+      "attack": "Атака"
+    },
+    "Legendary Shortsword": {
+      "name": "Легендарний короткий меч",
+      "effects": {
+        "ebloMf4gItx38xkZ": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Small Dagger": {
+      "name": "Легендарний малий кинджал",
+      "effects": {
+        "WAqE3sZFkTefglDq": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Spear": {
+      "name": "Легендарний спис",
+      "attack": "Атака"
+    },
+    "Legendary Tower Shield": {
+      "name": "Легендарний баштовий щит",
+      "effects": {
+        "lBJMzxdGO2nJdTQS": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        },
+        "1fgUIaXl6VQrhP7j": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Wand": {
+      "name": "Легендарний жезл",
+      "attack": "Атака"
+    },
+    "Legendary Warhammer": {
+      "name": "Легендарний бойовий молот",
+      "effects": {
+        "hKvwLqCltaPV1C7n": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Whip": {
+      "name": "Легендарний батіг",
+      "attack": "Атака"
+    },
+    "Light-Frame Wheelchair": {
+      "name": "Легкий візок",
+      "attack": "Атака"
+    },
+    "Longbow": {
+      "name": "Довгий лук",
+      "effects": {
+        "9gKDF96uId07289w": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Longsword": {
+      "name": "Довгий меч",
+      "attack": "Атака"
+    },
+    "Mace": {
+      "name": "Булава",
+      "attack": "Атака"
+    },
+    "Mage Orb": {
+      "name": "Куля мага",
+      "attack": "Атака"
+    },
+    "Magus Revolver": {
+      "name": "Револьвер мага",
+      "attack": "Атака"
+    },
+    "Meridian Cutlass": {
+      "name": "Меридіанська шабля",
+      "attack": "Атака"
+    },
+    "Midas Scythe": {
+      "name": "Коса Мідаса",
+      "actions": {
+        "A6lC0N6hQhqFTqCx": {
+          "name": "Жадібна",
+          "description": "Витратьте жменю золота, щоб отримати бонус +1 до Майстерності на кидок шкоди."
+        }
+      },
+      "effects": {
+        "zkfYb3BZcBjQJ9Bw": {
+          "name": "Жадібність",
+          "description": "<p>Витратьте жменю золота, щоб отримати бонус +1 до Майстерності для кидка шкоди.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Parrying Dagger": {
+      "name": "Кинджал для парирування",
+      "attack": "Атака"
+    },
+    "Powered Gauntlet": {
+      "name": "Посилена рукавиця",
+      "actions": {
+        "eEbxZKVYLmVRQ20C": {
+          "name": "Заряд",
+          "description": "Позначте Стрес, щоб отримати бонус +1 до Майстерності на атаку основною зброєю."
+        }
+      },
+      "effects": {
+        "U9VqbdZzzA1KZmME": {
+          "name": "Заряджена",
+          "description": "Позначте Стрес, щоб отримати бонус +1 до Майстерності на атаку основною зброєю."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Primer Shard": {
+      "name": "Уламок-запал",
+      "attack": "Атака"
+    },
+    "Quarterstaff": {
+      "name": "Жердина",
+      "attack": "Атака"
+    },
+    "Rapier": {
+      "name": "Рапіра",
+      "attack": "Атака"
+    },
+    "Retractable Saber": {
+      "name": "Складана шабля",
+      "attack": "Атака"
+    },
+    "Returning Axe": {
+      "name": "Поворотна сокира",
+      "attack": "Атака"
+    },
+    "Returning Blade": {
+      "name": "Поворотний клинок",
+      "attack": "Атака"
+    },
+    "Ricochet Axes": {
+      "name": "Рикошетні сокири",
+      "attack": "Атака"
+    },
+    "Round Shield": {
+      "name": "Круглий щит",
+      "effects": {
+        "eV4lFIpQMiKERj4U": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Runes of Ruination": {
+      "name": "Руни руйнації",
+      "attack": "Атака"
+    },
+    "Scepter": {
+      "name": "Скіпетр",
+      "attack": "Атака"
+    },
+    "Scepter of Elias": {
+      "name": "Скіпетр Еліаса",
+      "attack": "Атака"
+    },
+    "Shortbow": {
+      "name": "Короткий лук",
+      "attack": "Атака"
+    },
+    "Shortstaff": {
+      "name": "Короткий посох",
+      "attack": "Атака"
+    },
+    "Shortsword": {
+      "name": "Короткий меч",
+      "effects": {
+        "djNtNpasgNDRP8Dd": {
+          "name": "Парна",
+          "description": "<p>Додайте ранг цієї допоміжної зброї + 1 до основної зброї проти цілей у межах Впритул</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Siphoning Gauntlets": {
+      "name": "Висмоктувальні рукавиці",
+      "attack": "Атака"
+    },
+    "Sledge Axe": {
+      "name": "Кувалда-сокира",
+      "effects": {
+        "dhhIibfRBwCGZ6Ab": {
+          "name": "Руйнівна",
+          "description": "DAGGERHEART.CONFIG.WeaponFeature.destructive.effects.agility"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Small Dagger": {
+      "name": "Малий кинджал",
+      "effects": {
+        "HKh73AHxImdgxgTg": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Spear": {
+      "name": "Спис",
+      "attack": "Атака"
+    },
+    "Spiked Bow": {
+      "name": "Шипастий лук",
+      "attack": "Атака"
+    },
+    "Spiked Shield": {
+      "name": "Шипастий щит",
+      "effects": {
+        "gz2f4hmXhl7hbM6p": {
+          "name": "Подвійне призначення",
+          "description": "+1 до показника Броні; +1 до шкоди основною зброєю в межах Впритул"
+        },
+        "xLmqw1OcCztX7NI4": {
+          "name": "Подвійне призначення",
+          "description": "+1 до показника Броні; +1 до шкоди основною зброєю в межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Steelforged Halberd": {
+      "name": "Сталекута алебарда",
+      "attack": "Атака"
+    },
+    "Swinging Ropeblade": {
+      "name": "Клинок на мотузці",
+      "attack": "Атака"
+    },
+    "Sword of Light & Flame": {
+      "name": "Меч світла й полум'я",
+      "attack": "Атака"
+    },
+    "Talon Blades": {
+      "name": "Клинки-пазурі",
+      "attack": "Атака"
+    },
+    "Thistlebow": {
+      "name": "Будяковий лук",
+      "effects": {
+        "8ZoLeBzHLXsGMUci": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Tower Shield": {
+      "name": "Баштовий щит",
+      "effects": {
+        "8r0TcKWXboFV0eqS": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        },
+        "tLRc4UAnGuIq7er3": {
+          "name": "Бар'єр",
+          "description": "Отримайте ранг зброї + 1 до показника Броні; −1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Urok Broadsword": {
+      "name": "Широкий меч Урока",
+      "attack": "Атака"
+    },
+    "Wand": {
+      "name": "Жезл",
+      "attack": "Атака"
+    },
+    "Wand of Enthrallment": {
+      "name": "Жезл зачарування",
+      "actions": {
+        "weRZBt9v1kjNh6wI": {
+          "name": "Переконати",
+          "description": "Перш ніж робити кидок Присутності, можна позначити Стрес, щоб отримати бонус +2 до результату."
+        }
+      },
+      "effects": {
+        "mlgTXtMVMC83kUaZ": {
+          "name": "Переконлива",
+          "description": "Отримайте бонус +2 до кидка Присутності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Wand of Essek": {
+      "name": "Жезл Ессека",
+      "attack": "Атака"
+    },
+    "Warhammer": {
+      "name": "Бойовий молот",
+      "effects": {
+        "HT0SAlTBGKwolAOp": {
+          "name": "Важка",
+          "description": "−1 до Ухилення"
+        }
+      },
+      "attack": "Атака"
+    },
+    "War Scythe": {
+      "name": "Бойова коса",
+      "effects": {
+        "md3xTiCMlyMcKg5S": {
+          "name": "Надійна",
+          "description": "+1 до кидків атаки"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Whip": {
+      "name": "Батіг",
+      "attack": "Атака"
+    },
+    "Widogast Pendant": {
+      "name": "Підвіска Відоґаста",
+      "attack": "Атака"
+    },
+    "Yutari Bloodbow": {
+      "name": "Кровавий лук Ютарі",
+      "attack": "Атака"
+    },
+    "Adder's Fang": {
+      "name": "Ікло гадюки",
+      "actions": {
+        "1nmjsSNRC9uHl2j4": {
+          "name": "Отруйна",
+          "description": "Коли ви завдаєте цією зброєю Значної чи більшої шкоди, ціль стає тимчасово Вразливою."
+        }
+      },
+      "effects": {
+        "t6Qu6nt3bGnkTlXP": {
+          "name": "Отруйна"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Arcane Rifle": {
+      "name": "Вдосконалена тайна гвинтівка",
+      "actions": {
+        "LlGYNCSjPpaHCgkl": {
+          "name": "Прицільна",
+          "description": "Ваша атака має заваду, якщо ціль у межах Дуже близько від вас чи Впритул до одного з ваших союзників. Можна позначити Стрес, щоб ігнорувати цей штраф."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Brass Knuckles": {
+      "name": "Вдосконалений кастет",
+      "attack": "Атака"
+    },
+    "Advanced Brightsword": {
+      "name": "Вдосконалений світломеч",
+      "attack": "Атака"
+    },
+    "Advanced Casting Dagger": {
+      "name": "Вдосконалений чарівний кинджал",
+      "attack": "Атака"
+    },
+    "Advanced Enchanted Chakram": {
+      "name": "Вдосконалена зачарована чакра",
+      "actions": {
+        "avUWKAVzjRuqSuxx": {
+          "name": "Рикошет",
+          "description": "Атакуючи, можна позначити Стрес, щоб цією атакою обрати ціллю ще одне створіння в межах Дуже близько від першої цілі."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Fighting Cloak": {
+      "name": "Вдосконалений бойовий плащ",
+      "effects": {
+        "sqvQgVCVUFwF7iEK": {
+          "name": "Підбита",
+          "description": "@Resolve[@item.tier + 1|sign]{+2} до порогів шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Focus Runes": {
+      "name": "Вдосконалені руни зосередження",
+      "effects": {
+        "O9SelXMg3PlMtcnf": {
+          "name": "Зосереджена",
+          "description": "<p>+1 до шкоди основної зброї по цілях у межах Дуже близько.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Hatchet": {
+      "name": "Вдосконалений топірець",
+      "actions": {
+        "6xZol0JjA03kazRt": {
+          "name": "Добивання",
+          "description": "У разі успішної атаки основною зброєю в межах Впритул можна позначити Стрес, щоб отримати бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "effects": {
+        "s5EoYqyCvfuLNEqX": {
+          "name": "Добивання",
+          "description": "Ви маєте бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Katana": {
+      "name": "Вдосконалена катана",
+      "actions": {
+        "ioC63eYWrrjhf6fW": {
+          "name": "Швидка",
+          "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Offhand Brass Knuckles": {
+      "name": "Вдосконалений кастет для другої руки",
+      "effects": {
+        "fwIRv0JhgzaawDwF": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Rope Dart": {
+      "name": "Вдосконалений мотузяний дротик",
+      "attack": "Атака"
+    },
+    "Advanced Rune Shield": {
+      "name": "Вдосконалений рунний щит",
+      "effects": {
+        "TqOWmUMXr5RnE8fY": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Runelock Pistol": {
+      "name": "Вдосконалений рунний пістоль",
+      "actions": {
+        "a8XXgkfe64zMOY6R": {
+          "name": "Перезарядити",
+          "description": "Після атаки киньте d6. На 1 ви мусите позначити Стрес, щоб перезарядити цю зброю, перш ніж стріляти знову."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Scimitar": {
+      "name": "Вдосконалений скимітар",
+      "attack": "Атака"
+    },
+    "Advanced Shadowblade": {
+      "name": "Вдосконалений тіньовий клинок",
+      "effects": {
+        "nDm8RkYXzxv1KBmQ": {
+          "name": "Потойбічна",
+          "description": "У разі успішної атаки можна завдати фізичної чи магічної шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Advanced Throwing Knives": {
+      "name": "Вдосконалені метальні ножі",
+      "attack": "Атака"
+    },
+    "Advanced Twisted Dagger": {
+      "name": "Вдосконалений кручений кинджал",
+      "attack": "Атака"
+    },
+    "Advanced Whipsword": {
+      "name": "Вдосконалений меч-батіг",
+      "attack": "Атака"
+    },
+    "Arc Wand": {
+      "name": "Дуговий жезл",
+      "actions": {
+        "WbMKifYfcRQpDiP8": {
+          "name": "Відскок",
+          "description": "Позначте 1 чи більше Стресу, щоб влучити в стільки ж цілей у межах дальності атаки."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Arcane Rifle": {
+      "name": "Тайна гвинтівка",
+      "actions": {
+        "0BlWvjZi8EgnT6ln": {
+          "name": "Прицільна",
+          "description": "Ваша атака має заваду, якщо ціль у межах Дуже близько від вас чи Впритул до одного з ваших союзників. Можна позначити Стрес, щоб ігнорувати цей штраф."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Arquebus": {
+      "name": "Аркебуза",
+      "actions": {
+        "t1BgFF5IT0L1QHGM": {
+          "name": "Перезарядити",
+          "description": "Після атаки киньте d6. На 1 ви мусите позначити Стрес, щоб перезарядити цю зброю, перш ніж стріляти знову."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Bec de Corbin": {
+      "name": "Бек-де-корбен",
+      "actions": {
+        "hsPKe9xRQlcMwR9v": {
+          "name": "Знищити",
+          "description": "Перш ніж робити кидок атаки, можна позначити Стрес, щоб використати d20 як кістку шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Black Powder Serpentine": {
+      "name": "Порохівний серпантин",
+      "actions": {
+        "pkg1z8LU5URZsQIe": {
+          "name": "Запальна",
+          "description": "У разі успішної атаки всі створіння в межах Дуже близько від цілі мусять позначити Очко здоров'я."
+        }
+      },
+      "effects": {
+        "DQcdvMkGHEUycaBv": {
+          "name": "Запальна",
+          "description": "−1 до Спритності."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Blackblood Tendril": {
+      "name": "Чорнокровний вусик",
+      "attack": "Атака"
+    },
+    "Bladed Fan": {
+      "name": "Віяло з лезами",
+      "actions": {
+        "KrXsIpyvPDci7gXH": {
+          "name": "Парирування",
+          "description": "Коли вас атакують, киньте кості шкоди цієї зброї. Якщо на будь-якій кістці шкоди нападника випало те саме значення, що й на ваших, збіжні результати відкидаються з костей шкоди нападника, перш ніж підрахувати отриману вами шкоду."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Bladed Star": {
+      "name": "Зірка з лезами",
+      "attack": "Атака"
+    },
+    "Blitz Hammer": {
+      "name": "Бліц-молот",
+      "actions": {
+        "1KG5ZPmXmH5X7GVe": {
+          "name": "Прискорювач",
+          "description": "Раз на сцену позначте Стрес, щоб переміститися на відстань Далеко, а потім атакувати. Отримайте бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "effects": {
+        "pAY6jFShsLHNjnRg": {
+          "name": "Прискорювач",
+          "description": "<p>Отримайте бонус +1 до Майстерності для цієї атаки.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Brass Knuckles": {
+      "name": "Кастет",
+      "attack": "Атака"
+    },
+    "Brightsword": {
+      "name": "Світломеч",
+      "attack": "Атака"
+    },
+    "Cane Sword": {
+      "name": "Меч-тростина",
+      "attack": "Атака"
+    },
+    "Casting Dagger": {
+      "name": "Чарівний кинджал",
+      "attack": "Атака"
+    },
+    "Chained Scythe": {
+      "name": "Ланцюгова коса",
+      "actions": {
+        "oS1KZo6N8KzUMxgt": {
+          "name": "Швидка",
+          "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Clockwork Crossbow": {
+      "name": "Механічний арбалет",
+      "actions": {
+        "L7gm9rLjSswDoeg6": {
+          "name": "Швидка",
+          "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Collapsible Baton": {
+      "name": "Складаний кийок",
+      "attack": "Атака"
+    },
+    "Crystal Spear": {
+      "name": "Кришталевий спис",
+      "attack": "Атака"
+    },
+    "Cyrurgien's Scalpel": {
+      "name": "Скальпель цирюльника",
+      "actions": {
+        "mmsWOr3NPsbUM4TB": {
+          "name": "Налякати",
+          "description": "У разі успішної атаки ціль мусить позначити Стрес."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Demon's Edge": {
+      "name": "Лезо демона",
+      "actions": {
+        "HZfWsLRQkSlCt8iV": {
+          "name": "Тривожна",
+          "description": "Коли ви перемагаєте створіння цією зброєю, усі супротивники в межах Близько мусять позначити Стрес."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Displacement Razor": {
+      "name": "Бритва зміщення",
+      "attack": "Атака"
+    },
+    "Echo Blade": {
+      "name": "Клинок відлуння",
+      "actions": {
+        "NO0cfOXGO0Z3vTwd": {
+          "name": "Подвоїти",
+          "description": "Атакуючи основною зброєю, можна завдати шкоди ще одній цілі в межах Впритул."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Eldritch Vambrace": {
+      "name": "Потойбічний наруч",
+      "actions": {
+        "eXTjCN7FiPPIG68X": {
+          "name": "Відбити",
+          "description": "Коли вас атакують, можна позначити комірку Броні, щоб отримати бонус до Ухилення проти цієї атаки, що дорівнює кількості доступних комірок Броні."
+        }
+      },
+      "effects": {
+        "ZTLJvEHo5LQa1Pla": {
+          "name": "Відбивна",
+          "description": "Отримайте бонус до Ухилення проти атаки, що дорівнює кількості доступних комірок Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Enchanted Chakram": {
+      "name": "Зачарована чакра",
+      "actions": {
+        "oK1CHBxZLcmM37jR": {
+          "name": "Рикошет",
+          "description": "Атакуючи, можна позначити Стрес, щоб цією атакою обрати ціллю ще одне створіння в межах Дуже близько від першої цілі."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Enchanted Lute": {
+      "name": "Зачарована лютня",
+      "actions": {
+        "EIwNjlroQWthm07Q": {
+          "name": "Підбадьорити",
+          "description": "У разі успішної атаки киньте d4. На 4 очистьте Стрес."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Enchanted Shillelagh": {
+      "name": "Зачарований шилейла",
+      "effects": {
+        "tL0mow5BGsYS4wPp": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Ethereal Zweihänder": {
+      "name": "Ефірний цвайгандер",
+      "actions": {
+        "XdQBnYfIX5Km5KqU": {
+          "name": "Ефірна",
+          "description": "Щоб закликати цю зброю, треба позначити Стрес. Вона існує до кінця сцени."
+        }
+      },
+      "effects": {
+        "MnQKsDs3DCwlqUQs": {
+          "name": "Ефірна",
+          "description": "Ця зброя існує до кінця сцени."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Fighting Cloak": {
+      "name": "Бойовий плащ",
+      "effects": {
+        "CxilXxOVfmo18wTL": {
+          "name": "Підбита",
+          "description": "@Resolve[@item.tier + 1|sign]{+2} до порогів шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Focus Runes": {
+      "name": "Руни зосередження",
+      "effects": {
+        "vJzsPmp4JkV4QTDm": {
+          "name": "Зосереджена",
+          "description": "<p>+1 до шкоди основної зброї по цілях у межах Дуже близько.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Fury Gem": {
+      "name": "Самоцвіт люті",
+      "actions": {
+        "XpE38Dn617zBvsiX": {
+          "name": "Опік",
+          "description": "Коли на кістці шкоди випадає 6, ціль мусить позначити Стрес."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Gravity Arbalest": {
+      "name": "Гравітаційний арбалет",
+      "actions": {
+        "R0DsdoMfAJNfGLy5": {
+          "name": "Магнітна",
+          "description": "Атакуючи цією зброєю, можна витратити Надію, щоб змусити всіх супротивників у межах Дуже близько від цілі зробити кидок реакції (16). Ті, хто провалить, мусять позначити Стрес і притягуються на відстань Впритул до цілі."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Gunblade": {
+      "name": "Ганблейд",
+      "attack": "Атака"
+    },
+    "Hatchet": {
+      "name": "Топірець",
+      "actions": {
+        "9rorDndpgEXMAnaf": {
+          "name": "Добивання",
+          "description": "У разі успішної атаки основною зброєю в межах Впритул можна позначити Стрес, щоб отримати бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "effects": {
+        "cLwG6tOV7LaFZDiF": {
+          "name": "Добивання",
+          "description": "<p>Ви маєте бонус +1 до Майстерності для цієї атаки.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Arcane Rifle": {
+      "name": "Покращена тайна гвинтівка",
+      "actions": {
+        "wfUJ95m1Numktbyc": {
+          "name": "Прицільна",
+          "description": "Ваша атака має заваду, якщо ціль у межах Дуже близько від вас чи Впритул до одного з ваших союзників. Можна позначити Стрес, щоб ігнорувати цей штраф."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Brass Knuckles": {
+      "name": "Покращений кастет",
+      "attack": "Атака"
+    },
+    "Improved Brightsword": {
+      "name": "Покращений світломеч",
+      "attack": "Атака"
+    },
+    "Improved Casting Dagger": {
+      "name": "Покращений чарівний кинджал",
+      "attack": "Атака"
+    },
+    "Improved Enchanted Chakram": {
+      "name": "Покращена зачарована чакра",
+      "actions": {
+        "63LHxPGiZnKndZ6C": {
+          "name": "Рикошет",
+          "description": "Атакуючи, можна позначити Стрес, щоб цією атакою обрати ціллю ще одне створіння в межах Дуже близько від першої цілі."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Fighting Cloak": {
+      "name": "Покращений бойовий плащ",
+      "effects": {
+        "CodCGSBBAQufpUJ4": {
+          "name": "Підбита",
+          "description": "<p>@Resolve[@item.tier + 1|sign]{+2} до порогів шкоди.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Focus Runes": {
+      "name": "Покращені руни зосередження",
+      "effects": {
+        "EBYlSiZrmwPd5G2J": {
+          "name": "Зосереджена",
+          "description": "<p>+1 до шкоди основної зброї по цілях у межах Дуже близько.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Hatchet": {
+      "name": "Покращений топірець",
+      "actions": {
+        "PPMmt3MyqylWoBPQ": {
+          "name": "Добивання",
+          "description": "У разі успішної атаки основною зброєю в межах Впритул можна позначити Стрес, щоб отримати бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "effects": {
+        "bNAAyWfT5h6KTW0b": {
+          "name": "Добивання",
+          "description": "Ви маєте бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Katana": {
+      "name": "Покращена катана",
+      "actions": {
+        "Ph7QtVYXhBfHFl0D": {
+          "name": "Швидка",
+          "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Offhand Brass Knuckles": {
+      "name": "Покращений кастет для другої руки",
+      "effects": {
+        "K54TvFYeqh9tvGSS": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Rope Dart": {
+      "name": "Покращений мотузяний дротик",
+      "attack": "Атака"
+    },
+    "Improved Rune Shield": {
+      "name": "Покращений рунний щит",
+      "effects": {
+        "2GJFRy7hXnzFe0Rz": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Runelock Pistol": {
+      "name": "Покращений рунний пістоль",
+      "actions": {
+        "PP0Je3qdGdhYu53K": {
+          "name": "Перезарядити",
+          "description": "Після атаки киньте d6. На 1 ви мусите позначити Стрес, щоб перезарядити цю зброю, перш ніж стріляти знову."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Scimitar": {
+      "name": "Покращений скимітар",
+      "attack": "Атака"
+    },
+    "Improved Shadowblade": {
+      "name": "Покращений тіньовий клинок",
+      "effects": {
+        "V0e5hnCsPQQ3Tope": {
+          "name": "Потойбічна",
+          "description": "У разі успішної атаки можна завдати фізичної чи магічної шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Improved Throwing Knives": {
+      "name": "Покращені метальні ножі",
+      "attack": "Атака"
+    },
+    "Improved Twisted Dagger": {
+      "name": "Покращений кручений кинджал",
+      "attack": "Атака"
+    },
+    "Improved Whipsword": {
+      "name": "Покращений меч-батіг",
+      "attack": "Атака"
+    },
+    "Infinite Staff": {
+      "name": "Нескінченний посох",
+      "attack": "Атака"
+    },
+    "Javelins": {
+      "name": "Дротики",
+      "attack": "Атака"
+    },
+    "Katana": {
+      "name": "Катана",
+      "actions": {
+        "gvtWBJWDlKyv1XyC": {
+          "name": "Швидка",
+          "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Lance": {
+      "name": "Лицарський спис",
+      "effects": {
+        "zj1ddWCXh6TuGr3c": {
+          "name": "Незграбна",
+          "description": "−1 до Вправності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Arcane Rifle": {
+      "name": "Легендарна тайна гвинтівка",
+      "actions": {
+        "hYAHv9sRJB8FhWyF": {
+          "name": "Прицільна",
+          "description": "Ваша атака має заваду, якщо ціль у межах Дуже близько від вас чи Впритул до одного з ваших союзників. Можна позначити Стрес, щоб ігнорувати цей штраф."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Brass Knuckles": {
+      "name": "Легендарний кастет",
+      "attack": "Атака"
+    },
+    "Legendary Brightsword": {
+      "name": "Легендарний світломеч",
+      "attack": "Атака"
+    },
+    "Legendary Casting Dagger": {
+      "name": "Легендарний чарівний кинджал",
+      "attack": "Атака"
+    },
+    "Legendary Enchanted Chakram": {
+      "name": "Легендарна зачарована чакра",
+      "actions": {
+        "DgcClkP4KaQpNhUD": {
+          "name": "Рикошет",
+          "description": "Атакуючи, можна позначити Стрес, щоб цією атакою обрати ціллю ще одне створіння в межах Дуже близько від першої цілі."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Fighting Cloak": {
+      "name": "Легендарний бойовий плащ",
+      "effects": {
+        "GrtsRfCZH1IOkgje": {
+          "name": "Підбита",
+          "description": "@Resolve[@item.tier + 1|sign]{+2} до порогів шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Focus Runes": {
+      "name": "Легендарні руни зосередження",
+      "effects": {
+        "urUpY16MvP1UGWyK": {
+          "name": "Зосереджена",
+          "description": "<p>+1 до шкоди основної зброї по цілях у межах Дуже близько.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Hatchet": {
+      "name": "Легендарний топірець",
+      "actions": {
+        "sE7LyJkbAZMXTGH3": {
+          "name": "Добивання",
+          "description": "У разі успішної атаки основною зброєю в межах Впритул можна позначити Стрес, щоб отримати бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "effects": {
+        "r37xG24Qrx3q4ObR": {
+          "name": "Добивання",
+          "description": "Ви маєте бонус +1 до Майстерності на цю атаку."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Katana": {
+      "name": "Легендарна катана",
+      "actions": {
+        "VJCNMcl7MoJWwuFl": {
+          "name": "Швидка",
+          "description": "Атакуючи, можна позначити Стрес, щоб обрати ціллю ще одне створіння в межах дальності."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Offhand Brass Knuckles": {
+      "name": "Легендарний кастет для другої руки",
+      "effects": {
+        "5vwZnbIvZmUi4tZM": {
+          "name": "Парна",
+          "description": "Додайте ранг цієї допоміжної зброї + 1 до шкоди основною зброєю по цілях у межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Rope Dart": {
+      "name": "Легендарний мотузяний дротик",
+      "attack": "Атака"
+    },
+    "Legendary Rune Shield": {
+      "name": "Легендарний рунний щит",
+      "effects": {
+        "rTFu4NUuHm9UiJr6": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Runelock Pistol": {
+      "name": "Легендарний рунний пістоль",
+      "actions": {
+        "F5YMvafEsSwp8pqU": {
+          "name": "Перезарядити",
+          "description": "Після атаки киньте d6. На 1 ви мусите позначити Стрес, щоб перезарядити цю зброю, перш ніж стріляти знову."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Scimitar": {
+      "name": "Легендарний скимітар",
+      "attack": "Атака"
+    },
+    "Legendary Shadowblade": {
+      "name": "Легендарний тіньовий клинок",
+      "effects": {
+        "UHHgw8PZ4LfJ9d2f": {
+          "name": "Потойбічна",
+          "description": "У разі успішної атаки можна завдати фізичної чи магічної шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Legendary Throwing Knives": {
+      "name": "Легендарні метальні ножі",
+      "attack": "Атака"
+    },
+    "Legendary Twisted Dagger": {
+      "name": "Легендарний кручений кинджал",
+      "attack": "Атака"
+    },
+    "Legendary Whipsword": {
+      "name": "Легендарний меч-батіг",
+      "attack": "Атака"
+    },
+    "Möbius Orb": {
+      "name": "Куля Мебіуса",
+      "attack": "Атака"
+    },
+    "Offhand Brass Knuckles": {
+      "name": "Кастет для другої руки",
+      "effects": {
+        "I3wflHo4lw4LE4Gu": {
+          "name": "Парна",
+          "description": "<p>Додайте ранг цієї допоміжної зброї + 1 до основної зброї проти цілей у межах Впритул</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Platinum Estoc": {
+      "name": "Платиновий есток",
+      "attack": "Атака"
+    },
+    "Razor Wire": {
+      "name": "Колючий дріт",
+      "actions": {
+        "WEj9asBFTeuvpcgu": {
+          "name": "Обплутувальна",
+          "description": "У разі успішної атаки основною зброєю проти цілі в межах Дуже близько можна витратити Надію, щоб зробити ціль тимчасово Вразливою."
+        }
+      },
+      "effects": {
+        "HzbHFY6UixXLRSNu": {
+          "name": "Обплутувальна"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Rime Scepter": {
+      "name": "Інеєвий скіпетр",
+      "actions": {
+        "LYqVHYFcuJlf6omC": {
+          "name": "Морозна",
+          "description": "Коли атака цією зброєю змушує ціль позначити 2 чи більше ОЗ, ціль стає тимчасово Скутою."
+        }
+      },
+      "effects": {
+        "2iYaP8XdKTfwBw6A": {
+          "name": "Морозна"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Rocket Maul": {
+      "name": "Ракетний молот",
+      "actions": {
+        "xd2N3IRFkGcy9byh": {
+          "name": "Приголомшити",
+          "description": "У разі успішної атаки можна витратити Надію, щоб відкинути ціль на відстань Далеко."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Rope Dart": {
+      "name": "Мотузяний дротик",
+      "attack": "Атака"
+    },
+    "Rune Shield": {
+      "name": "Рунний щит",
+      "effects": {
+        "fvnsHVPTnaKhNLjH": {
+          "name": "Захисна",
+          "description": "Додайте @Resolve[@item.itemFeatures.protective.config.value|sign]{ранг предмета} до показника Броні"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Runelock Pistol": {
+      "name": "Рунний пістоль",
+      "actions": {
+        "BSjjwnxjP7knntm9": {
+          "name": "Перезарядити",
+          "description": "Після атаки киньте d6. На 1 ви мусите позначити Стрес, щоб перезарядити цю зброю, перш ніж стріляти знову."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Scimitar": {
+      "name": "Скимітар",
+      "attack": "Атака"
+    },
+    "Segmented Staff": {
+      "name": "Сегментований посох",
+      "effects": {
+        "DQ783nkboRdHiAdK": {
+          "name": "Подвійне призначення",
+          "description": "+1 до показника Броні; +1 до шкоди основною зброєю в межах Впритул"
+        },
+        "iNCNhj2WdjpeJ0WX": {
+          "name": "Подвійне призначення",
+          "description": "+1 до показника Броні; +1 до шкоди основною зброєю в межах Впритул"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Severed Dragon Claw": {
+      "name": "Відрубаний драконячий пазур",
+      "actions": {
+        "BoXPTrrbKLZ2ZnHf": {
+          "name": "Руйнування",
+          "description": "У разі успішної атаки всі супротивники в межах Дуже близько мусять позначити Стрес."
+        }
+      },
+      "effects": {
+        "BKjcjKaFtV4IGfe5": {
+          "name": "Руйнівна",
+          "description": "−1 до Спритності"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Shadowblade": {
+      "name": "Тіньовий клинок",
+      "effects": {
+        "z6IGOsdYUMPgaHMs": {
+          "name": "Потойбічна",
+          "description": "У разі успішної атаки можна завдати фізичної чи магічної шкоди."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Singing Sword": {
+      "name": "Співочий меч",
+      "actions": {
+        "tD3OR33TwHpqDyGy": {
+          "name": "Підбадьорлива",
+          "description": "Коли ви отримуєте критичний успіх в атаці, усі ПГ у межах Близько отримують Надію."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Soldier's Pike": {
+      "name": "Солдатська піка",
+      "actions": {
+        "Y5HGiYOQ5Nd3W4zo": {
+          "name": "Упор",
+          "description": "Коли супротивник у межах дальності цієї зброї завдає вам шкоди, можна позначити 2 Стресу, щоб змусити його позначити Очко здоров'я."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Soul Chain": {
+      "name": "Ланцюг душі",
+      "actions": {
+        "cGTB3G8sp5XZhucX": {
+          "name": "Виснажлива",
+          "description": "У разі успішної атаки можна витратити Надію, щоб змусити ціль позначити Стрес. Тоді ви очищаєте Стрес."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Spellbound Bangles": {
+      "name": "Зачаровані браслети",
+      "attack": "Атака"
+    },
+    "Splintershaft Bow": {
+      "name": "Лук-скалкострій",
+      "attack": "Атака"
+    },
+    "Staff of Augma": {
+      "name": "Посох Аугми",
+      "actions": {
+        "fdXtuFA7Sy6r2GOw": {
+          "name": "Каталітична",
+          "description": "У разі успішної атаки можна позначити Стрес, щоб дати союзникові в межах Близько бонус +3 до його наступного кидка атаки."
+        }
+      },
+      "effects": {
+        "Nqr49MytiiDO6mRq": {
+          "name": "Каталітична",
+          "description": "Ви маєте бонус +3 до наступного кидка атаки."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Starmetal Blade": {
+      "name": "Клинок із зоряного металу",
+      "attack": "Атака"
+    },
+    "Storm God's Greataxe": {
+      "name": "Велика сокира бога бурі",
+      "actions": {
+        "go6bchi8pFs20jTQ": {
+          "name": "Відскок",
+          "description": "Позначте 1 чи більше Стресу, щоб влучити в стільки ж цілей у межах дальності атаки."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Throwing Knives": {
+      "name": "Метальні ножі",
+      "attack": "Атака"
+    },
+    "Tinker's Hammer": {
+      "name": "Молот майстра",
+      "effects": {
+        "RuT7WwcbaHVqK6it": {
+          "name": "Вірна",
+          "description": "<p>+1 до кидків атаки основною зброєю.</p>"
+        }
+      },
+      "attack": "Атака"
+    },
+    "Twisted Dagger": {
+      "name": "Кручений кинджал",
+      "attack": "Атака"
+    },
+    "Void Needle": {
+      "name": "Голка порожнечі",
+      "attack": "Атака"
+    },
+    "Vorpal Shard": {
+      "name": "Ворпальний уламок",
+      "actions": {
+        "lwtLR9xWsREAonue": {
+          "name": "Прицільна",
+          "description": "Коли атака зброєю невдала, можна витратити Надію, щоб досягти успіху в наступній атаці зброєю."
+        }
+      },
+      "attack": "Атака"
+    },
+    "War Dart": {
+      "name": "Бойовий дротик",
+      "attack": "Атака"
+    },
+    "War Pick": {
+      "name": "Бойовий клевець",
+      "actions": {
+        "cLnI9hFkRUgW3VlN": {
+          "name": "Смертоносна",
+          "description": "Коли ви завдаєте Тяжкої шкоди, ціль мусить позначити додаткове ОЗ."
+        }
+      },
+      "attack": "Атака"
+    },
+    "Whipsword": {
+      "name": "Меч-батіг",
+      "attack": "Атака"
+    }
+  }
+}

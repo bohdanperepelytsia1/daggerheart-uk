@@ -1,0 +1,8 @@
+{
+  "name": "daggerheart-uk",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "generate:originals": "node scripts/generate_originals.js"
+  }
+}
