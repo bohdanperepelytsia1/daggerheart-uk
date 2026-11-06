@@ -13,36 +13,36 @@
   },
   "entries": {
     "Random Objectives": {
-      "name": "Random Objectives",
-      "formulaName": "Roll Formula",
+      "name": "Випадкові цілі",
+      "formulaName": "Формула кидка",
       "results": {
-        "1-1": "<p>Acquire (obtain or steal) an important item or items.</p>",
-        "2-2": "<p>Capture one or more of the opponents.</p>",
-        "3-3": "<p>Activate a magical device.</p>",
-        "4-4": "<p>Frame a character or tarnish their reputation.</p>",
-        "5-5": "<p>Drive the opponent into a corner or ambush point.</p>",
-        "6-6": "<p>Stop a magical ritual, legal ceremony, or time-sensitive spell.</p>",
-        "7-7": "<p>Hold the line—keep the enemy from reaching a specific area or group.</p>",
-        "8-8": "<p>Plant evidence or a tracking device on a target.</p>",
-        "9-9": "<p>Secure a specific location ahead of another group’s arrival.</p>",
-        "10-10": "<p>Harass the opponent to deplete their resources or keep them occupied.</p>",
-        "11-11": "<p>Destroy a piece of architecture, a statue, a shrine, or a weapon.</p>",
-        "12-12": "<p>Investigate a situation to confirm or deny existing information.</p>"
+        "1-1": "<p>Здобути (отримати чи вкрасти) важливий предмет чи предмети.</p>",
+        "2-2": "<p>Захопити одного чи кількох супротивників.</p>",
+        "3-3": "<p>Активувати магічний пристрій.</p>",
+        "4-4": "<p>Підставити персонажа чи заплямувати його репутацію.</p>",
+        "5-5": "<p>Загнати супротивника в кут чи в засідку.</p>",
+        "6-6": "<p>Зупинити магічний ритуал, юридичну церемонію чи заклинання, обмежене в часі.</p>",
+        "7-7": "<p>Утримати рубіж — не дати ворогові дістатися певної ділянки чи групи.</p>",
+        "8-8": "<p>Підкинути докази чи пристрій стеження на ціль.</p>",
+        "9-9": "<p>Захопити певне місце раніше, ніж туди прибуде інша група.</p>",
+        "10-10": "<p>Дошкуляти супротивнику, щоб виснажити його ресурси чи тримати його зайнятим.</p>",
+        "11-11": "<p>Зруйнувати споруду, статую, святиню чи зброю.</p>",
+        "12-12": "<p>Розслідувати ситуацію, щоб підтвердити чи спростувати наявні відомості.</p>"
       }
     },
     "Additional Consumables": {
-      "name": "Additional Consumables",
-      "description": "<p>The following table includes the consumables from the Hope &amp; Fear Expansion Set.</p>",
-      "formulaName": "Common",
+      "name": "Додаткові витратні речі",
+      "description": "<p>У цій таблиці — витратні речі з розширення Hope &amp; Fear.</p>",
+      "formulaName": "Звичайні",
       "altFormula": {
         "RKxWr9XX7zRPQGDD": {
-          "name": "Common/Uncommon"
+          "name": "Звичайні/незвичайні"
         },
         "XAVgCBgN4ituTp2H": {
-          "name": "Uncommon/Rare"
+          "name": "Незвичайні/рідкісні"
         },
         "MhStccGw337INEiH": {
-          "name": "Rare/Legendary"
+          "name": "Рідкісні/легендарні"
         },
         "7cpKCeqcmuMniqQ3": {
           "name": "Легендарна"
@@ -50,37 +50,37 @@
       }
     },
     "Additional Items": {
-      "name": "Additional Items",
-      "description": "<p>The following table includes the items from the Hope &amp; Fear Expansion Set.</p>",
-      "formulaName": "Common",
+      "name": "Додаткові предмети",
+      "description": "<p>У цій таблиці — предмети з розширення Hope &amp; Fear.</p>",
+      "formulaName": "Звичайні",
       "altFormula": {
         "vN7tM7NoAFOKp6lg": {
-          "name": "Common/Uncommon"
+          "name": "Звичайні/незвичайні"
         },
         "WCBoCAi8GmQlqHln": {
-          "name": "Uncommon/Rare"
+          "name": "Незвичайні/рідкісні"
         },
         "2ju4ySAWXmyvb2Y5": {
-          "name": "Rare/Legendary"
+          "name": "Рідкісні/легендарні"
         },
         "Pu1yAAOGuej37qcL": {
-          "name": "Legenary"
+          "name": "Легендарні"
         }
       }
     },
     "Core Set Consumables": {
-      "name": "Core Set Consumables",
-      "description": "<p>The following table includes the consumables from the Daggerheart Core Set.</p>",
-      "formulaName": "Common",
+      "name": "Витратні речі основного набору",
+      "description": "<p>У цій таблиці — витратні речі з основного набору Daggerheart.</p>",
+      "formulaName": "Звичайні",
       "altFormula": {
         "FGxM2yoxUUUd9Eov": {
-          "name": "Common/Uncommon"
+          "name": "Звичайні/незвичайні"
         },
         "Gq6mOIPwSCiJDs9G": {
-          "name": "Uncommon/Rare"
+          "name": "Незвичайні/рідкісні"
         },
         "siQEVVIEI3QS0tjG": {
-          "name": "Rare/Legendary"
+          "name": "Рідкісні/легендарні"
         },
         "0IzFB1jGWCR7TzTT": {
           "name": "Легендарна"
@@ -88,18 +88,18 @@
       }
     },
     "Core Set Items": {
-      "name": "Core Set Items",
-      "description": "<p>The following table includes the items from the Daggerheart Core Set.</p>",
-      "formulaName": "Common",
+      "name": "Предмети основного набору",
+      "description": "<p>У цій таблиці — предмети з основного набору Daggerheart.</p>",
+      "formulaName": "Звичайні",
       "altFormula": {
         "yDVeXdKpG7LzjHWa": {
-          "name": "Common/Uncommon"
+          "name": "Звичайні/незвичайні"
         },
         "AfKdabeXI6EbeRuZ": {
-          "name": "Uncommon/Rare"
+          "name": "Незвичайні/рідкісні"
         },
         "DZdKW5ZD1HFhWrEh": {
-          "name": "Rare/Legendary"
+          "name": "Рідкісні/легендарні"
         },
         "lbOwKKz4Bwl82khb": {
           "name": "Легендарна"

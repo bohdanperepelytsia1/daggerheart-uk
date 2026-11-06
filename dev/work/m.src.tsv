@@ -1,0 +1,703 @@
+m0000	This Document is the SRD Reference for Daggerheart. It is not specific to Foundry or this system implementation of Daggerheart. A lot of concepts do not apply when playing Daggerheart in Foundry.
+m0001	To quickly look up Daggerheart’s rules-as-written during gameplay sessions.
+m0002	To ensure any homebrew content you create or publish conforms with Daggerheart’s core ruleset.
+m0003	To provide copy text made available by Darrington Press for your own publications under their Community Gaming License (www.darringtonpress.com/license).
+m0004	To better understand the mechanics of Daggerheart, absent the flavor and setting information, so you can bend or break them in the process of making your own content.
+m0005	Select a class and take its corresponding character sheet and character guide printouts. These sheets are for recording your PC’s details; you’ll update and reference them throughout the campaign.
+m0006	Every class begins with one or more unique class feature(s), described at the bottom left of each class’s character sheet. If your class feature prompts you to make a selection, do so now.
+m0007	Choose a Subclass Subclasses further refine a class archetype and reinforce its expression by granting access to unique subclass features. Each class comprises two subclasses. Select one of your class’s subclasses and take its Foundation card.
+m0008	A character’s ancestry reflects their lineage, impacting their physicality and granting them two unique ancestry features. Take the card for one of the following ancestries, then write its name in the Heritage field of your character sheet: Clank, Drakona, Dwarf, Elf, Faerie, Faun, Firbolg, Fungril, Galapa, Giant, Goblin, Halfling, Human, Infernis, Katari, Orc, Ribbet, Simiah. To create a Mixed Ancestry, take the top (first-listed) ancestry feature from one ancestry and the bottom (second-listed) ancestry feature from another.
+m0009	Your character’s community represents their culture or environment of origin and grants them a community feature. Take the card for one of the following communities, then write its name in the Heritage field of your character sheet: Highborne, Loreborne, Orderborne, Ridgeborne, Seaborne, Slyborne, Underborne, Wanderborne, Wildborne.
+m0010	Agility (Use it to Sprint, Leap, Maneuver,etc.)
+m0011	Strength (Use it to Lift, Smash, Grapple, etc.)
+m0012	Finesse (Use it to Control, Hide, Tinker, etc.)
+m0013	Instinct (Use it to Perceive, Sense, Navigate, etc.)
+m0014	Presence (Use it to Charm, Perform, Deceive, etc.)
+m0015	Knowledge (Use it to Recall, Analyze, Comprehend, etc.)
+m0016	Characters start a new campaign at Level 1. Record your level in the designated space at the top of your character sheet.
+m0017	Evasion represents your character’s ability to avoid damage. Your character’s starting Evasion is determined by their class and appears directly beneath the Evasion field on your character sheet; copy this number into the Evasion field.
+m0018	Hit Points (HP) are an abstract measure of your physical health. Your starting HP is determined by your class and is recorded on your character sheet.
+m0019	Stress reflects your ability to withstand the mental and emotional strain of dangerous situations and physical exertion. Every PC starts with 6 Stress slots.
+m0020	Hope is a metacurrency that fuels special moves and certain abilities or features. All PCs start with 2 Hope; mark these in the Hope field of your character sheet.
+m0021	Select from the Tier 1 Weapon Tables. Either a two- handed primary weapon or a one-handed primary weapon and a one-handed secondary weapon. Then equip your selection by recording it in the Active Weapon field of your character sheet.
+m0022	At Level 1, your Proficiency is 1; write this number in the Proficiency field on your character sheet, then calculate and record your damage roll by combining your Proficiency value with your equipped weapon(s) damage dice.
+m0023	Example: If your Proficiency is 1 and your weapon’s damage dice is d6+1, your damage roll is 1d6+1. Proficiency only determines how many damage dice you roll, and does not affect any flat damage modifiers.
+m0024	Choose and equip one set of armor from the Tier 1 Armor Table, then record its details in the Active Armor field of your character sheet.
+m0025	Add your character’s level to your equipped armor’s Base Thresholds and record the total for both numbers in the corresponding fields. At character creation, your level is 1.
+m0026	Record your Armor Score in the field at the top left of your character sheet. Your Armor Score is equal to your equipped armor’s Base Score plus any permanent bonuses your character has to their Armor Score from other abilities, features, or effects.
+m0027	A torch, 50 feet of rope, basic supplies, and a handful of gold (mark one box in the left-hand column of your character sheet titled “Gold &gt; Handfuls”)
+m0028	EITHER a Minor Health Potion (clear 1d4 Hit Points) OR a Minor Stamina Potion (clear 1d4 Stress)
+m0029	One of the class-specific items listed on your character guide
+m0030	If applicable, whichever class-specific item you selected to carry your spells
+m0031	Any other GM-approved items you’d like to have at the start of the game
+m0032	<strong>Note</strong>: Your background has no explicit mechanical effect, but it greatly affects the character you’ll play and the prep the GM will do. Throughout character creation, you can adjust choices you made in earlier steps to better reflect this background as your character takes shape. If you wish, you can leave your character’s past more ambiguous for the time being and discover their backstory through play.
+m0033	Your PC gets two Experiences at character creation, each with a +2 modifier.
+m0034	There’s no set list of Experiences to choose from, but an Experience can’t be too broadly applicable and it can’t grant your character specific mechanical benefits, such as magic spells or special abilities. For example, “Lucky” and “Highly Skilled” are too broad, because they could be applied to virtually any roll. Likewise, “Supersonic Flight” and “Invulnerable” imply game-breaking special abilities.
+m0035	Go around the table and have each player describe their characters to one another—at a minimum, their name, pronouns, character description, experiences, and the answers to their background questions.
+m0036	Discuss potential connections between the PCs using the questions included in the “Connections” section of your character guide as inspiration.
+m0037	Suggest at least one connection between your character and each other player’s PC. Accept any suggested connections you want to explore, reject any you don’t.
+m0038	<strong>Note</strong>: A player can reject a suggested connection for any reason, and it’s okay if there isn’t an established connection between every pair of PCs—you can always discover and develop those relationships through play.
+m0039	<strong>Bard</strong>: Codex &amp; Grace
+m0040	<strong>Druid</strong>: Arcana &amp; Sage
+m0041	<strong>Guardian</strong>: Blade &amp; Valor
+m0042	<strong>Ranger</strong>: Bone &amp; Sage
+m0043	<strong>Rogue</strong>: Grace &amp; Midnight
+m0044	<strong>Seraph</strong>: Splendor &amp; Valor
+m0045	<strong>Sorcerer</strong>: Arcana &amp; Midnight
+m0046	<strong>Warrior</strong>: Blade &amp; Bone
+m0047	<strong>Wizard</strong>: Codex &amp; Splendor
+m0048	The number in the top left of the card indicates the card’s level. You cannot acquire a domain card with a level higher than your PC’s.
+m0049	Beneath the card’s level there is a symbol indicating its domain. You can only choose cards from your class’s two domains.
+m0050	The number and lightning bolt in the top right of the card shows its Recall Cost. This is the amount of Stress a player must mark to swap this card from their vault with a card from their loadout.
+m0051	<strong>Note</strong>: A player can swap domain cards during downtime without paying the domain card’s Recall Cost.
+m0052	The name of the card.
+m0053	The card’s type is listed in the center above the title. There are three types of domain cards: abilities, spells, and grimoires. Abilities are typically non-magical in nature, while spells are magical. Grimoires are unique to the Codex domain and grant access to a collection of less potent spells. Some game mechanics only apply to certain types of cards.
+m0054	The text on the bottom half of the card describes its feature(s), including any special rules you need to follow when you use that card.
+m0055	<strong>Note</strong>: Your subclass, ancestry, and community cards don’t count toward your loadout or vault and are always active and available.
+m0056	Access to Domains: Each class grants access to two domains; players choose cards from these domains during character creation and when leveling up.
+m0057	Starting Evasion and Hit Points (HP)
+m0058	Class Feature(s)
+m0059	Class Hope Feature, a class feature that costs 3 Hope to activate.
+m0060	Spellcast Trait: the trait used on all Spellcast rolls.
+m0061	Foundation Feature: a unique starting feature that establishes the identity and strengths of the subclass.
+m0062	Specialization Feature: an advanced feature that can be gained on level up. For some subclasses, the specialization feature grants a new ability; for others, it expands or enhances a feature you already acquired through a class or subclass.
+m0063	Mastery Feature: The mastery feature is a subclass’s most powerful feature, which can be gained at higher levels.
+m0064	<strong>Determine Ancestry Combination</strong>
+m0065	When you choose an ancestry at character creation, write down how your character identifies themself in the Heritage section of your character sheet. For example, if your character is descended from both goblins and orcs, you could use a hybridized term, such as “goblin-orc,” to describe your ancestry, list only the ancestry you more closely identify with (e.g., just “goblin” or just “orc”), or invent a new term, such as “toothling.”
+m0066	<strong>Choose Ancestry Features</strong>
+m0067	Work with your GM to choose two features from the ancestries in your character’s lineage. You must choose the first feature from one ancestry and the second from another. Write both down on a notecard you can keep with your other cards or next to your character sheet.
+m0068	For example, if you are making a goblin-orc, you might take the “Surefooted” and “Tusks” features or the “Sturdy” and “Danger Sense” features. You can’t take both the “Surefooted” and “Sturdy” features, because these are both the first features listed on their respective ancestry cards.
+m0069	Be a fan of your character and their journey.
+m0070	Spotlight your friends.
+m0071	Address the characters and address the players.
+m0072	Build the world together.
+m0073	Play to find out what happens.
+m0074	Hold on gently.
+m0075	Embrace danger.
+m0076	Use your resources.
+m0077	Tell the story.
+m0078	Discover your character.
+m0079	For more information, see the Daggerheart Core Rulebook, pages 9 and 108.
+m0080	the fiction would naturally turn it toward
+m0081	hasn’t had the focus in a while, or
+m0082	a triggered mechanic puts it on
+m0083	<strong>Optional: Spotlight Tracker Tool</strong>
+m0084	If your group prefers a more traditional action economy, you can use tokens to track how many times a player has had the spotlight: At the start of a session or scene, each player adds a certain number of tokens (we recommend 3) to their character sheet and removes a token each time they take an action. If the spotlight would swing to someone without any tokens, it swings to someone else instead. Once every player has used all their available tokens, players refill their character sheet with the same number of tokens as before, then continue playing.
+m0085	<strong>Success with Hope</strong>: If your total meets or beats the difficulty AND your Hope Die shows a higher result than your Fear Die, you rolled a “Success with Hope.” You succeed and gain a Hope.
+m0086	<strong>Success with Fear</strong>: If your total meets or beats the Difficulty AND your Fear Die shows a higher result than your Hope Die, you rolled a “Success with Fear.” You succeed with a cost or complication, but the GM gains a Fear.
+m0087	<strong>Failure with Hope</strong>: If your total is less than the Difficulty AND your Hope Die shows a higher result than your Fear Die, you rolled a “Failure with Hope.” You fail with a minor consequence and gain a Hope, then the spotlight swings to the GM.
+m0088	<strong>Failure with Fear</strong>: If your total is less than the Difficulty AND your Fear Die shows a higher result than your Hope Die, you rolled a “Failure with Fear.” You fail with a major consequence and the GM gains a Fear, then the spotlight swings to the GM.
+m0089	<strong>Critical Success</strong>: If the Duality Dice show matching results, you rolled a “Critical Success” (“Crit”). You automatically succeed with a bonus, gain a Hope, and clear a Stress. If this was an attack roll, you deal critical damage.
+m0090	Note: A Critical Success counts as a roll “with Hope.”
+m0091	<strong>Note</strong>: Unless an action, ability, or feature specifically allows for it, a player must declare the use of any Experiences, extra dice, or other modifiers before they roll.
+m0092	Example: A player is making an action roll with a +1 in the relevant trait and no other modifiers; they roll the Duality Dice and get a result of 5 on their Hope Die and 7 on their Fear Die, then announce “I rolled a 13 with Fear!”
+m0093	Rolls with Fear on an action roll.
+m0094	Fails an action roll.
+m0095	Does something that would have consequences.
+m0096	Gives them a golden opportunity.
+m0097	Looks to them for what happens next.
+m0098	<strong>Note</strong>: This Fear is in addition to any Fear the GM has previously spent to seize the spotlight or activate another action or ability.
+m0099	Move within Close range and make a standard attack
+m0100	Move within Close range and use an adversary action
+m0101	Clear a condition
+m0102	Sprint within Far or Very Far range on the battlefield
+m0103	Do anything else the fiction demands or the GM deems appropriate
+m0104	<strong>Example</strong>: The katari’s ancestry feature “Feline Instincts,” which allows the katari to reroll an Agility Roll, can also be used on a standard action roll using Agility to traverse dangerous terrain or on an attack roll made with a weapon that uses Agility.
+m0105	<strong>Notes</strong>: A Spellcast Roll that can damage a target is also considered an attack roll.
+m0106	When you cast a spell, the text tells you when the effect ends. The GM can spend a Fear to end a temporary effect. If your spell doesn’t specify when it ends, it ends when you choose or at a natural moment of the story. You can choose to end your spell early.
+m0107	You can cast and maintain the effects of more than one spell at the same time.
+m0108	<strong>Notes</strong>:
+m0109	A Tag Team Roll counts as a single action roll for the purposes of any countdowns or features that track action rolls.
+m0110	Though each player may only initiate one Tag Team Roll per session, one PC can be involved in multiple Tag Team Rolls.
+m0111	<strong>Advantage</strong> represents an opportunity that you seize to increase your chances of success. When you roll with advantage, you roll a d6 advantage die with your dice pool and add its result to your total.
+m0112	<strong>Disadvantage</strong> represents an additional difficulty, hardship, or challenge you face when attempting an action. When you roll with disadvantage, you roll a d6 disadvantage die with your dice pool and subtract its result from your total.
+m0113	<strong>Help an Ally</strong>
+m0114	When you Help an Ally who is making an action roll, describe how you do so and roll an advantage die. Multiple players can spend Hope to help the same acting player, but that player only adds the highest result to their final total.
+m0115	<strong>Utilize an Experience</strong>
+m0116	When you Utilize an Experience on a relevant roll, add its modifier to the result. You can spend multiple Hope to utilize multiple Experiences.
+m0117	<strong>Initiate a Tag Team Roll</strong>
+m0118	Spend 3 Hope to initiate a Tag Team roll, combining the actions of two PCs into one impressive act of synergy. When you make a Tag Team roll, both players roll their action rolls and then choose which set of results to apply to the outcome.
+m0119	<strong>Activate a Hope Feature</strong>
+m0120	A Hope Feature is any effect that allows (or requires) you to spend a specified amount of Hope to activate it. Class Hope features are class-specific features, detailed on your character sheet, that cost 3 Hope to activate
+m0121	<strong>Note</strong>: When using a Hope Feature, if you rolled with Hope for that action, the Hope you gain from that roll can be spent on that feature (or toward it, if it requires spending multiple Hope).
+m0122	<strong>Note</strong>: attacks rolled against adversaries use the target’s Difficulty instead of Evasion.
+m0123	If the final damage is at or above the character’s Severe damage threshold, they mark 3 HP.
+m0124	If the final damage is at or above the character’s Major damage threshold but below their Severe damage threshold, they mark 2 HP.
+m0125	If the final damage is below the character’s Major damage threshold, they mark 1 HP.
+m0126	If incoming damage is ever reduced to 0 or less, no HP is marked.
+m0127	<strong>Optional Rule: Massive Damage</strong>
+m0128	If a character ever takes damage equal to twice their Severe threshold, they mark 4 HP instead of 3.
+m0129	<strong>Note</strong>: If your Spellcast trait is +0 or lower, you don’t roll anything.
+m0130	For example, if a PC with orc ancestry makes a successful attack against a target in Melee range and decides to spend a Hope to use their “Tusks” feature (which gives them an extra 1d6 damage on a damage roll), they would roll their normal weapon damage and add a d6 to the result, then deal that total damage to the adversary.
+m0131	<strong>Melee</strong>: Close enough to touch, up to a few feet away.
+m0132	<strong>Very Close</strong>: Close enough to see fine details, about 5–10 feet away. While in danger, a character can move, as part of their action, from Very Close range into Melee range. On a map: anything within the shortest length of a game card (2-3 inches).
+m0133	<strong>Close</strong>: Close enough to see prominent details, about 10–30 feet away. While in danger, a character can move, as part of their action, from Close range into Melee range. On a map: anything within the length of a pencil (5-6 inches).
+m0134	<strong>Far</strong>: Close enough to see very little detail, about 30–100 feet away. While in danger, a character must make an Agility Roll to safely move from Far range into Melee range. On a map: anything within the length of the long edge of a piece of copy paper (11–12 inches).
+m0135	<strong>Very Far</strong>: Too far to make out any details, about 100–300 feet away. While in danger, a character must make an Agility Roll to safely move from Very Far range into Melee range. On a map: anything beyond Far range, but still within the bounds of the conflict or scene.
+m0136	<strong>Out of Range</strong>: Anything beyond a character’s Very Far range is Out of Range and usually can’t be targeted.
+m0137	<strong>Optional Rule: Defined Ranges</strong>
+m0138	If your table would rather operate with more precise range rules, you can use a 1-inch grid battle map during combat.
+m0139	If you do, use the following guidelines for play:
+m0140	Melee: 1 square
+m0141	Very Close: 3 squares
+m0142	Close: 6 squares
+m0143	Far: 12 squares
+m0144	Very Far: 13+ squares
+m0145	Out of Range: Off the battlemap
+m0146	<strong>Tend to Wounds</strong>: Clear 1d4+Tier Hit Points for yourself or an ally.
+m0147	<strong>Clear Stress</strong>: Clear 1d4+Tier Stress.
+m0148	<strong>Repair Armor:</strong> Clear 1d4+Tier Armor Slots from your or an ally’s armor.
+m0149	<strong>Prepare</strong>: Describe how you prepare yourself for the path ahead, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope.
+m0150	<strong>Tend to All Wounds</strong>: Clear all Hit Points for yourself or an ally.
+m0151	<strong>Clear All Stress</strong>: Clear all Stress.
+m0152	<strong>Repair All Armor</strong>: Clear all Armor Slots from your or an ally’s armor
+m0153	<strong>Prepare</strong>: Describe how you prepare for the next day’s adventure, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope.
+m0154	<strong>Work on a Project</strong>: With GM approval, a PC may pursue a long-term project, such as deciphering an ancient text or crafting a new weapon. The first time they start a new project, assign it a countdown. Each time a PC makes the Work on a Project move, they either advance their project’s countdown automatically or make an action roll to advance it (GM’s choice).
+m0155	<strong>Blaze of Glory</strong>: Your character embraces death and goes out in a blaze of glory. Take one final action. It automatically critically succeeds (with GM approval), and then you cross through the veil of death.
+m0156	<strong>Avoid Death</strong>: Your character avoids death and faces the consequences. They temporarily drop unconscious, and then you work with the GM to describe how the situation worsens. While unconscious, your character can’t move or act, and they can’t be targeted by an attack. They return to consciousness when an ally clears 1 or more of their marked Hit Points or when the party finishes a long rest. After your character falls unconscious, roll your Hope Die. If its value is equal to or less than your character’s level, they gain a scar: permanently cross out a Hope slot and work with the GM to determine its lasting narrative impact and how, if possible, it can be restored. If you ever cross out your last Hope slot, your character’s journey ends.
+m0157	<strong>Risk It All</strong>: Roll your Duality Dice. If the Hope Die is higher, your character stays on their feet and clears a number of Hit Points or Stress equal to the value of the Hope Die (you can divide the Hope Die value between Hit Points and Stress however you’d prefer). If the Fear Die is higher, your character crosses through the veil of death. If the Duality Dice show matching results, your character stays up and clears all Hit Points and Stress.
+m0158	→ Tier 1 encompasses level 1 only.
+m0159	→ Tier 2 encompasses levels 2–4.
+m0160	→ Tier 3 encompasses levels 5–7.
+m0161	→ Tier 4 encompasses levels 8–10.
+m0162	At level 2, you gain a new Experience at +2 and permanently increase your Proficiency by 1.
+m0163	At level 5, you gain a new Experience at +2, permanently increase your Proficiency by 1, and clear any marked traits.
+m0164	At level 8, you gain a new Experience at +2, permanently increase your Proficiency by 1, and clear any marked traits.
+m0165	When you choose to <strong>increase two unmarked character traits</strong> and mark them: Choose two unmarked character traits and gain a permanent +1 bonus to them. You can’t increase these stats again until the next tier (when your tier achievement allows you to clear those marks).
+m0166	When you choose to <strong>permanently add 1 or more Hit Point slots</strong>: Darken the outline of the next rectangle in the Hit Point section of your character sheet in pen or permanent marker.
+m0167	When you choose to <strong>permanently add 1 or more Stress slots</strong>: Darken the outline of the next rectangle in the Stress section of your character sheet in pen or permanent marker.
+m0168	When you choose to <strong>increase your Experience</strong>: Choose two Experiences on your character sheet and gain a permanent +1 bonus to both.
+m0169	When you <strong>take an additional domain card</strong>: You can choose an additional domain card at or below your level or from your class’s domains. If you’ve multiclassed, you can instead select a card at or below half your level from your chosen multiclass domain.
+m0170	When you choose to <strong>increase your Evasion</strong>: Gain a permanent +1 bonus to your Evasion.
+m0171	When you choose to <strong>take an upgraded subclass card</strong>: Take the next card for your subclass. If you have only the foundation card, take a specialization; if you have a specialization already, take a mastery. Then cross out this tier’s multiclass option.
+m0172	When you choose to <strong>increase your Proficiency</strong>: Fill in one of the open circles in the “Proficiency” section of your character sheet, then increase your weapon’s number of damage dice by 1. The black box around this advancement’s slots indicates you must spend two advancements and mark both level-up slots in order to take it as an option.
+m0173	When you choose to <strong>multiclass</strong>: Choose an additional class, select one of its domains, and gain its class feature. Add the appropriate <strong>multiclass module</strong> to your character sheet and take the foundation card from one of its subclasses. Then cross out the “upgraded subclass” advancement option in this tier and all other “multiclass” advancement options on your character sheet. The black box around this advancement’s slots indicates you must spend two advancements and mark both level-up slots in order to take it as an option.
+m0174	“I roll over to the door to see if it’s open.”
+m0175	“I wheel myself over to the group to ask what’s going on.”
+m0176	“I pull my brakes and skid to a halt, turning in my seat to level my bow at the intruder.”
+m0177	“I pull my brakes, but I don’t think to account for the loose gravel on the ground.”
+m0178	“I hit a patch of ice awkwardly and am sent skidding out past my target.”
+m0179	“I go to push off in pursuit, but one of my front caster wheels snags on a crack in the pavement, stalling me for a moment.”
+m0180	An armor’s <strong>base armor score</strong> indicates how many Armor Slots it provides its wearer before additional bonuses are added to calculate their total Armor Score. A PC’s Armor Score can’t exceed 12.
+m0181	An armor’s <strong>base thresholds</strong> determine its wearer’s major and severe damage thresholds before adding bonuses to calculate their final damage thresholds.
+m0182	An armor’s <strong>feature</strong> is a special rule that stays in effect while the armor is equipped.
+m0183	<strong>Common</strong>: 1d12 or 2d12
+m0184	<strong>Rare</strong>: 3d12 or 4d12
+m0185	<strong>Uncommon</strong>: 2d12 or 3d12
+m0186	<strong>Legendary</strong>: 4d12 or 5d12
+m0187	<strong>Optional Rule: Gold Coins</strong>
+m0188	If your group wants to track gold with more granularity, you can add coins as your lowest denomination. Following the established pattern, 10 coins equal 1 handful.
+m0189	For more in-depth GM guidance, see pg. 140 of the Daggerheart Core Rulebook.
+m0190	<strong>Note</strong>: a critical success on an adversary’s reaction roll automatically succeeds, but confers no additional benefit.
+m0191	Determine whether the roll is necessary, considering the PC’s Experiences or backstory, the pressure they’re acting under, and the possible outcomes.
+m0192	Establish the stakes of an action roll before the player makes it.
+m0193	Communicate any unavoidable consequences.
+m0194	If desired, you can offer the player the opportunity to forgo an action roll in exchange for agreeing to an interesting outcome, cost, or complication.
+m0195	Roll with Fear
+m0196	Fail an action roll
+m0197	Do something that has unavoidable consequences
+m0198	Give you a “golden opportunity” (an opening that demands an immediate response)
+m0199	Look to you for what happens next
+m0200	An adversary attacks
+m0201	The PC marks a Stress
+m0202	You introduce a new threat
+m0203	You raise the stakes of the conflict
+m0204	You put them in immediate danger
+m0205	They become the focus of multiple adversaries
+m0206	They are separated from their party
+m0207	They lose an important opportunity for good.
+m0208	Introduce a new obstacle or enemy
+m0209	Ask the player what happens
+m0210	Have the PC mark a Stress
+m0211	Tell the players “everything is fine… for now.”
+m0212	<strong>Example GM Moves</strong>
+m0213	Show how the world reacts
+m0214	Ask a question and build on the answer
+m0215	Make an NPC act in accordance with their motive
+m0216	Drive a PC to take action by dangling their goals in front of them
+m0217	Signal an imminent off-screen threat
+m0218	Reveal an unwelcome truth or unexpected danger
+m0219	Force the group to split up
+m0220	Make a PC mark Stress
+m0221	Make a move the characters don’t see
+m0222	Show the collateral damage
+m0223	Clear an adversary’s condition
+m0224	Shift the environment
+m0225	Spotlight an adversary
+m0226	Capture someone or something important
+m0227	Use a PC’s backstory against them
+m0228	Take away an opportunity permanently.
+m0229	Interrupt the players to steal the spotlight and make a move
+m0230	Make an additional GM move
+m0231	Use an adversary’s Fear Feature
+m0232	Use an environment’s Fear Feature
+m0233	Add an adversary’s Experience to a roll
+m0234	Incidental
+m0235	A catch-up between PCs after an emotionally charged scene; gathering information; resupplying at a local market; resting during downtime.
+m0236	0–1 Fear
+m0237	A travel sequence; a minor skirmish that introduces new foes or signals future trouble.
+m0238	1–3 Fear
+m0239	A substantial battle with a notable objective; perilous travel that tests might and wit; a tense social encounter seeking crucial information or aid.
+m0240	2–4 Fear
+m0241	A large battle with a Solo or Leader adversary; a character-defining scene with a significant change to a character’s personal story (such as revelation, growth, and betrayal).
+m0242	4–8 Fear
+m0243	Climactic
+m0244	A major confrontation with the villain of a story arc; an epic set piece battle; a judicial duel to determine an important NPC’s fate.
+m0245	6–12 Fear
+m0246	<strong>Spending Fast:</strong> Spend Fear before the players have a chance to react
+m0247	<strong>Spending Often</strong>: Spend Fear every time the spotlight swings to you
+m0248	<strong>Spending Big</strong>: Spend Fear to make multiple moves in a row
+m0249	Introducing new adversaries to a scene when their appearance hasn’t been foreshadowed or lacks context.
+m0250	An adversary activating a powerful spell or transformation to deal massive damage or boost their capabilities.
+m0251	An environment exerting a strong negative effect on the party.
+m0252	<strong>ROLL</strong>
+m0253	<strong>SPRINT</strong>
+m0254	<strong>LEAP</strong>
+m0255	<strong>MANEUVER</strong>
+m0256	Sprint within Close range across an open field with an enemy present.
+m0257	Make a running jump of half your height (about 3 feet for a human).
+m0258	Walk slowly across a narrow beam.
+m0259	Sprint within Far range across an open field with an enemy present.
+m0260	Make a running jump of your height (about 6 feet for a human).
+m0261	Walk quickly across a narrow beam.
+m0262	Sprint within Close range across rough terrain with an enemy present.
+m0263	Make a running jump of double your height (about 12 feet for a human).
+m0264	Run across a narrow beam.
+m0265	Sprint within Close range through an active battle of multiple enemies.
+m0266	Make a running jump of three times your height (about 18 feet for a human).
+m0267	Run across a narrow beam in heavy wind.
+m0268	Sprint within Far range through a pitched battle in rough terrain.
+m0269	Make a running jump of five times your height (about 30 feet for a human).
+m0270	Run across a very narrow beam in an active rainstorm.
+m0271	Sprint across the heads of your enemies in a pitched battle.
+m0272	Make a running jump of ten times your height (about 60 feet for a human).
+m0273	Run across an inch-wide, oil-slicked beam in an active rainstorm.
+m0274	<strong>LIFT</strong>
+m0275	<strong>SMASH</strong>
+m0276	<strong>GRAPPLE</strong>
+m0277	Lift a chair.
+m0278	Destroy a glass cup.
+m0279	Subdue a child.
+m0280	Lift a table or small chest.
+m0281	Destroy a small wooden table.
+m0282	Subdue a weak adult.
+m0283	Lift a grown person or large chest.
+m0284	Break through a wooden door.
+m0285	Subdue an average adult.
+m0286	Lift the side of a laden cart or carry a large chest up stairs.
+m0287	Break through a stone wall.
+m0288	Subdue a skilled wrestler.
+m0289	Lift a horse, an ox, or a large monster.
+m0290	Break through a dragon’s teeth.
+m0291	Subdue a large beast.
+m0292	Lift a falling portcullis gate.
+m0293	Break a god’s grip.
+m0294	Subdue a legendary beast.
+m0295	<strong>CONTROL</strong>
+m0296	<strong>HIDE</strong>
+m0297	<strong>TINKER</strong>
+m0298	Ride a horse through easy terrain.
+m0299	Evade notice under full cover on a moonless night.
+m0300	Open a sticky lock with the appropriate key.
+m0301	Drive an ox-pulled cart.
+m0302	Evade notice in limited cover on a moonless night.
+m0303	Open a simple puzzle box.
+m0304	Ride a horse through rough terrain.
+m0305	Evade notice in limited cover on an average night.
+m0306	Disable a standard trap.
+m0307	Drive a cart through rough terrain.
+m0308	Evade notice in the shadows on an average night.
+m0309	Disable a complicated trap.
+m0310	Ride a wild horse through dangerous terrain.
+m0311	Evade notice with minimal cover in ample light.
+m0312	Open a door secured by a sequence of elaborate locks.
+m0313	Ride an enraged beast through dangerous terrain.
+m0314	Evade notice with no cover in full daylight.
+m0315	Disable an incredibly sensitive and deadly trap.
+m0316	<strong>PERCEIVE</strong>
+m0317	<strong>SENSE</strong>
+m0318	<strong>NAVIGATE</strong>
+m0319	Hear a loud noise twenty paces away.
+m0320	Detect an obvious ambush or notice an obvious deception.
+m0321	Follow a well-trod path in good lighting and weather.
+m0322	Hear a speaking voice fifty paces away.
+m0323	Detect a looming threat or notice an average person’s lies.
+m0324	Follow an average path in good lighting and weather.
+m0325	Hear someone walking in the woods fifty paces away.
+m0326	Detect hostile intent from a foe or see through a merchant’s lies.
+m0327	Follow a subtle path through rough conditions.
+m0328	Hear someone sneaking through the woods fifty paces away.
+m0329	Detect a politician’s veiled hostility or detect a nearby assassin.
+m0330	Follow a subtle path through harsh conditions.
+m0331	Hear a prowling animal fifty paces away.
+m0332	Identify a spymaster’s plot or read a politican’s true intentions.
+m0333	Find your way with no path through dangerous conditions.
+m0334	Hear a diving bird a hundred paces away.
+m0335	Sense a shred of doubt within a god’s pronouncement.
+m0336	Find your way through a trickery god’s maze.
+m0337	<strong>CHARM</strong>
+m0338	<strong>PERFORM</strong>
+m0339	<strong>DECEIVE</strong>
+m0340	Win the trust of a friendly neighbor.
+m0341	Earn a meal from a friendly crowd.
+m0342	Trick a trusting acquaintance.
+m0343	Win the trust of a friendly stranger.
+m0344	Earn room and board in a small town or impress a small crowd.
+m0345	Trick an average stranger.
+m0346	Win the trust of a cautious stranger or talk your way into a noble’s party.
+m0347	Earn room and board in a low-end tavern or impress a large crowd.
+m0348	Trick an average merchant.
+m0349	Win the trust of a sympathetic foe or talk your way into an enemy’s party.
+m0350	Earn lodging in a high-end tavern or impress a full theater.
+m0351	Trick a trained courtier.
+m0352	Turn an enemy against their ruler or talk your way into a fae court.
+m0353	Earn your keep in a royal court or impress a full colosseum.
+m0354	Trick a spymaster.
+m0355	Talk a hostile god into granting you a boon.
+m0356	Save yourself from execution after offending the queen.
+m0357	Trick a god.
+m0358	<strong>RECALL</strong>
+m0359	<strong>ANALYZE</strong>
+m0360	<strong>COMPREHEND</strong>
+m0361	Recall uncommon facts about your community.
+m0362	Unpack an obvious metaphor in a simple text.
+m0363	Learn simple skills from an excellent teacher.
+m0364	Recall uncommon facts about a neighboring community.
+m0365	Identify obvious subtext in a conversation.
+m0366	Learn simple skills from an average teacher.
+m0367	Recall uncommon facts about a distant community.
+m0368	Break an average cipher in a coded message.
+m0369	Learn complicated skills from an excellent teacher.
+m0370	Recall specialized facts about a distant community.
+m0371	Identify a weakness in a complicated battle plan.
+m0372	Learn complicated skills under poor conditions.
+m0373	Recall specialized facts about a fallen kingdom.
+m0374	Predict the downfall of a nation based on concealed misdeeds.
+m0375	Learn complicated skills quickly under dangerous conditions.
+m0376	Recall secret information about an obscure historical group.
+m0377	Identify the weakness in a divine champion’s fighting form.
+m0378	Learn complicated skills quickly from incomplete information.
+m0379	<strong>Note</strong>: You can track countdowns by “spinning down” dice or ticking off boxes.
+m0380	<strong>Roll Result</strong>
+m0381	<strong>Progress Advancement</strong>
+m0382	<strong>Consequence Advancement</strong>
+m0383	Failure with Fear
+m0384	No advancement
+m0385	Tick down 3
+m0386	Failure with Hope
+m0387	Tick down 2
+m0388	Success with Fear
+m0389	Tick down 1
+m0390	Success with Hope
+m0391	Countdowns with <strong>randomized starting values</strong>
+m0392	<strong>Loop</strong> countdowns that reset to their starting value after their countdown effect is triggered.
+m0393	<strong>Increasing</strong> countdowns that increase their starting value by 1 every time they loop.
+m0394	<strong>Decreasing</strong> countdowns that decrease their starting value by 1 every time they loop.
+m0395	<strong>Linked</strong> progress and consequence countdowns that simultaneously advance according to the same action roll outcomes.
+m0396	<strong>Long-term countdowns</strong> that advance after <strong>rests</strong> instead of action rolls.
+m0397	Meals for a party of adventurers per night
+m0398	1 Handful
+m0399	Standard inn room per night
+m0400	Luxury inn room per night
+m0401	1 Bag
+m0402	Carriage ride
+m0403	2 Handfuls
+m0404	Mount (horse, mule, etc.)
+m0405	3 Bags
+m0406	Specialized tools
+m0407	3 Handfuls
+m0408	Fine clothing
+m0409	Luxury clothing
+m0410	Tier 1 equipment (weapons, armor)
+m0411	1–5 Handfuls
+m0412	Tier 2 equipment (weapons, armor)
+m0413	1–2 Bags
+m0414	Tier 3 equipment (weapons, armor)
+m0415	5–10 Bags
+m0416	Tier 4 equipment (weapons, armor)
+m0417	1–2 Chests
+m0418	<strong>Examples:</strong>
+m0419	“Roll your Fear Die. On a 4 or lower, the fire spreads beyond this house.”
+m0420	“I think it’s really up to chance whether reinforcements will make it to you in time. Go ahead and roll your Fear Die— that’ll determine the starting size of the countdown. When that triggers, reinforcements will arrive in your Far range.”
+m0421	“Go ahead and roll your Hope Die to see how big the crowd at the inn is tonight. The higher the roll, the bigger the crowd.”
+m0422	“Make a roll using your Hope Die to determine the number of Stamina Potions the shop has in stock.”
+m0423	A fall from Very Close range deals 1d10+3 physical damage.
+m0424	A fall from Close range deals 1d20+5 physical damage.
+m0425	A fall from Far or Very Far range deals 1d100+15 physical damage, or death at the GM’s discretion.
+m0426	<strong>Bruisers</strong>: tough; deliver powerful attacks.
+m0427	<strong>Hordes</strong>: groups of identical creatures acting together as a single unit.
+m0428	<strong>Leaders</strong>: command and summon other adversaries.
+m0429	<strong>Minions</strong>: easily dispatched but dangerous in numbers.
+m0430	<strong>Ranged</strong>: fragile in close encounters but deal high damage at range.
+m0431	<strong>Skulks</strong>: maneuver and exploit opportunities to ambush opponents.
+m0432	<strong>Socials</strong>: present challenges around conversation instead of combat.
+m0433	<strong>Solos</strong>: present a formidable challenge to a whole party, with or without support.
+m0434	<strong>Standards</strong>: representative of their fictional group.
+m0435	<strong>Supports</strong>: enhance their allies and disrupt their opponents.
+m0436	Bartering
+m0437	Quick Reflexes
+m0438	Blademaster
+m0439	Bodyguard
+m0440	Nature’s Friend
+m0441	<strong>Actions</strong>: a special attack or other unique action that the adversary can perform when the spotlight is on them.
+m0442	<strong>Reactions</strong>: special effects that take effect when their trigger occurs, regardless of whether the spotlight is on the adversary.
+m0443	<strong>Passives</strong>: special abilities that remain in effect by default and require no resources or triggers to activate.
+m0444	<strong>-1</strong> for an easier or shorter fight
+m0445	<strong>-2</strong> if you’re using 2 or more Solo adversaries
+m0446	<strong>-2</strong> if you add +1d4 (or a static +2) to all adversaries’ damage rolls
+m0447	<strong>+1</strong> if you choose an adversary from a lower tier
+m0448	<strong>+1</strong> if you don’t include any Bruisers, Hordes, Leaders, or Solos
+m0449	<strong>+2</strong> for a harder or longer fight
+m0450	<strong>Spend 1</strong> <strong>point</strong> for each group of Minions equal to the size of the party.
+m0451	<strong>Spend 1</strong> <strong>point</strong> for each Social or Support adversary.
+m0452	<strong>Spend 2 points</strong> for each Horde, Ranged, Skulk, or Standard adversary.
+m0453	<strong>Spend 3 points</strong> for each Leader adversary.
+m0454	<strong>Spend 4 points</strong> for each Bruiser adversary.
+m0455	<strong>Spend 5 points</strong> for each Solo adversary.
+m0456	<strong>ADVERSARY STATISTIC</strong>
+m0457	<strong>TIER 1</strong>
+m0458	<strong>TIER 2</strong>
+m0459	<strong>TIER 3</strong>
+m0460	<strong>TIER 4</strong>
+m0461	Damage Dice
+m0462	1d6+2 to 1d12+4
+m0463	2d6+3 to 2d12+4
+m0464	3d8+3 to 3d12+5
+m0465	4d8+10 to 4d12+15
+m0466	Major 7/Severe 12
+m0467	Major 10/Severe 20
+m0468	Major 20/Severe 32
+m0469	Major 25/Severe 45
+m0470	@UUID[Compendium.daggerheart.adversaries.Actor.89yAh30vaNQOALlz]{Acid Burrower}
+m0471	@UUID[Compendium.daggerheart.adversaries.Actor.71qKDLKO3CsrNkdy]{Bear}
+m0472	@UUID[Compendium.daggerheart.adversaries.Actor.8Zkqk1jU09nKL2fy]{Cave Ogre}
+m0473	@UUID[Compendium.daggerheart.adversaries.Actor.uOP5oT9QzXPlnf3p]{Construct}
+m0474	@UUID[Compendium.daggerheart.adversaries.Actor.CBBuEXAlLKFMJdjg]{Courtier}
+m0475	@UUID[Compendium.daggerheart.adversaries.Actor.9x2xY9zwc3xzbXo5]{Deeproot Defender}
+m0476	@UUID[Compendium.daggerheart.adversaries.Actor.wNzeuQLfLUMvgHlQ]{Dire Wolf}
+m0477	@UUID[Compendium.daggerheart.adversaries.Actor.IIWV4ysJPFPnTP7W]{Giant Mosquitoes}
+m0478	@UUID[Compendium.daggerheart.adversaries.Actor.4PfLnaCrOcMdb4dK]{Giant Rat}
+m0479	@UUID[Compendium.daggerheart.adversaries.Actor.fmfntuJ8mHRCAktP]{Giant Scorpion}
+m0480	@UUID[Compendium.daggerheart.adversaries.Actor.8KWVLWXFhlY2kYx0]{Glass Snake}
+m0481	@UUID[Compendium.daggerheart.adversaries.Actor.uRtghKE9mHlII4rs]{Harrier}
+m0482	@UUID[Compendium.daggerheart.adversaries.Actor.JRhrrEg5UroURiAD]{Archer Guard}
+m0483	@UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{Bladed Guard}
+m0484	@UUID[Compendium.daggerheart.adversaries.Actor.mK3A5FTx6k8iPU3F]{Head Guard}
+m0485	@UUID[Compendium.daggerheart.adversaries.Actor.5Lh1T0zaT8Pkr2U2]{Jagged Knife Bandit}
+m0486	@UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{Jagged Knife Hexer}
+m0487	@UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{Jagged Knife Kneebreaker}
+m0488	@UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{Jagged Knife Lackey}
+m0489	@UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{Jagged Knife Lieutenant}
+m0490	@UUID[Compendium.daggerheart.adversaries.Actor.XF4tYTq9nPJAy2ox]{Jagged Knife Shadow}
+m0491	@UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{Jagged Knife Sniper}
+m0492	@UUID[Compendium.daggerheart.adversaries.Actor.Al3w2CgjfdT3p9ma]{Merchant}
+m0493	@UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV]{Minor Chaos Elemental}
+m0494	@UUID[Compendium.daggerheart.adversaries.Actor.DscWkNVoHak6P4hh]{Minor Fire Elemental}
+m0495	@UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{Minor Demon}
+m0496	@UUID[Compendium.daggerheart.adversaries.Actor.G62k4oSkhkoXEs2D]{Minor Treant}
+m0497	@UUID[Compendium.daggerheart.adversaries.Actor.SHXedd9zZPVfUgUa]{Green Ooze}
+m0498	@UUID[Compendium.daggerheart.adversaries.Actor.aLkLFuVoKz2NLoBK]{Tiny Green Ooze}
+m0499	@UUID[Compendium.daggerheart.adversaries.Actor.9rVlbJVrDNn1x7PS]{Red Ooze}
+m0500	@UUID[Compendium.daggerheart.adversaries.Actor.1fkLQXVtmILqfJ44]{Tiny Red Ooze}
+m0501	@UUID[Compendium.daggerheart.adversaries.Actor.wycLpvebWdUqRhpP]{Petty Noble}
+m0502	@UUID[Compendium.daggerheart.adversaries.Actor.OROJbjsqagVh7ECV]{Pirate Captain}
+m0503	@UUID[Compendium.daggerheart.adversaries.Actor.5YgEajn0wa4i85kC]{Pirate Raiders}
+m0504	@UUID[Compendium.daggerheart.adversaries.Actor.mhcVkVFrzIJ18FDm]{Pirate Tough}
+m0505	@UUID[Compendium.daggerheart.adversaries.Actor.bgreCaQ6ap2DVpCr]{Sellsword}
+m0506	@UUID[Compendium.daggerheart.adversaries.Actor.7X5q7a6ueeHs5oA9]{Skeleton Archer}
+m0507	@UUID[Compendium.daggerheart.adversaries.Actor.6l1a3Fazq8BoKIcc]{Skeleton Dredge}
+m0508	@UUID[Compendium.daggerheart.adversaries.Actor.Q9LaVTyXF9NF12C7]{Skeleton Knight}
+m0509	@UUID[Compendium.daggerheart.adversaries.Actor.10YIQl0lvCJXZLfX]{Skeleton Warrior}
+m0510	@UUID[Compendium.daggerheart.adversaries.Actor.ldbWEL7uZs84vyrR]{Spellblade}
+m0511	@UUID[Compendium.daggerheart.adversaries.Actor.qNgs3AbLyJrY19nt]{Swarm of Rats}
+m0512	@UUID[Compendium.daggerheart.adversaries.Actor.VtFBt9XBE0WrGGxP]{Sylvan Soldier}
+m0513	@UUID[Compendium.daggerheart.adversaries.Actor.PKSXFuaIHUCoH63A]{Tangle Bramble Swarm}
+m0514	@UUID[Compendium.daggerheart.adversaries.Actor.XcAGOSmtCFLT1unN]{Tangle Bramble}
+m0515	@UUID[Compendium.daggerheart.adversaries.Actor.ZNbQ2jg35LG4t9eH]{Weaponmaster}
+m0516	@UUID[Compendium.daggerheart.adversaries.Actor.8yUj2Mzvnifhxegm]{Young Dryad}
+m0517	@UUID[Compendium.daggerheart.adversaries.Actor.2UeZ0tEe7AzgSJNd]{Brawny Zombie}
+m0518	@UUID[Compendium.daggerheart.adversaries.Actor.EQTOAOUrkIvS2z88]{Patchwork Zombie Hulk}
+m0519	@UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{Rotted Zombie}
+m0520	@UUID[Compendium.daggerheart.adversaries.Actor.2nXz4ilAY4xuhKLm]{Shambling Zombie}
+m0521	@UUID[Compendium.daggerheart.adversaries.Actor.Nf0v43rtflV56V2T]{Zombie Pack}
+m0522	@UUID[Compendium.daggerheart.adversaries.Actor.0ts6CGd93lLqGZI5]{Archer Squadron}
+m0523	@UUID[Compendium.daggerheart.adversaries.Actor.vNIbYQ4YSzNf0WPE]{Apprentice Assassin}
+m0524	@UUID[Compendium.daggerheart.adversaries.Actor.h5RuhzGL17dW5FBT]{Assassin Poisoner}
+m0525	@UUID[Compendium.daggerheart.adversaries.Actor.dNta0cUzr96xcFhf]{Master Assassin}
+m0526	@UUID[Compendium.daggerheart.adversaries.Actor.dgH3fW9FTYLaIDvS]{Battle Box}
+m0527	@UUID[Compendium.daggerheart.adversaries.Actor.jDmHqGvzg5wjgmxE]{Chaos Skull}
+m0528	@UUID[Compendium.daggerheart.adversaries.Actor.99TqczuQipBmaB8i]{Conscript}
+m0529	@UUID[Compendium.daggerheart.adversaries.Actor.ZxWaWPdzFIUPNC62]{Courtesan}
+m0530	@UUID[Compendium.daggerheart.adversaries.Actor.0NxCSugvKQ4W8OYZ]{Cult Adept}
+m0531	@UUID[Compendium.daggerheart.adversaries.Actor.tyBOpLfigAhI9bU3]{Cult Fang}
+m0532	@UUID[Compendium.daggerheart.adversaries.Actor.zx99sOGTXicP4SSD]{Cult Initiate}
+m0533	@UUID[Compendium.daggerheart.adversaries.Actor.NoRZ1PqB8N5wcIw0]{Demonic Hound Pack}
+m0534	@UUID[Compendium.daggerheart.adversaries.Actor.TLzY1nDw0Bu9Ud40]{Electric Eels}
+m0535	@UUID[Compendium.daggerheart.adversaries.Actor.bfhVWMBUh61b9J6n]{Elite Soldier}
+m0536	@UUID[Compendium.daggerheart.adversaries.Actor.ChwwVqowFw8hJQwT]{Failed Experiment}
+m0537	@UUID[Compendium.daggerheart.adversaries.Actor.8VZIgU12cB3cvlyH]{Giant Beastmaster}
+m0538	@UUID[Compendium.daggerheart.adversaries.Actor.YnObCleGjPT7yqEc]{Giant Brawler}
+m0539	@UUID[Compendium.daggerheart.adversaries.Actor.5s8wSvpyC5rxY5aD]{Giant Recruit}
+m0540	@UUID[Compendium.daggerheart.adversaries.Actor.OMQ0v6PE8s1mSU0K]{Giant Eagle}
+m0541	@UUID[Compendium.daggerheart.adversaries.Actor.8mJYMpbLTb8qIOrr]{Gorgon}
+m0542	@UUID[Compendium.daggerheart.adversaries.Actor.MYXmTx2FHcIjdfYZ]{Juvenile Flickerfly}
+m0543	@UUID[Compendium.daggerheart.adversaries.Actor.7ai2opemrclQe3VF]{Knight of the Realm}
+m0544	@UUID[Compendium.daggerheart.adversaries.Actor.niBpVU7yeo5ccskE]{Masked Thief}
+m0545	@UUID[Compendium.daggerheart.adversaries.Actor.Vy02IhGhkJLuezu4]{Merchant Baron}
+m0546	@UUID[Compendium.daggerheart.adversaries.Actor.rM9qCIYeWg9I0B4l]{Minotaur Wrecker}
+m0547	@UUID[Compendium.daggerheart.adversaries.Actor.mVV7a7KQAORoPMgZ]{Mortal Hunter}
+m0548	@UUID[Compendium.daggerheart.adversaries.Actor.EtLJiTsilPPZvLUX]{Royal Advisor}
+m0549	@UUID[Compendium.daggerheart.adversaries.Actor.sLAccjvCWfeedbpI]{Secret-Keeper}
+m0550	@UUID[Compendium.daggerheart.adversaries.Actor.YmVAkdNsyuXWTtYp]{Shark}
+m0551	@UUID[Compendium.daggerheart.adversaries.Actor.BK4jwyXSRx7IOQiO]{Siren}
+m0552	@UUID[Compendium.daggerheart.adversaries.Actor.5tCkhnBByUIN5UdG]{Spectral Archer}
+m0553	@UUID[Compendium.daggerheart.adversaries.Actor.65cSO3EQEh6ZH6Xk]{Spectral Captain}
+m0554	@UUID[Compendium.daggerheart.adversaries.Actor.UFVGl1osOsJTneLf]{Spectral Guardian}
+m0555	@UUID[Compendium.daggerheart.adversaries.Actor.8zlynOhnVA59KpKT]{Spy}
+m0556	@UUID[Compendium.daggerheart.adversaries.Actor.3aAS2Qm3R6cgaYfE]{Stonewraith}
+m0557	@UUID[Compendium.daggerheart.adversaries.Actor.noDdT0tsN6FXSmC8]{War Wizard}
+m0558	@UUID[Compendium.daggerheart.adversaries.Actor.G7jiltRjgvVhZewm]{Adult Flickerfly}
+m0559	@UUID[Compendium.daggerheart.adversaries.Actor.pnyjIGxxvurcWmTv]{Demon of Avarice}
+m0560	@UUID[Compendium.daggerheart.adversaries.Actor.kE4dfhqmIQpNd44e]{Demon of Despair}
+m0561	@UUID[Compendium.daggerheart.adversaries.Actor.2VN3BftageoTTIzu]{Demon of Hubris}
+m0562	@UUID[Compendium.daggerheart.adversaries.Actor.SxSOkM4bcVOFyjbo]{Demon of Jealousy}
+m0563	@UUID[Compendium.daggerheart.adversaries.Actor.5lphJAgzoqZI3VoG]{Demon of Wrath}
+m0564	@UUID[Compendium.daggerheart.adversaries.Actor.tBWHW00epmMnkawe]{Dire Bat}
+m0565	@UUID[Compendium.daggerheart.adversaries.Actor.wR7cFKrHvRzbzhBT]{Dryad}
+m0566	@UUID[Compendium.daggerheart.adversaries.Actor.P7h54ZePFPHpYwvB]{Elemental Spark}
+m0567	@UUID[Compendium.daggerheart.adversaries.Actor.dsfB3YhoL5SudvS2]{Greater Earth Elemental}
+m0568	@UUID[Compendium.daggerheart.adversaries.Actor.xIICT6tEdnA7dKDV]{Greater Water Elemental}
+m0569	@UUID[Compendium.daggerheart.adversaries.Actor.6hbqmxDXFOzZJDk4]{Huge Green Ooze}
+m0570	@UUID[Compendium.daggerheart.adversaries.Actor.MI126iMOOobQ1Obn]{Hydra}
+m0571	@UUID[Compendium.daggerheart.adversaries.Actor.yx0vK2yfNVZKWUUi]{Monarch}
+m0572	@UUID[Compendium.daggerheart.adversaries.Actor.KGVwnLq85ywP9xvB]{Stag Knight}
+m0573	@UUID[Compendium.daggerheart.adversaries.Actor.XK78QUfY8c8Go8Uv]{Oak Treant}
+m0574	@UUID[Compendium.daggerheart.adversaries.Actor.o63nS0k3wHu6EgKP]{Treant Sapling}
+m0575	@UUID[Compendium.daggerheart.adversaries.Actor.i2UNbRvgyoSs07M6]{Head Vampire}
+m0576	@UUID[Compendium.daggerheart.adversaries.Actor.WWyUp6Mxl1S3KYUG]{Vampire}
+m0577	@UUID[Compendium.daggerheart.adversaries.Actor.JqYraOqNmmhHk4Yy]{Vault Guardian Gaoler}
+m0578	@UUID[Compendium.daggerheart.adversaries.Actor.FVgYb28fhxlVcGwA]{Vault Guardian Sentinel}
+m0579	@UUID[Compendium.daggerheart.adversaries.Actor.c5hGdvY5UnSjlHws]{Vault Guardian Turret}
+m0580	@UUID[Compendium.daggerheart.adversaries.Actor.UGPiPLJsPvMTSKEF]{Young Ice Dragon}
+m0581	@UUID[Compendium.daggerheart.adversaries.Actor.WPEOIGfclNJxWb87]{Arch-Necromancer}
+m0582	@UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Fallen Shock Troop}
+m0583	@UUID[Compendium.daggerheart.adversaries.Actor.PELRry1vqjBzSAlr]{Fallen Sorcerer}
+m0584	@UUID[Compendium.daggerheart.adversaries.Actor.hxZ0sgoFJubh5aj6]{Fallen Warlord: Realm-Breaker}
+m0585	@UUID[Compendium.daggerheart.adversaries.Actor.RXkZTwBRi4dJ3JE5]{Fallen Warlord: Undefeated Champion}
+m0586	@UUID[Compendium.daggerheart.adversaries.Actor.kabueAo6BALApWqp]{Hallowed Archer}
+m0587	@UUID[Compendium.daggerheart.adversaries.Actor.VENwg7xEFcYObjmT]{Hallowed Soldier}
+m0588	@UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{High Seraph}
+m0589	@UUID[Compendium.daggerheart.adversaries.Actor.4nqv3ZwJGjnmic8j]{Kraken}
+m0590	@UUID[Compendium.daggerheart.adversaries.Actor.befIqd5IYKg6eUz2]{Oracle of Doom}
+m0591	@UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{Outer Realms Abomination}
+m0592	@UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k]{Outer Realms Corruptor}
+m0593	@UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{Outer Realms Thrall}
+m0594	@UUID[Compendium.daggerheart.adversaries.Actor.ladm7wykhZczYzrQ]{Volcanic Dragon: Obsidian Predator}
+m0595	@UUID[Compendium.daggerheart.adversaries.Actor.eArAPuB38CNR0ZIM]{Volcanic Dragon: Molten Scourge}
+m0596	@UUID[Compendium.daggerheart.adversaries.Actor.pMuXGCSOQaxpi5tb]{Volcanic Dragon: Ashen Tyrant}
+m0597	@UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{Perfected Zombie}
+m0598	@UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Zombie Legion}
+m0599	<strong>Explorations</strong> — wondrous locations with mysteries and marvels to discover
+m0600	<strong>Socials</strong> — locations that primarily present interpersonal challenges
+m0601	<strong>Traversals</strong> — dangerous locations where movement through and around the space itself is a challenge
+m0602	<strong>Events</strong> — special activities or occurrences (rather than physical spaces)
+m0603	<strong>Environment Statistic</strong>
+m0604	<strong>Tier 1</strong>
+m0605	<strong>Tier 2</strong>
+m0606	<strong>Tier 3</strong>
+m0607	<strong>Tier 4</strong>
+m0608	1d6+1 to 1d8+3
+m0609	2d6+3 to 2d10+2
+m0610	3d8+3 to 3d10+1
+m0611	4d8+3 to 4d10+10
+m0612	@UUID[Compendium.daggerheart.environments.Actor.pGEdzdLkqYtBhxnG]{Abandoned Grove (Exploration)}
+m0613	@UUID[Compendium.daggerheart.environments.Actor.uGEdNYERCTJBEjc5]{Ambushed (Event)}
+m0614	@UUID[Compendium.daggerheart.environments.Actor.uXZpebPR77YQ1oXI]{Ambushers (Event)}
+m0615	@UUID[Compendium.daggerheart.environments.Actor.HZKA7hkej7JJY503]{Bustling Marketplace (Social)}
+m0616	@UUID[Compendium.daggerheart.environments.Actor.LPpfdlNKqiZIl04w]{Cliffside Ascent (Traversal)}
+m0617	@UUID[Compendium.daggerheart.environments.Actor.cM4X81DOyvxNIi52]{Local Tavern (Social)}
+m0618	@UUID[Compendium.daggerheart.environments.Actor.YezryR32uo39xRxW]{Outpost Town (Social)}
+m0619	@UUID[Compendium.daggerheart.environments.Actor.t4cdqTfzcqP3H1vJ]{Raging River (Traversal)}
+m0620	@UUID[Compendium.daggerheart.environments.Actor.QAXXiOKBDmCTauHD]{Cult Ritual (Event)}
+m0621	@UUID[Compendium.daggerheart.environments.Actor.dsA6j69AnaJhUyqH]{Hallowed Temple (Social)}
+m0622	@UUID[Compendium.daggerheart.environments.Actor.OzYbizKraK92FDiI]{Haunted City (Exploration)}
+m0623	@UUID[Compendium.daggerheart.environments.Actor.acMu9wJrMZZzLSTJ]{Mountain Pass (Traversal)}
+m0624	@UUID[Compendium.daggerheart.environments.Actor.oY69NN4rYxoRE4hl]{Burning Heart of the Woods (Exploration)}
+m0625	@UUID[Compendium.daggerheart.environments.Actor.1eZ32Esq7rfZOjlu]{Castle Siege (Event)}
+m0626	@UUID[Compendium.daggerheart.environments.Actor.EWD3ZsLoK6VMVOf7]{Pitched Battle (Event)}
+m0627	@UUID[Compendium.daggerheart.environments.Actor.2Z1mKc65LxNk2PqR]{Chaos Realm (Traversal)}
+m0628	@UUID[Compendium.daggerheart.environments.Actor.4DLYez7VbMCFDAuZ]{Divine Usurpation (Event)}
+m0629	@UUID[Compendium.daggerheart.environments.Actor.jr1xAoXzVwVblzxI]{Imperial Court (Social)}
+m0630	@UUID[Compendium.daggerheart.environments.Actor.h3KyRL7AshhLAmcH]{Necromancer’s Ossuary (Exploration)}
+m0631	Consider the narrative function of the battle
+m0632	Base adversaries’ moves on their motives
+m0633	Use dynamic environments to bring the battleground to life
+m0634	Add enemies that can interact with the PCs’ features and special abilities
+m0635	Useful information
+m0636	Story hooks
+m0637	Access to new equipment or enhancements
+m0638	Rotating the Focus between the PCs
+m0639	Tying Together Story Elements
+m0640	Engaging Quiet Players
+m0641	Using Visual Aids
+m0642	Encouraging Unguided Play
+m0643	Confronting the PCs with internal and external conflicts
+m0644	Raise the Stakes by Spending Fear
+m0645	Layering Goals Other than Attrition into Combat (see Table of Random Objectives on the next page)
+m0646	Change the Terms of Engagement
+m0647	Alter the Environment
+m0648	Evolve the Opposition
+m0649	A pitch to present to players
+m0650	Suggestions and guidance on tone, feel, themes, and touchstones
+m0651	An overview of the campaign’s background
+m0652	Guidance for fitting communities, ancestries, and classes into the setting
+m0653	Principles for players and GMs to focus on during the campaign
+m0654	Unique setting distinctions
+m0655	An inciting incident to launch the campaign
+m0656	Special mechanics to use during the campaign
+m0657	Questions to consider during session zero
+m0658	Some parts of the system are not currently automated due to technical limitations. If something is not working correctly you always have the option to manually adjust things to be correct.
+m0659	We plan to find a solution for these cases in the future.
+m0660	This especially includes things that need a check for specific inventory/loadout conditions, or some actions that have complex conditions or scaling. We hope to find a solution for all of these cases in the future.
+m0661	This product includes materials from the Daggerheart System Reference Document 1.0, © Critical Role, LLC. under the terms of the Darrington Press Community Gaming (DPCGL) License. More information can be found at <a href="https://www.daggerheart.com/" title="Daggerheart Official Website">https://www.daggerheart.com</a>. There are no previous modifications by others.
+m0662	@harryfuralle
+m0663	@cptn_cosmo
+m0664	@molilo
+m0665	@joaquinp98
+m0666	@dapoulp
+m0667	@ikraik
+m0668	@irktheimp
+m0669	@jacobwojo
+m0670	@vyrth
+m0671	@.ontaro
+m0672	@saatsin
+m0673	@david.xyz
+m0674	@lazjen
+m0675	@Skarlso
+m0676	@molilo (Foundryborne User Interface &amp; Domain Card Placeholder Artwork)
+m0677	@UsernameIsInUse (Foundryborne Logo, Website Design, Duality Roll Icon
+m0678	@CyrensMaps (Combat Wheelchair Icons)
+m0679	<em>Fanewick was once a place of great abundance and peace—dangerous to those unfamiliar with the land, but a cornucopia to those who respected its ways. When Haven invaded the wilds and forced the land into eternal spring, a dangerous bloom known as the Witherwild took hold and now threatens the lives of all who live there. In a Witherwild campaign, you’ll play unlikely heroes from humble beginnings who are reckoning with their newfound duty to save Fanewick’s people from dangerous corruption.</em>
+m0680	<strong>Note:</strong> For the FoundryVTT Module Version 1.0.0 Release, the Witherwild Corruption Mechanic can be added to character sheets by creating a custom "Withered" Feature Item that has a Resource and drag that Feature onto each Character. Better support for this Feature is planned in a future release.
+m0681	<em>What knowledge did your community teach you that you must now protect or share?</em>
+m0682	<em>What are you able to accomplish because of your upbringing that others outside your community do not understand?</em>
+m0683	<em>You once traded important knowledge for something terrible. What did you impart and what did you gain in return?</em>
+m0684	<em>Who have you lost to the Serpent’s Sickness? How did it affect you?</em>
+m0685	<em>How did your family make their wealth? Have you rejected or embraced their core set of ethics?</em>
+m0686	<em>You grew up in a world of abundance but were kept from learning something about the world. What was this knowledge and when did you discover it?</em>
+m0687	What Faint Divinities do you give tribute to, and how have you been rewarded in kind?
+m0688	You displeased a god of Fanewick. What did you do, and what misfortune befell you or a loved one?
+m0689	You fled the place of your birth. What circumstances drove you to leave?
+m0690	Players might choose to build orderborne characters if they want to play current or former members of the Haven Army that invaded Fanewick. Though the army brings violence into this land, they also carry overwhelming grief for a homeland succumbing to disease.
+m0691	What regrets do you carry with you from your conquest of foreign soil?
+m0692	What kindness did an enemy combatant bestow upon you in an hour of need? How did this change your view of the people of Fanewick?
+m0693	You were charged with planting a rumor in a Fanewick community. What is the rumor, and do you plan to carry out this mission?
+m0694	Who among the Haven Army do you wish to exact revenge upon and why?
+m0695	You joined an insurgent group working to free this land from Haven’s grasp. What has given you doubts about the leadership’s methods?
+m0696	Someone you love is a member of the Haven Army. How have you used your position in the rebellion to protect them?
+m0697	You recently traveled by sea over a vast distance. What went terribly wrong on that passage, and how has it changed you?
+m0698	Growing up on the sea taught you a skill few have. What did you learn, and how did it save your life?
+m0699	You used to sail with a companion. Who were they, and how do you remain connected?
+m0700	What do you do to keep your small community safe, independent, and hidden from Haven’s forces?
+m0701	Because of your community’s transience, you have loved ones in both Fanewick and Haven. How has this affected your relationship with the invasion?
+m0702	Your community travels to protect something. What is it, and why does it keep you from settling down?

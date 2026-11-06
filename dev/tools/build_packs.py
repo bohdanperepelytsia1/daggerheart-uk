@@ -4,6 +4,7 @@ REPO=_os.path.dirname(DEV)
 import json,sys,glob,os,re
 sys.path.insert(0,_os.path.join(DEV,'tools'))
 from tm import load_tm
+from segs import is_long,translate as seg_translate
 TM=load_tm()
 src=_os.path.join(REPO,'original'); dst=_os.path.join(REPO,'module','translations')
 os.makedirs(dst,exist_ok=True)
@@ -14,6 +15,10 @@ def tr(o,top=None):
         if not re.search('[A-Za-z]',o): return o
         tot+=1
         if o in TM: done+=1; return TM[o]
+        if is_long(o):
+            t=seg_translate(o,TM)
+            if t!=o: done+=1
+            return t
         return o
     if isinstance(o,dict): return {k:(v if k=='mapping' and top else tr(v)) for k,v in o.items()}
     if isinstance(o,list): return [tr(v) for v in o]

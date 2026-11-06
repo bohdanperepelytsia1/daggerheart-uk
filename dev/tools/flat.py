@@ -1,6 +1,3 @@
-import os as _os
-DEV=_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
-REPO=_os.path.dirname(DEV)
 import json,sys,re
 def flat(o,p=()):
     if isinstance(o,str): yield p,o
