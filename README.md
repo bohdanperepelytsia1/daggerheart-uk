@@ -5,7 +5,7 @@
 ## Встановлення
 1. Встановіть модуль **Babele** (2.7.5+).
 2. Foundry → *Add-on Modules* → *Install Module* → у полі **Manifest URL** вставте:
-   `https://github.com/<OWNER>/daggerheart-uk/releases/latest/download/module.json`
+   `https://github.com/bohdanperepelytsia1/daggerheart-uk/releases/latest/download/module.json`
 3. Увімкніть у світі **Babele** і **Daggerheart — українська локалізація**.
 4. *Configure Settings* → *Core* → *Language* → **Українська**, перезавантажте.
 
