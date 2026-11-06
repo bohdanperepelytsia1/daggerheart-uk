@@ -1,7 +1,10 @@
 name: Release
+# Реліз створюється автоматично, коли на main змінюється версія в module/module.json.
 on:
   push:
-    tags: ['v*']
+    branches: [main]
+    paths: ['module/**']
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
@@ -9,16 +12,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set version from tag
+      - name: Read version
+        id: v
         run: |
-          V="${GITHUB_REF_NAME#v}"
-          jq --arg v "$V" --arg r "$GITHUB_REPOSITORY" \
-            '.version=$v | .url="https://github.com/\($r)" | .manifest="https://github.com/\($r)/releases/latest/download/module.json" | .download="https://github.com/\($r)/releases/download/v\($v)/daggerheart-uk.zip"' \
+          V=$(jq -r .version module/module.json)
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          if gh release view "v$V" >/dev/null 2>&1; then echo "exists=true" >> "$GITHUB_OUTPUT"; else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Fill URLs
+        if: steps.v.outputs.exists == 'false'
+        run: |
+          V="${{ steps.v.outputs.version }}"; R="$GITHUB_REPOSITORY"
+          jq --arg v "$V" --arg r "$R" \
+            '.url="https://github.com/\($r)" | .manifest="https://github.com/\($r)/releases/latest/download/module.json" | .download="https://github.com/\($r)/releases/download/v\($v)/daggerheart-uk.zip"' \
             module/module.json > m.json && mv m.json module/module.json
-      - name: Zip
-        run: cd module && zip -r ../daggerheart-uk.zip .
-      - uses: softprops/action-gh-release@v2
+          cd module && zip -qr ../daggerheart-uk.zip .
+      - name: Publish release
+        if: steps.v.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
         with:
+          tag_name: v${{ steps.v.outputs.version }}
+          name: v${{ steps.v.outputs.version }}
+          target_commitish: ${{ github.sha }}
           files: |
             daggerheart-uk.zip
             module/module.json
