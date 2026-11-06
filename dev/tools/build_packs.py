@@ -18,8 +18,17 @@ def tr(o,top=None):
     if isinstance(o,dict): return {k:(v if k=='mapping' and top else tr(v)) for k,v in o.items()}
     if isinstance(o,list): return [tr(v) for v in o]
     return o
+OV=_os.path.join(DEV,'overrides')
+def merge(a,b):
+    if isinstance(a,dict) and isinstance(b,dict):
+        r=dict(a)
+        for k,v in b.items(): r[k]=merge(a.get(k),v) if k in a else v
+        return r
+    return b
 for f in sorted(glob.glob(src+'/daggerheart.*.json')):
     d=json.load(open(f)); tot=done=0
     out={k:(v if k=='mapping' else tr(v)) for k,v in d.items()}
+    of=os.path.join(OV,os.path.basename(f))
+    if os.path.exists(of): out['entries']=merge(out['entries'],json.load(open(of))['entries'])
     json.dump(out,open(os.path.join(dst,os.path.basename(f)),'w',encoding='utf-8'),ensure_ascii=False,indent=2)
     print(os.path.basename(f),f'{done}/{tot}')
