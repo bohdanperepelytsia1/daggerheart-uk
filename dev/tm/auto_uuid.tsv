@@ -112,15 +112,15 @@ m0580	@UUID[Compendium.daggerheart.adversaries.Actor.UGPiPLJsPvMTSKEF]{Моло�
 m0581	@UUID[Compendium.daggerheart.adversaries.Actor.WPEOIGfclNJxWb87]{Архінекромант}
 m0582	@UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Штурмовик полеглих}
 m0583	@UUID[Compendium.daggerheart.adversaries.Actor.PELRry1vqjBzSAlr]{Чародій полеглих}
-m0584	@UUID[Compendium.daggerheart.adversaries.Actor.hxZ0sgoFJubh5aj6]{Воєвода полеглих: руйнівник царин}
+m0584	@UUID[Compendium.daggerheart.adversaries.Actor.hxZ0sgoFJubh5aj6]{Воєвода полеглих: руйнівник вимірів}
 m0585	@UUID[Compendium.daggerheart.adversaries.Actor.RXkZTwBRi4dJ3JE5]{Воєвода полеглих: непереможний чемпіон}
 m0586	@UUID[Compendium.daggerheart.adversaries.Actor.kabueAo6BALApWqp]{Освячений лучник}
 m0587	@UUID[Compendium.daggerheart.adversaries.Actor.VENwg7xEFcYObjmT]{Освячений воїн}
 m0588	@UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{Верховний серафим}
 m0589	@UUID[Compendium.daggerheart.adversaries.Actor.4nqv3ZwJGjnmic8j]{Кракен}
 m0590	@UUID[Compendium.daggerheart.adversaries.Actor.befIqd5IYKg6eUz2]{Оракул приреченості}
-m0591	@UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{Потвора Зовнішніх царин}
-m0593	@UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{Невільник Зовнішніх царин}
+m0591	@UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{Потвора Зовнішніх вимірів}
+m0593	@UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{Невільник Зовнішніх вимірів}
 m0594	@UUID[Compendium.daggerheart.adversaries.Actor.ladm7wykhZczYzrQ]{Вулканічний дракон: обсидіановий хижак}
 m0595	@UUID[Compendium.daggerheart.adversaries.Actor.eArAPuB38CNR0ZIM]{Вулканічний дракон: розплавлена кара}
 m0596	@UUID[Compendium.daggerheart.adversaries.Actor.pMuXGCSOQaxpi5tb]{Вулканічний дракон: попелястий тиран}
@@ -141,7 +141,7 @@ m0623	@UUID[Compendium.daggerheart.environments.Actor.acMu9wJrMZZzLSTJ]{Гірс
 m0624	@UUID[Compendium.daggerheart.environments.Actor.oY69NN4rYxoRE4hl]{Палаюче серце лісу (Дослідження)}
 m0625	@UUID[Compendium.daggerheart.environments.Actor.1eZ32Esq7rfZOjlu]{Облога замку (Подія)}
 m0626	@UUID[Compendium.daggerheart.environments.Actor.EWD3ZsLoK6VMVOf7]{Генеральна битва (Подія)}
-m0627	@UUID[Compendium.daggerheart.environments.Actor.2Z1mKc65LxNk2PqR]{Царина хаосу (Подолання)}
+m0627	@UUID[Compendium.daggerheart.environments.Actor.2Z1mKc65LxNk2PqR]{Вимір хаосу (Подолання)}
 m0628	@UUID[Compendium.daggerheart.environments.Actor.4DLYez7VbMCFDAuZ]{Божественна узурпація (Подія)}
 m0629	@UUID[Compendium.daggerheart.environments.Actor.jr1xAoXzVwVblzxI]{Імперський двір (Соціальне)}
 m0630	@UUID[Compendium.daggerheart.environments.Actor.h3KyRL7AshhLAmcH]{Оссуарій некроманта (Дослідження)}
